@@ -3,7 +3,7 @@
 This is the material used during my course.
 
 
-- Introduction to the course [pdf](lec00/introduction.pdf).
+- Introduction to the course: [pdf](lec00/introduction.pdf)
 
 - Introduction to C++: [pdf](lec01/lec01.pdf) [examples](lec01/examples)
 
