@@ -1,6 +1,8 @@
 # Computing Methods in Physics
 
-This is the material used during my course.
+This is the material used during my course. You can find all
+information about the course at
+(http://www.roma1.infn.it/people/rahatlou/cmp/ "Computing Methods in Physics")
 
 
 - Introduction to the course: [pdf](lec00/introduction.pdf)
