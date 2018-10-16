@@ -31,4 +31,5 @@ libraries. Introduction to ROOT: [pdf](lec06/lec06-application.pdf) [examples](l
 methods. Application to compute weighted average:
 [pdf](lec08/lec08.pdf) [examples](lec08/examples)
 
-
+- Example of static data member in class Datum. Enumerators. use case for
+std::map, std::pair, and std::vector [pdf](lec09/lec09.pdf) [examples](https://github.com/rahatlou/CMP/tree/master/lec09/examples)
