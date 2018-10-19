@@ -134,7 +134,8 @@ int main( int argc, char* argv[]) {
   
   // critical to close the file!
   orootfile->Close();
-  
+
+  delete gen;
   
   return 0;
 }

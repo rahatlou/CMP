@@ -17,7 +17,7 @@
 int main( int argc, char* argv[]) {
 
   // generate random measurements in the range [x1,x2]
-  // and uncertainties from a guassion with 5% resolution
+  // and uncertainties from a guassion with 5% width
 
   double x1=0.9, x2=1.1;
   double resol = 0.05;
@@ -97,7 +97,7 @@ int main( int argc, char* argv[]) {
   
   // find out size of dati file
 
-  
+  delete gen;
 
   return 0;
 }

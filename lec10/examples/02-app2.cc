@@ -63,6 +63,7 @@ int main( int argc, char* argv[]) {
   hdx1.Draw("pe");
   canv.SaveAs("/tmp/dx.pdf");
 
-
+  delete gen;	  
+  
   return 0;
 }
