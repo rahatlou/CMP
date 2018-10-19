@@ -19,6 +19,8 @@ for example
 
 ```c++
 g++ -o /tmp/write `$ROOTSYS/bin/root-config --cflags --libs` Datum.cc 04-writeTree.cc
+g++ -o /tmp/read `$ROOTSYS/bin/root-config --cflags --libs` Datum.cc 06-readTree.cc
+
 ```
 
 
