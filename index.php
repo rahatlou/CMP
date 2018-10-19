@@ -68,6 +68,7 @@
           <h2>Avvisi</h2>
           <div style="width: 270px; height: 250px; overflow: auto">
           <ul>  <!-- lista avvisi-->
+             <li><b>19/10: No lecture on Monday 22 Oct because of overlap with <em>Sessione di Laurea</em></b></li>
              <li>3/10: Please note the change of room for all lectures starting Monday 8 October</li>
              <li>3/10: There will be 4 additional lectures during the month of October on Monday 8, 15, 22, 29 at 14:00 in Aula 4, Nuovo Edificio di Fisica</li>
              <li>25/9: Le lezioni avranno inizio il giorno martedi` 25 settembre</li>
