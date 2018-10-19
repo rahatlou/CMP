@@ -50,6 +50,7 @@ int main( int argc, char* argv[]) {
  
   //new random generator
   TRandom1*  gen = new TRandom1();
+  gen->SetSeed(0); //use machine clock
 
   // # measurements
   int nMeasAvg=10;
