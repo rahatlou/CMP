@@ -13,7 +13,7 @@ This will create a new file `MyDict.cxx`. You can check it was successful by com
 g++ -c `$ROOTSYS/bin/root-config --cflags` MyDict.cxx
 ```
 
-Now we write a program to store Datum in branches. For example [04-readTreeCustomObject.cc](04-readTreeCustomObject.cc)
+Now we write a program to store Datum in branches. For example [04-readTreeCustomObject.cc](examples/04-readTreeCustomObject.cc)
 
 First you need to add these additional lines in your application
 ```
