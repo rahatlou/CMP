@@ -1,8 +1,10 @@
 # Using ROOT libraries
 
 ## ROOT installation
-follow the instructions on the ROOT website to install the latest version of ROOT.
-Typically you download a tar.gz file and uncompress it in some directory. For example:
+follow the [instructions on the ROOT website](https://root.cern.ch/content/release-61404) to install the latest version of ROOT.
+As of 23 Oct 2018 the latest PRO version is 6.14/04.
+
+Typically you download a tar.gz file and uncompress it in some directory. This works perfectly fine on MacOS and Linux. For example:
 ```
 cd
 tar xvzf root_v6.14.04.Linux-ubuntu16-x86_64-gcc5.4.tar.gz
@@ -12,6 +14,9 @@ this will create a `root` directory in your home directory (aka `$HOME`).
 It is good practice to rename the directory to reflect the version of ROOT
 ```
 mv root root-61404
+ls root-61404
+LICENSE    aclocal/   cmake/     emacs/     fonts/     icons/     lib/       man/       tmva/
+README/    bin/       config/    etc/       geom/      include/   macros/    test/    tutorials/
 ```
 
 ## Setup environment variables
