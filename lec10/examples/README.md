@@ -12,14 +12,14 @@
 
 To compile and link the executable:
 ```c++
-g++ -o /tmp/app `$ROOTSYS/bin/root-config --cflags --libs` Datum.cc app.cc
+g++ -o /tmp/app app.cc  Datum.cc `$ROOTSYS/bin/root-config --libs --cflags` 
 ```
 
 for example
 
 ```c++
-g++ -o /tmp/write `$ROOTSYS/bin/root-config --cflags --libs` Datum.cc 04-writeTree.cc
-g++ -o /tmp/read `$ROOTSYS/bin/root-config --cflags --libs` Datum.cc 06-readTree.cc
+g++ -o /tmp/write Datum.cc 04-writeTree.cc `$ROOTSYS/bin/root-config --libs --cflags ` 
+g++ -o /tmp/read Datum.cc 06-readTree.cc `$ROOTSYS/bin/root-config --libs --cflags` 
 
 ```
 

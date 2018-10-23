@@ -75,11 +75,13 @@ tells us the number of actual data points stored in `value` and
 
 Link the executable and run
 ```c++
-$ g++ -o /tmp/01-write `$ROOTSYS/bin/root-config --libs --cflags` 01-writeObjects.cc Datum.cc
-$ /tmp/01-write
+g++ -o /tmp/01-write  01-writeObjects.cc Datum.cc `$ROOTSYS/bin/root-config --libs --cflags` 
+
+/tmp/01-write
 storing output in root file /tmp/dati.root
 ```
-
+**Nota bene**: the g++ compiler on ubuntu and newer versions of g++
+require this order of files and options.
 
 ## reading variable-size arrays from TTree
 
@@ -168,7 +170,7 @@ Create canvas and show plots
 
 Now link the executable
 ```
-g++ -o /tmp/02-read `$ROOTSYS/bin/root-config --libs --cflags` 02-readTree.cc  Datum.cc
+g++ -o /tmp/02-read  02-readTree.cc  Datum.cc `$ROOTSYS/bin/root-config --libs --cflags` 
 ```
 
 and run
@@ -244,7 +246,7 @@ Generate pseudo-measurements and add data to the tree
 
 Link you application, adding also the dictionary `MyDict.cxx` in addition to `Datum.cc`
 ```
-g++ -o /tmp/03-write `$ROOTSYS/bin/root-config --libs --cflags` 03-writeCustomObject.cc Datum.cc MyDict.cxx
+g++ -o /tmp/03-write  03-writeCustomObject.cc Datum.cc MyDict.cxx `$ROOTSYS/bin/root-config --libs --cflags` 
 ```
 and run
 ```
@@ -296,7 +298,7 @@ your Datum object which is the leaf of the tree
   
 Link the new executable `read`
 ```
-g++ -o /tmp/04-read `$ROOTSYS/bin/root-config --libs --cflags` 04-readTreeCustomObject.cc  Datum.cc MyDict.cxx
+g++ -o /tmp/04-read 04-readTreeCustomObject.cc  Datum.cc MyDict.cxx `$ROOTSYS/bin/root-config --libs --cflags` 
 ```
 
 and run it
