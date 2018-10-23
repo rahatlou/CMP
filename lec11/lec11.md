@@ -74,7 +74,7 @@ tells us the number of actual data points stored in `value` and
 `error` branches.
 
 Link the executable and run
-```
+```c++
 $ g++ -o /tmp/01-write `$ROOTSYS/bin/root-config --libs --cflags` 01-writeObjects.cc Datum.cc
 $ /tmp/01-write
 storing output in root file /tmp/dati.root
@@ -87,7 +87,7 @@ In [02-readTree](examples/02-readTree.cc) we want to read the TTree
 with variable-size arrays.
 
 Get pointer to the TTree in the file
-```
+```c++
   // get pointer to tree object stored in the file
   TTree* tree = (TTree*) orootfile->Get("datatree");
   if(!tree) {
@@ -98,7 +98,7 @@ Get pointer to the TTree in the file
 
 Now define the arrays in memory that will be filled with data stored
 in the file and set the branch address
-```
+```c++
   // variables to be read from the tree
   // You need to define maximum number of cells in the array
   // this is *UGLY* but necessary
@@ -113,7 +113,7 @@ in the file and set the branch address
 
 ```
 Now loop over experiments and analyse data for each experiment
-```
+```c++
   int nentries = tree->GetEntries();
   for (int iexp=0; iexp<nentries; ++iexp) {
     tree->GetEntry(iexp); // read data from file to memory
@@ -143,7 +143,7 @@ Now loop over experiments and analyse data for each experiment
 
 This time we are also filling a 2D hisotogram that shows the
 distribution of uncdertainties as a function of number of measurements:
-```
+```c++
   TH2F h2RMS("h2RMS", "Distribution of dx RMS vs numb. measurements",
 	     21, -0.5, 20.5,
 	     nbins, 0.05, 0.10 );
@@ -151,13 +151,13 @@ distribution of uncdertainties as a function of number of measurements:
 
 Before plotting the histograms you can set options for additional
 info to be shown
-```
+```c++
   // useful plot settings
    gStyle->SetOptStat(111111); // show over and underflow  
 ```
 
 Create canvas and show plots
-```
+```c++
   // create canvas
   TCanvas canv("canv", "canvas for plotting", 1280, 1024);
   h2RMS.GetXaxis()->SetTitle("Number of measurements");
@@ -208,7 +208,7 @@ MyDict.cxx        MyDict.o          MyDict_rdict.pcm
 Now we write a program to store Datum in branches. For example [04-readTreeCustomObject.cc](examples/04-readTreeCustomObject.cc)
 
 First you need to add these additional lines in your application
-```
+```c++
 // my header files
 #include "Datum.h"
 
@@ -218,7 +218,7 @@ First you need to add these additional lines in your application
 ```
 
 Then you add a new branch for your Datum object
-```C++
+```c++
  // create the tree
   TTree* tree = new TTree("datatree","tree containg our data");
 
@@ -230,7 +230,7 @@ Then you add a new branch for your Datum object
   ```
 
 Generate pseudo-measurements and add data to the tree
-```
+```c++
   for(int i=0; i< nmeas; ++i) {
     // genarate value
     double x = x1 + gen->Uniform(x2-x1);
@@ -260,7 +260,7 @@ you should now see there is only one branch in your tree called `datum`
 We now want to read back the `Datum` objects store in the file with [04-readTreeCustomObject.cc](examples/04-readTreeCustomObject.cc).
 
 After opening the file and getting a pointer to the TTree
-```
+```c++
   TString rootfname("/tmp/dati.root");
   TFile* orootfile = new TFile( rootfname );
   if( !orootfile->IsOpen() ) {
@@ -270,7 +270,7 @@ After opening the file and getting a pointer to the TTree
   std::cout << "Reading data from root file " << rootfname << std::endl;
   ```
   You need as usual to set the branch address to read the data
-  ```
+  ```c++
   // Pointer to a Datum object to be read from Branch
   Datum* d=0;
   
@@ -282,7 +282,7 @@ After opening the file and getting a pointer to the TTree
 
 As usual you can now loop over all the entries in the tree and access
 your Datum object which is the leaf of the tree
-```
+```c++
   int nentries = tree->GetEntries();
   for (int i=0; i<nentries; ++i) {
     tree->GetEntry(i); // read data from file to memory
@@ -310,7 +310,7 @@ entries per bin width in the Y axis label. This is done with the
 [TString::Form()](https://root.cern.ch/doc/v614/classTString.html#aeb44d6183d8b1f1b7090dbd3c93f5e39)
 function which has a syntax very similar to `sprintf` in C.
 
-```
+```c++
   TH1F hx1("hx1", "distribution of x values",
 	     nbins, x1, x2 );
 
