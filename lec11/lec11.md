@@ -257,7 +257,9 @@ you should now see there is only one branch in your tree called `datum`
 
 ## Reading custom objects from TTree
 
-We now want to read back the `Datum` objects store in the file with [04-readTreeCustomObject.cc](examples/04-readTreeCustomObject.cc).
+We now want to write a new application
+[04-readTreeCustomObject.cc](examples/04-readTreeCustomObject.cc) to read
+back the `Datum` objects stored in the root file from the previous example.
 
 After opening the file and getting a pointer to the TTree
 ```c++
@@ -319,4 +321,262 @@ function which has a syntax very similar to `sprintf` in C.
 ```
 
 
+# Using TTree not created by you
 
+Very often you will have to analyse data stored in a TTree not created
+by you. This is typical in particle physics experiments.
+
+In principle to write an application to read the
+TTree, you need the list and types of all branches in order to
+`BranchSetAddress` for each of them. This can be both **painful** and
+**tedious** to do. Luckily this part can be generated automatically by
+ROOT.
+
+Let's assume you have `/tmp/dati.root` created by
+[01-writeObjects.cc](examples/01-writeObjects.cc).
+
+You can inspect and create a skeleton for a class based on the Tree
+object
+```
+root /tmp/dati.root
+   ------------------------------------------------------------
+  | Welcome to ROOT 6.14/00                http://root.cern.ch |
+  |                               (c) 1995-2018, The ROOT Team |
+  | Built for macosx64                                         |
+  | From tag v6-14-00, 13 June 2018                            |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q' |
+   ------------------------------------------------------------
+
+root [0]
+Attaching file /tmp/dati.root as _file0...
+(TFile *) 0x7fe4798df040
+root [1] .ls
+TFile**		/tmp/dati.root
+ TFile*		/tmp/dati.root
+  KEY: TTree	datatree;1	tree containg our data
+root [2] datatree->Print()
+******************************************************************************
+*Tree    :datatree  : tree containg our data                                 *
+*Entries :      100 : Total =           19709 bytes  File  Size =      15648 *
+*        :          : Tree compression factor =   1.19                       *
+******************************************************************************
+*Br    0 :nmeas     : nmeas/I                                                *
+*Entries :      100 : Total  Size=        961 bytes  File Size  =        278 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.71     *
+*............................................................................*
+*Br    1 :value     : value[nmeas]/D                                         *
+*Entries :      100 : Total  Size=       9252 bytes  File Size  =       6044 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.43     *
+*............................................................................*
+*Br    2 :error     : error[nmeas]/D                                         *
+*Entries :      100 : Total  Size=       9252 bytes  File Size  =       8668 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+root [3] datatree->MakeClass("DataTree");
+...
+ignore the errors and warnings about libHbook and libFortran
+Info in <TTreePlayer::MakeClass>: Files: DataTree.h and DataTree.C generated from TTree: datatree
+```
+this will generate 2 files `DataTree.h` and `DataTree.C`
+
+Let's start with taking a look at [`DataTree.h`](examples/DataTree.h)
+```c++
+//////////////////////////////////////////////////////////
+// This class has been automatically generated on
+// Tue Oct 23 11:32:33 2018 by ROOT version 6.14/00
+// from TTree datatree/tree containg our data
+// found on file: /tmp/dati.root
+//////////////////////////////////////////////////////////
+
+#ifndef DataTree_h
+#define DataTree_h
+
+#include <TROOT.h>
+#include <TChain.h>
+#include <TFile.h>
+
+// Header file for the classes stored in the TTree if any.
+
+class DataTree {
+public :
+   TTree          *fChain;   //!pointer to the analyzed TTree or TChain
+   Int_t           fCurrent; //!current Tree number in a TChain
+
+// Fixed size dimensions of array or collections stored in the TTree if any.
+
+   // Declaration of leaf types
+   Int_t           nmeas;
+   Double_t        value[17];   //[nmeas]  you need to change by hand  17 -> 200
+   Double_t        error[17];   //[nmeas]  you need to change by hand  17 -> 200
+    // List of branches
+   TBranch        *b_nmeas;   //!
+   TBranch        *b_value;   //!
+   TBranch        *b_error;   //!
+
+   DataTree(TTree *tree=0);
+   virtual ~DataTree();
+   virtual Int_t    Cut(Long64_t entry);
+   virtual Int_t    GetEntry(Long64_t entry);
+   virtual Long64_t LoadTree(Long64_t entry);
+   virtual void     Init(TTree *tree);
+   virtual void     Loop();
+   virtual Bool_t   Notify();
+   virtual void     Show(Long64_t entry = -1);
+};
+
+#endif
+```
+ you notice that `17` is a non-typical value! It is that maximum
+ length of the array in the tree. You need to modify this by hand and set it to a *large value* based on infortmation provided to you
+   by whoever created the root file. This is yet another unfortunate example of static C arrays. We will change this to be `200`.
+
+You wil also notice that  [`DataTree.h`](examples/DataTree.h) implements also most of the
+class member functions
+```c++
+#ifdef DataTree_cxx
+DataTree::DataTree(TTree *tree) : fChain(0) 
+{
+// if parameter tree is not specified (or zero), connect the file
+// used to generate this class and read the Tree.
+   if (tree == 0) {
+      TFile *f = (TFile*)gROOT->GetListOfFiles()->FindObject("/tmp/dati.root");
+      if (!f || !f->IsOpen()) {
+         f = new TFile("/tmp/dati.root");
+      }
+      f->GetObject("datatree",tree);
+
+   }
+   Init(tree);
+}
+```
+The constor needs a pointer to a TTree in order to build a new
+   DataTree object. It is better to change the the defult behaviour to
+   avoid problems in the future
+
+```c++
+#ifdef DataTree_cxx
+#include<iostream>
+DataTree::DataTree(TTree *tree) : fChain(0) 
+{
+// if parameter tree is not specified (or zero) exit
+   if (tree == 0) {
+        std::cout << "No tree has been provided. exiting!" << std::endl;
+        exit(-1)
+      }
+      f->GetObject("datatree",tree);
+
+   }
+   Init(tree);
+}
+```
+
+
+
+The rest of the code in  [`DataTree.h`](examples/DataTree.h) can be left unchanged:
+```c++
+DataTree::~DataTree()
+{
+   if (!fChain) return;
+   delete fChain->GetCurrentFile();
+}
+
+Int_t DataTree::GetEntry(Long64_t entry)
+{
+// Read contents of entry.
+   if (!fChain) return 0;
+   return fChain->GetEntry(entry);
+}
+Long64_t DataTree::LoadTree(Long64_t entry)
+{
+// Set the environment to read one entry
+   if (!fChain) return -5;
+   Long64_t centry = fChain->LoadTree(entry);
+   if (centry < 0) return centry;
+   if (fChain->GetTreeNumber() != fCurrent) {
+      fCurrent = fChain->GetTreeNumber();
+      Notify();
+   }
+   return centry;
+}
+```
+In particular the `Init()` function does set the Branch Adderess
+correctly for all branches in the tree.
+
+```c++
+void DataTree::Init(TTree *tree)
+{
+   // The Init() function is called when the selector needs to initialize
+   // a new tree or chain. Typically here the branch addresses and branch
+   // pointers of the tree will be set.
+   // It is normally not necessary to make changes to the generated
+   // code, but the routine can be extended by the user if needed.
+   // Init() will be called many times when running on PROOF
+   // (once per file to be processed).
+
+   // Set branch addresses and branch pointers
+   if (!tree) return;
+   fChain = tree;
+   fCurrent = -1;
+   fChain->SetMakeClass(1);
+
+   fChain->SetBranchAddress("nmeas", &nmeas, &b_nmeas);
+   fChain->SetBranchAddress("value", value, &b_value);
+   fChain->SetBranchAddress("error", error, &b_error);
+   Notify();
+}
+
+Bool_t DataTree::Notify()
+{
+   // The Notify() function is called when a new file is opened. This
+   // can be either for a new TTree in a TChain or when when a new TTree
+   // is started when using PROOF. It is normally not necessary to make changes
+   // to the generated code, but the routine can be extended by the
+   // user if needed. The return value is currently not used.
+
+   return kTRUE;
+}
+
+void DataTree::Show(Long64_t entry)
+{
+// Print contents of entry.
+// If entry is not specified, print current entry
+   if (!fChain) return;
+   fChain->Show(entry);
+}
+Int_t DataTree::Cut(Long64_t entry)
+{
+// This function may be called from Loop.
+// returns  1 if entry is accepted.
+// returns -1 otherwise.
+   return 1;
+}
+#endif // #ifdef DataTree_cxx
+
+```
+Looking at  [`DataTree.C`](examples/DataTree.C) it implements the most
+important function DataTree::Loop() which will be used to analyse the
+data in the TTree.
+
+```c++
+#define DataTree_cxx
+#include "DataTree.h"
+#include <TH2.h>
+#include <TStyle.h>
+#include <TCanvas.h>
+
+void DataTree::Loop()
+{
+   if (fChain == 0) return;
+
+   Long64_t nentries = fChain->GetEntriesFast();
+
+   Long64_t nbytes = 0, nb = 0;
+   for (Long64_t jentry=0; jentry<nentries;jentry++) {
+      Long64_t ientry = LoadTree(jentry);
+      if (ientry < 0) break;
+      nb = fChain->GetEntry(jentry);   nbytes += nb;
+      // if (Cut(ientry) < 0) continue;
+   }
+}
+```
+This is the file to be modified by you to add your custom analysis code

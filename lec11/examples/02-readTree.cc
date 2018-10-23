@@ -75,6 +75,7 @@ int main( int argc, char* argv[]) {
 
     // plot of # measurements
     hnmeas.Fill(nmeas);
+    hdxRMS.Clear();
     
     // for each experiment read the measurements
     for(int i = 0; i< nmeas; ++i) {
