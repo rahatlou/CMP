@@ -23,8 +23,8 @@ public :
 
    // Declaration of leaf types
    Int_t           nmeas;
-   Double_t        value[17];   //[nmeas]
-   Double_t        error[17];   //[nmeas]
+   Double_t        value[100];   //[nmeas]
+   Double_t        error[100];   //[nmeas]
 
    // List of branches
    TBranch        *b_nmeas;   //!
