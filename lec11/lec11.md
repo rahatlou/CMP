@@ -21,7 +21,7 @@ variable-size array of information
 
 Let's assume that there can be at most `nMeasMax` measurements in
 each experiment
-```
+```c++
   // variables to be stored in the tree
   const int nMeasMax=200; // maxim size of static array
   double x[nMeasMax], dx[nMeasMax];
@@ -30,7 +30,7 @@ each experiment
 as you see we are forced to use old-style static C arrays!
 
 Then we create the new Tree
-```
+```c++
   // create the tree
   TTree* tree = new TTree("datatree","tree containg our data");
   
@@ -41,7 +41,7 @@ Then we create the new Tree
   ```
 
 And finally we can loop over experiments and measurements
-```
+```c++
   // # of experiments and average # of measurements 
   int nMeasAvg=10;
   int nexp = 100;
