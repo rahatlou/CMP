@@ -35,7 +35,7 @@ export LD_LIBRARY_PATH=${ROOTSYS}/lib
 export PATH=${PATH}:${ROOTSYS}/bin
 ```
 
-you can add these lines at the end of `$HOME/.bashrc` file so it is done automatic ally for all new sessions or terminal windows
+you can add these lines at the end of `$HOME/.bash_profile` file so it is done automatic ally for all new sessions or terminal windows
 
 #### cshrc or tcsh
 If you are using **csh** or **tcsh**
