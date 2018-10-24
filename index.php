@@ -57,7 +57,7 @@
    <div id="sidebar">
      <div id="sidebar-bgtop"></div>
      <div id="sidebar-content">
-           <h3 class=h3sidebar>Last update: 23 Oct 2018</h3>
+           <h3 class=h3sidebar>Last update: 24 Oct 2018</h3>
 
             Created by 
             <a href="http://www.roma1.infn.it/people/rahatlou/">Shahram Rahatlou</a>
@@ -67,10 +67,12 @@
           <p>
           <h2>Avvisi</h2>
           <div style="width: 270px; height: 250px; overflow: auto">
-          <ul>  <!-- lista avvisi-->
+	    <ul>  <!-- lista avvisi-->
+	     <li><b>24/10</b>: the dates for the exam sessions in 2019 are now
+          available on infostud</li>
              <li>19/10: No lecture on Monday 22 Oct because of overlap with <em>Sessione di Laurea</em></li>
              <li>3/10: Please note the change of room for all lectures starting Monday 8 October</li>
-             <li>3/10: There will be 4 additional lectures during the month of October on Monday 8, 15, 22, 29 at 14:00 in Aula 4, Nuovo Edificio di Fisica</li>
+             <li>3/10: There will be 3 additional lectures during the month of October on Monday 8, 15, 29 at 14:00 in Aula 4, Nuovo Edificio di Fisica</li>
              <li>25/9: Le lezioni avranno inizio il giorno martedi` 25 settembre</li>
           </ul> <!-- lista avvisi-->
           </div>
