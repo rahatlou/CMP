@@ -16,7 +16,7 @@ $ROOTSYS/bin/root --notebook
 ```
 
 3. this will open a new window in your favorite browser. Now select the notebook in the window
-![open notebook](open-notebook.png)
+![open notebook](open-notebook.png "click on jupyter notebook")
 
 
 4. Finally you can run each cell and see the output
