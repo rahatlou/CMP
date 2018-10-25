@@ -24,6 +24,9 @@ functions: [pdf](lec05/lec05.pdf) [examples](lec05/examples)
 - Applications in C++. Arguments from comamnd line. external
 libraries. Introduction to ROOT: [pdf](lec06/lec06-application.pdf) [examples](lec06/examples)
 
+- Simple instructions for ROOT setup and configuration of ROOT and the
+  shell environment: [md](https://github.com/rahatlou/CMP/blob/master/misc/ROOT.md)
+
 - Dynamically allocated object as data members. Overloading operators. Adding operators to class Datum. class Vector3D:
 [pdf](lec07/lec07.pdf) [examples](lec07/examples)
 
@@ -33,3 +36,15 @@ methods. Application to compute weighted average:
 
 - Example of static data member in class Datum. Enumerators. use case for
 std::map, std::pair, and std::vector [pdf](lec09/lec09.pdf) [examples](https://github.com/rahatlou/CMP/tree/master/lec09/examples)
+
+- Input/Output with TTree and TFile: branches with simple `int` and
+ ` double` variables:
+ [examples](https://github.com/rahatlou/CMP/tree/master/lec10/examples)
+
+- I/O with TTree: variable size arrays. Storing user-defined Class in
+TTree: [md](https://github.com/rahatlou/CMP/blob/master/lec11/lec11.md)
+[examples](https://github.com/rahatlou/CMP/tree/master/lec11/examples)
+  * jupyter notebook for interactive example of writing and ready a
+    TTree with variable size arrays
+    [WriteReadTree.ipynb](WriteReadTree.ipynb)  (you need to have
+    jupyter installed on your machine. See [https://jupyter.org](https://jupyter.org))
