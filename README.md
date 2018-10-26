@@ -42,9 +42,14 @@ std::map, std::pair, and std::vector [pdf](lec09/lec09.pdf) [examples](https://g
  [examples](https://github.com/rahatlou/CMP/tree/master/lec10/examples)
 
 - I/O with TTree: variable size arrays. Storing user-defined Class in
-TTree: [md](https://github.com/rahatlou/CMP/blob/master/lec11/lec11.md)
+TTree:
+[md](https://github.com/rahatlou/CMP/blob/master/lec11/lec11.md), 
 [examples](https://github.com/rahatlou/CMP/tree/master/lec11/examples)
   * jupyter notebook for interactive example of writing and ready a
     TTree with variable size arrays
     [WriteReadTree.ipynb](WriteReadTree.ipynb)  (you need to have
     jupyter installed on your machine. See [https://jupyter.org](https://jupyter.org))
+
+- Application for analysis of TTree. Creating custom analysis class:
+[md](https://github.com/rahatlou/CMP/blob/master/lec12/lec12.md), 
+[examples](https://github.com/rahatlou/CMP/tree/master/lec12/examples)
