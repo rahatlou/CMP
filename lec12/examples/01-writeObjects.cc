@@ -13,7 +13,6 @@
 #include "TString.h"
 
 // my header files
-#include "Datum.h"
 
 int main( int argc, char* argv[]) {
 
@@ -74,7 +73,7 @@ int main( int argc, char* argv[]) {
       x[i] = xtrue * gen->Gaus(1, xResol);
     
       //generate uncertainty 
-      dx[i] = fabs (gen->Gaus(dxMean, dxResol));        
+      dx[i] = x[i] * fabs (gen->Gaus(dxMean, dxResol));        
     }
 
     tree->Fill(); // write the data from memory to file at end of each experiment

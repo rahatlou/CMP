@@ -1,6 +1,6 @@
 Today's lecture has been written with Markdown and is available as [lec11.md](lec11.md)
 
-There is also a [jupyter](https://jupyter.org) notebook [WriteReadTree.ipunb](WriteReadTree.ipunb) to explain the
+There is also a [jupyter](https://jupyter.org) notebook [WriteReadTree.ipynb](WriteReadTree.ipynb) to explain the
 writing and reading of a TTree. You can view the notebook as a
 document online at the link above, or you can use  ROOT on your
 machine to run it interactively.
