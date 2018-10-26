@@ -186,7 +186,7 @@ code.
 
 ## Using the new Analysis  class
 
-The new application [02-analysis.cc](examples/02-analysis) for data
+The new application [02-analysis.cc](examples/02-analysis.cc) for data
 analysis is much simpler because all analysis code will be implemented in
 `Analysis::Loop()` inside [Analysis.C](examples/Analysis.C).
 ```c++
