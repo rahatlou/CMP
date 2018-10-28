@@ -68,9 +68,9 @@
           <h2>Avvisi</h2>
           <div style="width: 270px; height: 250px; overflow: auto">
 	    <ul>  <!-- lista avvisi-->
-	     <li><b>28/10</b>: No lecture tomorrow Mon 29 Oct. All lectures at Sapienza suspended on
-          Monday 29 Oct because of severe weather advisory. </li>
-	     <li><b>24/10</b>: the dates for the exam sessions in 2019 are now
+	     <li><b>28/10: No lecture tomorrow Mon 29 Oct. All lectures at Sapienza suspended on
+          Monday 29 Oct because of severe weather advisory.</b> </li>
+	     <li>24/10: the dates for the exam sessions in 2019 are now
           available on infostud</li>
              <li>19/10: No lecture on Monday 22 Oct because of overlap with <em>Sessione di Laurea</em></li>
              <li>3/10: Please note the change of room for all lectures starting Monday 8 October</li>
