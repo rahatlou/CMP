@@ -82,16 +82,14 @@
           </ul> <!-- lista avvisi-->
           </div>
 
-	  <h2>Useful reference books</h2>
-	  <p>
-	  <a href="http://shop.oreilly.com/product/0636920050896.do"
-	  >Python for Data Analysis, 2nd Edition</a>, by W. McKinney,
-	  O'Reilly Media
-
-           <ul>
-              <li>Lecture notes</li>
-              <li>additional material will be provided during the course</li> 
-           </ul>
+	  <h2>Reference material</h2>
+	  <ul>
+	    <li>Lecture notes and examples</li>
+	    <li><a href="http://shop.oreilly.com/product/0636920050896.do">
+	    Python for Data Analysis, 2nd Edition</a>, by W. McKinney,
+	    O'Reilly Media</li>
+	    
+	  </ul>
 
           <h2 class="title">Orario Ricevimento</h2>
            <ul>
