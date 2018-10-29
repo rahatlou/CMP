@@ -82,7 +82,11 @@
           </ul> <!-- lista avvisi-->
           </div>
 
-          <h2>Testo Consigliato</h2>
+	  <h2>Useful reference books</h2>
+	  <p>
+	  <a href="http://shop.oreilly.com/product/0636920050896.do"
+	  >Python for Data Analysis, 2nd Edition</a>, by W. McKinney,
+	  O'Reilly Media
 
            <ul>
               <li>Lecture notes</li>
