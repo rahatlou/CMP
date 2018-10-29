@@ -71,7 +71,7 @@
 	      <li><b>29/10:  No lecture tomorrow Tue 30 Oct. All <a href="https://www.uniroma1.it/it/notizia/lezioni-sospese-il-30-ottobre" >lectures at Sapienza suspended</a> on
           Tue 30 Oct because of severe weather advisory </b></li>
 	      <li>29/10: added instructions for the virtual box</li>
-	     <li>28/10: No lecture tomorrow Mon 29 Oct. All lectures at Sapienza suspended on
+	     <li>28/10: No lecture tomorrow Mon 29 Oct. All <a href="https://www.uniroma1.it/it/notizia/sospensione-anticipata-delle-attivita-rischio-meteo-il-29-ottobre" >lectures at Sapienza suspended</a> on
           Monday 29 Oct because of severe weather advisory</li>
 	     <li>24/10: the dates for the exam sessions in 2019 are now
           available on infostud</li>
