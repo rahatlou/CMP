@@ -68,8 +68,8 @@
           <h2>Avvisi</h2>
           <div style="width: 270px; height: 250px; overflow: auto">
 	    <ul>  <!-- lista avvisi-->
-	      <li><b>5/11</b>: lectures cancled because of bad weather
-          will be recovered in December on Mondays.</li>
+	      <li><b>5/11: Lectures canceled because of bad weather
+          will be recovered in December on Mondays.</b></li>
 	      <li>1/11: No lectures on Nov 2 because of the
           long weekend. Next regular lecture will be on Tuesday 6 Nov</li>
 	      <li>29/10:  No lecture tomorrow Tue 30 Oct. All <a href="https://www.uniroma1.it/it/notizia/lezioni-sospese-il-30-ottobre" >lectures at Sapienza suspended</a> on
