@@ -68,7 +68,7 @@
           <h2>Avvisi</h2>
           <div style="width: 270px; height: 250px; overflow: auto">
 	    <ul>  <!-- lista avvisi-->
-	      <li><b>5/11<b>: lectures cancled because of bad weather
+	      <li><b>5/11</b>: lectures cancled because of bad weather
           will be recovered in December on Mondays.</li>
 	      <li>1/11: No lectures on Nov 2 because of the
           long weekend. Next regular lecture will be on Tuesday 6 Nov</li>
