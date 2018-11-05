@@ -57,7 +57,7 @@
    <div id="sidebar">
      <div id="sidebar-bgtop"></div>
      <div id="sidebar-content">
-           <h3 class=h3sidebar>Last update: 29 Oct 2018</h3>
+           <h3 class=h3sidebar>Last update: 5 Nov 2018</h3>
 
             Created by 
             <a href="http://www.roma1.infn.it/people/rahatlou/">Shahram Rahatlou</a>
@@ -68,7 +68,9 @@
           <h2>Avvisi</h2>
           <div style="width: 270px; height: 250px; overflow: auto">
 	    <ul>  <!-- lista avvisi-->
-	      <li><b>1/11</b>: No lectures on Nov 2 because of the
+	      <li><b>5/11<b>: lectures cancled because of bad weather
+          will be recovered in December on Mondays.</li>
+	      <li>1/11: No lectures on Nov 2 because of the
           long weekend. Next regular lecture will be on Tuesday 6 Nov</li>
 	      <li>29/10:  No lecture tomorrow Tue 30 Oct. All <a href="https://www.uniroma1.it/it/notizia/lezioni-sospese-il-30-ottobre" >lectures at Sapienza suspended</a> on
           Tue 30 Oct because of severe weather advisory</li>
