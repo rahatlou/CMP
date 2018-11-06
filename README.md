@@ -35,21 +35,22 @@ methods. Application to compute weighted average:
 [pdf](lec08/lec08.pdf) [examples](lec08/examples)
 
 - Example of static data member in class Datum. Enumerators. use case for
-std::map, std::pair, and std::vector [pdf](lec09/lec09.pdf) [examples](https://github.com/rahatlou/CMP/tree/master/lec09/examples)
+std::map, std::pair, and std::vector [pdf](lec09/lec09.pdf) [examples](lec09/examples)
 
 - Input/Output with TTree and TFile: branches with simple `int` and
  ` double` variables:
- [examples](https://github.com/rahatlou/CMP/tree/master/lec10/examples)
+ [examples](lec10/examples)
 
 - I/O with TTree: variable size arrays. Storing user-defined Class in
 TTree:
-[md](https://github.com/rahatlou/CMP/blob/master/lec11/lec11.md), 
-[examples](https://github.com/rahatlou/CMP/tree/master/lec11/examples)
+[md](lec11/lec11.md), [examples](lec11/examples)
   * jupyter notebook for interactive example of writing and ready a
     TTree with variable size arrays
     [WriteReadTree.ipynb](WriteReadTree.ipynb)  (you need to have
     jupyter installed on your machine. See [https://jupyter.org](https://jupyter.org))
 
 - Application for analysis of TTree. Creating custom analysis class:
-[md](https://github.com/rahatlou/CMP/blob/master/lec12/lec12.md), 
-[examples](https://github.com/rahatlou/CMP/tree/master/lec12/examples)
+[md](lec12/lec12.md), [examples](lec12/examples)
+
+- Object oriented programming: Inheritance. Base and derived
+class. Introduction to polymorphism: [pdf](lec13/lec13.pdf),  [examples](lec13/examples)
