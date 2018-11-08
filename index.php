@@ -34,12 +34,12 @@
           <ul>
             <li><a href="../index.php">Home</a></li>
             <li class='has-sub'><a href="../didattica.php">Didattica</a>
-               <ul> 
+               <ul>
                  <li><a href="../labcalc/">Lab Calcolo</a></li>
                  <li><a href="../particelle/">Particelle Elementari</a></li>
                  <li><a href="../programmazione++/">Programmazione++</a></li>
                  <li><a href="../labhep/">Lab Particelle</a></li>
-               </ul> 
+               </ul>
             </li>
             <li><a href="../contact.php">Contact &amp; Calendar</a></li>
           </ul>
@@ -57,9 +57,9 @@
    <div id="sidebar">
      <div id="sidebar-bgtop"></div>
      <div id="sidebar-content">
-           <h3 class=h3sidebar>Last update: 6 Nov 2018</h3>
+           <h3 class=h3sidebar>Last update: 8 Nov 2018</h3>
 
-            Created by 
+            Created by
             <a href="http://www.roma1.infn.it/people/rahatlou/">Shahram Rahatlou</a>
             [<a href="mailto:shahram.rahatlou@uniroma1.it">shahram.rahatlou (at) uniroma1.it</a>]
 
@@ -92,7 +92,7 @@
 	    <li><a href="http://shop.oreilly.com/product/0636920050896.do">
 	    Python for Data Analysis, 2nd Edition</a>, by W. McKinney,
 	    O'Reilly Media</li>
-	    
+
 	  </ul>
 
           <h2 class="title">Orario Ricevimento</h2>
