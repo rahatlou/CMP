@@ -20,7 +20,6 @@ int main() {
 
   GraduateStudent* paolo = new GraduateStudent("Paolo", 9856, "Physics");
   people.push_back(paolo);
-  paolo->print();
 
   for(int i=0; i< people.size(); ++i) {
     people[i]->print();
@@ -32,6 +31,3 @@ int main() {
 
   return 0;
 }
-
-
-

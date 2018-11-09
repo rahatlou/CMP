@@ -57,7 +57,7 @@
    <div id="sidebar">
      <div id="sidebar-bgtop"></div>
      <div id="sidebar-content">
-           <h3 class=h3sidebar>Last update: 8 Nov 2018</h3>
+           <h3 class=h3sidebar>Last update: 9 Nov 2018</h3>
 
             Created by
             <a href="http://www.roma1.infn.it/people/rahatlou/">Shahram Rahatlou</a>
@@ -65,11 +65,13 @@
 
 
           <p>
-          <h2>Avvisi</h2>
-          <div style="width: 270px; height: 250px; overflow: auto">
+          <h2>News</h2>
+          <div style="width: 270px; height: 350px; overflow: auto">
 	    <ul>  <!-- lista avvisi-->
-	      <li><b>5/11: Lectures canceled because of bad weather
-          will be recovered in December on Mondays.</b></li>
+        <li><b>9/11</b>: Please fill this <a href="https://goo.gl/forms/z4raMD5DBIDBE0iq1">survey module</a>
+          for the midterm test.</li>
+        <li>5/11: Lectures canceled because of bad weather
+          will be recovered in December on Mondays.</li>
 	      <li>1/11: No lectures on Nov 2 because of the
           long weekend. Next regular lecture will be on Tuesday 6 Nov</li>
 	      <li>29/10:  No lecture tomorrow Tue 30 Oct. All <a href="https://www.uniroma1.it/it/notizia/lezioni-sospese-il-30-ottobre" >lectures at Sapienza suspended</a> on
@@ -85,21 +87,23 @@
              <li>25/9: Le lezioni avranno inizio il giorno martedi` 25 settembre</li>
           </ul> <!-- lista avvisi-->
           </div>
+          <p>
 
 	  <h2>Reference material</h2>
+    <div style="width: 270px; height: 100px; overflow: auto">
 	  <ul>
 	    <li>Lecture notes and examples</li>
 	    <li><a href="http://shop.oreilly.com/product/0636920050896.do">
 	    Python for Data Analysis, 2nd Edition</a>, by W. McKinney,
 	    O'Reilly Media</li>
-
 	  </ul>
+  </div>
 
-          <h2 class="title">Orario Ricevimento</h2>
-           <ul>
-             <li>Lunedi` 13-15, <a href="http://www.phys.uniroma1.it/mappe/mappe.php?edificio=marconi&piano=2">Stanza 202-A, Piano 2, Edificio Marconi (Vecchio edificio di Fisica)</a>
-             </li>
-           </ul>
+    <h2 class="title">Orario Ricevimento</h2>
+    <ul>
+      <li>Lunedi` 13-15, <a href="http://www.phys.uniroma1.it/mappe/mappe.php?edificio=marconi&piano=2">Stanza 202-A, Piano 2, Edificio Marconi (Vecchio edificio di Fisica)</a>
+      </li>
+    </ul>
 
 
 
