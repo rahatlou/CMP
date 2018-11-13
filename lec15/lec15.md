@@ -3,8 +3,7 @@
 [Strategy pattern](https://en.wikipedia.org/wiki/Strategy_pattern) is a
 commonly used design pattern to select algorithms at runtime.
 For details take a look at the book [Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns)
-by Gamma et al. See also [https://www.bogotobogo.com/DesignPatterns/strategy.php]
-(https://www.bogotobogo.com/DesignPatterns/strategy.php) for a nice introduction
+by Gamma et al. See also [https://www.bogotobogo.com/DesignPatterns/strategy.php](https://www.bogotobogo.com/DesignPatterns/strategy.php) for a nice introduction
 with examples.
 
 This is the UML diagram for the Strategy pattern
