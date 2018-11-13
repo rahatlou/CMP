@@ -28,7 +28,5 @@ int main() {
            << "\t Integral: " << setprecision(6) << sum
            << endl;
   }
-
-
-
+  
 }
