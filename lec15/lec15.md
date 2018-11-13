@@ -199,6 +199,7 @@ b: 1
 # points:   10000000	 Integral: 0.682711
 ```
 ### Exercise
+  1. add new methods to Gauss to modify its parameters after it has been created
   1. Add at least a new function class, e.g. Line and exponential
   2. add at least one more numerical integrators
   3. study the difference between alggorithms for a given function and make plots of the differences with ROOT
