@@ -68,7 +68,9 @@
           <h2>News</h2>
           <div style="width: 270px; height: 350px; overflow: auto">
 	    <ul>  <!-- lista avvisi-->
-        <li><b>9/11</b>: Please fill this <a href="https://goo.gl/forms/z4raMD5DBIDBE0iq1">survey module</a>
+        <li><b>14/11: No lecture on Friday 16 Nov. The next regular lecture will be on Tuesday 20 Nov.</b></li>
+
+        <li>9/11: Please fill this <a href="https://goo.gl/forms/z4raMD5DBIDBE0iq1">survey module</a>
           for the midterm test.</li>
         <li>5/11: Lectures canceled because of bad weather
           will be recovered in December on Mondays.</li>
