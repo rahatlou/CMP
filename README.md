@@ -54,3 +54,11 @@ TTree:
 
 - Object oriented programming: Inheritance. Base and derived
 class. Introduction to polymorphism: [pdf](lec13/lec13.pdf),  [examples](lec13/examples)
+
+- Polymorphism: abstract class and virtual methods. Applications:
+[pdf](lec14/lec14.pdf), [examples I](lec14/examples0), [examples II](lec14/examples1)
+
+- Strategy pattern, examples and applications: Numerical integration methods. custom Function class:
+[md](lec15/lec15.md), [examples](lec15/examples)
+
+- Composition pattern, examples and applications: leaf and composites in graphical applications.
