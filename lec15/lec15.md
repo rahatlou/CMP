@@ -8,6 +8,7 @@ by Gamma et al. See also [https://www.bogotobogo.com/DesignPatterns/strategy.php
 with examples.
 
 This is the UML diagram for the Strategy pattern
+
 ![Strategy Pattern](strategy_pattern.gif "Strategy Pattern")
 
 Context is usually the client or the application, making use of the strategy.
