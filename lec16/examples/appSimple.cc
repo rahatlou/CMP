@@ -21,6 +21,7 @@ int main() {
   SimpleBody earth("earth", earthMass, Vector3D(astrUnit*cos(theta0),astrUnit*sin(theta0),0) );
   earth.setVelocity( Vector3D(-orbitalVel*sin(theta0), orbitalVel*cos(theta0), 0) );
 
+  std::cout << "===== beginning of simulation " << std::endl;
   sun.print();
   earth.print();
 
@@ -49,7 +50,9 @@ int main() {
     }
     earth.move(force, 1);
   }
+  std::cout << "===== End of simulation " << std::endl;
 
+  earth.print();
   return 0;
 
 }

@@ -212,6 +212,108 @@ class Vector3D {
 
 };
 ```
-**NB:** the implementation (.cc file) of `Vector3D` is not provided here. You should by now have already this class implemented. If not, take the header file and implement all the functions as an exercise.
+ **NB:** the implementation (.cc file) of `Vector3D` is not provided here. You should by now have already this class implemented. If not, take the header file and implement all the functions as an exercise.
+
+The key of the code is in
+```c++
+void SimpleBody::move(const Vector3D& F, double dt) {
+  Vector3D acc = F/mass_;
+  vel_ += acc * dt;
+  pos_ += vel_ * dt;
+
+}
+```
+where you provide the force on the object and move it accordingly.
+
+
+We are now ready to test our simulation in [appSimple.cc](examples/appSimple.cc)
+```c++
+int main() {
+
+
+  double sunMass = 2.e30; // kg
+  SimpleBody sun("sun", sunMass, Vector3D(0,0,0) );
+
+  double theta0 = M_PI/10; // random position along the orbit
+  double orbitalVel = 30.e3; // 30 km/s
+  double astrUnit = 150.e9; // 150 x 10^6 km
+  double earthMass = 6.e24; // kg
+  SimpleBody earth("earth", earthMass, Vector3D(astrUnit*cos(theta0),astrUnit*sin(theta0),0) );
+  earth.setVelocity( Vector3D(-orbitalVel*sin(theta0), orbitalVel*cos(theta0), 0) );
+
+  sun.print();
+  earth.print();
+
+  const double G = 6.673e-11; // Newton's constant
+
+  cout << std::setprecision(4) << std::setw(10);
+
+  // estimate position every minute
+  int days(380), hours(24), mins(60);
+  for(int i=0; i<= days*hours*mins; ++i) {
+    // compute force
+    Vector3D dr = sun.position() - earth.position();
+    Vector3D force =  G * sun.mass() * earth.mass() * dr / pow(dr.mod(),3);
+    //force = force/(pow(dr.mod(),3));
+
+    if( i%(hours*mins) == 0 ) {
+      cout << " ---- Day " << i/(hours*mins) << " ----- " << endl;
+      cout << "earth position: " << earth.position()
+           << endl;
+
+    }
+    earth.move(force, 1);
+  }
+  return 0;
+
+}
+```
+
+
+You can also write a method to compute this force always correctly
+```c++
+Vector3D SimpleBody::forceOn(const Body* obj) const {
+  const  double Grav_Const = 6.673e-11; // Newton's constant
+  Vector3D dr = position() - obj->position();
+  Vector3D force =  Grav_Const * mass() * obj->mass() * dr / pow(dr.mod(),3);
+  return force;
+}
+
+Vector3D SimpleBody::forceFrom(const Body* source) const {
+  const  double Grav_Const = 6.673e-11; // Newton's constant
+  Vector3D dr = source->position() - position();
+  Vector3D force =  Grav_Const * source->mass() * mass() * dr / pow(dr.mod(),3);
+  return force;
+}
+```
+
+Link and run the executable
+```
+$ g++ -o /tmp/appSimple appSimple.cc SimpleBody.cc Vector3D.cc
+$ /tmp/appSimple
+===== beginning of simulation
+===== class: SimpleBody  name: sun	 mass: 2e+30 kg =====
+current position (0 , 0 , 0)	 distance from origin: 0 m
+current velocity (0 , 0 , 0)	 0 m/s
+===== class: SimpleBody  name: earth	 mass: 6e+24 kg =====
+current position (1.42658e+11 , 4.63525e+10 , 0)	 distance from origin: 1.5e+11 m
+current velocity (-9270.51 , 28531.7 , 0)	 30000 m/s
+ ---- Day 0 -----
+earth position: (1.427e+11 , 4.635e+10 , 0)
+ ---- Day 1 -----
+earth position: (1.426e+11 , 4.639e+10 , 0)
+ .....
+
+ ---- Day 379 -----
+earth position: (1.368e+11 , 6.162e+10 , 0)
+---- Day 380 -----
+earth position: (1.368e+11 , 6.166e+10 , 0)
+===== End of simulation
+===== class: SimpleBody  name: earth	 mass: 6e+24 kg =====
+current position (1.368e+11 , 6.166e+10 , 0)	 distance from origin: 1.5e+11 m
+current velocity (-1.23e+04 , 2.736e+04 , 0)	 3e+04 m/s
+```
+
+
 
 # Composite pattern in High Energy Physics
