@@ -61,4 +61,4 @@ class. Introduction to polymorphism: [pdf](lec13/lec13.pdf),  [examples](lec13/e
 - Strategy pattern, examples and applications: Numerical integration methods. custom Function class:
 [md](lec15/lec15.md), [examples](lec15/examples)
 
-- Composition pattern, examples and applications: leaf and composites in graphical applications.
+- Composition pattern, examples and applications: leaf and composites in graphical applications. [md](lec16/lec16.md), [examples](lec16/examples)
