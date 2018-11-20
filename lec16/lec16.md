@@ -103,6 +103,9 @@ calling Rectangle::draw() for r2
 calling Circle::draw() for cir2
 calling Line::draw() for l2
 ```
+Note that in this example we only use a base class for simple shapes and a composite class. So our `Leaf` and `Component` classes are the same.
+
+
 ## Exercise
   1. implement proper constructors to take as argument the information needed to create each type of objects
   2. implement the `move()` method
