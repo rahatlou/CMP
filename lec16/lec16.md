@@ -403,6 +403,3 @@ int main() {
   return 0;
 
 ```
-
-
-# Composite pattern in High Energy Physics
