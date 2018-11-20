@@ -109,3 +109,79 @@ Note that in this example we only use a base class for simple shapes and a compo
 ## Exercise
   1. implement proper constructors to take as argument the information needed to create each type of objects
   2. implement the `move()` method
+
+
+# Simulation of solar system with composite  pattern
+This example is inspired by work described by [Giovanni Organtini](http://www.roma1.infn.it/people/organtini/) in the [freely available appendix](http://www.roma1.infn.it/people/organtini/publications/scientificProgramming++.pdf) to the book [Programmazione Scientifica](www.programmazionescientifica.org/) (by Barone, Marinari,  Organtini, Ricci-Tersenghi). This book is the reference book for the course **Laboratorio di Calcolo** and **Laboratorio di Fisica Comutazionale** in the Laurea Triennale in Fisica in Rome.
+
+The idea is to simulate the motion of the earth around the sun with a simple class representing a generic celestial body subject to the gravitation force. The Euler method is used to integrate the equation of motion. You can use the [Strategy pattern](../lec15/lec15.md) to implement a diffrent integration scheme, eg. with the Runge-Kutta method.
+
+The composite pattern is used to extend the model to simulate the motion of the moon around the Earth. The same model can then be used to add all planets of the solar system and their satellites.
+
+Note that with the addition of many bodies, the simple Euler method wiull become insufficient and better and more precise computation is needed.
+
+However, all classes continue to work and you only need to update or improve the `move()` method or even better use the [Strategy pattern](../lec15/lec15.md).
+
+## generic celestial body
+The base class [Body.h](examples/Body.h) is abstract and mainly meant to define the interface for all celestial bodies.
+
+All methods should be usable by both simple and composite objects.
+
+```c++
+class Body {
+  public:
+    Body(const std::string& name) { name_ = name; }
+    virtual void move(const Vector3D& Force, double dt) = 0;
+    virtual double mass() const = 0;
+    virtual Vector3D position() const = 0;
+    virtual Vector3D velocity() const = 0;
+    virtual void setPosition(const Vector3D& p) = 0;
+    virtual void setVelocity(const Vector3D& v) = 0;
+    virtual void translate(const Vector3D& dr) = 0;
+    virtual void addVelocity(const Vector3D& dv) = 0;
+
+    virtual Vector3D forceOn(const Body* obj) const = 0;
+    virtual Vector3D forceFrom(const Body* source) const = 0;
+
+    virtual std::string name() const {
+        return name_;
+    }
+
+    virtual void print() const {
+        std::cout << "class Body with name_: " << name_ << std::endl;
+    }
+
+  private:
+    std::string name_;
+};
+```
+### Simple body
+First we implement the [SimpleBody.h](examples/SimpleBody.h) class to simulate the motion of a body, both planets or satellites.
+```c++
+class SimpleBody : public Body {
+  public:
+    SimpleBody(const std::string& name, const double mass, const Vector3D& x0=0);
+    virtual void move(const Vector3D& F, double dt);
+    virtual double mass() const { return mass_;}
+    virtual Vector3D position() const { return pos_; }
+    Vector3D velocity() const { return vel_; }
+    virtual void setVelocity(const Vector3D& v) { vel_ = v; };
+    virtual void setPosition(const Vector3D& pos) {pos_ = pos; };
+    virtual void translate(const Vector3D& dr) { pos_ += dr; }
+    virtual void addVelocity(const Vector3D& dv) { vel_ += dv; }
+    virtual Vector3D forceOn(const Body* obj) const;
+    virtual Vector3D forceFrom(const Body* source) const;
+    virtual void print() const;
+
+  private:
+    Vector3D pos_;
+    Vector3D vel_;
+    double mass_;
+};
+```
+Note how all methods from `Body` are now implemented. There are no additional methods, but the class is defined by its new data members: the mass, the position, and the velocity.
+
+We are using the [Vector3D](examples/Vector3D.h) class to do vector calculations for position and velocity. 
+
+
+# Composite pattern in High Energy Physics
