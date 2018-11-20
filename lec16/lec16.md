@@ -181,7 +181,37 @@ class SimpleBody : public Body {
 ```
 Note how all methods from `Body` are now implemented. There are no additional methods, but the class is defined by its new data members: the mass, the position, and the velocity.
 
-We are using the [Vector3D](examples/Vector3D.h) class to do vector calculations for position and velocity. 
+We are using the [Vector3D](examples/Vector3D.h) class to do vector calculations for position and velocity.
+```c++
+class Vector3D {
+  public:
+    Vector3D(const double& x=0, const double& y=0, const double& z=0) ;
 
+
+    const Vector3D& operator=(const Vector3D& rhs);
+    const Vector3D& operator+=(const Vector3D& rhs);
+
+    const Vector3D operator+(const Vector3D& rhs) const;
+    const Vector3D operator-(const Vector3D& rhs) const;
+
+    const Vector3D& operator=(const double& a); // set all components  = a
+
+    const Vector3D operator/(const double a) const ; // vector / scalar
+
+    const Vector3D operator*(const double a) const; // scalar x double
+
+    friend const Vector3D operator*(const double a, const Vector3D& rhs); // scalar x vector
+
+    friend  std::ostream& operator<<(std::ostream& os, const Vector3D& rhs);
+
+    double mod() const;
+    double distance(const Vector3D& r0) const;
+
+  private:
+    double x_[3];
+
+};
+```
+**NB:** the implementation (.cc file) of `Vector3D` is not provided here. You should by now have already this class implemented. If not, take the header file and implement all the functions as an exercise.
 
 # Composite pattern in High Energy Physics
