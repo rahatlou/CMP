@@ -29,7 +29,7 @@ public:
     // call  draw() for each shape in the list
     for( std::list<Shape*>::const_iterator it = shapes_.begin();
       it != shapes_.end(); it++ )  {
-          it->Draw();
+          it->draw();
     }
   }
 
