@@ -123,7 +123,7 @@ Note that with the addition of many bodies, the simple Euler method wiull become
 However, all classes continue to work and you only need to update or improve the `move()` method or even better use the [Strategy pattern](../lec15/lec15.md).
 
 ## generic celestial body
-The base class [Body.h](examples/Body.h) is abstract and mainly meant to define the interface for all celestial bodies.
+The base class `Body` ([Body.h](examples/Body.h), [Body.cc](examples/Body.cc)) is abstract and mainly meant to define the interface for all celestial bodies.
 
 All methods should be usable by both simple and composite objects.
 
@@ -156,7 +156,7 @@ class Body {
 };
 ```
 ### Simple body
-First we implement the [SimpleBody.h](examples/SimpleBody.h) class to simulate the motion of a body, both planets or satellites.
+First we implement the `SimpleBody`  ([SimpleBody.h](examples/SimpleBody.h), [SimpleBody.cc](examples/SimpleBody.cc)) class to simulate the motion of a body, both planets or satellites.
 ```c++
 class SimpleBody : public Body {
   public:
@@ -214,7 +214,7 @@ class Vector3D {
 ```
  **NB:** the implementation (.cc file) of `Vector3D` is not provided here. You should by now have already this class implemented. If not, take the header file and implement all the functions as an exercise.
 
-The key of the code is in
+The key of the code is in the [`move()`](examples/SimpleBody.cc) method which implements the Euler method.
 ```c++
 void SimpleBody::move(const Vector3D& F, double dt) {
   Vector3D acc = F/mass_;
@@ -316,7 +316,7 @@ current velocity (-1.23e+04 , 2.736e+04 , 0)	 3e+04 m/s
 
 ## Composite Body
 
-We now define a [CompositeSystem](examples/CompositeSystem.h) class to represent an object that contains a list of pointers to `Body`. This can be for example the sun-earth system, the earth-moon, system, or the sun-(earth-moon) system. It can also be used to simulate the complete solar system.
+We now define a `CompositeSystem` ([CompositeSystem.h](examples/CompositeSystem.h), [CompositeSystem.cc](examples/CompositeSystem.cc) ) class to represent an object that contains a list of pointers to `Body`. This can be for example the sun-earth system, the earth-moon, system, or the sun-(earth-moon) system. It can also be used to simulate the complete solar system.
 ```c++
 class CompositeSystem : public Body {
   public:
