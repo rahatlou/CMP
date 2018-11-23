@@ -57,7 +57,7 @@
    <div id="sidebar">
      <div id="sidebar-bgtop"></div>
      <div id="sidebar-content">
-           <h3 class=h3sidebar>Last update: 22 Nov 2018</h3>
+           <h3 class=h3sidebar>Last update: 23 Nov 2018</h3>
 
             Created by
             <a href="http://www.roma1.infn.it/people/rahatlou/">Shahram Rahatlou</a>
@@ -68,8 +68,9 @@
           <h2>News</h2>
           <div style="width: 270px; height: 350px; overflow: auto">
 	    <ul>  <!-- lista avvisi-->
+        <li>23/11: midterm test now available. Submission of project required by
+          Thursday 29 Nov 20:00</li>
         <li>14/11: No lecture on Friday 16 Nov. The next regular lecture will be on Tuesday 20 Nov.</li>
-
         <li>9/11: Please fill this <a href="https://goo.gl/forms/z4raMD5DBIDBE0iq1">survey module</a>
           for the midterm test.</li>
         <li>5/11: Lectures canceled because of bad weather
