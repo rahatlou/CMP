@@ -1,4 +1,4 @@
-// example3.cpp
+// example13.cpp
 
 #include <iostream>
 #include <stdexcept>
@@ -11,7 +11,6 @@ double ratio(int i1, int i2) {
   if(i2 == 0) throw std::runtime_error("error in ratio");
   return (double) i1/i2;
 }
-
 
 int main() {
   int i1 = 0;
