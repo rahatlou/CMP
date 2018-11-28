@@ -46,8 +46,8 @@ TTree:
 [md](lec11/lec11.md), [examples](lec11/examples)
   * jupyter notebook for interactive example of writing and ready a
     TTree with variable size arrays
-    [WriteReadTree.ipynb](lec11/WriteReadTree.ipynb)  (you need to have
-    jupyter installed on your machine. See [https://jupyter.org](https://jupyter.org))
+    [WriteReadTree.ipynb](lec11/WriteReadTree.ipynb)  (you need
+    jupyter installed on your machine. See [https://jupyter.org](https://jupyter.org). Both ROOT and jupyter must use the same version of python.)
 
 - Application for analysis of TTree. Creating custom analysis class:
 [md](lec12/lec12.md), [examples](lec12/examples)
