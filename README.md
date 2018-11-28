@@ -62,3 +62,7 @@ class. Introduction to polymorphism: [pdf](lec13/lec13.pdf),  [examples](lec13/e
 [md](lec15/lec15.md), [examples](lec15/examples)
 
 - Composition pattern, examples and applications: leaf and composites in graphical applications. Example of a solar system simulation. [md](lec16/lec16.md), [examples](lec16/examples)
+
+- Template and generic programming in C++. Template functions: [pdf](lec18/lec18.pdf), [examples](lec18/examples)
+
+- Template classes. STL library. Error handling in C++ with exceptions: [pdf](lec19/lec19.pdf), [examples](lec19/examples)
