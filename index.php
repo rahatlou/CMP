@@ -57,7 +57,7 @@
    <div id="sidebar">
      <div id="sidebar-bgtop"></div>
      <div id="sidebar-content">
-           <h3 class=h3sidebar>Last update: 27 Nov 2018</h3>
+           <h3 class=h3sidebar>Last update: 28 Nov 2018</h3>
 
             Created by
             <a href="http://www.roma1.infn.it/people/rahatlou/">Shahram Rahatlou</a>
@@ -68,6 +68,8 @@
           <h2>News</h2>
           <div style="width: 270px; height: 350px; overflow: auto">
 	    <ul>  <!-- lista avvisi-->
+        <li>28/11: ROOT binaries for macOS Mojave (os X 10.14) are now available
+          on <a href="https://root.cern.ch/content/release-61406">offical ROOT download page</a>.
         <li>23/11: midterm test now available. Submission of project required by
           Thursday 29 Nov 20:00</li>
         <li>14/11: No lecture on Friday 16 Nov. The next regular lecture will be on Tuesday 20 Nov.</li>
