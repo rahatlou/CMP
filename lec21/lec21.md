@@ -172,6 +172,11 @@ a = 2.3, b = 4.5, c = 0.5111111111111111
 a = 2.3, b = 4.5, c = 0.5111111111111111
 ```
 
+Note how python2 and python3 produce different outputs for
+```python
+print('c = a/b = ', c)
+```
+
 # Interactive python with jupyter
 
 In addition to writing standalone programs in python, and python modules and libraries, we will be using the [jupyter notebook](https://jupyter.org) for interactive python during lectures and for projects.
