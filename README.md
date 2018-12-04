@@ -65,4 +65,8 @@ class. Introduction to polymorphism: [pdf](lec13/lec13.pdf),  [examples](lec13/e
 
 - Template and generic programming in C++. Template functions: [pdf](lec18/lec18.pdf), [examples](lec18/examples)
 
-- Template classes. STL library. Error handling in C++ with exceptions: [pdf](lec19/lec19.pdf), [examples](lec19/examples)
+- Template classes. STL library. Error handling in C++ with exceptions: [pdf](lec20/lec20.pdf), [examples](lec20/examples)
+
+- Introduction to Python. Main differences with C/C++. Introduction to [jupyter notebook](https://jupyter.org):
+[md](lec21/lec21.md), [examples](lec21/examples)
+</li>
