@@ -8,7 +8,7 @@
 
 ## Scripting language?
   - Python **is not** a scripting language
-  - it can be used easily to achieve goals addressed by scrpting languages like Perl, Ruby, shell scripts
+  - it can be used easily to achieve goals addressed by scripting languages like Perl, Ruby, shell scripts
 
 ## What about object oriented programming?
   - Python is object oriented by construction
@@ -46,7 +46,7 @@
     - lists, dictionaries, strings, files are native objects of the language
   - powerful tools for file management and manipulation
     - achieve shell scripting inside a C++-style program
-  - large collection of tools and librraies
+  - large collection of tools and libraries
     - both included by default or available online
   - easy to install and manage external packages with `pip` or `conda`
     - we will use `pip` in these Lectures
@@ -67,7 +67,7 @@
     - we will learn to use NumPy, pandas, matplotlib, scikit-learn
   - ROOT now has a python interface to do analysis
     - I/O of TTree and other ROOT objects
-  - python used as configuration language for all executables a large LHC experiemnts
+  - python used as configuration language for all executables a large LHC experiments
     - processing of data, calibration, alignment, high-level analysis
       - application in C++
       - configuration with python
@@ -196,4 +196,9 @@ In order to start jupyter, from the command line
 ```
 jupyter notebook
 ```
-Let's start with our first notebook with [example2.ipynb](examples/example2.ipynb)
+Let's start with our first notebook [example2.ipynb](examples/example2.ipynb) .
+You can view this notebook online with `github` by clicking on the link.
+
+In order to interact with the notebook you must
+  1. download the notebook file (ipynb)
+  2. run `jupyter notebook example2.ipynb`
