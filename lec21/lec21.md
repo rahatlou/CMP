@@ -101,11 +101,13 @@
 ## First program with python
 
 Python has an interactive Interface. Reminder: it is interpreted not compiled
-```python
+```
 $ python3
 Python 3.7.0 (default, Oct  2 2018, 09:20:07)
 [Clang 10.0.0 (clang-1000.11.45.2)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
+```
+```python
 >>> print ("Finally python")
 Finally python
 >>> a = 3.2
@@ -189,6 +191,4 @@ In order to start jupyter, from the command line
 ```
 jupyter notebook
 ```
-
-
 Let's start with our first notebook with [example2.ipynb](examples/example2.ipynb)
