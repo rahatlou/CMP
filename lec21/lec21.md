@@ -133,7 +133,7 @@ To exit the interactive session you can type `quit()` or press `Ctrl-D`.
 
 ## Running a program
 
-You can also write a program and run it without the interactive interface. we save the followijng lines in a file called [`example1.py`](examples/example1.py)
+You can also write a program and run it without the interactive interface. We save the following lines in a file called [`example1.py`](examples/example1.py)
 ```python
 # this is my first program
 a = 2.3
@@ -151,5 +151,44 @@ print("a = {0}, b = {1}, c = {2}".format( a, b, c) )
 #print using ''
 print('a = {0}, b = {1}, c = {2}'.format( a, b, c) )
 ```
-
 You see that we can start a line with `#` to add comments
+
+To run the programmer
+```
+$ python example1.py
+(2.3, 4.5, 0.5111111111111111)
+('c = a/b = ', 0.5111111111111111)
+a = 2.3, b = 4.5, c = 0.511111111111
+a = 2.3, b = 4.5, c = 0.511111111111
+```
+or
+```
+$ python3 example1.py
+2.3 4.5 0.5111111111111111
+c = a/b =  0.5111111111111111
+a = 2.3, b = 4.5, c = 0.5111111111111111
+a = 2.3, b = 4.5, c = 0.5111111111111111
+```
+
+# Interactive python with jupyter
+
+In addition to writing standalone programs in python, and python modules and libraries, we will be using the [jupyter notebook](https://jupyter.org) for interactive python during lectures and for projects.
+
+A simple introduction to jupyter notebook is available at [https://jupyter-notebook.readthedocs.io/en/stable/notebook.html](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html).
+
+## Installing jupyter
+On ubuntu virtual box jupyter has been already installed.
+
+For macOS or linux distributions follow the simple instructions at [https://jupyter.org/install.html](https://jupyter.org/install.html).
+
+__NB:__ On macOS I __recommend__ installing with `pip` instead of `Anaconda`.
+
+## first example with jupyter
+
+In order to start jupyter, from the command line
+```
+jupyter notebook
+```
+
+
+Let's start with our first notebook with [example2.ipynb](examples/example2.ipynb)
