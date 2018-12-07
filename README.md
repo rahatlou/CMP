@@ -67,6 +67,7 @@ class. Introduction to polymorphism: [pdf](lec13/lec13.pdf),  [examples](lec13/e
 
 - Template classes. STL library. Error handling in C++ with exceptions: [pdf](lec20/lec20.pdf), [examples](lec20/examples)
 
-- Introduction to Python. Main differences with C/C++. Introduction to [jupyter notebook](https://jupyter.org):
+- Introduction to Python. Main differences with C/C++. Introduction to [jupyter](https://jupyter.org):
 [md](lec21/lec21.md), [examples](lec21/examples)
-</li>
+
+- Python basics: semantics, flow control, built-in, functions, modules. Inline help: [jupyter notebook](lec22/lec22.ipynb), [examples](lec22/examples)
