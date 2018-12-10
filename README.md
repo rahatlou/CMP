@@ -71,3 +71,5 @@ class. Introduction to polymorphism: [pdf](lec13/lec13.pdf),  [examples](lec13/e
 [md](lec21/lec21.md), [examples](lec21/examples)
 
 - Python basics: semantics, flow control, built-in, functions, modules. Inline help: [jupyter notebook](lec22/lec22.ipynb), [examples](lec22/examples)
+
+- Data structure in python: sequences. Lists, Tuples, Dictionaries: [jupyter notebook](lec23/lec23.ipynb) 
