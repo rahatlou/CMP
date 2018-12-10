@@ -202,3 +202,5 @@ You can view this notebook online with `github` by clicking on the link.
 In order to interact with the notebook you must
   1. download the notebook file (ipynb)
   2. run `jupyter notebook example2.ipynb`
+
+To download and run a jupyter notebook locally, follow these [instructions](../misc/DownloadNotebook.md).
