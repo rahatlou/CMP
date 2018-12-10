@@ -70,8 +70,8 @@ class. Introduction to polymorphism: [pdf](lec13/lec13.pdf),  [examples](lec13/e
 - Introduction to Python. Main differences with C/C++. Introduction to [jupyter](https://jupyter.org):
 [md](lec21/lec21.md), [examples](lec21/examples)
 
-- Python basics: semantics, flow control, built-in, functions, modules. Inline help: [jupyter notebook](lec22/lec22.ipynb), [examples](lec22/examples)
+- Python basics: semantics, flow control, built-in, functions, modules. Inline help: [md](lec22/README.md), [examples](lec22/examples)
 
-- Data structure in python: sequences. Lists, Tuples.  Example of plotting with matplotlib: [jupyter notebook](lec23/lec23.ipynb) 
+- Data structure in python: sequences. Lists, Tuples.  Example of plotting with matplotlib: [md](lec23/README.md)
 
 - Data structure in python: Dictionaries, sets. Comprehensions.
