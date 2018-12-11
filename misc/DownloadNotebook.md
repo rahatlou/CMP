@@ -7,7 +7,7 @@ In this example we want to download [lec22.ipynb](https://github.com/rahatlou/CM
 ![view raw format](pynb-raw.png "click on Raw")
 
 ## Save As lec22.ipynb
-  ![view raw format](pynb-save.png "save file" = 300x)
+  ![view raw format](pynb-save.png = 300x "save file")
 
 ## From the command line you can now run the DownloadNotebook
 ```
