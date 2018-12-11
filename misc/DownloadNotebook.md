@@ -8,3 +8,8 @@ In this example we want to download [lec22.ipynb](https://github.com/rahatlou/CM
 
 ## Save As lec22.ipynb
   ![view raw format](pynb-save.png "save file")
+
+## From the command line you can now run the DownloadNotebook
+```
+jupyter notebook lec22.ipynb
+```
