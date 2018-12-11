@@ -72,6 +72,6 @@ class. Introduction to polymorphism: [pdf](lec13/lec13.pdf),  [examples](lec13/e
 
 - Python basics: semantics, flow control, built-in, functions, modules. Inline help: [md](lec22/README.md), [examples](lec22/examples)
 
-- Data structure in python: sequences. Lists, Tuples.  Example of plotting with matplotlib: [md](lec23/README.md)
+- Data structure in python: sequences. Lists, Tuples.  Example of plotting with matplotlib: [md](lec23/README.md), [examples](lec23/examples)
 
-- Data structure in python: Dictionaries, sets. Comprehensions.
+- Data structure in python: Dictionaries, sets. Comprehensions: [md](lec24/README.md), [examples](lec24/examples)
