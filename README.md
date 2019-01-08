@@ -81,3 +81,5 @@ previous lecture.: [md](lec24/README.md), [examples](lec24/examples)
 - More on Functions in python. Animated plots with matplotlib: [md](lec25/README.md), [examples](lec25/examples)
 
 - Numpy and array-oriented programming with ndarray. Example of random walk with arrays: [md](lec26/README.md)
+
+- Classes in python: inheritance and polymorphism: [md](lec27/README.md)
