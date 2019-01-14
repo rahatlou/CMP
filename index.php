@@ -104,6 +104,9 @@
 	    <li><a href="http://shop.oreilly.com/product/0636920050896.do">
 	    Python for Data Analysis, 2nd Edition</a>, by W. McKinney,
 	    O'Reilly Media</li>
+      <li><a href="http://shop.oreilly.com/product/0636920052289.do">
+        Hands-On Machine Learning with Scikit-Learn and TensorFlow</a>,
+         by Aurélien Géron, O'Reilly Media</li>
 	  </ul>
   </div>
 
