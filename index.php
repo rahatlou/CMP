@@ -98,7 +98,7 @@
           <p>
 
 	  <h2>Reference material</h2>
-    <div style="width: 270px; height: 100px; overflow: auto">
+    <div style="width: 270px; height: 150px; overflow: auto">
 	  <ul>
 	    <li>Lecture notes and examples</li>
 	    <li><a href="http://shop.oreilly.com/product/0636920050896.do">
