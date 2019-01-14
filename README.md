@@ -76,10 +76,15 @@ class. Introduction to polymorphism: [pdf](lec13/lec13.pdf),  [examples](lec13/e
 
 - Data types in python: Dictionaries and sets. Comprehensions.
 data analysis with sets, lists, dicts. Plotting a histogram. revisiting example from
-previous lecture.: [md](lec24/README.md), [examples](lec24/examples)
+previous lecture: [md](lec24/README.md), [examples](lec24/examples)
 
 - More on Functions in python. Animated plots with matplotlib: [md](lec25/README.md), [examples](lec25/examples)
 
 - Numpy and array-oriented programming with ndarray. Example of random walk with arrays: [md](lec26/README.md)
 
 - Classes in python: inheritance and polymorphism: [md](lec27/README.md)
+
+- File I/O and handling in python. Functions with variable number of arguments.
+Command line arguments for python programs: [md](lec28/README.md), [examples](lec28/examples)
+
+- Photons and hadronic jets in proton collisions. Brief introduction to  Machine Learning and its applications: [md](lec29/lec29.md)
