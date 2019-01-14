@@ -72,7 +72,7 @@
         <li>3/12: Python will be covered in the last 10 lectures, starting on 4 Dec.</li>
         <li>30/11: Next lecture is on Monday 3 Dec at 14:00 in Aula 4</li>
         <li>28/11: ROOT binaries for macOS Mojave (os X 10.14) are now available
-          on <a href="https://root.cern.ch/content/release-61406">offical ROOT download page</a>.
+          on <a href="https://root.cern.ch/content/release-61406">official ROOT download page</a>.
         <li>23/11: midterm test now available. Submission of project required by
           Thursday 29 Nov 20:00</li>
         <li>14/11: No lecture on Friday 16 Nov. The next regular lecture will be on Tuesday 20 Nov.</li>
