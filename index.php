@@ -68,7 +68,7 @@
           <h2>News</h2>
           <div style="width: 270px; height: 350px; overflow: auto">
 	    <ul>  <!-- lista avvisi-->
-        <li><b>14/12:</b> there will be no lecture on Tuesday 18 Dec. The next regular lecture on Friday 21 Dec</li>
+        <li>14/12: there will be no lecture on Tuesday 18 Dec. The next regular lecture on Friday 21 Dec</li>
         <li>3/12: Python will be covered in the last 10 lectures, starting on 4 Dec.</li>
         <li>30/11: Next lecture is on Monday 3 Dec at 14:00 in Aula 4</li>
         <li>28/11: ROOT binaries for macOS Mojave (os X 10.14) are now available
