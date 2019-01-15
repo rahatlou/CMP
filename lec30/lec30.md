@@ -186,6 +186,7 @@ Useful attributes include:
 
 - average track multiplicity in jets as a function of their pt and $\eta$<br/>
 <img src="img/CMS-BTV-16-002_Figure_004.png" width =450px>
+
 - 3D impact parameter value and its significance. 2D impact parameter for 1st and 2nd most energetic tracks<br/>
 <img src="img/CMS-BTV-16-002_Figure_005.png" width =450px>
 
