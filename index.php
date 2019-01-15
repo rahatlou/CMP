@@ -6,7 +6,7 @@
 <meta name="Description" content="Computing Methods in Physics" />
 
 
-<title>Computing Methods in Physics, Shahram Rahatlou</title>
+<title>Computing Methods for Physics, Shahram Rahatlou</title>
 <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 
 <!-- google analytics -->
@@ -27,7 +27,7 @@
 <body>
 <div id="header">
 	<div id="logo">
-		<h1>Computing Methods in Physics</h1>
+		<h1>Computing Methods for Physics</h1>
 	</div>
 	<!-- end #logo -->
 	<div id="cssmenu">
