@@ -88,3 +88,6 @@ previous lecture: [md](lec24/README.md), [examples](lec24/examples)
 Command line arguments for python programs: [md](lec28/README.md), [examples](lec28/examples)
 
 - Photons and hadronic jets in proton collisions. Brief introduction to  Machine Learning and its applications: [md](lec29/lec29.md)
+
+- Types of Machine Learning and main challenges.
+Example of b-tagging with machine learning: [md](lec30/lec30.md)
