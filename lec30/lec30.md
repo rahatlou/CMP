@@ -1,88 +1,6 @@
 # Introduction to Machine learning
 
-- Machine learning has been used at least for a long time
-  - best known case: Optical character recognition (OCR) for scanners
-
-- Turning point in 2006 in a paper by G. Hinto showing a deep neural network recognizing hand-written digits with more than 98% accuracy
-
-- Great advance in last 10 years and ML now used i many, if not all, commercial, industrial, and scientific areas
-
-- Machine Learning has been used in High Energy Physics for past 20 years
-  - first examples were neural network for classification task
-     - separation of pions and kaons and more in general for particle identification
-
-  - ML was critical for discovery of the Higgs boson
-    - neural networks and boosted decision trees used for electron, muon, photon, and jet identification
-
-## Resources
-- One of my favorite books on this topic is
-[Hands-On Machine Learning with Scikit-Learn and TensorFlow](http://shop.oreilly.com/product/0636920052289.do) by Aurélien Géron
-  -  I will be using examples and material from this book i these last 2 lectures.
-
-[<img src="https://covers.oreillystatic.com/images/0636920052289/lrg.jpg" width=200>](http://shop.oreilly.com/product/0636920052289.do)
-
-- All code and examples of this book are available as jupyter notebooks on github at [https://github.com/ageron/handson-ml](https://github.com/ageron/handson-ml)
-
-- This very nice [visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) can help you understand quickly some of the basic concepts and language in machine learning
-
-- I also recommend the [course on machine learning on coursera](https://www.coursera.org/learn/machine-learning)
-
-
-
-## What is machine learning?
-- programming a algorithms (computer, machines, devices, programs) to learn from data
-
-- A more general definition by Arthur Samuel in 1959: Machine Learning is the field of study that gives computers the ability to learn without being explicitly programmed
-
-- examples in real life
-  - SPAM filter: perhaps first and best known example of ML
-  - face recognition in your picture application
-    - clustering similar faces as one person
-  - recognition of objects in pictures
-    - search by image on Google and Amazon
-  - speech recognition
-    - virtual assistants responding to voice commands
-  - song suggestion on your music streaming service
-  - next TV show or movie to watch on video streaming
-  - advertisement on social networks and e-commerce sites
-
-- examples in high energy Physics
-  - identification  of electrons, muons and kaons from charged tracks in a detector
-  - classification of a photon as very good (pure or tight ID) or poor (Loose ID higher probability of not being a real photon)
-  - separation of photons from hadronic jets
-  - identification of hadronic jets originating from b and c quarks and those from light u, d, s quarks
-  - estimation of energy of jets from detector measurements
-    - fraction of electromagnetic and hadronic energy
-    - geometric shape of jets
-  - estimation of energy of photons from detector measurements
-    - distribution and shape of energy deposit in electromagnetic calorimeter
-
-- We note that there are 2 types of tasks being addressed by ML
-  1. **Classification**: a discrete output (called also labels or categories) based on arbitrary number of input information
-    - SPAM categories or suggested folder for emails
-    - b-jet vs c-jet vs light-flavor jet
-  1. **Regression**: a continuous output based on input
-    - selling price for an apartment in Rome based on location, floor, exposure, traffic, noise, elevator, etc.
-    - estimate of energy of a photon based on detector information
-
-A technical or engineering oriented definition of Machine Learning by Tom Mitchel, 1997:
-*A computer program is said to learn from experience E with respect to some task T and some performance P, if its performance on T, as measured by P, improves by experience E*
-
-Example: SPAM filter
-    - task: filtering SPAM
-    - experience: good and bad emails as flagged by users
-    - performance:  fraction of correctly filtered emails (accuracy)
-
-The algorithm is **trained** on a sample of emails selected by users as good or bad. We call these emails the **training sample**.
-
-The algorithm learns to recognise bad emails by (for example) counting the number of words in common between an incoming email (no label) and bad emails (already flagged).
-
-The algorithm then runs on a  **test sample** to see its success rate or accuracy.
-
-Example: photon identification
-- task: separate photons from hadronic jets
-- experience: simulated MC  samples of photons and jets. Or very pure samples selected i data by user.
-- performance:  fraction of correctly identified photons, or fraction of wrongly identified jets
+We continue the basic introduction started in [lecture 29](../lec29/lec29.md)
 
 ## Advantage of machine Learning
 Traditional programming technique for an algorithm in these examples consists in
@@ -114,7 +32,7 @@ Some problems are intrinsically complex and cannot have a simple rule-based solu
   - b-jet identification
     - jet energy and underlying process, number of simultaneous interactions, energy spectrum, number of hadrons
 
-in all these cases the machine learning approach is pretty much your only solution.
+in all these cases the machine learning approach is pretty much your only viable solution.
 
 ## Data language
 With *data point* we indicate a collection of information concerning an object, an event, or a measurement that can be fed as input to an algorithm. Each type of information is called an **attribute** and together with its value it is a **feature** of the data point.
@@ -252,4 +170,55 @@ Training is the critical element of any algorithm. Two common problems can happe
  Example: b-tagging algorithm to search for exotic new events at LHC
  - large MC samples or pure samples of b-jets from standard model processes such as p-p collisions produce a pair of top quark-antiquark
  - apply algorithm to identify Z -> bb or Higgs -> bb decays
- - use algorithm to search  for new heavy particles decaying to one or more b quarks 
+ - use algorithm to search  for new heavy particles decaying to one or more b quarks
+
+
+## Example of b-tagging algorithm
+An example of machine learning in identification of jets from heavy flavor quarks is described in [this document](http://cms-results.web.cern.ch/cms-results/public-results/publications/BTV-16-002/index.html) using LHC data recorded with the CMS detector.
+
+**Task**: separating hadronic jets from b and c quarks and those from u,d,s quarks and gluons
+
+<img src="img/CMS-BTV-16-002_Figure_001.png" width=200>
+
+Useful attributes include:
+- distance between tracks and the axis of the jet at point of closest approach <br/>
+<img src="img/CMS-BTV-16-002_Figure_002.png" width =200>
+
+- average track multiplicity in jets as a function of their pt and $\eta$<br/>
+<img src="img/CMS-BTV-16-002_Figure_004.png" width =200>
+- 3D impact parameter value and its significance. 2D impact parameter for 1st and 2nd most energetic tracks<br/>
+<img src="img/CMS-BTV-16-002_Figure_005.png" width =200>
+- distribution of secondary vertex mass and flight distance in 2D<br/>
+<img src="img/CMS-BTV-16-002_Figure_006.png" width =200>
+- number of secondary vertices inside a b-jet<br/>
+<img src="img/CMS-BTV-16-002_Figure_007-a.png" width =200>
+
+Distributions are compared between data and MC to make sure results and performance obtained with simulation can be applied to data.
+<img src="img/CMS-BTV-16-002_Figure_030.png" width =200>
+
+**Training data**:
+
+- signal:  simulated sample of pair production of top quarks <br/>
+<img src="img/top-production.png" width=200>
+
+- background: QCD multijet events
+
+**Performance**:
+ROC curve for different algorithms using same input data but different ML algorithms compared to traditional likelihood based algorithm JP(jet probability).
+<img src="img/CMS-BTV-16-002_Figure_016.png" width=300>
+
+## ML exercise with arduino
+- program an accelerator module to record movement data on SD card on the board
+- collect data in different conditions
+  - walking slowly
+  - walking fast
+  - running
+- identify list of attributes to be used by a ML algorithm to distinguish each activity
+  - vertical and horizontal acceleration
+  - oscillation of average position
+  - frequency of oscillation
+
+- use [matplotlib](https://matplotlib.org) for visualization of data 
+
+- convert data to use [pandas](http://pandas.pydata.org) [DataFrame](https://pandas.pydata.org/pandas-docs/version/0.23.4/generated/pandas.DataFrame.html) instead of simple NumPy ndarray
+- use [scikit-learn](https://scikit-learn.org/stable/) to do classification using for example boosted trees
