@@ -182,23 +182,23 @@ An example of machine learning in identification of jets from heavy flavor quark
 
 Useful attributes include:
 - distance between tracks and the axis of the jet at point of closest approach <br/>
-<img src="img/CMS-BTV-16-002_Figure_002.png" width =500px>
+<img src="img/CMS-BTV-16-002_Figure_002.png" width =600px>
 
 - average track multiplicity in jets as a function of their pt and $\eta$<br/>
-<img src="img/CMS-BTV-16-002_Figure_004.png" width =500px>
+<img src="img/CMS-BTV-16-002_Figure_004.png" width =600px>
 
 - 3D impact parameter value and its significance. 2D impact parameter for 1st and 2nd most energetic tracks<br/>
-<img src="img/CMS-BTV-16-002_Figure_005.png" width =500px>
+<img src="img/CMS-BTV-16-002_Figure_005.png" width =600px>
 
 - distribution of secondary vertex mass and flight distance in 2D<br/>
-<img src="img/CMS-BTV-16-002_Figure_006.png" width =500px>
+<img src="img/CMS-BTV-16-002_Figure_006.png" width =600px>
 
 - number of secondary vertices inside a b-jet<br/>
 <img src="img/CMS-BTV-16-002_Figure_007-a.png" width =300px>
 
 Distributions are compared between data and MC to make sure results and performance obtained with simulation can be applied to data.
 
-<img src="img/CMS-BTV-16-002_Figure_030.png" width =500px>
+<img src="img/CMS-BTV-16-002_Figure_030.png" width =600px>
 
 **Training data**:
 
