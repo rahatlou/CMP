@@ -212,7 +212,7 @@ ROC curve for different algorithms using same input data but different ML algori
 
 <img src="img/CMS-BTV-16-002_Figure_016.png" width=600>
 
-## ML exercise with arduino
+## Exercise: ML with arduino
 - program an accelerator module to record movement data on SD card on the board
 - collect data in different conditions
   - walking slowly
@@ -227,3 +227,7 @@ ROC curve for different algorithms using same input data but different ML algori
 
 - convert data to use [pandas](http://pandas.pydata.org) [DataFrame](https://pandas.pydata.org/pandas-docs/version/0.23.4/generated/pandas.DataFrame.html) instead of simple NumPy ndarray
 - use [scikit-learn](https://scikit-learn.org/stable/) to do classification using for example boosted trees
+
+
+## Exercise with pandas and scikit-learn
+Chapter 1 of [Hands-On Machine Learning with Scikit-Learn and TensorFlow](http://shop.oreilly.com/product/0636920052289.do) has a simple example of using scikit-learn and pandas with publicly available data. You can also use the [interactive jupyter notebook](https://github.com/ageron/handson-ml/blob/master/01_the_machine_learning_landscape.ipynb) for chapter 1 with the complete example.
