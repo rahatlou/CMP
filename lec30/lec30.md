@@ -178,7 +178,7 @@ An example of machine learning in identification of jets from heavy flavor quark
 
 **Task**: separating hadronic jets from b and c quarks and those from u,d,s quarks and gluons
 
-<img src="img/CMS-BTV-16-002_Figure_001.png" width=350px>
+<img src="img/CMS-BTV-16-002_Figure_001.png" width=5000px>
 
 Useful attributes include:
 - distance between tracks and the axis of the jet at point of closest approach <br/>
