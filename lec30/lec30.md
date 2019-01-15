@@ -178,34 +178,34 @@ An example of machine learning in identification of jets from heavy flavor quark
 
 **Task**: separating hadronic jets from b and c quarks and those from u,d,s quarks and gluons
 
-<img src="img/CMS-BTV-16-002_Figure_001.png" width=200>
+<img src="img/CMS-BTV-16-002_Figure_001.png" width=350px>
 
 Useful attributes include:
 - distance between tracks and the axis of the jet at point of closest approach <br/>
-<img src="img/CMS-BTV-16-002_Figure_002.png" width =200>
+<img src="img/CMS-BTV-16-002_Figure_002.png" width =350px>
 
 - average track multiplicity in jets as a function of their pt and $\eta$<br/>
-<img src="img/CMS-BTV-16-002_Figure_004.png" width =200>
+<img src="img/CMS-BTV-16-002_Figure_004.png" width =350px>
 - 3D impact parameter value and its significance. 2D impact parameter for 1st and 2nd most energetic tracks<br/>
-<img src="img/CMS-BTV-16-002_Figure_005.png" width =200>
+<img src="img/CMS-BTV-16-002_Figure_005.png" width =350px>
 - distribution of secondary vertex mass and flight distance in 2D<br/>
-<img src="img/CMS-BTV-16-002_Figure_006.png" width =200>
+<img src="img/CMS-BTV-16-002_Figure_006.png" width =350px>
 - number of secondary vertices inside a b-jet<br/>
-<img src="img/CMS-BTV-16-002_Figure_007-a.png" width =200>
+<img src="img/CMS-BTV-16-002_Figure_007-a.png" width =350px>
 
 Distributions are compared between data and MC to make sure results and performance obtained with simulation can be applied to data.
-<img src="img/CMS-BTV-16-002_Figure_030.png" width =200>
+<img src="img/CMS-BTV-16-002_Figure_030.png" width =350px>
 
 **Training data**:
 
 - signal:  simulated sample of pair production of top quarks <br/>
-<img src="img/top-production.png" width=200>
+<img src="img/top-production.png" width=350px>
 
 - background: QCD multijet events
 
 **Performance**:
 ROC curve for different algorithms using same input data but different ML algorithms compared to traditional likelihood based algorithm JP(jet probability).
-<img src="img/CMS-BTV-16-002_Figure_016.png" width=300>
+<img src="img/CMS-BTV-16-002_Figure_016.png" width=400>
 
 ## ML exercise with arduino
 - program an accelerator module to record movement data on SD card on the board
@@ -218,7 +218,7 @@ ROC curve for different algorithms using same input data but different ML algori
   - oscillation of average position
   - frequency of oscillation
 
-- use [matplotlib](https://matplotlib.org) for visualization of data 
+- use [matplotlib](https://matplotlib.org) for visualization of data
 
 - convert data to use [pandas](http://pandas.pydata.org) [DataFrame](https://pandas.pydata.org/pandas-docs/version/0.23.4/generated/pandas.DataFrame.html) instead of simple NumPy ndarray
 - use [scikit-learn](https://scikit-learn.org/stable/) to do classification using for example boosted trees
