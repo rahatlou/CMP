@@ -68,6 +68,7 @@
           <h2>News</h2>
           <div style="width: 270px; height: 350px; overflow: auto">
 	    <ul>  <!-- lista avvisi-->
+        <li><b>26/1</b>: <a href="https://docs.google.com/a/uniroma1.it/spreadsheets/d/e/2PACX-1vSEAqyMRcvuziYZmmVIYAj8F2fbWpGUdDskLPGU5lQZpDNPPpX7T6Dl4t0gZ0psct0GEAPyaFjUK3Z8/pubhtml?gid=1776754601&single=true">midterm results</a> are now available.</li>
         <li>14/12: there will be no lecture on Tuesday 18 Dec. The next regular lecture on Friday 21 Dec</li>
         <li>3/12: Python will be covered in the last 10 lectures, starting on 4 Dec.</li>
         <li>30/11: Next lecture is on Monday 3 Dec at 14:00 in Aula 4</li>
