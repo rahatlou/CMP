@@ -57,7 +57,7 @@
    <div id="sidebar">
      <div id="sidebar-bgtop"></div>
      <div id="sidebar-content">
-           <h3 class=h3sidebar>Last update: 27 Jan 2019</h3>
+           <h3 class=h3sidebar>Last update: 3 Feb 2019</h3>
 
             Created by
             <a href="http://www.roma1.infn.it/people/rahatlou/">Shahram Rahatlou</a>
@@ -68,7 +68,9 @@
           <h2>News</h2>
           <div style="width: 270px; height: 350px; overflow: auto">
 	    <ul>  <!-- lista avvisi-->
-        <li><b>27/1</b>: text of exam posted</li>
+        <li><b>3/2</b>: <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQQjhsnv3Hv4G1jgLruvxrFIkgJJHbNSG0q2hQ4iuulB0FVPWaFsxk5KM4ca4N6gF3G4vjamaYpBJWM/pubhtml?gid=1813069201&single=true">Results of the test</a>
+            are now available.</li>
+        <li>27/1: text of exam posted</li>
         <li>26/1: <a href="https://docs.google.com/spreadsheets/d/1fXmxc7_sxjJTnF7R8CdBYa_oPaf2_59OYbDrK59dPPE/edit?usp=sharing">midterm results</a> are now available.</li>
         <li>14/12: there will be no lecture on Tuesday 18 Dec. The next regular lecture on Friday 21 Dec</li>
         <li>3/12: Python will be covered in the last 10 lectures, starting on 4 Dec.</li>
