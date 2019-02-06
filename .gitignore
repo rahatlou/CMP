@@ -5,3 +5,7 @@ Keynotes
 .DS_Store
 style.css
 .ipynb_checkpoints
+*.pyc*
+*.o*
+*.exe*
+*.DS_Store
