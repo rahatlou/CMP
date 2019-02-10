@@ -68,7 +68,8 @@
           <h2>News</h2>
           <div style="width: 270px; height: 350px; overflow: auto">
 	    <ul>  <!-- lista avvisi-->
-        <li><b>9/2</b>: added <a href="https://github.com/rahatlou/CMP/tree/master/exams/20190128">best solutions</a> from exam of 28/1.</li>
+        <li><b>10/1</b>: text of exam posted</li>
+        <li>9/2: added <a href="https://github.com/rahatlou/CMP/tree/master/exams/20190128">best solutions</a> from exam of 28/1.</li>
         <li>3/2: <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQQjhsnv3Hv4G1jgLruvxrFIkgJJHbNSG0q2hQ4iuulB0FVPWaFsxk5KM4ca4N6gF3G4vjamaYpBJWM/pubhtml?gid=1813069201&single=true">Results of the test</a>
             are now available.</li>
         <li>27/1: text of exam posted</li>
