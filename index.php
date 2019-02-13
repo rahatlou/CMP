@@ -57,7 +57,7 @@
    <div id="sidebar">
      <div id="sidebar-bgtop"></div>
      <div id="sidebar-content">
-           <h3 class=h3sidebar>Last update: 9 Feb 2019</h3>
+           <h3 class=h3sidebar>Last update: 13 Feb 2019</h3>
 
             Created by
             <a href="http://www.roma1.infn.it/people/rahatlou/">Shahram Rahatlou</a>
@@ -68,7 +68,8 @@
           <h2>News</h2>
           <div style="width: 270px; height: 350px; overflow: auto">
 	    <ul>  <!-- lista avvisi-->
-        <li><b>10/1</b>: text of exam posted</li>
+        <li><b>13/2: Posted  <a href="https://github.com/rahatlou/CMP/tree/master/exams/20190211">solutions</a> from exam of 11/2.</li>
+        <li>10/1: text of exam posted</li>
         <li>9/2: added <a href="https://github.com/rahatlou/CMP/tree/master/exams/20190128">best solutions</a> from exam of 28/1.</li>
         <li>3/2: <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQQjhsnv3Hv4G1jgLruvxrFIkgJJHbNSG0q2hQ4iuulB0FVPWaFsxk5KM4ca4N6gF3G4vjamaYpBJWM/pubhtml?gid=1813069201&single=true">Results of the test</a>
             are now available.</li>
