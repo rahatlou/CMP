@@ -7,6 +7,6 @@ Keynotes
 style.css
 .ipynb_checkpoints
 *.pyc*
-*.o*
+*.[o]
 *.exe*
 *.DS_Store
