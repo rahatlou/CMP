@@ -32,12 +32,12 @@
 <ul>
 
 <li>
-Lec 01, 25/9: Introduction to the course (<a href="https://github.com/rahatlou/CMP/tree/master/lec00/introduction.pdf">introduction</a>). Introduction to C++.
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec01/lec01.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec01/examples">examples</a>)
+Lec 01, 25/9: Introduction to the course (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec00/introduction.pdf">introduction</a>). Introduction to C++.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec01/lec01.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec01/examples">examples</a>)
 </li>
 
 <li>Lec 02, 27/9: References and pointers in C++. Constant. Namespace. Introduction to Class. 
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec02/lec02.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec02/examples">examples</a>)
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec02/lec02.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec02/examples">examples</a>)
 </li>
 
 <li>
