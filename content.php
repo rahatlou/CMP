@@ -28,6 +28,9 @@
 
 <h2 class="title">Material</h2>
 <div class="entry">
+
+<a href="../index.php?link=Didattica&sublink=2018.Computing-Methods-for-Physics">Lectures of 2018</a>
+
 <!-- begin lectures -->
 <ul>
 
@@ -69,62 +72,24 @@ Lec 07, 18/10: Overloading operators and friend methods. class Vector3D. Static 
 methods. Application to compute weighted average. 
 </li>
 
-
-<!--
-   
 <li>
-Lec 01, 25/9: Introduction to the course (<a href="lec00/introduction.pdf">introduction</a>). Introduction to C++.
-(<a href="lec01/lec01.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec01/examples">examples</a>)
-</li>
-
-<li>Lec 02, 28/9: References and pointers in C++. Constant. Namespace. Introduction to Class.
-(<a href="lec02/lec02.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec02/examples">examples</a>)
-</li>
-
-<li>
-Lec 03,  2/10: Classes and objects in C++. Interface and attributes. Constructors.
-(<a href="lec03/lec03.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec03/examples">examples</a>)
-</li>
-
-<li>
-Lec 04, 5/10: Separating interface and implementation. Header and source files.
-(<a href="lec04/lec04.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec04/examples">examples</a>)
-</li>
-
-<li>
-Lec 05, 8/10: Using class std::vector. Dynamic memory allocation. Destructor. const member functions. Default arguments for functions.
-(<a href="lec05/lec05.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec05/examples">examples</a>)
-</li>
-
-<li>
-Lec 06, 9/10: Applications in C++. Arguments from command line. external libraries. Introduction to ROOT.
-(<a href="lec06/lec06-application.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec06/examples">examples</a>)
-</li>
-
-<li>
-Lec 07, 12/10:
-Dynamically allocated object as data members. Overloading operators. Adding operators to class Datum. class Vector3D.
-(<a href="lec07/lec07.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec07/examples">examples</a>)
-</li>
-
-<li>
-Lec 08, 15/10:
-Overloading operators and friend methods. Static data members and
-methods. Application to compute weighted average.
-(<a href="lec08/lec08.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec08/examples">examples</a>)
-</li>
-
-<li>
-Lec 09, 16/10:
+Lec 08, 22/10:
 Example of static data member in class Datum. Enumerators. use case for
 std::map, std::pair, and std::vector
-(<a href="lec09/lec09.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec09/examples">examples</a>)
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec08/lec08.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec08/examples">examples</a>)
 </li>
 
 <li>
-Lec 10, 19/10:
-Input/Output with TTree and TFile (<a href="https://github.com/rahatlou/CMP/tree/master/lec10/examples">examples</a>)
+Lec 10, 25/10:
+Input/Output with TTree and TFile. Using ROOT classes for functions and fitting.
 </li>
+
+
+<li>
+Lab 01, 28/10: exercising with Vector3D and other custom classes. 
+</li>
+
+<!--
 
 <li>
 Lec 11, 23/10:
