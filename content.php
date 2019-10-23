@@ -1,6 +1,6 @@
 <div id="content">
    <h1>Computing Methods for Physics</h1>
-	
+
    <div class="post">
 
    <h2 class="title">Orario Lezioni</h2>
@@ -23,7 +23,7 @@
 
 
 
-   
+
 <div class="post">
 
 <h2 class="title">Material</h2>
@@ -36,47 +36,55 @@
 
 <li>
 Lec 01, 25/9: Introduction to the course (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec00/introduction.pdf">introduction</a>). Introduction to C++.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec01/lec01.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec01/examples">examples</a>)
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec01/lec01.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec01/examples">examples</a>)
 </li>
 
-<li>Lec 02, 27/9: References and pointers in C++. Constant. Namespace. Introduction to Class. 
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec02/lec02.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec02/examples">examples</a>)
+<li>Lec 02, 27/9: References and pointers in C++. Constant. Namespace. Introduction to Class.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec02/lec02.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec02/examples">examples</a>)
 </li>
 
 <li>
 Lec 03,  1/10: Classes and objects in C++. Interface and attributes. Constructors. Separating interface and implementation. Header and source files.
-(<a href="lec03.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec03/examples">examples 1</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec04/examples">examples 2</a>)
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec03/lec03.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec03/examples">examples</a>)
 </li>
 
 <li>
 Lec 04, 4/10: Header and source files. Dynamic memory allocation. Destructor. Using class std::vector.
-(<a href="lec04.pdf">pdf</a>, 
-<a href="https://github.com/rahatlou/CMP/tree/master/lec04/examples">examples 1</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec05/examples">examples 2</a>)
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec04/lec04.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec04/examples">examples</a>)
 </li>
 
 <li>
 Lec 05, 8/10: Destructor. const member functions. Default arguments for functions. Applications in C++. Arguments from command line. external libraries. Introduction to ROOT.
-(<a href="lec05.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec05/examples">examples 1</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec06/examples">examples 2</a>)
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec05/lec05.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec05/examples">examples</a>)
 </li>
 
 <li>
 Lec 06, 15/10:
 Numerical convolution: Gaussian detector resolution and monochromatic source. Gaussian convolution of
 exponetial decay length distribution.
-Dynamically allocated object as data members. Overloading operators. Adding operators to class Datum. 
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec07/lec07.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec07/examples">examples</a>)
+Dynamically allocated object as data members. Overloading operators. Adding operators to class Datum.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec06/lec06.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec06/examples">examples</a>)
 </li>
 
 <li>
 Lec 07, 18/10: Overloading operators and friend methods. class Vector3D. Static data members and
-methods. Application to compute weighted average. 
+methods. Application to compute weighted average.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec07/lec07.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec07/examples">examples</a>)
 </li>
 
 <li>
 Lec 08, 22/10:
 Example of static data member in class Datum. Enumerators. use case for
 std::map, std::pair, and std::vector
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec08/lec08.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec08/examples">examples</a>)
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec08/lec08.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec08/examples">examples</a>)
 </li>
 
 <li>
@@ -86,7 +94,7 @@ Input/Output with TTree and TFile. Using ROOT classes for functions and fitting.
 
 
 <li>
-Lab 01, 28/10: exercising with Vector3D and other custom classes. 
+Lab 01, 28/10: exercising with Vector3D and other custom classes.
 </li>
 
 <!--
@@ -238,9 +246,9 @@ Lec 30, 15/1: Types of Machine Learning and main challenges.
 Example of b-tagging with machine learning.
 (<a href="https://github.com/rahatlou/CMP/tree/master/lec30/lec30.md">md</a>)
 </li>
-										   
+
 -->
-   
+
 </ul>
 <!-- end of lectures -->
   </div> <!--- end of entry -->
