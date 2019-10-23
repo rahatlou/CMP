@@ -1,4 +1,4 @@
-# Computing Methods in Physics
+# Computing Methods in Physics (2019)
 
 This is the material used during my course. You can find all
 information about the course at http://www.roma1.infn.it/people/rahatlou/cmp/
@@ -19,24 +19,23 @@ information about the course at http://www.roma1.infn.it/people/rahatlou/cmp/
 
 - Using class std::vector. Dynamic memory
 allocation. Destructor. const member functions. Default arguments for
-functions: [pdf](lec05/lec05.pdf) [examples](lec05/examples)
-
-- Applications in C++. Arguments from comamnd line. external
-libraries. Introduction to ROOT: [pdf](lec06/lec06-application.pdf) [examples](lec06/examples)
+functions. Applications in C++. Arguments from comamnd line. external
+libraries. Introduction to ROOT: [pdf](lec05/lec05.pdf) [examples](lec05/examples)
 
 - Simple instructions for ROOT setup and configuration of ROOT and the
-  shell environment: [md](https://github.com/rahatlou/CMP/blob/master/misc/ROOT.md)
+  shell environment: [md](ROOT.md)
 
-- Dynamically allocated object as data members. Overloading operators. Adding operators to class Datum. class Vector3D:
-[pdf](lec07/lec07.pdf) [examples](lec07/examples)
+- Numerical convolution: Gaussian detector resolution and monochromatic source. Gaussian convolution of exponential decay length distribution. Dynamically allocated object as data members. Overloading operators. Adding operators to class Datum:
+[pdf](lec06/lec06.pdf) [examples](lec06/examples)
 
 - Overloading operators and friend methods. Static data members and
 methods. Application to compute weighted average:
-[pdf](lec08/lec08.pdf) [examples](lec08/examples)
+[pdf](lec07/lec07.pdf) [examples](lec07/examples)
 
 - Example of static data member in class Datum. Enumerators. use case for
-std::map, std::pair, and std::vector [pdf](lec09/lec09.pdf) [examples](lec09/examples)
+std::map, std::pair, and std::vector. Designing a new class: Vector3D [pdf](lec08/lec08.pdf) [examples](lec08/examples)
 
+<!--
 - Input/Output with TTree and TFile: branches with simple `int` and
  ` double` variables:
  [examples](lec10/examples)
@@ -91,3 +90,4 @@ Command line arguments for python programs: [md](lec28/README.md), [examples](le
 
 - Types of Machine Learning and main challenges.
 Example of b-tagging with machine learning: [md](lec30/lec30.md)
+-->

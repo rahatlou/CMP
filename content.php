@@ -66,14 +66,14 @@ Lec 05, 8/10: Destructor. const member functions. Default arguments for function
 <li>
 Lec 06, 15/10:
 Numerical convolution: Gaussian detector resolution and monochromatic source. Gaussian convolution of
-exponetial decay length distribution.
+exponential decay length distribution.
 Dynamically allocated object as data members. Overloading operators. Adding operators to class Datum.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec06/lec06.pdf">pdf</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec06/examples">examples</a>)
 </li>
 
 <li>
-Lec 07, 18/10: Overloading operators and friend methods. class Vector3D. Static data members and
+Lec 07, 18/10: Overloading operators and friend methods. Static data members and
 methods. Application to compute weighted average.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec07/lec07.pdf">pdf</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec07/examples">examples</a>)
@@ -82,7 +82,7 @@ methods. Application to compute weighted average.
 <li>
 Lec 08, 22/10:
 Example of static data member in class Datum. Enumerators. use case for
-std::map, std::pair, and std::vector
+std::map, std::pair, and std::vector. class Vector3D.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec08/lec08.pdf">pdf</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec08/examples">examples</a>)
 </li>
