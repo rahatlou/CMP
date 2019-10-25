@@ -42,4 +42,4 @@ TFile f("outputfile.root");
   * from a custom function
 
 ## Example: filling histograms and storage to TFile
-The complete example is available as [examples/02-app3]((examples/02-app3.cc))
+The complete example is available as [examples/02-app3](examples/02-app3.cc)
