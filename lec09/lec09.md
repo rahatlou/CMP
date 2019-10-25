@@ -1,4 +1,4 @@
-# Input/output in ROOT: data storage with [TTree](https://root.cern.ch/doc/master/classTTree.html) and [TFile](https://root.cern.ch/doc/master/classTFile.html)
+# Input/output in ROOT: data storage with [TFile](https://root.cern.ch/doc/master/classTFile.html)
 
 ## Data storage
 - So far you have mainly used text files to store data in your programs and perform analysis.
