@@ -20,10 +20,10 @@ int main( int argc, char* argv[]) {
 
   // create histograms
   int nbins = 50;
-  TH1F hx1("hx1", "distribution of x values",
+  TH1F hx1("hx1", "distribution of true x",
 	     nbins, x1*(1-5*resol), x2*(1+5*resol) );
 
-  TH1F hdx1("hdx1", "distribution of x uncdertainties",
+  TH1F hdx1("hdx1", "distribution of measured x",
 	    nbins, x1*(1-5*resol), x2*(1+5*resol) );
 
   double binwidth = (x2*(1+5*resol)-x1*(1-5*resol)) / nbins;
@@ -39,10 +39,10 @@ int main( int argc, char* argv[]) {
   for(int i=0; i< nmeas; ++i) {
 
 
-    // genarate value
+    // genarate true value
     double x = x1 + gen->Uniform(x2-x1);
 
-    //generate uncertainty based on the value
+    //generate meaured value based on the true value and resolution
     double dx = gen->Gaus(x, x*resol);
 
     // fill histograms
