@@ -2,7 +2,7 @@
 #include <vector>
 
 // ROOT heder files
-#include "TRandom.h"
+#include "TRandom3.h"
 
 #include "TH1F.h"
 #include "TCanvas.h"
@@ -29,28 +29,28 @@ int main( int argc, char* argv[]) {
   double binwidth = (x2*(1+5*resol)-x1*(1-5*resol)) / nbins;
 
   //new random generator
-  TRandom*  gen = new TRandom();
+  TRandom3*  gen = new TRandom3();
   gen->SetSeed(0); //use machine clock
 
   // # measurements
   int nmeas = 100;
-  
+
   for(int i=0; i< nmeas; ++i) {
-    
-  
+
+
     // genarate value
     double x = x1 + gen->Uniform(x2-x1);
-    
+
     //generate uncertainty based on the value
     double dx = gen->Gaus(x, x*resol);
 
     // fill histograms
     hx1.Fill(x);
     hdx1.Fill(dx);
-    
+
   }
 
-  
+
   // create canvas
   TCanvas canv("canv", "canvas for plotting", 1280, 1024);
 
