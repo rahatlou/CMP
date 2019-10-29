@@ -44,9 +44,12 @@ we set the reference to them in the two branches `value` and `error` of the tree
 // now set the info for each branch of the tree to correspond to our data
 tree->Branch("value", &x,  "value/D");
 tree->Branch("error", &dx, "error/D");
-
 ```
 note that there is no correlation between the name of the variable `x` and the name of the branch `value`.
+The `Branch` function has 3 arguments
+- name of the branch (`"value"`)
+- pointer to variable in memory (`&x`)
+- type of the variable in the branch (`"value/D"` which is a `double`)
 
 Next we
 - iterate over the data to be stored
@@ -121,3 +124,90 @@ for (int i=0; i<nentries; ++i) {
 ```
 Note that the `TTree::GetEntry()` call is what populates the `y` and `dy` variables
 from the data in the tree on disk.
+
+## Trees with variable size branches
+Complete example in [07-writeObjects.cc](examples/07-writeObjects.cc)
+
+In the previous example, each event has exactly one `value` and `error` stored. In reality, often we have to deal with situations were the number of objects to be stored varies across the events. For example, if we want to store the energy for all photons produced in a collision. The number of photons will be different in each event. The simplest way is to use fixed-size C-style arrays.
+
+For example we want to store `nmeas` values of `x` and `dx` for `nexp` events, where `nmeas` has a different value for each experiment, e.g. according to a Poisson distribution.
+
+First declare the variables
+```c++
+// variables to be stored in the tree
+const int nMeasMax=200; // maximum size of static array per event
+double x0, x[nMeasMax], dx[nMeasMax];
+int nmeas;
+```
+we assume that the number of measurements will never exceed nMeasMax. This ugly limitation can be overcome in a future example `std::vector<T>`.
+
+```c++
+// now set the info for each branch of the tree to correspond to our data
+tree->Branch("nmeas", &nmeas, "nmeas/I");
+tree->Branch("value", x,  "value[nmeas]/D"); // nmeas is the index of value[]
+tree->Branch("error", dx, "error[nmeas]/D"); // and error[] in the tree
+```
+note that we have a new branch to store `nmeas` which is used as the index for the array `value[nmeas]`
+
+`nmeas` is extracted from a Poisson distribution. Arrays are filled before filling the tree
+```c++
+// # measurements
+int nMeasAvg=50;
+int nexp = 1000;
+
+for(int iexp=0; iexp<nexp; iexp++) {
+
+  nmeas = gen->Poisson(nMeasAvg);
+
+  if( nmeas > nMeasMax ) {
+    std::cout << "WARNING: nmeas > " << nMeasMax << " your TTRee will be corrupted" << std::endl;
+  }
+
+  for(int i=0; i< nmeas; ++i) {
+
+    // genarate true value
+    x0 = x1 + gen->Uniform(x2-x1);
+
+    //generate meaured value based on the true value and resolution
+    x[i] = gen->Gaus(x0, x0*resol);
+
+    //generate an uncertainty based on the resolution
+    dx[i] = x[i] * resol;
+  }
+
+  tree->Fill(); // write the data from memory to file at end of each experiment
+```
+and finally store the tree
+```c++
+} // end of experiments
+tree->Write();
+```
+
+Reading the tree also requires some changes to account for the arrays (see the complete example in [08-readTree.cc](examples/08-readTree.cc))
+
+Declare the variables and set the address for the branches
+```c++
+// variables to be read from the tree
+const int nMeasMax = 200;
+double y[nMeasMax], dy[nMeasMax];
+int nmeas;
+
+// now set the info for each branch of the tree to correspond to our data
+tree->SetBranchAddress("value", y);
+tree->SetBranchAddress("error", dy);
+tree->SetBranchAddress("nmeas", &nmeas);
+```
+iterate over events in the tree, and for each event iterate over measurements
+```c++
+int nentries = tree->GetEntries();
+for (int iexp=0; iexp<nentries; ++iexp) {
+  tree->GetEntry(iexp); // read data from file to memory
+
+  hnmeas.Fill(nmeas);
+
+  // for each experiment read the measurements
+  for(int i = 0; i< nmeas; ++i) {
+    hdx1.Fill( dy[i] );
+  } // loop on mesurements
+} // end of experiments
+```
