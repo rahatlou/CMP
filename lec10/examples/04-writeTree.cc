@@ -47,7 +47,7 @@ int main( int argc, char* argv[]) {
 
 
   // # measurements
-  int nmeas = 10000;
+  int nmeas = 1000;
   std::vector<Datum> dati;
 
   for(int i=0; i< nmeas; ++i) {
@@ -59,7 +59,7 @@ int main( int argc, char* argv[]) {
     double x = gen->Gaus(x0, x0*resol);
 
     //generate an uncertainty based on the resolution
-    double dx = x*resol
+    double dx = x*resol;
 
     // store Datum in vector
     dati.push_back( Datum( x, dx) );

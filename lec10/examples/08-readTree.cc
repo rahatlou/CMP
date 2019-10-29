@@ -35,7 +35,7 @@ int main( int argc, char* argv[]) {
   TH1I hnmeas("hnmeas","Number of measurements per experiment", 81, -0.5, 80.5);
   TH2F h2RMS("h2RMS", "Distribution of dx RMS vs numb. measurements",
 	     81, -0.5, 80.5,
-	     nbins, 0.0, 0.3 );
+	     nbins, 0.0, 0.05 );
 
   // ==== Read data from file
 
@@ -97,7 +97,7 @@ int main( int argc, char* argv[]) {
   TCanvas canv("canv", "canvas for plotting", 1280, 1024);
   h2RMS.GetXaxis()->SetTitle("Number of measurements");
   h2RMS.GetYaxis()->SetTitle("dx RMS");
-  h2RMS.Draw("box");
+  h2RMS.Draw("colz");
   canv.SaveAs("/tmp/2dRMS.pdf");
 
 
