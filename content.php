@@ -88,15 +88,19 @@ std::map, std::pair, and std::vector. class Vector3D.
 </li>
 
 <li>
-Lec 10, 25/10:
-Input/Output with TTree and TFile. Using ROOT classes for functions and fitting.
+Lec 09, 25/10:
+Input/Output with TTree and TFile. Random Generators in ROOT. Using ROOT classes for functions and fitting.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec09">md</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec09/examples/">examples</a>)
 </li>
-
 
 <li>
-Lab 01, 28/10: exercising with Vector3D and other custom classes.
+Lab 01, 28/10: Design and implementation of a class for Complex numbers and their algebra.
 </li>
 
+<li>
+Lec 10, 29/10, Data storage with TTree.
+</li>
 <!--
 
 <li>
