@@ -4,32 +4,25 @@
    <div class="post">
 
    <h2 class="title">Orario Lezioni</h2>
-   <div class="entry">
    <p><b>Lectures start on Tuesday 25 September 2019</b>
    <ul>
      <li> Tuesday 12-14, Aula 7 , Nuovo Edificio di Fisica</li>
-     <li> Friday  12-14, Aula 6 , Nuovo Edificio di
-   Fisica</li>
-     <li> Lab Sessions: there will be about 5-6 lab sessions on Monday 10-12 in Laboratorio di Calcolo, Nuovo Edificio di Fisica. The dates will be discussed and set at the beginning of the course based on the number of attendants.</li>
+     <li> Friday  12-14, Aula 6 , Nuovo Edificio di Fisica</li>
+     <li> Lab Sessions: there will be about 5-6 lab sessions on Monday 10-12
+       in Laboratorio di Calcolo, Nuovo Edificio di Fisica.
+       Dates: 28/10, 11/10, 18/11, 25/11, 2/12, 9/12, 16/12.</li>
    </ul>
-   </div> <!-- entry -->
-
+<?php /*
    <h2 class="title">Student survey</h2>
-   <div class="entry">
    <p>Please fill this informal <a href="https://docs.google.com/forms/d/e/1FAIpQLScMwRWGDYLbphrKOBqoEToqhGm-L4pg8DO7x8cAKFUt3dficw/viewform?usp=sf_link">survey module</a> by Tuesday 1 Oct to help me with the organisation of the course and lab sessions.</p>
    <p>You must use your uniroma1 credentials. In case of problems, please restart your browser  or log out of your private google account before accessing the form.</p>
-
-   </div>
-
+*/ ?>
 
 
-
-<div class="post">
 
 <h2 class="title">Material</h2>
-<div class="entry">
 
-<a href="../index.php?link=Didattica&sublink=2018.Computing-Methods-for-Physics">Lectures of 2018</a>
+<a href="index.php?link=Didattica&sublink=2018.cmp">Lectures of 2018</a>
 
 <!-- begin lectures -->
 <ul>
@@ -99,7 +92,9 @@ Lab 01, 28/10: Design and implementation of a class for Complex numbers and thei
 </li>
 
 <li>
-Lec 10, 29/10, Data storage with TTree.
+Lec 10, 29/10, Data storage with TTree. Input and output. Branches with variable size.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec10">md</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec10/examples/">examples</a>)
 </li>
 <!--
 
@@ -253,9 +248,75 @@ Example of b-tagging with machine learning.
 
 -->
 
-</ul>
-<!-- end of lectures -->
-  </div> <!--- end of entry -->
+</ul> <!-- end of lectures -->
+
+  <h2 class="title">Useful resources</h2>
+  <ul>
+    <li> VirtualBox:
+      If you have a windows or MacOS machine you can use a virtual
+      linux machine.
+      <ol>
+        <li>Install the free
+          <a href="https://www.virtualbox.org">virtual box application</a></li>
+        <li>In your browser download the <a
+href="http://labcalc.fisica.uniroma1.it/docenti/rahatlou/public_html/VM/Ubuntu18.04-cmp-64bit.ova">Ubuntu18.04-cmp-64bit.ova</a>
+which is a virtual machine based on Ubuntu 18.04, and has ROOT
+and python tools already installed, and the bash and csh
+environements configured.</li>
+        <li>You can now double-click on this ova file
+(image of a vitual machine) and you you see Ubuntu starting
+up in a window</a>
+        <li> the system will start up without asking for
+username and password. The user is called <em>student</em>
+and the password is <em>physics</em>. You will only need
+the password to update or add new packages for example for
+python.
+</li>
+</ol>
+</li>
+    <li>C++ compiler for Windows: you can <a href="https://tutorials.visualstudio.com/cpp-console/install">install the free version of Visual Studio</a></li>
+    <li>C++ compiler for Mac OS: it is available for free as part of XCode. You need to install the "command line tools". See for example <a href="http://www.edparrish.net/common/macgpp.php">these simple instructions</a>.
+
+<li>C++: useful C++ reference guides <a
+href="http://www.cplusplus.com">Cplusplus.com</a>,
+<a href="https://www.cppreference.com/">cppreference.com</a></li>
+
+<li>ROOT: framework for data analysis. Checkout the
+website at <a href="http://root.cern.ch" >root.cern</a>. The <a href="https://root.cern.ch/guides/reference-guide" >reference
+guid</a>e is all you need to navigate exisiting
+classes. You can browse it online or download on your
+machine. See also the <a href="https://root.cern.ch/downloading-root" >installation guide</a> for setting up
+your machine. Unless you have special needs (e.g. old operating system) you should use the PRO version.
+<br>
+See  a <a
+href="https://github.com/rahatlou/CMP/blob/master/misc/ROOT.md">short summary on setting up ROOT</a> on
+your machine. </li>
+
+<li>GEANT4: a toolkit in C++ for detailed simulation of
+passage of particles in matter. Details and
+applications on their website <a href="https://geant4.web.cern.ch" >https://geant4.web.cern.ch</a>
+
+<li>Arduino: the official arduino website
+<a href="https://www.arduino.cc"
+>https://www.arduino.cc</a> is a good starting point
+for beginners</li>
+
+<li>Python: the <a href="https://www.python.org/" >official python</a> website is a good
+resource for introduction to Python. Check out also <a
+href="https://pythonprogramming.net"
+>https://pythonprogramming.net</a> for targgetted and
+specific tutorials. </li>
+<li>jupyter: open-source web application for writing
+documents and live code in many languages, including
+C++ and python. A good starting point is <a href="https://jupyter.org" >https://jupyter.org</a> </li>
+
+<li>pandas: Python Data Analysis Library: provides high-performance, easy-to-use data structures
+and data analysis tools in python. Details at <a href="http://pandas.pydata.org">http://pandas.pydata.org</a></li>
+
+<li>scikit-learn: is a kit for  machine-learning in
+python. Valuable info available at their webiste <a href="http://scikit-learn.org" >http://scikit-learn.org</a> </li>
+
+</ul> <!-- useful resources -->
 
 
 
