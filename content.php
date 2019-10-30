@@ -93,7 +93,7 @@ Lab 01, 28/10: Design and implementation of a class for Complex numbers and thei
 
 <li>
 Lec 10, 29/10, Data storage with TTree. Input and output. Branches with variable size.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec10">md</a>,
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec10/lec10.md">md</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec10/examples/">examples</a>)
 </li>
 <!--
