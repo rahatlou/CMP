@@ -1,7 +1,7 @@
 <div id="content">
 	<h1>Computing Methods for Physics</h1>
 
-	
+
        <div class="post">
 
 
@@ -28,69 +28,6 @@
            </div>
 
 -->
-<a name="20190211"></a>
-<h2 class="title">Appello 2019-02-11</h2>
-<div class="entry">
-  <p>A pdf file with the text of the exam will be posted here  after 00:00 on 11 Feb. (<a href="exams/20190211/20190211-cmp-text.pdf">pdf</a>)
-  <p> See an example of <a href="https://github.com/rahatlou/CMP/tree/master/exams/20190211">possible solutions</a>.
-
-
-  <p> For questions or doubts contact me by email on Monday 11 Feb or in person on Tuesday 12 Feb at 10:00-13:00 in my office.
-  <p>To submit your exam the online procedure (same as midterm) will be used
-    <ul>
-      <li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
-        with your Sapienza credentials. (if you are already logged in with your personal gmail account, you must first log out)</li>
-     <li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_NW06tHEqQP91NEOjwd-3E0ElW4EGuJeLussLLuU9m3SqZQ/viewform?usp=sf_link">google form for Appello 2019-02-11</a> </li>
-     <li>You can submit only one zip file containinng your files</li>
-     <li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
-     <li>The form will be open for submission until <b>Wednesday 13 Feb 12:00</b>.</li>
-   </ul>
-
-     <p>You are <b>strongly discouraged from collaborating</b> on the test. Exams considered to be similar
-        will be <b>invalidated</b> and a new exam must be taken without further discussion.
-     <p>Exams that appear to be identical or copied will be <b>invalidated</b> and the students cannot take the exam again before June.
-
-
-          <p>Discussion of the test and the registration of the final grade will take place according to your preferences  at
-            <ul>
-              <li> Monday 18 Feb, 11:00 - 15:00
-              <li> Tuesday 19 Feb, 10:00 - 14:00
-            </ul>
-</div>
-
-
-<a name="20190128"></a>
-<h2 class="title">Appello 2019-01-28</h2>
-<div class="entry">
-  <p>A pdf file with the text of the exam will be posted here  after 00:00 on 28 Jan. (<a href="exams/20190128/20190128-cmp-text.pdf">pdf</a>).
-  <p> See an example of <a href="https://github.com/rahatlou/CMP/tree/master/exams/20190128">possible solutions</a> provied by Federico Morodei for C++ and Alessandro Novelli for python.
-
-  <p> For questions or doubts contact me by email on Monday 28 jan or in person on Tuesday 29 jan at 10:00-12:00 in my office.
-  <p>To submit your exam the online procedure (same as midterm) will be used
-    <ul>
-      <li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
-        with your Sapienza credentials</li>
-     <li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRZdKWJTOwMkhbv5t7rVhIJVdlNuiP3_YIMNcTRxqKKrgoXA/viewform?usp=sf_link">google form for Appello 2019-01-28</a> </li>
-     <li>You can submit only one zip file containinng your files</li>
-     <li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
-     <li>The form will be open for submission until <b>Wednesday 30 Jan 16:00</b>.</li>
-   </ul>
-
-     <p>You are <b>strongly discouraged from collaborating</b> on the test. Exams considered to be similar
-        will be <b>invalidated</b> and a new exam must be taken without further discussion.
-     <p>Exams that appear to be identical or copied will be <b>invalidated</b> and the students cannot take the exam again before June.
-
-      <p> <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQQjhsnv3Hv4G1jgLruvxrFIkgJJHbNSG0q2hQ4iuulB0FVPWaFsxk5KM4ca4N6gF3G4vjamaYpBJWM/pubhtml?gid=1813069201&single=true">Results of the test</a>
-          are now available.
-
-          <p>Discussion of the test and the registration of the final grade will take place according to your preferences  at
-            <ul>
-              <li> Monday 4 Feb, 11:00 - 14:00
-              <li> Tuesday 5 Feb, 10:00 - 15:00
-              <li> Friday  8 Feb, 10:00 - 15:00
-            </ul>
-          <p>Please note that too many of you have indicated Monday. If we run out of time, we will continue on Tuesday and Friday.
-</div>
 
 <h2 class="title">Exam procedure (modalita` d'esame)</h2>
 <div class="entry">
