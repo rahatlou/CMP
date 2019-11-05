@@ -115,7 +115,7 @@ namespace {
     };
     static const char* includePaths[] = {
 "/Users/rahatlou/Library/ROOT/v6.14.00/include",
-"/Users/rahatlou/Google Drive/Didattica/Computing Methods in Physics/lec11/examples/",
+"/Users/rahatlou/Sites/Didattica/cmp/lec11/examples/",
 0
     };
     static const char* fwdDeclCode = R"DICTFWDDCLS(

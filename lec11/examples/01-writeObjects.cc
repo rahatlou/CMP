@@ -18,15 +18,15 @@
 int main( int argc, char* argv[]) {
 
   // generate random measurements in the range [x1,x2]
-  // and uncertainties from a guassion with 5% resolution
+  // and uncertainties from a guassion
 
   double x1=0.9, x2=1.1;
-  double resol = 0.05;
+  double resol = 0.15;
 
-   
+
   // ==== store data in a TTree
 
-  TString rootfname("/tmp/dati.root");
+  TString rootfname("/tmp/dati01.root");
   TFile* orootfile = new TFile( rootfname, "RECREATE");
   if( !orootfile->IsOpen() ) {
     std::cout << "problems creating root file. existing... " << std::endl;
@@ -41,19 +41,19 @@ int main( int argc, char* argv[]) {
 
   // create the tree
   TTree* tree = new TTree("datatree","tree containg our data");
-  
+
   // now set the info for each branch of the tree to correspond to our data
   tree->Branch("nmeas", &nmeas, "nmeas/I");
   tree->Branch("value", x,  "value[nmeas]/D"); // nmeas is the index of value[]
   tree->Branch("error", dx, "error[nmeas]/D"); // and error[] in the tree
 
- 
+
   //new random generator
   TRandom1*  gen = new TRandom1();
   gen->SetSeed(0); //use machine clock
 
-  
-  // # of experiments and average # of measurements 
+
+  // # of experiments and average # of measurements
   int nMeasAvg=10;
   int nexp = 100;
 
@@ -61,30 +61,32 @@ int main( int argc, char* argv[]) {
 
     // each experiment has a different # of measurements
     nmeas = gen->Poisson(nMeasAvg);
-    
+
     if( nmeas > nMeasMax ) {
       std::cout << "WARNING: nmeas > " << nMeasMax << " your TTRee will be corrupted" << std::endl;
     }
-    
+
     for(int i=0; i< nmeas; ++i) {
       // genarate value
-      x[i] = x1 + gen->Uniform(x2-x1);
-    
-      //generate uncertainty based on the value
-      dx[i] = gen->Gaus(x[i], x[i]*resol);        
+      double x0 = x1 + gen->Uniform(x2-x1);
+      x[i] = gen->Gaus(x0 , x0*resol);
+
+      //generate uncertainty
+      double err =  (x2-x1)/sqrt(12);
+      dx[i] = gen->Gaus(err , err*0.07);
     }
 
     tree->Fill(); // write the data from memory to file at end of each experiment
 
-    
+
   } // end of experiments
 
-  
+
   tree->Write();
-   
+
   // critical to close the file!
   orootfile->Close();
-  
-  
+
+
   return 0;
 }

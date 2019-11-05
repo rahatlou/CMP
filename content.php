@@ -12,6 +12,13 @@
        in Laboratorio di Calcolo, Nuovo Edificio di Fisica.
        Dates: 28/10, 11/10, 18/11, 25/11, 2/12, 9/12, 16/12.</li>
    </ul>
+
+<?php /*
+<div class="news">
+  ...link
+</div>
+*/ ?>
+
 <?php /*
    <h2 class="title">Student survey</h2>
    <p>Please fill this informal <a href="https://docs.google.com/forms/d/e/1FAIpQLScMwRWGDYLbphrKOBqoEToqhGm-L4pg8DO7x8cAKFUt3dficw/viewform?usp=sf_link">survey module</a> by Tuesday 1 Oct to help me with the organisation of the course and lab sessions.</p>
@@ -96,6 +103,29 @@ Lec 10, 29/10, Data storage with TTree. Input and output. Branches with variable
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec10/lec10.md">md</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec10/examples/">examples</a>)
 </li>
+
+<li>
+Lec 11, 5/11:
+Input/Output of custom class objects with TTree. Reading of TTree created by others: Application for analysis of TTree.
+Creating custom analysis class.
+(<a
+href="https://github.com/rahatlou/CMP/tree/CMP2019/lec11/lec11.md">md</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec11/examples">examples</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/ROOT.md">ROOT setup and configuration</a>))
+</li>
+
+<li>
+Lec 12, 8/11:
+Object oriented programming: Inheritance. Base and derived class.
+</li>
+
+<li>
+Lab 02, 11/11 9:30-12:00:
+finishing Complex class and exercises with ROOT.
+</li>
+
+
+
 <!--
 
 <li>
@@ -112,13 +142,6 @@ href="https://en.wikipedia.org/wiki/Markdown"  target="_blank">Markdown</a>
 language. The graphical viewer is provided by <a
 href="https://github.com"  target="_blank">GitHub</a>
 
-<li>
-Lec 12, 26/10:
-Application for analysis of TTree. Creating custom analysis class.
-(<a
-href="https://github.com/rahatlou/CMP/blob/master/lec12/lec12.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec12/examples">examples</a>)
-</li>
 
 
 <li>
