@@ -22,7 +22,7 @@
 		<p>A pdf file with the text of the exam will be posted here on
 		  <b>Wednesday 11 September by 15:00</b>. You will have to submit your project
 		following the online procedure by <b>17:00 Friday 13 September</b>
-		(<a href="exams/20190911/20190911-cmp-text.pdf">pdf</a>).
+		(<a href="Didattica/cmp/exams/20190911/20190911-cmp-text.pdf">pdf</a>).
 		</p>
 
 		<p> For questions or clarifications you can contact me by email or Thursday 12 Sep at 10:00-16:00 in my office.</p>
@@ -55,7 +55,7 @@
 	 <h2 class="title">Appello 2019-07-08</h2>
 	 <p>A pdf file with the text of the exam will be posted here on <b>Monday 8 July by 10:00 AM</b>. You will have to submit your project
 	 following the online procedure by <b>10:00 Wednesday 10 July</b>
-	 (<a href="exams/20190708/20190708-cmp-text.pdf">pdf</a>).
+	 (<a href="Didattica/cmp/exams/20190708/20190708-cmp-text.pdf">pdf</a>).
 	 </p>
 
 	 <p> For questions or clarifications you can contact me on Monday 8 Jul or Tuesday 9 Jul at 10:00-14:00 in my office.</p>
@@ -88,7 +88,7 @@
 	 <h2 class="title">Appello 2019-06-24</h2>
 	 <p>A pdf file with the text of the exam will be posted here on <b>Monday 24 June by 8:00 AM</b>. You will have to submit your project
 	 following the online procedure described below by <b>13:00 Wednesday 26 June</b>.
-	 (<a href="exams/20190624/20190624-cmp-text.pdf">pdf</a>)</p>
+	 (<a href="Didattica/cmp/exams/20190624/20190624-cmp-text.pdf">pdf</a>)</p>
 
 	 <p> For questions or clarifications you can contact me on Monday 24 Jun or Tuesday 25 June at 10:00-14:00 in my office.</p>
 
@@ -117,7 +117,7 @@
 
 	 <a name="20190211"></a>
 	 <h2 class="title">Appello 2019-02-11</h2>
-	   <p>A pdf file with the text of the exam will be posted here  after 00:00 on 11 Feb. (<a href="exams/20190211/20190211-cmp-text.pdf">pdf</a>)</p>
+	   <p>A pdf file with the text of the exam will be posted here  after 00:00 on 11 Feb. (<a href="Didattica/cmp/exams/20190211/20190211-cmp-text.pdf">pdf</a>)</p>
 	   <p> See an example of <a href="https://github.com/rahatlou/CMP/tree/master/exams/20190211">possible solutions</a>.</p>
 
 	   <p> For questions or doubts contact me by email on Monday 11 Feb or in person on Tuesday 12 Feb at 10:00-13:00 in my office.</p>
@@ -145,7 +145,7 @@
 
 		<a name="20190128"></a>
 		<h2 class="title">Appello 2019-01-28</h2>
-		  <p>A pdf file with the text of the exam will be posted here  after 00:00 on 28 Jan. (<a href="exams/20190128/20190128-cmp-text.pdf">pdf</a>).
+		  <p>A pdf file with the text of the exam will be posted here  after 00:00 on 28 Jan. (<a href="Didattica/cmp/exams/20190128/20190128-cmp-text.pdf">pdf</a>).
 		  <p> See an example of <a href="https://github.com/rahatlou/CMP/tree/master/exams/20190128">possible solutions</a> provied by Federico Morodei for C++ and Alessandro Novelli for python.
 
 		  <p> For questions or doubts contact me by email on Monday 28 jan or in person on Tuesday 29 jan at 10:00-12:00 in my office.
