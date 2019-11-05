@@ -111,7 +111,7 @@ Creating custom analysis class.
 (<a
 href="https://github.com/rahatlou/CMP/tree/CMP2019/lec11/lec11.md">md</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec11/examples">examples</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/ROOT.md">ROOT setup and configuration</a>))
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/misc/ROOT.md">ROOT setup and configuration</a>)
 </li>
 
 <li>
