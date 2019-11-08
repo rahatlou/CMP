@@ -265,17 +265,17 @@ href="https://github.com/rahatlou/CMP/blob/master/lec12/lec12.md">md</a>,
 <li>
 Lec 13, 6/11:
 Object oriented programming: Inheritance. Base and derived class.
-(<a href="lec13/lec13.pdf">pdf</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec13/examples">examples</a>)
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2018/lec13/lec13.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2018/lec13/examples">examples</a>)
 </li>
 
 
 <li>
 Lec 14, 9/11:
 Polymorphism: abstract class and virtual methods. Applications.
-(<a href="lec14/lec14.pdf">pdf</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec14/examples0">examples I</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec14/examples1">examples II</a>)
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2018/lec14/lec14.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2018/lec14/examples0">examples I</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2018/lec14/examples1">examples II</a>)
 </li>
 
 <li>
@@ -283,22 +283,22 @@ Lec 15, 13/11:
 Strategy pattern,
 examples and applications: Numerical integration methods. custom Function class.<br>
 Composition pattern, examples and applications: leaf and composites in graphical applications.
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec15/lec15.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec15/examples">examples</a>)
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2018/lec15/lec15.md">md</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2018/lec15/examples">examples</a>)
 </li>
 
 <li>
 Lec 16, 20/11:
 Composition pattern: leaf and composites in graphical applications.
 Example of a solar system simulation with composite objects.
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec16/lec16.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec16/examples">examples</a>)
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2018/lec16/lec16.md">md</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2018/lec16/examples">examples</a>)
 </li>
 
 <li>
 Lec 17, 23/11:
 Composition pattern: examples in high energy phyiscs: tracks, photons, electrons, jets.
-Midterm test (<a href="midterm/midterm.pdf">pdf</a>)
+Midterm test (<a href="https://github.com/rahatlou/CMP/tree/CMP2018/midterm/midterm.pdf">pdf</a>)
 </li>
 
 <li>
