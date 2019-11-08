@@ -108,8 +108,7 @@ Lec 10, 29/10, Data storage with TTree. Input and output. Branches with variable
 Lec 11, 5/11:
 Input/Output of custom class objects with TTree. Reading of TTree created by others: Application for analysis of TTree.
 Creating custom analysis class.
-(<a
-href="https://github.com/rahatlou/CMP/tree/CMP2019/lec11/lec11.md">md</a>,
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec11/lec11.md">md</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec11/examples">examples</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2019/misc/ROOT.md">ROOT setup and configuration</a>)
 </li>
@@ -117,6 +116,10 @@ href="https://github.com/rahatlou/CMP/tree/CMP2019/lec11/lec11.md">md</a>,
 <li>
 Lec 12, 8/11:
 Object oriented programming: Inheritance. Base and derived class.
+Polymorphism with virtual methods.
+Examples of Shape, Particle, Person, Function and their use case.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec12/lec12.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec12/examples">examples</a>)
 </li>
 
 <li>
@@ -125,32 +128,15 @@ finishing Complex class and exercises with ROOT.
 </li>
 
 
-
-<!--
-
 <li>
-Lec 11, 23/10:
-I/O with TTree: variable size arrays. Storing user-defined Class in
-TTree
-(<a href="https://github.com/rahatlou/CMP/blob/master/lec11/lec11.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec11/examples">examples</a>,
-<a
-href="https://github.com/rahatlou/CMP/blob/master/misc/ROOT.md">ROOT setup and configuration</a>)
-<br>
-This lecture has been written with the <a
-href="https://en.wikipedia.org/wiki/Markdown"  target="_blank">Markdown</a>
-language. The graphical viewer is provided by <a
-href="https://github.com"  target="_blank">GitHub</a>
-
-
-
-<li>
-Lec 13, 6/11:
-Object oriented programming: Inheritance. Base and derived class.
-(<a href="lec13/lec13.pdf">pdf</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec13/examples">examples</a>)
+Lec 13, 12/11:
+Polymorphism: abstract class. Applications.
+Strategy pattern: examples and applications: Numerical integration methods. custom Function class.
+Composition pattern: examples and applications: leaf and composites in graphical applications.
 </li>
 
+
+<!--
 
 <li>
 Lec 14, 9/11:
