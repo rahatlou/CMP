@@ -157,15 +157,13 @@ Examples in high energy phyiscs: tracks, photons, electrons, jets.
 Lec 15, 22/11:
 Templates and generic programming in C++. Template functions and classes.
 STL containers. Error handling with exceptions.
+(<a href="https://github.com/rahatlou/CMP/tree/master/lec15/lec15.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/master/lec15/examples">examples</a>)
 </li>
 
 
 
 <!--
-
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec15/lec15.pdf">pdf</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec15/examples">examples</a>)
-
 
 <li>
 Lec 21, 4/12: Introduction to Python. Main differences with C/C++.
