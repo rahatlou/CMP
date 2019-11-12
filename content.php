@@ -131,10 +131,11 @@ finishing Complex class and exercises with ROOT.
 <li>
 Lec 13, 12/11:
 Polymorphism: abstract class. Applications.
-Strategy pattern: examples and applications: Numerical integration methods. custom Function class.
-Composition pattern: examples and applications: leaf and composites in graphical applications.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec13/lec13.pdf">pdf</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec13/examples">examples</a>)
+Strategy pattern: examples and applications: Numerical integration methods. custom Function class.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec13/strategy.md">md</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec13/examples1">examples</a>)
 </li>
 
 
@@ -143,58 +144,27 @@ Lab 03, 18/11 9:30-12:00:
   exercises with ROOT.
 </li>
 
+<li>
+Lec 14, 19/11:
+Composition pattern: examples and applications: leaf and composites in graphical applications.
+Example of a solar system simulation with composite objects.
+Examples in high energy phyiscs: tracks, photons, electrons, jets.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec14/lec14.md">md</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec14/examples">examples</a>)
+</li>
+
+<li>
+Lec 15, 22/11:
+Templates and generic programming in C++. Template functions and classes.
+STL containers. Error handling with exceptions.
+</li>
+
+
+
 <!--
 
-<li>
-Lec 14, 9/11:
-Polymorphism: abstract class and virtual methods. Applications.
-(<a href="lec14/lec14.pdf">pdf</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec14/examples0">examples I</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec14/examples1">examples II</a>)
-</li>
-
-<li>
-Lec 15, 13/11:
-Strategy pattern,
-examples and applications: Numerical integration methods. custom Function class.<br>
-Composition pattern, examples and applications: leaf and composites in graphical applications.
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec15/lec15.md">md</a>,
+(<a href="https://github.com/rahatlou/CMP/tree/master/lec15/lec15.pdf">pdf</a>,
 <a href="https://github.com/rahatlou/CMP/tree/master/lec15/examples">examples</a>)
-</li>
-
-<li>
-Lec 16, 20/11:
-Composition pattern: leaf and composites in graphical applications.
-Example of a solar system simulation with composite objects.
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec16/lec16.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec16/examples">examples</a>)
-</li>
-
-<li>
-Lec 17, 23/11:
-Composition pattern: examples in high energy phyiscs: tracks, photons, electrons, jets.
-Midterm test (<a href="midterm/midterm.pdf">pdf</a>)
-</li>
-
-<li>
-Lec 18, 27/11:
-Templates and generic programming in C++. Template functions and classes.
- (<a href="https://github.com/rahatlou/CMP/tree/master/lec18/lec18.pdf">pdf</a>,
- <a href="https://github.com/rahatlou/CMP/tree/master/lec18/examples">examples</a>)
-</li>
-
-<li>
-Lec 19, 30/11:
-Discussion of midterm test and solution: Pros and cons of using void functions with
-non-const pointers. Polymorphic detectors.
-</li>
-
-<li>
-Lec 20, 3/12:
-Template class. STL containers. Error handling with exceptions.
- (<a href="https://github.com/rahatlou/CMP/tree/master/lec20/lec20.pdf">pdf</a>,
- <a href="https://github.com/rahatlou/CMP/tree/master/lec20/examples">examples</a>)
-</li>
 
 
 <li>
