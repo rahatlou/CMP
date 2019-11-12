@@ -133,8 +133,15 @@ Lec 13, 12/11:
 Polymorphism: abstract class. Applications.
 Strategy pattern: examples and applications: Numerical integration methods. custom Function class.
 Composition pattern: examples and applications: leaf and composites in graphical applications.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec13/lec13.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec13/examples">examples</a>)
 </li>
 
+
+<li>
+Lab 03, 18/11 9:30-12:00:
+  exercises with ROOT.
+</li>
 
 <!--
 
