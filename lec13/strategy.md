@@ -24,7 +24,7 @@ several numerical methods for integration of functions
   - MC method
 
 
-The [Integrator](examples/Integrator.h) class defines the generic strategy
+The [Integrator](examples1/Integrator.h) class defines the generic strategy
 ```c++
   class Integrator {
     public:
@@ -46,7 +46,7 @@ The [Integrator](examples/Integrator.h) class defines the generic strategy
 A pointer to a function is used to integrate the function provided by the user.
 This has to be a standard single-values C function.
 
-In the concrete strategy [MCIntegrator](examples/MCIntegrator.h) we add new methods and data members specific to the concrete strategy with the MC method.
+In the concrete strategy [MCIntegrator](examples1/MCIntegrator.h) we add new methods and data members specific to the concrete strategy with the MC method.
 ```c++
   class MCIntegrator : public Integrator {
 
@@ -63,7 +63,7 @@ In the concrete strategy [MCIntegrator](examples/MCIntegrator.h) we add new meth
 
   };
   ```
-There are two contexts showing the use of the strategy to integrate the exponential ([app1](examples/app1.cc) )and the sinus ([app2](examples/app2.cc)) functions from the math library.
+There are two contexts showing the use of the strategy to integrate the exponential ([app1](examples1/app1.cc) )and the sinus ([app2](examples1/app2.cc)) functions from the math library.
 ```c++
 MCIntegrator mcalgo(100);
 mcalgo.setIntegrand(exp);
@@ -110,7 +110,7 @@ In the previous example we could only integrate single-values C functions.
 
 We now want to modify our integration strategy to integrate our own Function objects using the classes studies in the previous lecture.
 
-The main different is that instead of C-style pointer to function, the new [CustomIntegrator class](examples/CustomIntegrator.h) uses `Function*` for its data member `integrand_`
+The main different is that instead of C-style pointer to function, the new [CustomIntegrator class](examples1/CustomIntegrator.h) uses `Function*` for its data member `integrand_`
 ```c++
 class CustomIntegrator {
   public:
@@ -135,7 +135,7 @@ class CustomIntegrator {
 ```
 Note how we are providing two accessors to use the `integrand_` function.
 
-[Function](examples/Function.h) is our  abstract class for all functions
+[Function](examples1/Function.h) is our  abstract class for all functions
 ```c++
 class Function {
   public:
@@ -148,7 +148,7 @@ class Function {
     std::string name_;
 };
 ```
-And we have implemented one concrete function [Gauss](examples/Gauss.h)
+And we have implemented one concrete function [Gauss](examples1/Gauss.h)
 ```c++
 class Gauss : public Function {
   public:
@@ -162,7 +162,7 @@ class Gauss : public Function {
     double width_;
 };
 ```
-And here is an example of using out base class for functions and integrators ([app11](examples/app11.cc))
+And here is an example of using out base class for functions and integrators ([app11](examples1/app11.cc))
 ```c++
 CustomMCIntegrator cinteg = CustomMCIntegrator();
 Function*  g1 = new Gauss("g1", 0., 1.);
@@ -202,4 +202,4 @@ b: 1
   1. add new methods to Gauss to modify its parameters after it has been created
   1. Add at least a new function class, e.g. Line and exponential
   2. add at least one more numerical integrators
-  3. study the difference between alggorithms for a given function and make plots of the differences with ROOT
+  3. study the difference between algorithms for a given function and make plots of the differences with ROOT
