@@ -16,6 +16,11 @@
 
 		<p>Information about the exam will be available after 12 Nov when the number of students is known.</p>
 
+		<p>A pdf file with the text of the exam will be posted here on
+			<b>Monday 12 November by 15:00</b>. You will have to submit your project
+		following the online procedure by <b>15:00 Wednesay 20 November.</b></p>
+
+
 
 		<a name="20190911"></a>
 		<h2 class="title">Appello 2019-09-11</h2>
