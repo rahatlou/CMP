@@ -17,8 +17,9 @@
 		<p>Information about the exam will be available after 12 Nov when the number of students is known.</p>
 
 		<p>A pdf file with the text of the exam will be posted here on
-			<b>Monday 12 November by 15:00</b>. You will have to submit your project
-		following the online procedure by <b>15:00 Wednesay 20 November.</b></p>
+			<b>Monday 18 November by 15:00</b>. You will have to submit your project
+		following the online procedure by <b>15:00 Wednesay 20 November
+		(<a href="Didattica/cmp/exams/20191118/20191118-cmp-text.pdf">pdf</a>).</b></p>
 
 
 
