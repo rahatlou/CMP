@@ -10,9 +10,9 @@ SimpleBody::SimpleBody(const std::string& name, const double mass, const Vector3
 
 
 void SimpleBody::move(const Vector3D& F, double dt) {
+  pos_ += vel_ * dt;
   Vector3D acc = F/mass_;
   vel_ += acc * dt;
-  pos_ += vel_ * dt;
 
 }
 

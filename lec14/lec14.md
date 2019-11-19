@@ -217,9 +217,9 @@ class Vector3D {
 The key of the code is in the [`move()`](examples/SimpleBody.cc) method which implements the Euler method.
 ```c++
 void SimpleBody::move(const Vector3D& F, double dt) {
+  pos_ += vel_ * dt;
   Vector3D acc = F/mass_;
   vel_ += acc * dt;
-  pos_ += vel_ * dt;
 
 }
 ```
