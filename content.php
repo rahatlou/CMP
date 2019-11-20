@@ -96,6 +96,7 @@ Input/Output with TTree and TFile. Random Generators in ROOT. Using ROOT classes
 
 <li>
 Lab 01, 28/10: Design and implementation of a class for Complex numbers and their algebra.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
 </li>
 
 <li>
@@ -125,6 +126,7 @@ Examples of Shape, Particle, Person, Function and their use case.
 <li>
 Lab 02, 11/11 9:30-12:00:
 finishing Complex class and exercises with ROOT.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
 </li>
 
 
@@ -141,7 +143,8 @@ Strategy pattern: examples and applications: Numerical integration methods. cust
 
 <li>
 Lab 03, 18/11 9:30-12:00:
-  exercises with ROOT.
+Implement numerical integration methods with the Strategy Pattern.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
 </li>
 
 <li>
@@ -161,7 +164,11 @@ STL containers. Error handling with exceptions.
 <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec15/examples">examples</a>)
 </li>
 
-
+<li>
+Lab 04, 25/11 9:30-12:00:
+Input of TTree from file, use of MakeClass for analysis, plots of kinematic variables and invariant mass.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
+</li>
 
 <!--
 
