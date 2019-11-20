@@ -35,7 +35,7 @@ new `Analyser` class
 
 ## Session 3 (18/11/2019)
 The scope of this session is the implementation of at least 2 numerical integration Methods
-with the Strategy Pattern as discussed in [Lec 13](https://github.com/rahatlou/CMP/blob/CMP2019/lec13/lec13.pdf).
+with the [Strategy Pattern](../lec13/strategy.md).
 
 - Implement the trapezoid or midpoint Method
 - Use a function with known primitive, e.f. the exponential, to compare precision of
