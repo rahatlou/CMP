@@ -1,0 +1,31 @@
+# Laboratory sessions
+
+## Session 1 (28/10/2019)
+
+## Session 2 (11/11/2019)
+The scope of this session is to exercise input/output of `TTree` with `TFile`
+
+- Finish implementing class `Complex`
+- prepare dictionary for `Complex` to be used in ROOT  
+- generate 10'000 random `Complex` numbers with magnitude `r<1`
+- create a `TTree` with a single branch that contains a `Complex` object
+- Store the `TTree` to disk with `TFile`
+- Use `TTree::MakeClass("Analyser")` function to generate the `Analyser` class
+from the stored `TTree`
+- write a new analysis application to read back the `TTree ` from file using the
+new `Analyser` class
+
+
+## Session 3 (18/11/2019)
+The scope of this session is the implementation of at least 2 numerical integration Methods
+with the Strategy Pattern as discussed in [Lec 13](https://github.com/rahatlou/CMP/blob/CMP2019/lec13/lec13.pdf).
+
+- Implement the trapezoid or midpoint Method
+- Use a function with known primitive, e.f. the exponential, to compare precision of
+integration with the MC method
+
+
+## Session  4 (25/11/2019)
+The scope of this session is to read a `TTree` provided by someone else and perform data analysis.
+Specifically, the `TTree` with contain generator-level and reconstructed information
+from simulated proton-proton collisions. 
