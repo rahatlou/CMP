@@ -38,30 +38,30 @@ std::map, std::pair, and std::vector. class Vector3D:
  [md](lec09/lec09.md) [examples](lec09/examples)
 
 - Data storage with TTree. Input and output. Branches with variable size:
- [md](lec10/lec10.md)[examples](lec10/examples)
+ [md](lec10/lec10.md) [examples](lec10/examples)
 
 - Input/Output of custom class objects with TTree. Reading of TTree created by others: Application for analysis of TTree. Creating custom analysis class:
- [md](lec11/lec11.md)[examples](lec11/examples)
+ [md](lec11/lec11.md) [examples](lec11/examples)
 
 - Object oriented programming: Inheritance. Base and derived class.
 Polymorphism with virtual methods. Examples of Shape, Particle, Person,
 Function and their use case:
- [pdf](lec12/lec12.pdf)[examples](lec12/examples)
+ [pdf](lec12/lec12.pdf) [examples](lec12/examples)
 
 - Polymorphism: abstract class. Applications:
- [pdf](lec13/lec13.pdf)[examples](lec13/examples)
+ [pdf](lec13/lec13.pdf) [examples](lec13/examples)
 
 - Strategy pattern: examples and applications: Numerical integration methods. custom Function class:
-[md](lec13/strategy.md)[examples](lec13/examples1)
+[md](lec13/strategy.md) [examples](lec13/examples1)
 
 - Composition pattern: examples and applications: leaf and composites in graphical applications.
 Example of a solar system simulation with composite objects.
 Examples in high energy phyiscs: tracks, photons, electrons, jets:
-[md](lec14/lec14.md)[examples](lec14/examples1)
+[md](lec14/lec14.md) [examples](lec14/examples1)
 
 - Templates and generic programming in C++. Template functions and classes.
 STL containers. Error handling with exceptions:
-[pdf](lec15/lec15.pdf)[examples](lec15/examples)
+[pdf](lec15/lec15.pdf) [examples](lec15/examples)
 
 
 - Hands-on exercises in laboratory [md](lab/sessions.md)
