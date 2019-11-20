@@ -8,7 +8,7 @@
 			Reservation is strictly required in order to take the exam.
 		</p>
 
-		<a name="20191118"></a>
+		<a id="20191118"></a>
 		<h2 class="title">Appello Straordinario 2019-11-18</h2>
 		This session is reserved only to <b>fuori corso</b> students.
 		The 2nd years students who are attending regular courses of the I semester <b>cannot</b>
@@ -37,7 +37,7 @@
 
 
 
-		<a name="20190911"></a>
+		<a id="20190911"></a>
 		<h2 class="title">Appello 2019-09-11</h2>
 		<p>A pdf file with the text of the exam will be posted here on
 		  <b>Wednesday 11 September by 15:00</b>. You will have to submit your project
@@ -71,7 +71,7 @@
 		</p>
 		<!-- end 2019-09-11 -->
 
-		<a name="20190708"></a>
+		<a id="20190708"></a>
 	 <h2 class="title">Appello 2019-07-08</h2>
 	 <p>A pdf file with the text of the exam will be posted here on <b>Monday 8 July by 10:00 AM</b>. You will have to submit your project
 	 following the online procedure by <b>10:00 Wednesday 10 July</b>
@@ -104,8 +104,8 @@
 	    </p>
 	 <!-- end 2019-07-08 -->
 
-	 <a name="20190624"></a>
 	 <h2 class="title">Appello 2019-06-24</h2>
+	 <a id="20190624"></a>
 	 <p>A pdf file with the text of the exam will be posted here on <b>Monday 24 June by 8:00 AM</b>. You will have to submit your project
 	 following the online procedure described below by <b>13:00 Wednesday 26 June</b>.
 	 (<a href="Didattica/cmp/exams/20190624/20190624-cmp-text.pdf">pdf</a>)</p>
@@ -135,8 +135,8 @@
 	    </p>
 	 <!-- end 2019-06-24 -->
 
-	 <a name="20190211"></a>
 	 <h2 class="title">Appello 2019-02-11</h2>
+	 <a id="20190211"></a>
 	   <p>A pdf file with the text of the exam will be posted here  after 00:00 on 11 Feb. (<a href="Didattica/cmp/exams/20190211/20190211-cmp-text.pdf">pdf</a>)</p>
 	   <p> See an example of <a href="https://github.com/rahatlou/CMP/tree/master/exams/20190211">possible solutions</a>.</p>
 
@@ -163,8 +163,8 @@
 	             </ul>
 		<!-- end 2019-02-11 -->
 
-		<a name="20190128"></a>
 		<h2 class="title">Appello 2019-01-28</h2>
+		<a id="20190128"></a>
 		  <p>A pdf file with the text of the exam will be posted here  after 00:00 on 28 Jan. (<a href="Didattica/cmp/exams/20190128/20190128-cmp-text.pdf">pdf</a>).
 		  <p> See an example of <a href="https://github.com/rahatlou/CMP/tree/master/exams/20190128">possible solutions</a> provied by Federico Morodei for C++ and Alessandro Novelli for python.
 
