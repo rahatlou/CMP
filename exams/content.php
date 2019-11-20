@@ -22,6 +22,20 @@
 		(<a href="Didattica/cmp/exams/20191118/20191118-cmp-text.pdf">pdf</a>).</b></p>
 
 
+		<p>Projects can be submitted with the following online procedure
+		  <ul>
+		    <li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
+		      with your Sapienza credentials. (if you are already logged in with your personal gmail account, you must first log out)</li>
+		   <li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVeblHpqzcOz6q1SYS2sVGcss6BF0DZlB6RNJOCjEMOW0Hhg/viewform?usp=sf_link">google form for Appello 2019-11-18</a> </li>
+		   <li>You can submit only one zip file containinng your files</li>
+		   <li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
+		   <li>The form will be open for submission until <b>Wednesday 20 Nov 15:00</b>.</li>
+		 </ul>
+		</p>
+
+
+
+
 
 		<a name="20190911"></a>
 		<h2 class="title">Appello 2019-09-11</h2>
