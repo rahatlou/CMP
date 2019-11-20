@@ -58,7 +58,8 @@ Lec 04, 4/10: Header and source files. Dynamic memory allocation. Destructor. Us
 </li>
 
 <li>
-Lec 05, 8/10: Destructor. const member functions. Default arguments for functions. Applications in C++. Arguments from command line. external libraries. Introduction to ROOT.
+Lec 05, 8/10: Destructor. const member functions. Default arguments for functions.
+Applications in C++. Arguments from command line. external libraries. Introduction to ROOT.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec05/lec05.pdf">pdf</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec05/examples">examples</a>)
 </li>
