@@ -1,9 +1,9 @@
 # Laboratory sessions
 
 ## Session 1 (28/10/2019)
-In this first session we design and implement a new class `Complex` to impelement
+In this first session we design and implement a new class `Complex` to implement
 mathematical operations between `Complex` and regular `double` objects.
-- overload operators `+,-,*,/` between `Complex` objects and operator `>>` for output
+- overload operators `+,-,*,/` between `Complex` objects and operator `<<` for output
 ```c++
 Complex a(-1,2), b(0.5, 0.9);
 Complex c = a/b;
