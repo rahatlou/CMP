@@ -57,7 +57,7 @@ Function and their use case:
 - Composition pattern: examples and applications: leaf and composites in graphical applications.
 Example of a solar system simulation with composite objects.
 Examples in high energy phyiscs: tracks, photons, electrons, jets:
-[md](lec14/lec14.md) [examples](lec14/examples1)
+[md](lec14/lec14.md) [examples](lec14/examples)
 
 - Templates and generic programming in C++. Template functions and classes.
 STL containers. Error handling with exceptions:
