@@ -110,8 +110,8 @@ by looking at some basic variables
 ```
 
 ## Reminder
+- The [pseudorapidity](https://en.wikipedia.org/wiki/Pseudorapidity) for relativistic particles is a kinematic vatriable related to the angle between the momentum and the direction of the beam.
 - The invariant mass for two relativistic particles (`E>>m`) using the `Pt,\eta,\phi` coordinates is given by `M^2 = 2 Pt1 Pt2 (\cosh(\eta-\eta2) - \cos(\phi1-\phi2))`
-
 - The MonteCarlo ID numbers for Standard Model particle used the PDG numbering scheme [pdf](http://pdg.lbl.gov/2007/reviews/montecarlorpp.pdf).
 
 ## Exercise
