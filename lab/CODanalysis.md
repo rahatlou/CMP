@@ -109,7 +109,7 @@ by looking at some basic variables
 ```
 
 ## Reminder
-The invariant mass for two relativistic particles (`E>>m`)
+The invariant mass for two relativistic particles (`E>>m`) using the `Pt,\eta,\phi` coordinates is given by `M^2 = 2 Pt1 Pt2 (\cosh(\eta-\eta2) - \cos(\phi1-\phi2))`
 
 ## Exercise
   1. use the `TLorentzVecotor` class of ROOT to manipulate the 4-momentum of the
