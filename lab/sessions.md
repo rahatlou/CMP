@@ -45,4 +45,4 @@ integration with the MC method
 ## Session  4 (25/11/2019)
 The scope of this session is to read a `TTree` provided by someone else and perform data analysis.
 Specifically, the `TTree` with contain generator-level and reconstructed information
-from simulated proton-proton collisions.
+from simulated proton-proton collisions. All details at [CODAnalysis.md](CODAnalysis.md)
