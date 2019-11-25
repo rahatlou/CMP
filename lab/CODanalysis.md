@@ -1,7 +1,7 @@
 
 # Using TTree provided by others
 
-In this example we use a root file ([codTree_QCD_Pt_1400to1800.root](codTree_QCD_Pt_1400to1800.root)) produced on simulated proton-proton
+In this example we use a root file ([examples/codTree_QCD_Pt_1400to1800.root](examples/codTree_QCD_Pt_1400to1800.root)) produced on simulated proton-proton
 collisions at the CERN
 [Large Hadron Collider](https://home.cern/topics/large-hadron-collider)
 and using the [CMS experiment](http://cms.cern). These data are provided
