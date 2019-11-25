@@ -40,25 +40,25 @@ g++ -c Analysis.C `root-config --cflags`
 4. Write a new application
    `analyser.cc` to use the new `Analysis` class.
    The constructor of `Analysis` object needs a valid pointer to the tree. This is the code needed in `analyser.cc` to obtain such a pointer
-   ```c++
+```c++
    // ==== open TFile
-TString fname("name of file with full or relative path");
-TFile* rootfile = TFile::Open(fname);
-if( !rootfile->IsOpen() ) {
-  std::cout << "problems reading root file. existing... " << std::endl;
-  exit(-1);
-}
-std::cout << "reading data from " << fname << std::endl;
+   TString fname("name of file with full or relative path");
+   TFile* rootfile = TFile::Open(fname);
+   if( !rootfile->IsOpen() ) {
+     std::cout << "problems reading root file. existing... " << std::endl;
+     exit(-1);
+   }
+   std::cout << "reading data from " << fname << std::endl;
 
-//=== pointer to TTree
-// get pointer to tree object stored in the file
-// you can also acquire the name of the tree from command line
-TDirectoryFile* dir = (TDirectoryFile*)rootfile->Get("codana");
-TTree* tree = (TTree*) dir->Get("codtree");
-if(!tree) {
-  std::cout << "null pointer for TTree! exiting..." << std::endl;
-  exit(-1);
-}
+   //=== pointer to TTree
+   // get pointer to tree object stored in the file
+   // you can also acquire the name of the tree from command line
+   TDirectoryFile* dir = (TDirectoryFile*)rootfile->Get("codana");
+   TTree* tree = (TTree*) dir->Get("codtree");
+   if(!tree) {
+     std::cout << "null pointer for TTree! exiting..." << std::endl;
+     exit(-1);
+   }
 ```
 
 5. Finally start analysing the data by changing `Analysis::Loop` in
@@ -107,6 +107,10 @@ by looking at some basic variables
 
    } // end of events
 ```
+
+## Reminder
+The invariant mass for two relativistic particles (`E>>m`)
+
 ## Exercise
   1. use the `TLorentzVecotor` class of ROOT to manipulate the 4-momentum of the
   particles in the `TTree` and compute the invariant mass.
