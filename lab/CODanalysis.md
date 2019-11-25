@@ -60,6 +60,7 @@ g++ -c Analysis.C `root-config --cflags`
      exit(-1);
    }
 ```
+  A working example is available at [examples/analyser.cc](examples/analyser.cc)
 
 5. Finally start analysing the data by changing `Analysis::Loop` in
 `Analysis.C`
@@ -109,7 +110,9 @@ by looking at some basic variables
 ```
 
 ## Reminder
-The invariant mass for two relativistic particles (`E>>m`) using the `Pt,\eta,\phi` coordinates is given by `M^2 = 2 Pt1 Pt2 (\cosh(\eta-\eta2) - \cos(\phi1-\phi2))`
+- The invariant mass for two relativistic particles (`E>>m`) using the `Pt,\eta,\phi` coordinates is given by `M^2 = 2 Pt1 Pt2 (\cosh(\eta-\eta2) - \cos(\phi1-\phi2))`
+
+- The MonteCarlo ID numbers for Standard Model particle used the PDG numbering scheme [pdf](http://pdg.lbl.gov/2007/reviews/montecarlorpp.pdf).
 
 ## Exercise
   1. use the `TLorentzVecotor` class of ROOT to manipulate the 4-momentum of the
