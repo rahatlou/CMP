@@ -171,6 +171,22 @@ Input of TTree from file, use of MakeClass for analysis, plots of kinematic vari
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
 </li>
 
+<li>
+Lec 16, 26/11:
+Makefile: usage and examples.
+Introduction to Python. Main differences with C/C++.
+Introduction to <a href="https://jupyter.org">jupyter</a>.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec16/lec16.md">md</a>,
+<a href="https://github.com/rahatlou/CMP/tree/master/lec16/examples">examples</a>)
+(<a href="https://github.com/rahatlou/CMP/tree/master/misc/DownloadNotebook.md">HOWTI download the lecture notebook</a>)
+</li>
+
+<li>
+Lec 17, 29/11: basics of python: semantics, flow control, data types, functions, modules.
+data types in python: sequences. Lists, Tuples. Example of plotting with matplotlib
+</li>
+
+
 <!--
 
 <li>
