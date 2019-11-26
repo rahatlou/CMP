@@ -187,6 +187,10 @@ data types in python: sequences. Lists, Tuples. Example of plotting with matplot
 </li>
 
 
+<li>
+Lab 05, 2/12 9:30-12:00: exercise with ROOT and C++
+</li>
+
 <!--
 
 <li>
