@@ -55,22 +55,20 @@ Function and their use case:
 [md](lec13/strategy.md) [examples](lec13/examples1)
 
 - Composition pattern: examples and applications: leaf and composites in graphical applications.
-Example of a solar system simulation with composite objects.
-Examples in high energy phyiscs: tracks, photons, electrons, jets:
+Example of a solar system simulation with composite objects:
 [md](lec14/lec14.md) [examples](lec14/examples)
 
 - Templates and generic programming in C++. Template functions and classes.
 STL containers. Error handling with exceptions:
 [pdf](lec15/lec15.pdf) [examples](lec15/examples)
 
-- Makefile: usage and examples
+- Makefile: usage and examples: [md](makefile/makefile.md)
 
 - Introduction to Python. Main differences with C/C++. Introduction to [jupyter](https://jupyter.org):
 [md](lec16/lec16.md), [examples](lec16/examples)
 
 
-
-- Hands-on exercises in laboratory [md](lab/sessions.md)
+- Hands-on exercises in laboratory: [md](lab/sessions.md)
 
 <!--
 
