@@ -41,6 +41,15 @@ target: prerequisites ...
   ...
 
 ```
+### __Do Not Forget__
+- you must use a [TAB] keystroke before the *recipe*. Using simple space keystrokes
+will cause errors with make.
+- the file must be called `Makefile` or `makefile`. Anything else will not work. So `MakeFile` (with capital `F`) will not be understood
+- If your makefile has a different name (for unusual reasons) or you have several of them you can use the `-f` option
+```shell
+make -f Makefile.3 all
+make -f Makefile.4 clean
+```
 
 ## First simple example from lec13
 
@@ -57,7 +66,7 @@ we have 3 applications `app1.cc`, `app11.cc`, and `app2.cc` which depend on diff
 
 
 
-### Makefile for application `app1`
+### A first example of Makefile
 In order to build the app
 ```shell
 g++ MCIntegrator.cc app1.cc -o app1
