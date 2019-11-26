@@ -63,6 +63,8 @@ Examples in high energy phyiscs: tracks, photons, electrons, jets:
 STL containers. Error handling with exceptions:
 [pdf](lec15/lec15.pdf) [examples](lec15/examples)
 
+- Makefile: usage and examples
+
 - Introduction to Python. Main differences with C/C++. Introduction to [jupyter](https://jupyter.org):
 [md](lec16/lec16.md), [examples](lec16/examples)
 
@@ -80,8 +82,6 @@ TTree:
     [WriteReadTree.ipynb](lec11/WriteReadTree.ipynb)  (you need
     jupyter installed on your machine. See [https://jupyter.org](https://jupyter.org). Both ROOT and jupyter must use the same version of python.)
 
-- Introduction to Python. Main differences with C/C++. Introduction to [jupyter](https://jupyter.org):
-[md](lec21/lec21.md), [examples](lec21/examples)
 
 - Python basics: semantics, flow control, built-in, functions, modules. Inline help: [md](lec22/README.md), [examples](lec22/examples)
 
