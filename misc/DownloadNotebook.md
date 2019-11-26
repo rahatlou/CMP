@@ -1,7 +1,7 @@
 # How to download a jupyter notebook
-In this example we want to download [lec22.ipynb](https://github.com/rahatlou/CMP/blob/master/lec22/lec22.ipynb)
+In this example we want to download [example2.ipynb](https://github.com/rahatlou/CMP/blob/CMP2019/lec16/examples/example2.ipynb)
 
-## Go to [lec22.ipynb](https://github.com/rahatlou/CMP/blob/master/lec22/lec22.ipynb)
+## Go to [lec16/examples/example2.ipynb](https://github.com/rahatlou/CMP/blob/CMP2019/lec16/examples/example2.ipynb)
 
 ## View the __Raw__ notebook (not rendered by GitHub)
 ![view raw format](pynb-raw.png "click on Raw")
@@ -11,5 +11,5 @@ In this example we want to download [lec22.ipynb](https://github.com/rahatlou/CM
 
 ## From the command line you can now run the DownloadNotebook
 ```
-jupyter notebook lec22.ipynb
+jupyter notebook example2.ipynb
 ```

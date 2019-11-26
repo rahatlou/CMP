@@ -177,8 +177,8 @@ Makefile: usage and examples.
 Introduction to Python. Main differences with C/C++.
 Introduction to <a href="https://jupyter.org">jupyter</a>.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec16/lec16.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec16/examples">examples</a>)
-(<a href="https://github.com/rahatlou/CMP/tree/master/misc/DownloadNotebook.md">HOWTI download the lecture notebook</a>)
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec16/examples">examples</a>)
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/misc/DownloadNotebook.md">HOWTO download the lecture notebook</a>)
 </li>
 
 <li>
