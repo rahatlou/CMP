@@ -118,7 +118,23 @@ app1.cc   app11.cc  app2.cc
 ```
 ### special target *all*
 
-If we want to always build all executables by default we can introduce a first target `all`
+If we want to always build all executables by default we can introduce a first target `all` that has all
+other targets as prerequisites.
+```make
+CXX:=g++
+
+all: app1 app2 app11
+
+app1: app1.cc MCIntegrator.cc
+
+app2: app2.cc MCIntegrator.cc
+
+app11: app11.cc  CustomMCIntegrator.cc  Function.cc  Gauss.cc
+
+clean:
+	rm -f app1 app2 app11
+```
+now by default all executables are built
 ```make
 $ make
 g++     app1.cc MCIntegrator.cc   -o app1
