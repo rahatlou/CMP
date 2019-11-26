@@ -56,7 +56,7 @@
   - Largely used and considered one of the top 5 or top 10 programming languages world wide
   - widely used in web programming
     - used by Google in web search  systems
-    - youtube largeky written in python
+    - youtube largely written in python
   - Pixar uses python for animated movies
   - Civilization IV events written in python
   - Netflix uses python for software infrastructure
@@ -64,7 +64,7 @@
 
 ## Python in science
   - widely used for data analysis and many packages for advanced machine learning techniques
-    - we will learn to use NumPy, pandas, matplotlib, scikit-learn
+    - we will learn to use `NumPy`, `pandas`, `matplotlib`, `scikit-learn`
   - ROOT now has a python interface to do analysis
     - I/O of TTree and other ROOT objects
   - python used as configuration language for all executables a large LHC experiments
@@ -100,13 +100,12 @@
 
 ## First program with python
 
-Python has an interactive Interface. Reminder: it is interpreted not compiled
-```
+Python has an interactive Interface. *Reminder: it is interpreted not compiled*
+```python
 $ python3
 Python 3.7.0 (default, Oct  2 2018, 09:20:07)
 [Clang 10.0.0 (clang-1000.11.45.2)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
-```
 ```python
 >>> print ("Finally python")
 Finally python
@@ -155,8 +154,8 @@ print('a = {0}, b = {1}, c = {2}'.format( a, b, c) )
 ```
 You see that we can start a line with `#` to add comments
 
-To run the programmer
-```
+To run your program
+```shell
 $ python example1.py
 (2.3, 4.5, 0.5111111111111111)
 ('c = a/b = ', 0.5111111111111111)
@@ -164,7 +163,8 @@ a = 2.3, b = 4.5, c = 0.511111111111
 a = 2.3, b = 4.5, c = 0.511111111111
 ```
 or
-```
+
+```shell
 $ python3 example1.py
 2.3 4.5 0.5111111111111111
 c = a/b =  0.5111111111111111
