@@ -63,6 +63,10 @@ Examples in high energy phyiscs: tracks, photons, electrons, jets:
 STL containers. Error handling with exceptions:
 [pdf](lec15/lec15.pdf) [examples](lec15/examples)
 
+- Introduction to Python. Main differences with C/C++. Introduction to [jupyter](https://jupyter.org):
+[md](lec16/lec16.md), [examples](lec16/examples)
+
+
 
 - Hands-on exercises in laboratory [md](lab/sessions.md)
 
