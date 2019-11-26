@@ -115,5 +115,9 @@ by looking at some basic variables
 - The MonteCarlo ID numbers for Standard Model particle used the PDG numbering scheme [pdf](http://pdg.lbl.gov/2007/reviews/montecarlorpp.pdf).
 
 ## Exercise
-  1. use the `TLorentzVecotor` class of ROOT to manipulate the 4-momentum of the
+  1. use the `TLorentzVector` class of ROOT to manipulate the 4-momentum of the
   particles in the `TTree` and compute the invariant mass.
+  1. make a plot of the distribution of energy for all particles in `genPart`
+  1. make a plot of the pt, eta, and phi distribution of all particles in the `genPart` block
+  1. make a plot of the invariant mass of all particles in the `genPart` block, making sure to remove the protons (pdgId=2212)
+  1. make a plot of the eta distribution for all particles with pt<500 GeV and another plot for those with pt>500 GeV
