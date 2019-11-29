@@ -183,9 +183,11 @@ Introduction to <a href="https://jupyter.org">jupyter</a>.
 
 <li>
 Lec 17, 29/11:
-Makefile: custom recipes, variables and functions, external libraries. 
+Makefile: custom recipes, variables and functions, building libraries. (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/makefile/makefile.md">md</a>, <a href="https://github.com/rahatlou/CMP/tree/CMP2019/makefile/examples/">examples</a>)
 Basics of python: semantics, flow control, data types, functions, modules.
 data types in python: sequences. Lists, Tuples. Example of plotting with matplotlib
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec17/lec17.ipynb">jupyter notebook</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec17/examples">examples</a>)
 </li>
 
 

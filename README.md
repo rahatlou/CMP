@@ -67,6 +67,8 @@ STL containers. Error handling with exceptions:
 - Introduction to Python. Main differences with C/C++. Introduction to [jupyter](https://jupyter.org):
 [md](lec16/lec16.md), [examples](lec16/examples)
 
+- Python basics: semantics, flow control, built-in, functions, modules. Inline help: [md](lec17/README.md), [examples](lec17/examples)
+
 
 - Hands-on exercises in laboratory: [md](lab/sessions.md)
 
