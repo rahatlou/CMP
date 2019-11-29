@@ -1,1 +1,12 @@
-Makefile.4
+CXX:=g++
+
+all: app1 app2 app11
+
+app1: app1.cc MCIntegrator.cc
+
+app2: app2.cc MCIntegrator.cc
+
+app11: app11.cc  CustomMCIntegrator.cc  Function.cc  Gauss.cc
+
+clean:
+	rm -f app1 app2 app11 *.o

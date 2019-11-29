@@ -1,0 +1,26 @@
+CXX := g++
+
+# files that are compiled AND linked to create an application
+APPS := app1.cc app2.cc app11.cc
+
+# binaries are appications to run from the command line, linked from APPS
+BINS := $(APPS:%.cc=%)
+
+# source files are only compiled, typically one file for each class
+SRCS := $(filter-out $(APPS), $(wildcard *.cc))
+
+# name of object files generated automatically from source files
+OBJS := $(subst .cc,.o, $(SRCS))
+
+# name of our library
+OURLIB := CMP
+LIBFILE := lib$(OURLIB).a
+
+# compilation and linking options
+LDFLAGS += -L. -l$(OURLIB)
+
+list:
+	@echo "source files:\t" $(SRCS)
+	@echo "objects files:\t" $(OBJS)
+	@echo "applications:\t" $(APPS)
+	@echo "executables:\t" $(BINS)
