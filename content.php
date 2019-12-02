@@ -185,39 +185,32 @@ Introduction to <a href="https://jupyter.org">jupyter</a>.
 Lec 17, 29/11:
 Makefile: custom recipes, variables and functions, building libraries. (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/makefile/makefile.md">md</a>, <a href="https://github.com/rahatlou/CMP/tree/CMP2019/makefile/examples/">examples</a>)
 Basics of python: semantics, flow control, data types, functions, modules.
-data types in python: sequences. Lists, Tuples. Example of plotting with matplotlib
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec17/lec17.ipynb">jupyter notebook</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec17/examples">examples</a>)
 </li>
 
 
 <li>
-Lab 05, 2/12 9:30-12:00: study of energy loss by ionisation and the Bragg peak in matter 
+Lab 05, 2/12 9:30-12:00: study of energy loss by ionisation and the Bragg peak in matter
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
 </li>
 
+<li>
+Lec 18, 2/12: data types in python: sequences. Lists, Tuples. Example of
+plotting with matplotlib
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec18/lec18.ipynb">jupyter notebook</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec18/examples">examples</a>)
+</li>
+
+<li>
+Lec 19, 6/12: data types in python: Dictionaries and sets. Comprehensions.
+data anlaysis with sets, lists, dicts. Plotting a histogram. revisiting example from
+previous lecture.
+</li>
+
+
 <!--
 
-<li>
-Lec 21, 4/12: Introduction to Python. Main differences with C/C++.
-Introduction to <a href="https://jupyter.org">jupyter</a>.
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec21/lec21.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec21/examples">examples</a>)
-<a href="https://github.com/rahatlou/CMP/tree/master/misc/DownloadNotebook.md">Instructions for downloading the lecture notebook</a>
-</li>
-
-<li>
-Lec 22, 7/12: basics of python: semantics, flow control, data types, functions, modules.
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec22/lec22.ipynb">nb</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec22/examples">examples</a>)
-</li>
-
-<li>
-Lec 23, 10/12: data types in python: sequences. Lists, Tuples. Example of
-plotting with matplotlib
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec23/README.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec23/examples">examples</a>)
-</li>
 
 <li>
 Lec 24, 11/12: data types in python: Dictionaries and sets. Comprehensions.
