@@ -50,6 +50,31 @@ from simulated proton-proton collisions. All details at [CODanalysis.md](CODanal
 ## Session 5 (2/12/2019)
 Today we simulate the energy loss by ionisation to see the Bethe-Bloch distribution and reproduce the Bragg Peak for the heavy particles.
 
+- define a class Detector with at least density and length as data members and a function *interaction()* to compute dE/dx
+  - for simplicity  assume average values for ionisation energy I and Z/A ~ 2
+  - You can otherwise have A, Z, I as data members of the class Detector or even define another class *Material*.
+  - as a reference we want to study the distributions in water, Pb, and air.
+
 - Use the [Bethe-Bloch](http://pdg.lbl.gov/2009/reviews/rpp2009-rev-passage-particles-matter.pdf) formula
-to compute the average energy loss by ionsation.
-- Emulate the effective energyloss as a Gaussian with the mean given by Bethe-Bloch and a width of 10%-(5%/1000)*\beta\gamma
+to compute the average energy loss by ionisation.
+- Emulate the effective energy loss as a Gaussian with the mean given by Bethe-Bloch and a width of
+5% - (\beta\gamma/1000) * 10%.
+- check the proper implementation of your class and Bethe-Bloch function by making a 2D plot of energy loss as a function of \beta\gamma.
+    - Use TH2F, TGraph, or TProfile  for plotting
+    - check that the energy loss, normalized to the density, is universal across different material
+
+Now we want to see the Bragg peak.
+
+- Use a proton with momentum of 5 MeV going through a target of water
+- compute the energy loss and plot the energy loss de/dx as a function of penetration path in the material
+- you should now see a peak right before the proton is stopped in the material
+
+We can now study the Bragg peak for different material, particle types and momenta.
+- material: water, Fe, air
+- particles: muon, proton, alpha particle, 12C nucleus
+- momentum: 5 MeV, 50 MeV, 500 MeV, 5 GeV
+
+As an example make the following 2 plots
+1. for a water detector and initial momentum of 5 MeV, show dE/dx as a function of the path for different types of particles.
+use different color or line type to distinguish the  particles.
+2. for a water detector make the same plots only for protons, but for the various values of momentum. use different color and line type to show different momenta
