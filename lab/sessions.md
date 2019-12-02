@@ -46,3 +46,10 @@ integration with the MC method
 The scope of this session is to read a `TTree` provided by someone else and perform data analysis.
 Specifically, the `TTree` with contain generator-level and reconstructed information
 from simulated proton-proton collisions. All details at [CODanalysis.md](CODanalysis.md)
+
+## Session 5 (2/12/2019)
+Today we simulate the energy loss by ionisation to see the Bethe-Bloch distribution and reproduce the Bragg Peak for the heavy particles.
+
+- Use the [Bethe-Bloch](http://pdg.lbl.gov/2009/reviews/rpp2009-rev-passage-particles-matter.pdf) formula
+to compute the average energy loss by ionsation.
+- Emulate the effective energyloss as a Gaussian with the mean given by Bethe-Bloch and a width of 10%-(5%/1000)*\beta\gamma
