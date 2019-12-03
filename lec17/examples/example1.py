@@ -1,4 +1,7 @@
 # this is my first module
+
+print("trying simple examples in example1.py")
+
 a = 2.3
 b = 4.5
 c = a/b

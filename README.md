@@ -67,25 +67,15 @@ STL containers. Error handling with exceptions:
 - Introduction to Python. Main differences with C/C++. Introduction to [jupyter](https://jupyter.org):
 [md](lec16/lec16.md), [examples](lec16/examples)
 
-- Python basics: semantics, flow control, built-in, functions, modules. Inline help: [md](lec17/README.md), [examples](lec17/examples)
+- Python basics: semantics, flow control, built-in, functions, modules. Inline help: [jupyter notebook](lec17/lec17.ipynb), [examples](lec17/examples)
+
+
+- Data structure in python: sequences. Lists, Tuples.  Example of plotting with matplotlib. Motion of a body under gravity: [jupyter notebook](lec18/lec18.ipynb), [examples](lec18/examples)
 
 
 - Hands-on exercises in laboratory: [md](lab/sessions.md)
 
 <!--
-
-- I/O with TTree: variable size arrays. Storing user-defined Class in
-TTree:
-[md](lec11/lec11.md), [examples](lec11/examples)
-  * jupyter notebook for interactive example of writing and ready a
-    TTree with variable size arrays
-    [WriteReadTree.ipynb](lec11/WriteReadTree.ipynb)  (you need
-    jupyter installed on your machine. See [https://jupyter.org](https://jupyter.org). Both ROOT and jupyter must use the same version of python.)
-
-
-- Python basics: semantics, flow control, built-in, functions, modules. Inline help: [md](lec22/README.md), [examples](lec22/examples)
-
-- Data structure in python: sequences. Lists, Tuples.  Example of plotting with matplotlib. Motion of a body under gravity: [md](lec23/README.md), [examples](lec23/examples)
 
 - Data types in python: Dictionaries and sets. Comprehensions.
 data analysis with sets, lists, dicts. Plotting a histogram. revisiting example from
