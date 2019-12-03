@@ -72,6 +72,10 @@ STL containers. Error handling with exceptions:
 
 - Data structure in python: sequences. Lists, Tuples.  Example of plotting with matplotlib. Motion of a body under gravity: [jupyter notebook](lec18/lec18.ipynb), [examples](lec18/examples)
 
+- Data types in python: Dictionaries and sets. Comprehensions.
+data analysis with sets, lists, dicts. Plotting a histogram. NumPy arrays: revisiting motion of a body under gravity. Animated plots with matplotlib. Function with multiple return values in python : [jupyter notebook](lec19/lec19.ipynb), [examples](lec19/examples)
+
+
 
 - Hands-on exercises in laboratory: [md](lab/sessions.md)
 

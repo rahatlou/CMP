@@ -197,34 +197,20 @@ Lab 05, 2/12 9:30-12:00: study of energy loss by ionisation and the Bragg peak i
 
 <li>
 Lec 18, 2/12: data types in python: sequences. Lists, Tuples. Example of
-plotting with matplotlib
+plotting with matplotlib. Dictionaries.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec18/lec18.ipynb">jupyter notebook</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec18/examples">examples</a>)
 </li>
 
 <li>
-Lec 19, 6/12: data types in python: Dictionaries and sets. Comprehensions.
-data anlaysis with sets, lists, dicts. Plotting a histogram. revisiting example from
-previous lecture.
+Lec 19, 6/12: Data types in python: Dictionaries and sets. Comprehensions.
+data analysis with sets, lists, dicts. Plotting a histogram. NumPy arrays:
+revisiting motion of a body under gravity. Animated plots with matplotlib.
+Function with multiple return values in python 
 </li>
 
 
 <!--
-
-
-<li>
-Lec 24, 11/12: data types in python: Dictionaries and sets. Comprehensions.
-data anlaysis with sets, lists, dicts. Plotting a histogram. revisiting example from
-previous lecture.
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec24/README.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec24/examples">examples</a>)
-</li>
-
-<li>
-Lec 25, 14/12: More on Functions in python. Animated plots with matplotlib.
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec25/README.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec25/examples">examples</a>)
-</li>
 
 <li>
 Lec 26, 21/12: Numpy and array-oriented programming with ndarray. Example of random walk with arrays.
