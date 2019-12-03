@@ -1,6 +1,6 @@
 import mymodule
 
-print("++++ executing name space "+ __name__ +  __file__)
+print("++++ executing namespace " + __name__ + " in file: " +  __file__)
 
 # local a variable
 a = 'test string'
