@@ -28,9 +28,9 @@
 <h2 class="title">Evaluation of the course by students (OPIS)</h2>
   <p>All students attending the course are kindly invited to fill the short survey on the
   evaluation of the course (OPIS) using the following code number.</p>
-  <img src="Didattica/cmp/OPIS-CMP.png" width=90%>
+  <img src="Didattica/cmp/OPIS-CMP.png" width=95%>
 
-  <p>See the <a href="https://www.uniroma1.it/sites/default/files/field_file_allegati/vadevecum_opis_eng_27_11_2018_002_modalita_compatibilita.pdf">instrutions</a> on filling the survey.</p>
+  <p>See the <a href="https://www.uniroma1.it/sites/default/files/field_file_allegati/vadevecum_opis_eng_27_11_2018_002_modalita_compatibilita.pdf">instructions</a> on filling the survey.</p>
 
 
 <h2 class="title">Material</h2>
