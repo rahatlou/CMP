@@ -25,6 +25,12 @@
    <p>You must use your uniroma1 credentials. In case of problems, please restart your browser  or log out of your private google account before accessing the form.</p>
 */ ?>
 
+<h2 class="title">Evaluation of the course by students (OPIS)</h2>
+  <p>All students attending the course are kindly invited to fill the short survey on the
+  evaluation of the course (OPIS) using the following code number.</p>
+  <img src="Didattica/cmp/OPIS-CMP.png" width=90%>
+
+  <p>See the <a href="https://www.uniroma1.it/sites/default/files/field_file_allegati/vadevecum_opis_eng_27_11_2018_002_modalita_compatibilita.pdf">instrutions</a> on filling the survey.</p>
 
 
 <h2 class="title">Material</h2>
@@ -206,7 +212,9 @@ plotting with matplotlib. Dictionaries.
 Lec 19, 6/12: Data types in python: Dictionaries and sets. Comprehensions.
 data analysis with sets, lists, dicts. Plotting a histogram. NumPy arrays:
 revisiting motion of a body under gravity. Animated plots with matplotlib.
-Function with multiple return values in python 
+Function with multiple return values in python
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec19/lec19.ipynb">jupyter notebook</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec19/examples">examples</a>)
 </li>
 
 
