@@ -80,7 +80,7 @@ use different color or line type to distinguish the  particles.
 2. for a water detector make the same plots only for protons, but for the various values of momentum. use different color and line type to show different momenta
 
 ## Session 6  (9/12/2019)
-In this first session on python,  we simulate the motion of an object in 3D under the effect of gravity.  Use `matplotlib.mplot3D` module for 3D graphics.
+In this first session on python,  we simulate the motion of an object in 3D under the effect of gravity.  Use [`matplotlib.mplot3D`](https://matplotlib.org/mpl_toolkits/mplot3d/tutorial.html) module for 3D graphics.
 1. implement motion with analytical method and plot the trajectory
 2. implement motion with Euler method and plot the trajectory with a different color
 3. Plot the distributions of the residuals for `x`, `y`, and `z` coordinates as `(euler-analytical)/analytical`
