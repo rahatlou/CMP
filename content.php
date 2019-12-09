@@ -217,26 +217,30 @@ Function with multiple return values in python
 <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec19/examples">examples</a>)
 </li>
 
+<li>
+Lab 06, 9/12 9:30-12:00: motion in 3D wih friction
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
+</li>
+
+
+<li>
+Lec 20, 10/12: Numpy and array-oriented programming with ndarray. Example of random walk with arrays.
+File I/O and handling in python. Functions with variable number of arguments.
+Command line arguments for python programs
+</li>
+
+<li>
+Lec 21, 13/12: Classes, inheritance, and polymorphism in Python
+</li>
+
+<li>
+Lab 07, 16/12 9:30-12:00: python
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
+</li>
+
+
 
 <!--
-
-<li>
-Lec 26, 21/12: Numpy and array-oriented programming with ndarray. Example of random walk with arrays.
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec26/README.md">md</a>)
-</li>
-
-<li>
-Lec 27, 8/1: Classes, inheritance, and polymorphism in Python
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec27/README.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec27/examples">examples</a>)
-</li>
-
-<li>
-Lec 28, 11/1: File I/O and handling in python. Functions with variable number of arguments.
-Command line arguments for python programs
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec28/README.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec28/examples">examples</a>)
-</li>
 
 <li>
 Lec 29, 14/1: Photons and hadronic jets in proton collisions.
