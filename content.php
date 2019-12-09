@@ -218,7 +218,7 @@ Function with multiple return values in python
 </li>
 
 <li>
-Lab 06, 9/12 9:30-12:00: motion in 3D wih friction
+Lab 06, 9/12 9:30-12:00: motion in 3D with friction
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
 </li>
 
