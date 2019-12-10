@@ -226,7 +226,9 @@ Lab 06, 9/12 9:30-12:00: motion in 3D with friction
 <li>
 Lec 20, 10/12: Numpy and array-oriented programming with ndarray. Example of random walk with arrays.
 File I/O and handling in python. Functions with variable number of arguments.
-Command line arguments for python programs
+Command line arguments for python programs.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec20/lec20.ipynb">jupyter notebook</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec20/examples">examples</a>)
 </li>
 
 <li>
