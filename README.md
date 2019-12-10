@@ -75,6 +75,9 @@ STL containers. Error handling with exceptions:
 - Data types in python: Dictionaries and sets. Comprehensions.
 data analysis with sets, lists, dicts. Plotting a histogram. NumPy arrays: revisiting motion of a body under gravity. Animated plots with matplotlib. Function with multiple return values in python : [jupyter notebook](lec19/lec19.ipynb), [examples](lec19/examples)
 
+- Numpy and array-oriented programming with `ndarray`. Example of random walk with arrays.
+File I/O and handling in python. Functions with variable number of arguments.
+Command line arguments for python programs : [jupyter notebook](lec20/lec20.ipynb), [examples](lec20/examples)
 
 
 - Hands-on exercises in laboratory: [md](lab/sessions.md)
