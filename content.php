@@ -232,14 +232,23 @@ Command line arguments for python programs.
 </li>
 
 <li>
-Lec 21, 13/12: Classes, inheritance, and polymorphism in Python
-</li>
-
-<li>
 Lab 07, 16/12 9:30-12:00: python
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
 </li>
 
+<li>
+Lec 21, 17/12: Classes, inheritance, and polymorphism in Python
+</li>
+
+<li>
+Lec 22, 20/12:
+Brief introduction to  Machine Learning and its applications.
+Types of Machine Learning and main challenges. Examples.
+</li>
+
+<li>
+Lab 08, 13/1 9:30-12:00: Arduino or Machine Learning
+(</li>
 
 
 <!--
@@ -248,12 +257,6 @@ Lab 07, 16/12 9:30-12:00: python
 Lec 29, 14/1: Photons and hadronic jets in proton collisions.
 Brief introduction to  Machine Learning and its applications.
 (<a href="https://github.com/rahatlou/CMP/tree/master/lec29/lec29.md">md</a>)
-</li>
-
-<li>
-Lec 30, 15/1: Types of Machine Learning and main challenges.
-Example of b-tagging with machine learning.
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec30/lec30.md">md</a>)
 </li>
 
 -->
