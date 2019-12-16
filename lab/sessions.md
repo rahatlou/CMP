@@ -88,4 +88,4 @@ In this first session on python,  we simulate the motion of an object in 3D unde
 5. Plot the trajectories simultaneously and compare friction to no-friction
 
 ## Session 7 (16/12/2019)
-Today we use python to simulate the [Compton scattering spectrum](https://github.com/rahatlou/CMP/blob/master/exams/20190911/20190911-cmp-text.pdf).
+Today we use python to simulate the [Compton scattering spectrum](compton.pdf).
