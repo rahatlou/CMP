@@ -246,9 +246,22 @@ Brief introduction to  Machine Learning and its applications.
 Types of Machine Learning and main challenges. Examples.
 </li>
 
+
+<li>
+Lec 23, 7/1:
+</li>
+
+<li>
+Lec 24, 10/1:
+</li>
+
 <li>
 Lab 08, 13/1 9:30-12:00: Arduino or Machine Learning
-(</li>
+</li>
+
+<li>
+Lab 09, 15/1 13:00-16:00: Arduino or Machine Learning
+</li>
 
 
 <!--
