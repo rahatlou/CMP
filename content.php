@@ -238,12 +238,15 @@ Lab 07, 16/12 9:30-12:00: python
 
 <li>
 Lec 21, 17/12: Classes, inheritance, and polymorphism in Python
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec21/lec21.ipynb">jupyter notebook</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec21/examples">examples</a>)
 </li>
 
 <li>
 Lec 22, 20/12:
 Brief introduction to  Machine Learning and its applications.
 Types of Machine Learning and main challenges. Examples.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec22/lec22.md">md</a>)
 </li>
 
 
