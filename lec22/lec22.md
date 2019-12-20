@@ -69,9 +69,9 @@ A technical or engineering oriented definition of Machine Learning by Tom Mitche
 *A computer program is said to learn from experience E with respect to some task T and some performance P, if its performance on T, as measured by P, improves by experience E*
 
 Example: SPAM filter
-    - task: filtering SPAM
-    - experience: good and bad emails as flagged by users
-    - performance:  fraction of correctly filtered emails (accuracy)
+- task: filtering SPAM
+- experience: good and bad emails as flagged by users
+- performance:  fraction of correctly filtered emails (accuracy)
 
 The algorithm is **trained** on a sample of emails selected by users as good or bad. We call these emails the **training sample**.
 
@@ -81,9 +81,10 @@ The algorithm then runs on a  **test sample** to see its success rate or accurac
 
 Example: photon identification
 - task: separate photons from hadronic jets
-- experience: simulated MC  samples of photons and jets. Or very pure samples selected i data by user.
+- experience:
+  - simulated MC  samples of photons and jets (MC based method)
+  - very pure samples selected data by user (data driven method)
 - performance:  fraction of correctly identified photons, or fraction of wrongly identified jets
-# Introduction to Machine learning
 
 ## Advantage of machine Learning
 Traditional programming technique for an algorithm in these examples consists in
@@ -99,7 +100,7 @@ Traditional programming technique for an algorithm in these examples consists in
    - think about cheap or free virus protection programs not being updated
 
 
- In machine learning approach, rules are not hardcoded. algorithms trained with data to find patterns and update the algorithm.
+ In machine learning approach, rules are not hardcoded. Algorithms are __trained__ with data to find patterns and update the algorithm.
    - new SPAM emails identified by training
    - new photon distributions found when a new type of process studied in a new energy range or at a new center-of-mass energy
 
@@ -122,6 +123,8 @@ With *data point* we indicate a collection of information concerning an object, 
 
    - an email has a subject, sender, recipient, body, number of words
    - an apartment has a surface, location, floor, sun exposure, energy class
+   - a picture is made of N pixels each with a value
+      - for example in a black-and-white picture the value of each pixel can be from 0 (white) to 255 (black)
    - a photon has energy, shape of energy deposit, associated hadronic energy, number of crystals above threshold, fraction of energy in central crystal    
 
 
