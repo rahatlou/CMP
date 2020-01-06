@@ -249,13 +249,8 @@ Types of Machine Learning and main challenges. Examples.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec22/lec22.md">md</a>)
 </li>
 
-
 <li>
-Lec 23, 7/1:
-</li>
-
-<li>
-Lec 24, 10/1:
+Lec 23, 10/1: example of ML with scikit-learn.
 </li>
 
 <li>
