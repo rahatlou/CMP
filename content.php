@@ -41,7 +41,7 @@
 <ul>
 
 <li>
-Lec 01, 25/9: Introduction to the course (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec00/introduction.pdf">introduction</a>). Introduction to C++.
+Lec 01, 24/9: Introduction to the course (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec00/introduction.pdf">introduction</a>). Introduction to C++.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec01/lec01.pdf">pdf</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec01/examples">examples</a>)
 </li>
@@ -202,7 +202,7 @@ Lab 05, 2/12 9:30-12:00: study of energy loss by ionisation and the Bragg peak i
 </li>
 
 <li>
-Lec 18, 2/12: data types in python: sequences. Lists, Tuples. Example of
+Lec 18, 3/12: data types in python: sequences. Lists, Tuples. Example of
 plotting with matplotlib. Dictionaries.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec18/lec18.ipynb">jupyter notebook</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec18/examples">examples</a>)
