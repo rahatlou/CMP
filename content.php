@@ -250,15 +250,15 @@ Types of Machine Learning and main challenges. Examples.
 </li>
 
 <li>
-Lec 23, 10/1: example of ML with scikit-learn.
+Lec 23, 10/1: Binary classification with with scikit-learn. Precision and recall.
 </li>
 
 <li>
-Lab 08, 13/1 9:30-12:00: Arduino or Machine Learning
+Lab 08, 13/1 9:30-12:00: Binary classification: the ROC curve.
 </li>
 
 <li>
-Lab 09, 15/1 13:00-16:00: Arduino or Machine Learning
+Lab 09, 15/1 13:00-16:00: Arduino 
 </li>
 
 
