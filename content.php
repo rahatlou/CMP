@@ -251,10 +251,12 @@ Types of Machine Learning and main challenges. Examples.
 
 <li>
 Lec 23, 10/1: Binary classification with with scikit-learn. Precision and recall.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec23/classification-example.ipynb">jupyter notebook</a>)
 </li>
 
 <li>
-Lab 08, 13/1 9:30-12:00: Binary classification: the ROC curve.
+Lec 24, 13/1 9:30-12:00: Binary classification: the ROC curve. examples in particle physics
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec23/classification-example.ipynb">jupyter notebook</a>)
 </li>
 
 <li>
