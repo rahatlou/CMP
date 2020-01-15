@@ -1,12 +1,22 @@
 <div id="content">
 
 	<div class="post">
+\
 
 		<h1 class="title">Exam sessions for Computing Methods in Physics</h1>
 
 		<p>Up-to-date dates for exams through 2020 are avaialable on <a href="https://www.uniroma1.it/it/pagina-strutturale/studenti">infostud</a>.
 			Reservation is strictly required in order to take the exam.
 		</p>
+
+		<a id="20200122"></a>
+		<h2 class="title">Appello 2020-01-23</h2>
+		<p><b>As requested by a large fraction of students the exam will start on 23 Jan</b>.</p>
+
+		<p>A pdf file with the text of the exam will be posted here on
+			<b>Thursday 23 January by 14:00</b>. You will have to submit your project
+		following the online procedure by <b>19:00 Saturday 25 January</b>.
+
 
 		<a id="20191118"></a>
 		<h2 class="title">Appello Straordinario 2019-11-18</h2>
