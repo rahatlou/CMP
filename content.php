@@ -260,20 +260,9 @@ Lec 24, 13/1 9:30-12:00: Binary classification: the ROC curve. examples in parti
 </li>
 
 <li>
-Lab 09, 15/1 13:00-16:00: Implemenation of a vicinity sensor with Arduino using an ultrasonic module
+Lab 08, 15/1 13:00-16:00: Implemenation of a vicinity sensor with Arduino using an ultrasonic module
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/arduino/arduino.md">md</a>)
 </li>
-
-
-<!--
-
-<li>
-Lec 29, 14/1: Photons and hadronic jets in proton collisions.
-Brief introduction to  Machine Learning and its applications.
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec29/lec29.md">md</a>)
-</li>
-
--->
 
 </ul> <!-- end of lectures -->
 
@@ -319,10 +308,6 @@ See  a <a
 href="https://github.com/rahatlou/CMP/blob/master/misc/ROOT.md">short summary on setting up ROOT</a> on
 your machine. </li>
 
-<li>GEANT4: a toolkit in C++ for detailed simulation of
-passage of particles in matter. Details and
-applications on their website <a href="https://geant4.web.cern.ch" >https://geant4.web.cern.ch</a>
-
 <li>Arduino: the official arduino website
 <a href="https://www.arduino.cc"
 >https://www.arduino.cc</a> is a good starting point
@@ -333,15 +318,16 @@ resource for introduction to Python. Check out also <a
 href="https://pythonprogramming.net"
 >https://pythonprogramming.net</a> for targgetted and
 specific tutorials. </li>
+
 <li>jupyter: open-source web application for writing
 documents and live code in many languages, including
 C++ and python. A good starting point is <a href="https://jupyter.org" >https://jupyter.org</a> </li>
 
-<li>pandas: Python Data Analysis Library: provides high-performance, easy-to-use data structures
-and data analysis tools in python. Details at <a href="http://pandas.pydata.org">http://pandas.pydata.org</a></li>
-
 <li>scikit-learn: is a kit for  machine-learning in
 python. Valuable info available at their webiste <a href="http://scikit-learn.org" >http://scikit-learn.org</a> </li>
+
+<li>pandas: Python Data Analysis Library: provides high-performance, easy-to-use data structures
+and data analysis tools in python. Details at <a href="http://pandas.pydata.org">http://pandas.pydata.org</a></li>
 
 </ul> <!-- useful resources -->
 
