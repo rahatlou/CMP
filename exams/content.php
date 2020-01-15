@@ -9,7 +9,7 @@
 			Reservation is strictly required in order to take the exam.
 		</p>
 
-		<a id="20200122"></a>
+		<a id="20200123"></a>
 		<h2 class="title">Appello 2020-01-23</h2>
 		<p><b>As requested by a large fraction of students the exam will start on 23 Jan</b>.</p>
 
