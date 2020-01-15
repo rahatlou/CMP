@@ -88,4 +88,8 @@ In this first session on python,  we simulate the motion of an object in 3D unde
 5. Plot the trajectories simultaneously and compare friction to no-friction
 
 ## Session 7 (16/12/2019)
-Today we use python to simulate the [Compton scattering spectrum](compton.pdf).
+Use python to simulate the [Compton scattering spectrum](compton.pdf).
+
+## Session 8 (15/1/2020)
+Implement a vicinity sensor with Arduino.
+Real time plot with matplotlib. [md](../arduino/arduino.md)
