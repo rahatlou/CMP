@@ -260,7 +260,8 @@ Lec 24, 13/1 9:30-12:00: Binary classification: the ROC curve. examples in parti
 </li>
 
 <li>
-Lab 09, 15/1 13:00-16:00: Arduino 
+Lab 09, 15/1 13:00-16:00: Implemenation of a vicinity sensor with Arduino using an ultrasonic module
+([md](https://github.com/rahatlou/CMP/tree/CMP2019/arduino/arduino.md))
 </li>
 
 
