@@ -16,7 +16,7 @@
 		<p>A pdf file with the text of the exam will be posted here on
 			<b>Thursday 23 January by 14:00</b>. You will have to submit your project
 		following the online procedure by <b>Saturday 25 January 19:00</b>.
-		(<a href="Didattica/cmp/exams/20200123/20200123-cmp-text.pdf">pdf</a>).</p>
+		(<a href="Didattica/cmp/exams/20200123/20200123-cmp-text.pdf">pdf</a>)(<a href="Didattica/cmp/exams/20200123/">example of solution, by Lorenzo Graziotto</a>).</p>
 
 		<p>A valid Sapienza email address is manndatory to particpate in the exam and submit your project.</p>
 
