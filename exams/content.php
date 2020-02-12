@@ -26,7 +26,7 @@
 	  <ul>
 		  <li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
 		     	with your Sapienza credentials. (if you are already logged in with your personal gmail account, you must first log out)</li>
-	    <li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLSejX3UWDGAQ3va4lP8X9Ut6HSh9n3w9a2xhkzvKAJ2pYZ3rSw/viewform">google form for Appello 2020-01-23</a> </li>
+	    <li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLSejX3UWDGAQ3va4lP8X9Ut6HSh9n3w9a2xhkzvKAJ2pYZ3rSw/viewform">google form</a> </li>
 	    <li>You can submit only one zip file containinng your files</li>
 	    <li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
 	    <li>The form will be open for submission until <b>Saturday 25 Jan 19:00</b>.</li>
