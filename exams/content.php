@@ -14,9 +14,25 @@
 
 		<p>A pdf file with the text of the exam will be posted here on
 			<b>Wednesday 12 February by 14:00</b>. You will have to submit your project
-		following the online procedure by <b>Friday 14 February 14:00</b>.</p>
+		following the online procedure by <b>Friday 14 February 14:00</b>.
+		(<a href="https://github.com/rahatlou/CMP/blob/CMP2019/exams/20200212/20200212-cmp-text.pdf">pdf</a>).</p>
+    </p>
+
+		<p>For question and clarification: in my office Wed 12 Feb 14:30-17:00, Thu 13 Feb 10-13, or by email until Thursday evening.</p>
 
 		<p>A valid Sapienza email address is manndatory to particpate in the exam and submit your project.</p>
+
+    <p>Projects must be submitted with the following online procedure
+	  <ul>
+		  <li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
+		     	with your Sapienza credentials. (if you are already logged in with your personal gmail account, you must first log out)</li>
+	    <li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLSejX3UWDGAQ3va4lP8X9Ut6HSh9n3w9a2xhkzvKAJ2pYZ3rSw/viewform">google form for Appello 2020-01-23</a> </li>
+	    <li>You can submit only one zip file containinng your files</li>
+	    <li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
+	    <li>The form will be open for submission until <b>Saturday 25 Jan 19:00</b>.</li>
+    </ul>
+    </p>
+
 
 
 		<a id="20200123"></a>
@@ -26,7 +42,7 @@
 		<p>A pdf file with the text of the exam will be posted here on
 			<b>Thursday 23 January by 14:00</b>. You will have to submit your project
 		following the online procedure by <b>Saturday 25 January 19:00</b>.
-		(<a href="Didattica/cmp/exams/20200123/20200123-cmp-text.pdf">pdf</a>)(<a href="Didattica/cmp/exams/20200123/solution-20200123.zip">example of solution, by Lorenzo Graziotto</a>).</p>
+		(<a href="https://github.com/rahatlou/CMP/blob/CMP2019/exams/20200123/20200123-cmp-text.pdf">pdf</a>)(<a href="https://github.com/rahatlou/CMP/blob/CMP2019/exams/20200123/solution-20200123.zip">example of solution, by Lorenzo Graziotto</a>).</p>
 
 		<p>A valid Sapienza email address is manndatory to particpate in the exam and submit your project.</p>
 
