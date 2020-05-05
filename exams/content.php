@@ -5,9 +5,34 @@
 
 		<h1 class="title">Exam sessions for Computing Methods in Physics</h1>
 
-		<p>Up-to-date dates for exams through 2020 are avaialable on <a href="https://www.uniroma1.it/it/pagina-strutturale/studenti">infostud</a>.
+		<p>Up-to-date dates for exams through 2020 are available on <a href="https://www.uniroma1.it/it/pagina-strutturale/studenti">infostud</a>.
 			Reservation is strictly required in order to take the exam.
 		</p>
+
+		<a id="20200506"></a>
+		<h2 class="title">Appello 2020-05-06</h2>
+
+		<p>A pdf file with the text of the exam will be posted here on
+			<b>Wednesday 6 May at 14:00</b>. You will have to submit your project
+		following the online procedure by <b>18:00</b>
+		(<a href="https://github.com/rahatlou/CMP/blob/CMP2019/exams/20200506/20200506-cmp-text.pdf"></a>).</p>
+		</p>
+
+		<p>For question and clarification: I will be available on <a href="https://meet.google.com/ozv-eooz-rde?authuser=1&hs=122">Google Meet code: ozv-eooz-rde</a> between 15:00 and 17:00.</p>
+
+		<p>A valid Sapienza email address is manndatory to particpate in the exam and submit your project.</p>
+
+		<p>Projects must be submitted with the following online procedure
+		<ul>
+			<li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
+					with your Sapienza credentials. (if you are already logged in with your personal gmail account, you must first log out)</li>
+			<li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLSdq6SaN7U-q-XKXq2qHDBrw1jCmDmEuyQfx2MgY7T5cfTH6hw/viewform?usp=sf_link">google form</a> </li>
+			<li>You can submit only one zip file containinng your files</li>
+			<li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
+			<li>The form will be open for submission until <b>18:00</b>.</li>
+		</ul>
+		</p>
+
 
 		<a id="20200212"></a>
 		<h2 class="title">Appello 2020-02-12</h2>
