@@ -15,7 +15,7 @@
 		<p>A pdf file with the text of the exam will be posted here on
 			<b>Wednesday 6 May at 14:00</b>. You will have to submit your project
 		following the online procedure by <b>18:00</b>
-		(<a href="https://github.com/rahatlou/CMP/blob/CMP2019/exams/20200506/20200506-cmp-text.pdf"></a>).</p>
+		(<a href="https://github.com/rahatlou/CMP/blob/CMP2019/exams/20200506/20200506-cmp-text.pdf">pdf</a>).</p>
 		</p>
 
 		<p>For question and clarification: I will be available on <a href="https://meet.google.com/ozv-eooz-rde?authuser=1&hs=122">Google Meet code: ozv-eooz-rde</a> between 15:00 and 17:00.</p>
