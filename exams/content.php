@@ -12,6 +12,23 @@
 		<a id="20200506"></a>
 		<h2 class="title">Appello 2020-05-06</h2>
 
+			<p>
+			The oral exam will be on
+			<a href="https://meet.google.com/ozv-eooz-rde">Google Meet code: ozv-eooz-rde</a>, on Monday 18/5 and Tuesday 19/5 at 2:00 pm in the following order:
+			<ul>
+				<li>18/5 at 14:00: 1697474, 1711045, 1419272, 1798065</li>
+				<li>19/5 at 14:00: 1645856, 1715343, 1644723</li>
+			</ul>
+		  </p>
+	    <p>
+			Please read carefully the instructions for the
+			<a href="https://www.uniroma1.it/it/documento/procedura-straordinaria-lo-svolgimento-degli-esami-orali-di-profitto-modalita-telematica">special procedures for oral exams</a>
+			of Sapienza. The oral exam requires  a satisfactory video  (showing the stduent and the screen) and audio connections.
+			In case of technical problems, the exam can be postponed to the June session.
+		  </p>
+
+
+
 		<p>A pdf file with the text of the exam will be posted here on
 			<b>Wednesday 6 May at 14:00</b>. You will have to submit your project
 		following the online procedure by <b>18:00</b>
