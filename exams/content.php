@@ -9,6 +9,25 @@
 			Reservation is strictly required in order to take the exam.
 		</p>
 
+		<a id="20200617"></a>
+		<h2 class=title>Appello 2020-06-17</h2>
+			<p>
+			Come indicato nel <a href="https://www.uniroma1.it/it/notizia/covid-19-fase-2-esami-presenza-e-distanza">
+				regolamento d'ateneo per gli esami durante la fase 2</a>, sara` possibile sostenere gli Esami
+				solo se regolarmente prenotati su infostud.
+			</p>
+			<p>
+				<b>Le prenotazioni si chiuderanno il giorno 2 giugno.</b></p>
+
+			<p>
+				Il calendario delle prove orali verra` comunicato agli stduenti prenotati entro il giorno 10 giugno.
+			</p>
+
+
+
+
+
+
 		<a id="20200506"></a>
 		<h2 class="title">Appello 2020-05-06</h2>
 
@@ -69,7 +88,7 @@
 		  <li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
 		     	with your Sapienza credentials. (if you are already logged in with your personal gmail account, you must first log out)</li>
 	    <li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLSejX3UWDGAQ3va4lP8X9Ut6HSh9n3w9a2xhkzvKAJ2pYZ3rSw/viewform">google form</a> </li>
-	    <li>You can submit only one zip file containinng your files</li>
+	    <li>You can submit only one zip file containing your files</li>
 	    <li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
 	    <li>The form will be open for submission until <b>Friday 14 Feb 14:00</b>.</li>
     </ul>
