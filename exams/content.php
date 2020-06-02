@@ -215,8 +215,8 @@
 	    </p>
 	 <!-- end 2019-07-08 -->
 
-	 <h2 class="title">Appello 2019-06-24</h2>
 	 <a id="20190624"></a>
+	 <h2 class="title">Appello 2019-06-24</h2>
 	 <p>A pdf file with the text of the exam will be posted here on <b>Monday 24 June by 8:00 AM</b>. You will have to submit your project
 	 following the online procedure described below by <b>13:00 Wednesday 26 June</b>.
 	 (<a href="Didattica/cmp/exams/20190624/20190624-cmp-text.pdf">pdf</a>)</p>
@@ -246,8 +246,8 @@
 	    </p>
 	 <!-- end 2019-06-24 -->
 
-	 <h2 class="title">Appello 2019-02-11</h2>
 	 <a id="20190211"></a>
+	 <h2 class="title">Appello 2019-02-11</h2>
 	   <p>A pdf file with the text of the exam will be posted here  after 00:00 on 11 Feb. (<a href="Didattica/cmp/exams/20190211/20190211-cmp-text.pdf">pdf</a>)</p>
 	   <p> See an example of <a href="https://github.com/rahatlou/CMP/tree/master/exams/20190211">possible solutions</a>.</p>
 
@@ -274,8 +274,8 @@
 	             </ul>
 		<!-- end 2019-02-11 -->
 
-		<h2 class="title">Appello 2019-01-28</h2>
 		<a id="20190128"></a>
+		<h2 class="title">Appello 2019-01-28</h2>
 		  <p>A pdf file with the text of the exam will be posted here  after 00:00 on 28 Jan. (<a href="Didattica/cmp/exams/20190128/20190128-cmp-text.pdf">pdf</a>).
 		  <p> See an example of <a href="https://github.com/rahatlou/CMP/tree/master/exams/20190128">possible solutions</a> provied by Federico Morodei for C++ and Alessandro Novelli for python.
 

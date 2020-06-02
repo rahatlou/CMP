@@ -1,7 +1,12 @@
 <div id="content">
    <h1>Computing Methods for Physics</h1>
 
-   <div class="post">
+<div class="post news-cont">
+   <?php include("Didattica/cmp/news.html") ?>
+</div>
+
+
+<div class="post">
 
    <h2 class="title">Orario Lezioni</h2>
    <p><b>Lectures start on Tuesday 25 September 2019</b>
@@ -12,12 +17,6 @@
        in Laboratorio di Calcolo, Nuovo Edificio di Fisica.
        Dates: 28/10, 11/10, 18/11, 25/11, 2/12, 9/12, 16/12.</li>
    </ul>
-
-<?php /*
-<div class="news">
-  ...link
-</div>
-*/ ?>
 
 <?php /*
    <h2 class="title">Student survey</h2>
