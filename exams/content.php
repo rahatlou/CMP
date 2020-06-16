@@ -20,8 +20,42 @@
 				<b>Le prenotazioni si chiuderanno il giorno 2 giugno.</b></p>
 
 			<p>
-				Il calendario delle prove orali verra` comunicato agli stduenti prenotati entro il giorno 10 giugno.
+				Il calendario delle prove orali verra` comunicato agli studenti prenotati entro il giorno 10 giugno.
 			</p>
+
+			<p>
+			The oral exam will be on
+			<a href="https://meet.google.com/tso-wbtf-yrd">Google Meet code: tso-wbtf-yrd</a>,
+			on Friday 19/6 15:00-18:00 and Tuesday 23/56 at 9:00-11:00.
+			</p>
+
+			<p>
+			Please read carefully the instructions for the
+			<a href="https://www.uniroma1.it/it/documento/procedura-straordinaria-lo-svolgimento-degli-esami-orali-di-profitto-modalita-telematica">special procedures for oral exams</a>
+			of Sapienza. The oral exam requires  a satisfactory video  (showing the stduent and the screen) and audio connections.
+			In case of technical problems, the exam can be postponed to the July session.
+			</p>
+
+		<p>A pdf file with the text of the exam will be posted here on
+			<b>Wednesday 17 June at 14:00</b>. You will have to submit your project
+		following the online procedure by <b>18:00</b>
+		(<a href="https://github.com/rahatlou/CMP/blob/CMP2019/exams/20200617/20200617-cmp-text.pdf">pdf</a>).
+	  </p>
+
+		<p>For question and clarification: I will be available by email or on <a href="https://meet.google.com/tso-wbtf-yrd?authuser=1&hs=122">Google Meet code: tso-wbtf-yrd</a> between 15:00 and 17:00.</p>
+
+		<p>A valid Sapienza email address is manndatory to particpate in the exam and submit your project.</p>
+
+		<p>Projects must be submitted with the following online procedure
+		<ul>
+			<li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
+					with your Sapienza credentials. (if you are already logged in with your personal gmail account, you must first log out)</li>
+			<li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLSejma4hJH4PX4vLYbr6TwijZi1KWXJ3tU7NAUdvrmBCzn26mg/viewform?usp=sf_link">google form</a> </li>
+			<li>You can submit only one zip file containinng your files</li>
+			<li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
+			<li>Only projects submitted by <b>18:00</b> will be considered.</li>
+		</ul>
+		</p>
 
 
 
