@@ -51,7 +51,7 @@
 			<li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
 					with your Sapienza credentials. (if you are already logged in with your personal gmail account, you must first log out)</li>
 			<li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLSejma4hJH4PX4vLYbr6TwijZi1KWXJ3tU7NAUdvrmBCzn26mg/viewform?usp=sf_link">google form</a> </li>
-			<li>You can submit only one zip file containinng your files</li>
+			<li>You can submit only one zip file containing your files</li>
 			<li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
 			<li>Only projects submitted by <b>18:00</b> will be considered.</li>
 		</ul>
@@ -97,7 +97,7 @@
 			<li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
 					with your Sapienza credentials. (if you are already logged in with your personal gmail account, you must first log out)</li>
 			<li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLSdq6SaN7U-q-XKXq2qHDBrw1jCmDmEuyQfx2MgY7T5cfTH6hw/viewform?usp=sf_link">google form</a> </li>
-			<li>You can submit only one zip file containinng your files</li>
+			<li>You can submit only one zip file containing your files</li>
 			<li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
 			<li>The form will be open for submission until <b>18:00</b>.</li>
 		</ul>
@@ -146,7 +146,7 @@
 		    <li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
 		      with your Sapienza credentials. (if you are already logged in with your personal gmail account, you must first log out)</li>
 		   <li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLSdCub5HEpQghYcSkJ6Lm3g6v98AQi0QZI0GvmUAhbLtHfue7w/viewform?usp=sf_link">google form for Appello 2020-01-23</a> </li>
-		   <li>You can submit only one zip file containinng your files</li>
+		   <li>You can submit only one zip file containing your files</li>
 		   <li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
 		   <li>The form will be open for submission until <b>Saturday 25 Jan 19:00</b>.</li>
 		 </ul>
@@ -172,7 +172,7 @@
 		    <li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
 		      with your Sapienza credentials. (if you are already logged in with your personal gmail account, you must first log out)</li>
 		   <li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVeblHpqzcOz6q1SYS2sVGcss6BF0DZlB6RNJOCjEMOW0Hhg/viewform?usp=sf_link">google form for Appello 2019-11-18</a> </li>
-		   <li>You can submit only one zip file containinng your files</li>
+		   <li>You can submit only one zip file containing your files</li>
 		   <li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
 		   <li>The form will be open for submission until <b>Wednesday 20 Nov 15:00</b>.</li>
 		 </ul>
@@ -197,7 +197,7 @@
 		    <li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
 		      with your Sapienza credentials. (if you are already logged in with your personal gmail account, you must first log out)</li>
 		   <li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLSf8C79VuHNp1siU3uPtG9a6UxcTr5vTvaZNFc9EHS79lDRgEA/viewform?usp=sf_link">google form for Appello 2019-09-11</a> </li>
-		   <li>You can submit only one zip file containinng your files</li>
+		   <li>You can submit only one zip file containing your files</li>
 		   <li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
 		   <li>The form will be open for submission until <b>Friday 13 Sep 17:00</b>.</li>
 		 </ul>
@@ -230,7 +230,7 @@
 	     <li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
 	       with your Sapienza credentials. (if you are already logged in with your personal gmail account, you must first log out)</li>
 	    <li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLSe6pom0Q1AVrt9XS9cSetMXUTp3oiVan-b_zv96Zwj1yLidUg/viewform?usp=sf_link">google form for Appello 2019-07-08</a> </li>
-	    <li>You can submit only one zip file containinng your files</li>
+	    <li>You can submit only one zip file containing your files</li>
 	    <li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
 	    <li>The form will be open for submission until <b>Wednesday 10 Jun 10:00</b>.</li>
 	  </ul>
@@ -262,7 +262,7 @@
 	     <li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
 	       with your Sapienza credentials. (if you are already logged in with your personal gmail account, you must first log out)</li>
 	    <li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLSeXpEorl9DF8KAIDIeO4OXwjNor5nZt4DhC-9XyLm2xzctDTg/viewform?usp=sf_link">google form for Appello 2019-06-24</a> </li>
-	    <li>You can submit only one zip file containinng your files</li>
+	    <li>You can submit only one zip file containing your files</li>
 	    <li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
 	    <li>The form will be open for submission until <b>Wednesday 26 Jun 13:00</b>.</li>
 	  </ul>
@@ -291,7 +291,7 @@
 	       <li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
 	         with your Sapienza credentials. (if you are already logged in with your personal gmail account, you must first log out)</li>
 	      <li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_NW06tHEqQP91NEOjwd-3E0ElW4EGuJeLussLLuU9m3SqZQ/viewform?usp=sf_link">google form for Appello 2019-02-11</a> </li>
-	      <li>You can submit only one zip file containinng your files</li>
+	      <li>You can submit only one zip file containing your files</li>
 	      <li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
 	      <li>The form will be open for submission until <b>Wednesday 13 Feb 12:00</b>.</li>
 	    </ul>
@@ -319,7 +319,7 @@
 		      <li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
 		        with your Sapienza credentials</li>
 		     <li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRZdKWJTOwMkhbv5t7rVhIJVdlNuiP3_YIMNcTRxqKKrgoXA/viewform?usp=sf_link">google form for Appello 2019-01-28</a> </li>
-		     <li>You can submit only one zip file containinng your files</li>
+		     <li>You can submit only one zip file containing your files</li>
 		     <li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
 		     <li>The form will be open for submission until <b>Wednesday 30 Jan 16:00</b>.</li>
 		   </ul>
