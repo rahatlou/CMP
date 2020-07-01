@@ -33,7 +33,6 @@
 			Please read carefully the instructions for the
 			<a href="https://www.uniroma1.it/it/documento/procedura-straordinaria-lo-svolgimento-degli-esami-orali-di-profitto-modalita-telematica">special procedures for oral exams</a>
 			of Sapienza. The oral exam requires  a satisfactory video  (showing the stduent and the screen) and audio connections.
-			In case of technical problems, the exam can be postponed to the July session.
 			</p>
 
 
