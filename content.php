@@ -12,9 +12,10 @@
   Students that intend to attend this course in Fall 2020 are kindly invited
   to <a href="https://www.phys.uniroma1.it/fisica/archivionotizie/questionario-le-matricole-e-gli-iscritti-aa-2020/21">fill this form</a> and register on
   <a href="https://classroom.google.com/c/MTM3MDE2MjEyMzYw?cjc=bvcru2c">google classroom code: bvcru2c</a>
-    for all future communications. 
+    for all future communications.
+    <p>Lectures will start on Tuesday 29 September 2020. The schedule is under preparation by the Department.</p>
 
-   <h2 class="title">Orario Lezioni</h2>
+   <h2 class="title">Orario Lezioni (2019/2020)</h2>
    <p><b>Lectures start on Tuesday 25 September 2019</b>
    <ul>
      <li> Tuesday 12-14, Aula 7 , Nuovo Edificio di Fisica</li>
