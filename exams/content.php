@@ -14,7 +14,7 @@
 		<p>A pdf file with the text of the exam will be posted here on
 			<b>Tuesday 8 September at 9:30</b>. You will have to submit your project
 		following the online procedure by <b>13:30</b>
-		(<a href="https://github.com/rahatlou/CMP/blob/CMP2019/exams/20200908/-cmp-text.pdf"></a>).
+		(<a href="https://github.com/rahatlou/CMP/blob/CMP2019/exams/20200908/20200908-cmp-text.pdf">pdf</a>).
 	  </p>
 
 		<p>For question and clarification: I will be available by email or on
@@ -32,7 +32,7 @@
 			<p>
 			Please read carefully the instructions for the
 			<a href="https://www.uniroma1.it/it/documento/procedura-straordinaria-lo-svolgimento-degli-esami-orali-di-profitto-modalita-telematica">special procedures for oral exams</a>
-			of Sapienza. The oral exam requires  a satisfactory video  (showing the stduent and the screen) and audio connections.
+			of Sapienza. The oral exam requires  a satisfactory video  (showing the student and the screen) and audio connections.
 			</p>
 
 
