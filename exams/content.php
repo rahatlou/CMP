@@ -25,7 +25,7 @@
 			<p>
 			The oral exam will be on
 			<a href="https://meet.google.com/vbb-btpf-uzb">Google Meet code: vbb-btpf-uzb</a>,
-			on Wednesday 16/9, Thursday 17/9 or Friday 18/9 at 16:30 Students will select their
+			on Friday 18/9 at 10:00 ore at 14:00. Students will select their
 			preferred date when submitting the exam.
 			</p>
 
