@@ -2,7 +2,6 @@
 #define Datum_h
 // Datum.h
 #include <iostream>
-using namespace std;
 
 class Datum {
   public:
@@ -35,4 +34,6 @@ class Datum {
     double error_;
 };
 Datum operator*(const double& lhs, const Datum& rhs);
+Datum productDoubleDatum(const double& lhs, const Datum& rhs);
+std::ostream& operator<<(std::ostream& os, const Datum& rhs);
 #endif

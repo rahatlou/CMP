@@ -11,6 +11,7 @@
 #include "TTree.h"
 #include "TFile.h"
 #include "TString.h"
+#include "TStyle.h"
 
 // my header files
 #include "Datum.h"
@@ -25,17 +26,15 @@ int main( int argc, char* argv[]) {
   TH1F hx1("hx1", "distribution of x values",
 	     nbins, x1, x2 );
 
-  // use TString::Form() function to add correct y axis label with bin width 
-  hx1.GetYaxis()->SetTitle(Form("entries/%.3f cm", binwidth));
+  // use TString::Form() function to add correct y axis label with bin width
+  hx1.GetYaxis()->SetTitle(Form("entries/%.3f", binwidth));
 
-  TH1F hdx1("hdx1", "distribution of x uncdertainties",
-	    nbins, x1, x2 );
+  TH1F hdx1("hdx1", "distribution of x uncertainty",
+	    nbins, 0, 0.1);
+  binwidth = 0.1/nbins;
+  hdx1.GetYaxis()->SetTitle(Form("entries/%.3f", binwidth));
 
-  std::cout << "# bins: " << nbins << "\t bin width: " << binwidth << std::endl;
-
-  hdx1.GetYaxis()->SetTitle(Form("entries/%.3f cm", binwidth));
-  
-  // ==== Read data from file 
+  // ==== Read data from file
 
   TString rootfname("/tmp/dati.root");
   TFile* orootfile = new TFile( rootfname );
@@ -51,10 +50,10 @@ int main( int argc, char* argv[]) {
     std::cout << "null pointer for TTree! exiting..." << std::endl;
     exit(-1);
   }
-  
+
   // Pointer to a Datum object to be read from Branch
   Datum* d=0;
-  
+
   // now set the info for each branch of the tree to correspond to our data
   tree->SetBranchAddress("datum", &d);
 
@@ -64,7 +63,7 @@ int main( int argc, char* argv[]) {
   int nentries = tree->GetEntries();
   for (int i=0; i<nentries; ++i) {
     tree->GetEntry(i); // read data from file to memory
-    
+
     hx1.Fill( d->value() );
     hdx1.Fill ( d->error() );
 
@@ -74,10 +73,11 @@ int main( int argc, char* argv[]) {
 
 
   // ==== make plots
- 
-  hx1.GetXaxis()->SetTitle("Distribution of x [cm]");
-  hdx1.GetXaxis()->SetTitle("Distribution of uncertainty dx [cm]");
- 
+  gStyle->SetOptStat(111111);
+
+  hx1.GetXaxis()->SetTitle("Distribution of x");
+  hdx1.GetXaxis()->SetTitle("Distribution of uncertainty \\deltax");
+
   // one pdf with two panels
   // create canvas
   TCanvas canv("canv", "canvas for plotting", 1280, 1024);
@@ -93,6 +93,6 @@ int main( int argc, char* argv[]) {
 
   // critical to close the file!
   orootfile->Close();
-  
+
   return 0;
 }

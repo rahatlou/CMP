@@ -1,10 +1,11 @@
 #include "Datum.h"
 #include <iostream>
 #include <cmath>
-
 using std::cout;
-using std::ostream;
 using std::endl;
+using std::ostream;
+
+double Datum::tolerance_ = 1e-4;
 
 Datum::Datum() {
   value_ = 0.0;
@@ -69,6 +70,11 @@ const Datum& Datum::operator=(const Datum& rhs) {
 }
 
 
+bool Datum::operator==(const Datum& rhs) const {
+  return (fabs(value_-rhs.value_)< tolerance_ &&
+	  fabs(error_-rhs.error_)< tolerance_    );
+}
+
 bool Datum::operator<(const Datum& rhs) const {
   return ( value_ < rhs.value_ );
 }
@@ -98,16 +104,12 @@ Datum Datum::operator*(const double& rhs) const {
 }
 
 // global functions
-Datum productDoubleDatum(const double& lhs, const Datum& rhs){
-  return Datum(lhs*rhs.value(), lhs*rhs.error() );
-}
-
 Datum operator*(const double& lhs, const Datum& rhs){
-  return Datum(lhs*rhs.value(), lhs*rhs.error() );
+  return Datum(lhs*rhs.value_, lhs*rhs.error_ );
 }
 
 ostream& operator<<(ostream& os, const Datum& rhs){
   using namespace std;
-  os << rhs.value() << " +/- " << rhs.error(); // NB: no endl!
+  os << rhs.value_ << " +/- " << rhs.error_; // NB: no endl!
   return os;
 }

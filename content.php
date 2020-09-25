@@ -1,409 +1,354 @@
 <div id="content">
-	<h1>Computing Methods for Physics (2018/19)</h1>
+   <h1>Computing Methods for Physics</h1>
 
-
-       <div class="post">
-
-
-           <h2 class="title">Orario Lezioni</h2>
-           <div class="entry">
-               <p><b>Il corso dell'anno accademico 2018/19 inizia il giorno martedi` 25 settembre 2018</b>
-               <ul>
-                  <li> Tuesday 12-14, Aula 7 , Nuovo Edificio di Fisica</li>
-                  <li> Friday  12-14, Aula 6 , Nuovo Edificio di
-		  Fisica</li>
-		  <li> <b>Recovery of lectures lost because
-               of bad weather: on Monday 3 and 10 Dec 2018 and 14 Jan
-               2019 at 14:00-16:00, Aula 4, Nuovo Edificio di Fisica</b></li>
-               </ul>
-           </div>
-
-<!--
-           <h2 class="title">Student survey</h2>
-           <div class="entry">
-             <p>Please fill this informal <a href=http://bit.ly/CompPhys2018>survey module</a>
-               by Thursday 27 Sep to help me with the organisation of the content for this course.
-             <ul>
-             </ul>
-           </div>
-
--->
-
-<h2 class="title">Exam procedure (modalita` d'esame)</h2>
-<div class="entry">
-  <p>All exam sessions are available on infostud. The exam procedure is
-    identical for all sessions. For each session:
-    <ol>
-      <li>Registration on infostud is mandatory to take the exam.</li>
-      <li>On the 1st day of each session, a PDF file with the text of the exam
-        will be posted on this website. The exam will include:
-        <ul>
-          <li>at least 1 exercise with <em>C++</em> for a total of 15 points</li>
-          <li>at least 1 exercise with <em>python</em> for a total of 15 points</li>
-          <li>the score will be the sum of the two parts</li>
-        </ul>
-      <li>Each student who has registered for the session, must send her/his solution
-        following the instructions on this website and also reported on the PDF file, within 48 or 72 hours.
-      </li>
-      <li>The exams will be graded <b>only</b> for students registered on infostud.</li>
-      <li>There will be 2 or 3 dates and times (depending on the number of registered students)
-        before the end
-        of each sessions for students to come in and discuss their solutions and answer
-        questions. A final grade will be proposed based on the discussion. </li>
-     <li>Grades not recorded (verbalizzato) on infostud before the end of the sessions will be lost.
-       A new exam must be taken at a following session.</li>
-     <li>Students who have taken the midterm test can choose one of
-       the following options:
-       <ul>
-         <li>Solve only the python problem(s) for a total of 15 points, and
-           the remaining points will be given by (midterm score)/2. Example: someone had 26 at the midterm,
-          solves only the python problem and obtains 13 points, final score will be 13+26/2 = 26</li>
-         <li>Solve both C++ and python problems and use their midterm bonus (maximum 3 points)
-         to be added to their total. Example: someone had 26 at the midterm,
-        solves  python and C++ problem and obtains 25 points, the  score will be 25+2 = 27</li>
-       </ul>
-     <li>Bonus points and grades from midterm are valid for all exam sessions until end of 2019</li>
-     <li>There are no limitations on how many times the exam can be taken.</li>
-     <li>A valid grade can be declined. <b>But the midterm grade and bonus cannot be used for a new try and the full exam must be taken.</b></li>
-    </ol>
-
+<div class="post news-cont">
+   <?php include("Didattica/cmp/news.html") ?>
 </div>
 
 
+<div class="post">
 
-           <h2 class="title">Midterm test</h2>
-           <div class="entry">
-             <p>
-            The <a href="midterm/midterm.pdf">midterm test</a> is available. In order to submit your project you have to
-            <ol>
-              <li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
-                with your Sapienza credentials</li>
-              <li>go to <a href="https://goo.gl/forms/8kquclSvkpEmpVa83">this form</a>
-                to upload your material.</li>
-            </ol>
-              <p>The deadline for submission is <b>Thursday 29 Nov at 20:00</b>. The form
-              will be closed after this time.
+  <h2 class="title">Accademic year 2020/21</h2>
+  Students that intend to attend this course in Fall 2020 are kindly invited
+  to <a href="https://www.phys.uniroma1.it/fisica/archivionotizie/questionario-le-matricole-e-gli-iscritti-aa-2020/21">fill this form</a> and register on
+  <a href="https://classroom.google.com/c/MTM3MDE2MjEyMzYw?cjc=bvcru2c">google classroom code: bvcru2c</a>
+    for all future communications.
+    <p>Detailed information available on
+      <a href="https://corsidilaurea.uniroma1.it/it/users/shahramrahatlouuniroma1it">catalogo dei corsi di studio</a>.</p>
 
-              <p>Midterm bonus:
-                <ul>
-                  <li>3 points for scores 30-28</li>
-                  <li>2 points for scores 27-25</li>
-                  <li>1 point for scores 24-22</li>
-                  <li>0 points for scores 21-18</li>
-                </ul>
-              <p><b>Results of the midterm</b> test are now available at <a href="https://docs.google.com/spreadsheets/d/1fXmxc7_sxjJTnF7R8CdBYa_oPaf2_59OYbDrK59dPPE/edit?usp=sharing">this link</a>.
+<h2 class="title">Orario Lezioni</h2>
+          <p><b>Lectures start on Tuesday 29 September 2020</b></p>
+          <ul>
+             <li> Tuesday 12-14, Aula 6 , Nuovo Edificio di Fisica</li>
+             <li> Friday  12-14, Aula 6 , Nuovo Edificio di Fisica</li>
+             <li> Lab Sessions: there will be about 5-6 lab sessions on Monday 9-12
+               in Laboratorio di Calcolo, Nuovo Edificio di Fisica.
+               The dates will be fixed once the number of students attending the course is fixed.</li>
+          </ul>
 
-                <p> Given that there are many similar or identical tests, the scores and bonus will be confirmed after
-                  an oral discussion after the exam.
-           </div>
+<?php /*
+   <h2 class="title">Student survey</h2>
+   <p>Please fill this informal <a href="https://docs.google.com/forms/d/e/1FAIpQLScMwRWGDYLbphrKOBqoEToqhGm-L4pg8DO7x8cAKFUt3dficw/viewform?usp=sf_link">survey module</a> by Tuesday 1 Oct to help me with the organisation of the course and lab sessions.</p>
+   <p>You must use your uniroma1 credentials. In case of problems, please restart your browser  or log out of your private google account before accessing the form.</p>
 
 
+<h2 class="title">Evaluation of the course by students (OPIS)</h2>
+  <p>All students attending the course are kindly invited to fill the short survey on the
+  evaluation of the course (OPIS) using the following code number.</p>
+  <img src="Didattica/cmp/OPIS-CMP.png" width=95%>
 
+  <p>See the <a href="https://www.uniroma1.it/sites/default/files/field_file_allegati/vadevecum_opis_eng_27_11_2018_002_modalita_compatibilita.pdf">instructions</a> on filling the survey.</p>
 
-           <h2 class="title">Useful resources</h2>
-           <div class="entry">
-	     <ul>
-	       <li> VirtualBox:
-	       If you have a windows or MacOS machine you can use a virtual
-	       linux machine.
-	       <ol>
-		 <li>Install the free
-                   <a href="https://www.virtualbox.org">virtual box application</a></li>
-		 <li>In your browser download the <a
-           href="http://labcalc.fisica.uniroma1.it/docenti/rahatlou/public_html/VM/Ubuntu18.04-cmp-64bit.ova">Ubuntu18.04-cmp-64bit.ova</a>
-           which is a virtual machine based on Ubuntu 18.04, and has ROOT
-           and python tools already installed, and the bash and csh
-		   environements configured.</li>
-		   <li>You can now double-click on this ova file
-           (image of a vitual machine) and you you see Ubuntu starting
-           up in a window</a>
-		   <li> the system will start up without asking for
-           username and password. The user is called <em>student</em>
-           and the password is <em>physics</em>. You will only need
-           the password to update or add new packages for example for
-		   python.
-		   </li>
-	       </ol>
-	       </li>
-               <li>C++ compiler for Windows: you can <a href="https://tutorials.visualstudio.com/cpp-console/install">install the free version of Visual Studio</a></li>
-               <li>C++ compiler for Mac OS: it is available for free as part of XCode. You need to install the "command line tools". See for example <a href="http://www.edparrish.net/common/macgpp.php">these simple instructions</a>.
+*/ ?>
 
-	       <li>C++: useful C++ reference guides <a
-	       href="http://www.cplusplus.com">Cplusplus.com</a>,
-	       <a href="https://www.cppreference.com/">cppreference.com</a></li>
+<h2 class="title">Material</h2>
 
-	       <li>ROOT: framework for data analysis. Checkout the
-	       website at <a href="http://root.cern.ch" >root.cern</a>. The <a href="https://root.cern.ch/guides/reference-guide" >reference
-	       guid</a>e is all you need to navigate exisiting
-	       classes. You can browse it online or download on your
-	       machine. See also the <a href="https://root.cern.ch/downloading-root" >installation guide</a> for setting up
-	       your machine. Unless you have special needs (e.g. old operating system) you should use the PRO version.
-	       <br>
-	      See  a <a
-href="https://github.com/rahatlou/CMP/blob/master/misc/ROOT.md">short summary on setting up ROOT</a> on
-	       your machine. </li>
+(Old websites: <a href="index.php?link=Didattica&sublink=2018.cmp">2018</a>,
+<a href="index.php?link=Didattica&sublink=2019.cmp">2019</a>)
 
-	       <li>GEANT4: a toolkit in C++ for detailed simulation of
-	       passage of particles in matter. Details and
-	       applications on their website <a href="https://geant4.web.cern.ch" >https://geant4.web.cern.ch</a>
-
-	       <li>Arduino: the official arduino website
-	       <a href="https://www.arduino.cc"
-	       >https://www.arduino.cc</a> is a good starting point
-	       for beginners</li>
-
-	       <li>Python: the <a href="https://www.python.org/" >official python</a> website is a good
-	       resource for introduction to Python. Check out also <a
-	       href="https://pythonprogramming.net"
-	       >https://pythonprogramming.net</a> for targgetted and
-	       specific tutorials. </li>
-         <li>jupyter: open-source web application for writing
-         documents and live code in many languages, including
-         C++ and python. A good starting point is <a href="https://jupyter.org" >https://jupyter.org</a> </li>
-
-         <li>pandas: Python Data Analysis Library: provides high-performance, easy-to-use data structures
-           and data analysis tools in python. Details at <a href="http://pandas.pydata.org">http://pandas.pydata.org</a></li>
-
-         <li>scikit-learn: is a kit for  machine-learning in
-	       python. Valuable info available at their webiste <a href="http://scikit-learn.org" >http://scikit-learn.org</a> </li>
-
-
-
-	     </ul>
-           </div>
-
-
-       </div>
-
-
-
-       <div class="post">
-
-           <h2 class="title">Material</h2>
-           <div class="entry">
 <!-- begin lectures -->
 <ul>
 
-
 <li>
-Lec 01, 25/9: Introduction to the course (<a href="lec00/introduction.pdf">introduction</a>). Introduction to C++.
-(<a href="lec01/lec01.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec01/examples">examples</a>)
+Lec 01, 29/9: Introduction to the course
 </li>
 
-<li>Lec 02, 28/9: References and pointers in C++. Constant. Namespace. Introduction to Class.
-(<a href="lec02/lec02.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec02/examples">examples</a>)
+<?php /*
+
+Lec 01, 24/9: Introduction to the course (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec00/introduction.pdf">introduction</a>). Introduction to C++.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec01/lec01.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec01/examples">examples</a>)
 </li>
 
-<li>
-Lec 03,  2/10: Classes and objects in C++. Interface and attributes. Constructors.
-(<a href="lec03/lec03.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec03/examples">examples</a>)
-</li>
-
-<li>
-Lec 04, 5/10: Separating interface and implementation. Header and source files.
-(<a href="lec04/lec04.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec04/examples">examples</a>)
+<li>Lec 02, 27/9: References and pointers in C++. Constant. Namespace. Introduction to Class.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec02/lec02.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec02/examples">examples</a>)
 </li>
 
 <li>
-Lec 05, 8/10: Using class std::vector. Dynamic memory allocation. Destructor. const member functions. Default arguments for functions.
-(<a href="lec05/lec05.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec05/examples">examples</a>)
+Lec 03,  1/10: Classes and objects in C++. Interface and attributes. Constructors. Separating interface and implementation. Header and source files.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec03/lec03.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec03/examples">examples</a>)
 </li>
 
 <li>
-Lec 06, 9/10: Applications in C++. Arguments from command line. external libraries. Introduction to ROOT.
-(<a href="lec06/lec06-application.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec06/examples">examples</a>)
+Lec 04, 4/10: Header and source files. Dynamic memory allocation. Destructor. Using class std::vector.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec04/lec04.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec04/examples">examples</a>)
 </li>
 
 <li>
-Lec 07, 12/10:
-Dynamically allocated object as data members. Overloading operators. Adding operators to class Datum. class Vector3D.
-(<a href="lec07/lec07.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec07/examples">examples</a>)
+Lec 05, 8/10: Destructor. const member functions. Default arguments for functions.
+Applications in C++. Arguments from command line. external libraries. Introduction to ROOT.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec05/lec05.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec05/examples">examples</a>)
 </li>
 
 <li>
-Lec 08, 15/10:
-Overloading operators and friend methods. Static data members and
+Lec 06, 15/10:
+Numerical convolution: Gaussian detector resolution and monochromatic source. Gaussian convolution of
+exponential decay length distribution.
+Dynamically allocated object as data members. Overloading operators. Adding operators to class Datum.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec06/lec06.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec06/examples">examples</a>)
+</li>
+
+<li>
+Lec 07, 18/10: Overloading operators and friend methods. Static data members and
 methods. Application to compute weighted average.
-(<a href="lec08/lec08.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec08/examples">examples</a>)
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec07/lec07.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec07/examples">examples</a>)
 </li>
 
 <li>
-Lec 09, 16/10:
+Lec 08, 22/10:
 Example of static data member in class Datum. Enumerators. use case for
-std::map, std::pair, and std::vector
-(<a href="lec09/lec09.pdf">pdf</a>, <a href="https://github.com/rahatlou/CMP/tree/master/lec09/examples">examples</a>)
+std::map, std::pair, and std::vector. class Vector3D.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec08/lec08.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec08/examples">examples</a>)
 </li>
 
 <li>
-Lec 10, 19/10:
-Input/Output with TTree and TFile (<a href="https://github.com/rahatlou/CMP/tree/master/lec10/examples">examples</a>)
+Lec 09, 25/10:
+Input/Output with TTree and TFile. Random Generators in ROOT. Using ROOT classes for functions and fitting.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec09">md</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec09/examples/">examples</a>)
 </li>
 
 <li>
-Lec 11, 23/10:
-I/O with TTree: variable size arrays. Storing user-defined Class in
-TTree
-(<a href="https://github.com/rahatlou/CMP/blob/master/lec11/lec11.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec11/examples">examples</a>,
-<a
-href="https://github.com/rahatlou/CMP/blob/master/misc/ROOT.md">ROOT setup and configuration</a>)
-<br>
-This lecture has been written with the <a
-href="https://en.wikipedia.org/wiki/Markdown"  target="_blank">Markdown</a>
-language. The graphical viewer is provided by <a
-href="https://github.com"  target="_blank">GitHub</a>
-
-<li>
-Lec 12, 26/10:
-Application for analysis of TTree. Creating custom analysis class.
-(<a
-href="https://github.com/rahatlou/CMP/blob/master/lec12/lec12.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec12/examples">examples</a>)
+Lab 01, 28/10: Design and implementation of a class for Complex numbers and their algebra.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
 </li>
 
+<li>
+Lec 10, 29/10, Data storage with TTree. Input and output. Branches with variable size.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec10/lec10.md">md</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec10/examples/">examples</a>)
+</li>
 
 <li>
-Lec 13, 6/11:
+Lec 11, 5/11:
+Input/Output of custom class objects with TTree. Reading of TTree created by others: Application for analysis of TTree.
+Creating custom analysis class.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec11/lec11.md">md</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec11/examples">examples</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/misc/ROOT.md">ROOT setup and configuration</a>)
+</li>
+
+<li>
+Lec 12, 8/11:
 Object oriented programming: Inheritance. Base and derived class.
-(<a href="lec13/lec13.pdf">pdf</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec13/examples">examples</a>)
+Polymorphism with virtual methods.
+Examples of Shape, Particle, Person, Function and their use case.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec12/lec12.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec12/examples">examples</a>)
+</li>
+
+<li>
+Lab 02, 11/11 9:30-12:00:
+finishing Complex class and exercises with ROOT.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
 </li>
 
 
 <li>
-Lec 14, 9/11:
-Polymorphism: abstract class and virtual methods. Applications.
-(<a href="lec14/lec14.pdf">pdf</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec14/examples0">examples I</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec14/examples1">examples II</a>)
+Lec 13, 12/11:
+Polymorphism: abstract class. Applications.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec13/lec13.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec13/examples">examples</a>)
+Strategy pattern: examples and applications: Numerical integration methods. custom Function class.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec13/strategy.md">md</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec13/examples1">examples</a>)
+</li>
+
+
+<li>
+Lab 03, 18/11 9:30-12:00:
+Implement numerical integration methods with the Strategy Pattern.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
 </li>
 
 <li>
-Lec 15, 13/11:
-Strategy pattern,
-examples and applications: Numerical integration methods. custom Function class.<br>
-Composition pattern, examples and applications: leaf and composites in graphical applications.
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec15/lec15.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec15/examples">examples</a>)
-</li>
-
-<li>
-Lec 16, 20/11:
-Composition pattern: leaf and composites in graphical applications.
+Lec 14, 19/11:
+Composition pattern: examples and applications: leaf and composites in graphical applications.
 Example of a solar system simulation with composite objects.
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec16/lec16.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec16/examples">examples</a>)
+Examples in high energy phyiscs: tracks, photons, electrons, jets.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec14/lec14.md">md</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec14/examples">examples</a>)
 </li>
 
 <li>
-Lec 17, 23/11:
-Composition pattern: examples in high energy phyiscs: tracks, photons, electrons, jets.
-Midterm test (<a href="midterm/midterm.pdf">pdf</a>)
-</li>
-
-<li>
-Lec 18, 27/11:
+Lec 15, 22/11:
 Templates and generic programming in C++. Template functions and classes.
- (<a href="https://github.com/rahatlou/CMP/tree/master/lec18/lec18.pdf">pdf</a>,
- <a href="https://github.com/rahatlou/CMP/tree/master/lec18/examples">examples</a>)
+STL containers. Error handling with exceptions.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec15/lec15.pdf">pdf</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec15/examples">examples</a>)
 </li>
 
 <li>
-Lec 19, 30/11:
-Discussion of midterm test and solution: Pros and cons of using void functions with
-non-const pointers. Polymorphic detectors.
+Lab 04, 25/11 9:30-12:00:
+Input of TTree from file, use of MakeClass for analysis, plots of kinematic variables and invariant mass.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
 </li>
 
 <li>
-Lec 20, 3/12:
-Template class. STL containers. Error handling with exceptions.
- (<a href="https://github.com/rahatlou/CMP/tree/master/lec20/lec20.pdf">pdf</a>,
- <a href="https://github.com/rahatlou/CMP/tree/master/lec20/examples">examples</a>)
-</li>
-
-
-<li>
-Lec 21, 4/12: Introduction to Python. Main differences with C/C++.
+Lec 16, 26/11:
+Makefile: usage and examples with implicit rules. (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/makefile/makefile.md">md</a>)
+Introduction to Python. Main differences with C/C++.
 Introduction to <a href="https://jupyter.org">jupyter</a>.
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec21/lec21.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec21/examples">examples</a>)
-<a href="https://github.com/rahatlou/CMP/tree/master/misc/DownloadNotebook.md">Instructions for downloading the lecture notebook</a>
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec16/lec16.md">md</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec16/examples">examples</a>)
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/misc/DownloadNotebook.md">HOWTO download the lecture notebook</a>)
 </li>
 
 <li>
-Lec 22, 7/12: basics of python: semantics, flow control, data types, functions, modules.
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec22/lec22.ipynb">nb</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec22/examples">examples</a>)
+Lec 17, 29/11:
+Makefile: custom recipes, variables and functions, building libraries. (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/makefile/makefile.md">md</a>, <a href="https://github.com/rahatlou/CMP/tree/CMP2019/makefile/examples/">examples</a>)
+Basics of python: semantics, flow control, data types, functions, modules.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec17/lec17.ipynb">jupyter notebook</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec17/examples">examples</a>)
+</li>
+
+
+<li>
+Lab 05, 2/12 9:30-12:00: study of energy loss by ionisation and the Bragg peak in matter
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
 </li>
 
 <li>
-Lec 23, 10/12: data types in python: sequences. Lists, Tuples. Example of
-plotting with matplotlib
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec23/README.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec23/examples">examples</a>)
+Lec 18, 3/12: data types in python: sequences. Lists, Tuples. Example of
+plotting with matplotlib. Dictionaries.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec18/lec18.ipynb">jupyter notebook</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec18/examples">examples</a>)
 </li>
 
 <li>
-Lec 24, 11/12: data types in python: Dictionaries and sets. Comprehensions.
-data anlaysis with sets, lists, dicts. Plotting a histogram. revisiting example from
-previous lecture.
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec24/README.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec24/examples">examples</a>)
+Lec 19, 6/12: Data types in python: Dictionaries and sets. Comprehensions.
+data analysis with sets, lists, dicts. Plotting a histogram. NumPy arrays:
+revisiting motion of a body under gravity. Animated plots with matplotlib.
+Function with multiple return values in python
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec19/lec19.ipynb">jupyter notebook</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec19/examples">examples</a>)
 </li>
 
 <li>
-Lec 25, 14/12: More on Functions in python. Animated plots with matplotlib.
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec25/README.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec25/examples">examples</a>)
+Lab 06, 9/12 9:30-12:00: motion in 3D with friction
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
+</li>
+
+
+<li>
+Lec 20, 10/12: Numpy and array-oriented programming with ndarray. Example of random walk with arrays.
+File I/O and handling in python. Functions with variable number of arguments.
+Command line arguments for python programs.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec20/lec20.ipynb">jupyter notebook</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec20/examples">examples</a>)
 </li>
 
 <li>
-Lec 26, 21/12: Numpy and array-oriented programming with ndarray. Example of random walk with arrays.
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec26/README.md">md</a>)
+Lab 07, 16/12 9:30-12:00: python
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
 </li>
 
 <li>
-Lec 27, 8/1: Classes, inheritance, and polymorphism in Python
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec27/README.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec27/examples">examples</a>)
+Lec 21, 17/12: Classes, inheritance, and polymorphism in Python
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec21/lec21.ipynb">jupyter notebook</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec21/examples">examples</a>)
 </li>
 
 <li>
-Lec 28, 11/1: File I/O and handling in python. Functions with variable number of arguments.
-Command line arguments for python programs
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec28/README.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/master/lec28/examples">examples</a>)
-</li>
-
-<li>
-Lec 29, 14/1: Photons and hadronic jets in proton collisions.
+Lec 22, 20/12:
 Brief introduction to  Machine Learning and its applications.
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec29/lec29.md">md</a>)
+Types of Machine Learning and main challenges. Examples.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec22/lec22.md">md</a>)
 </li>
 
 <li>
-Lec 30, 15/1: Types of Machine Learning and main challenges.
-Example of b-tagging with machine learning.
-(<a href="https://github.com/rahatlou/CMP/tree/master/lec30/lec30.md">md</a>)
+Lec 23, 10/1: Binary classification with with scikit-learn. Precision and recall.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec23/classification-example.ipynb">jupyter notebook</a>)
 </li>
 
-</ul>
-<!-- end of lectures -->
-           </div> <!--- end of entry -->
+<li>
+Lec 24, 13/1 9:30-12:00: Binary classification: the ROC curve. examples in particle physics
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec23/classification-example.ipynb">jupyter notebook</a>)
+</li>
 
-           <h2>Topics in upcoming lectures</h2>
-           <div class="entry">
-           <ul>
-             <li>C++</li>
-             <ul>
-             </ul>
-             <li>Python</li>
-             <ul>
-             </ul>
-           </ul>
-           </div>
+<li>
+Lab 08, 15/1 13:00-16:00: Implemenation of a vicinity sensor with Arduino using an ultrasonic module
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/arduino/arduino.md">md</a>)
+</li>
+
+*/ ?>
+
+</ul> <!-- end of lectures -->
+
+  <h2 class="title">Useful resources</h2>
+  <ul>
+    <li> VirtualBox:
+      If you have a windows or MacOS machine you can use a virtual
+      linux machine.
+      <ol>
+        <li>Install the free
+          <a href="https://www.virtualbox.org">virtual box application</a></li>
+        <li>In your browser download the <a
+href="http://labcalc.fisica.uniroma1.it/docenti/rahatlou/public_html/VM/Ubuntu18.04-cmp-64bit.ova">Ubuntu18.04-cmp-64bit.ova</a>
+which is a virtual machine based on Ubuntu 18.04, and has ROOT
+and python tools already installed, and the bash and csh
+environements configured.</li>
+        <li>You can now double-click on this ova file
+(image of a vitual machine) and you you see Ubuntu starting
+up in a window</a>
+        <li> the system will start up without asking for
+username and password. The user is called <em>student</em>
+and the password is <em>physics</em>. You will only need
+the password to update or add new packages for example for
+python.
+</li>
+</ol>
+</li>
+    <li>C++ compiler for Windows: you can <a href="https://tutorials.visualstudio.com/cpp-console/install">install the free version of Visual Studio</a></li>
+    <li>C++ compiler for Mac OS: it is available for free as part of XCode. You need to install the "command line tools". See for example <a href="http://www.edparrish.net/common/macgpp.php">these simple instructions</a>.
+
+<li>C++: useful C++ reference guides <a
+href="http://www.cplusplus.com">Cplusplus.com</a>,
+<a href="https://www.cppreference.com/">cppreference.com</a></li>
+
+<li>ROOT: framework for data analysis. Checkout the
+website at <a href="http://root.cern.ch" >root.cern</a>. The <a href="https://root.cern.ch/guides/reference-guide" >reference
+guid</a>e is all you need to navigate exisiting
+classes. You can browse it online or download on your
+machine. See also the <a href="https://root.cern.ch/downloading-root" >installation guide</a> for setting up
+your machine. Unless you have special needs (e.g. old operating system) you should use the PRO version.
+<br>
+See  a <a
+href="https://github.com/rahatlou/CMP/blob/master/misc/ROOT.md">short summary on setting up ROOT</a> on
+your machine. </li>
+
+<li>Arduino: the official arduino website
+<a href="https://www.arduino.cc"
+>https://www.arduino.cc</a> is a good starting point
+for beginners</li>
+
+<li>Python: the <a href="https://www.python.org/" >official python</a> website is a good
+resource for introduction to Python. Check out also <a
+href="https://pythonprogramming.net"
+>https://pythonprogramming.net</a> for targgetted and
+specific tutorials. </li>
+
+<li>jupyter: open-source web application for writing
+documents and live code in many languages, including
+C++ and python. A good starting point is <a href="https://jupyter.org" >https://jupyter.org</a> </li>
+
+<li>scikit-learn: is a kit for  machine-learning in
+python. Valuable info available at their webiste <a href="http://scikit-learn.org" >http://scikit-learn.org</a> </li>
+
+<li>pandas: Python Data Analysis Library: provides high-performance, easy-to-use data structures
+and data analysis tools in python. Details at <a href="http://pandas.pydata.org">http://pandas.pydata.org</a></li>
+
+</ul> <!-- useful resources -->
 
 
-       </div> <!--- end of post -->
 
-</div>
+  </div> <!--- end of post -->
+
+</div> <!-- end of content -->

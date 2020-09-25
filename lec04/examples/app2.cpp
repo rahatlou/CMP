@@ -1,61 +1,25 @@
 // app2.cpp
-#include <iostream>
-using std::cout;  // use using only for specific classes
-using std::endl;  // not for entire namespace
-
-class Counter {
-  public:
-    Counter() { count_ = 0; x_=0.0; };
-    int value()  { return count_; }
-    void reset() { count_ = 0; x_=0.0; }
-    void increment() { count_++; }
-    void increment(int step) { count_ = count_+step; }
-    void print() {
-      cout << "---- Counter::print() : begin ----" << endl;
-      cout << "my count_: " << count_ << endl;
-      cout << "my address: " << this << endl; // this is special pointer
-      cout << "&x_ : " << &x_ << "  sizeof(x_): " << sizeof(x_) << endl;
-      cout << "&count_ : " << &count_ << "  sizeof(count_): " << sizeof(count_) << endl;
-      cout << "---- Counter::print() : end ----" << endl;
-    }
-
-  private:
-    int count_;
-    double x_; // dummy variable
-};
-
-// print counter info by reference
-void printCounter(Counter& counter)  {
-  cout << "printCounter: counter value: " << counter.value() << endl;
-}
-
-// print counter info of pointer to counter
-void printByPtr(Counter* counter)  {
-  cout << "printByPtr: counter value: " << counter->value() << endl;
-}
+#include "Counter.h"
+#include <string>
 
 int main() {
-  Counter counter;
-  counter.increment(7);
 
-  // ptr is a pointer to a Counter Object
-  Counter* ptr = &counter;
-  cout << "ptr = &counter: " << &counter << endl;
+  Counter c1( std::string("c1") );
 
-  // use . to access member of objects
-  cout << "counter.value(): " << counter.value() << endl;
+  int count = 344;
 
-  // use -> with pointer to objects
-  cout << "ptr->value(): " << ptr->value() << endl;
+  if( 1.1 <= 2.02 ) {
+    Counter c2( std::string("c2") );
 
-  printCounter( counter );
-  printByPtr( ptr );
-
-  ptr->print();
-
-  cout << "sizeof(ptr): " << sizeof(ptr) << "\t"
-       << "sizeof(counter): " << sizeof(counter)
-       << endl;
+    Counter c3( std::string("c3") );
+    if( count == 344 ) {
+      Counter c4( std::string("c4") );
+    }
+    Counter c5( std::string("c5") );
+    for(int i=0; i<3; ++i) {
+      Counter c6( std::string("c6") );
+    }
+  }
 
   return 0;
 }

@@ -1,16 +1,19 @@
 // app1.cpp
-#include "Datum1.cc"
+#include "Counter.h"
+#include <string>
 
 int main() {
 
-  Datum d1;
-  d1.print();
+  Counter c1( std::string("c1") );
+  Counter c2( std::string("c2") );
+  Counter c3( std::string("c3") );
 
-  Datum d2(0.23,0.212);
-  d2.print();
+  c2.increment(135);
+  c1.increment(5677);
 
-  Datum d3( d2 );
-  d3.print();
+  c1.print();
+  c2.print();
+  c3.print();
 
   return 0;
 }

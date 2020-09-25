@@ -2,6 +2,10 @@
 #include <iostream>
 #include <cmath>
 
+using std::cout;
+using std::ostream;
+using std::endl;
+
 Datum::Datum() {
   value_ = 0.0;
   error_ = 0.0;
@@ -93,7 +97,17 @@ Datum Datum::operator*(const double& rhs) const {
   return Datum(value_*rhs,error_*rhs);
 }
 
-// global function!
+// global functions
+Datum productDoubleDatum(const double& lhs, const Datum& rhs){
+  return Datum(lhs*rhs.value(), lhs*rhs.error() );
+}
+
 Datum operator*(const double& lhs, const Datum& rhs){
   return Datum(lhs*rhs.value(), lhs*rhs.error() );
+}
+
+ostream& operator<<(ostream& os, const Datum& rhs){
+  using namespace std;
+  os << rhs.value() << " +/- " << rhs.error(); // NB: no endl!
+  return os;
 }

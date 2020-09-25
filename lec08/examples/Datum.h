@@ -22,6 +22,8 @@ class Datum {
 
     const Datum& operator=( const Datum& rhs );
 
+
+    bool operator==(const Datum& rhs) const;
     bool operator<(const Datum& rhs) const;
 
     Datum operator*( const Datum& rhs ) const;
@@ -29,11 +31,16 @@ class Datum {
 
     Datum operator*( const double& rhs ) const;
 
+    
+
+    friend Datum operator*(const double& lhs, const Datum& rhs);
+    friend std::ostream& operator<<(std::ostream& os, const Datum& rhs);
+
+    static void setTolerance(double val) { tolerance_ = val; };
+    
   private:
     double value_;
     double error_;
+    static double tolerance_;
 };
-Datum operator*(const double& lhs, const Datum& rhs);
-Datum productDoubleDatum(const double& lhs, const Datum& rhs);
-std::ostream& operator<<(std::ostream& os, const Datum& rhs);
 #endif

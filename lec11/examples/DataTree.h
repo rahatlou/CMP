@@ -23,8 +23,8 @@ public :
 
    // Declaration of leaf types
    Int_t           nmeas;
-   Double_t        value[100];   //[nmeas]
-   Double_t        error[100];   //[nmeas]
+   Double_t        value[200];   //[nmeas]
+   Double_t        error[200];   //[nmeas]
 
    // List of branches
    TBranch        *b_nmeas;   //!
@@ -45,7 +45,7 @@ public :
 #endif
 
 #ifdef DataTree_cxx
-DataTree::DataTree(TTree *tree) : fChain(0) 
+DataTree::DataTree(TTree *tree) : fChain(0)
 {
 // if parameter tree is not specified (or zero), connect the file
 // used to generate this class and read the Tree.

@@ -22,12 +22,12 @@
 int main( int argc, char* argv[]) {
 
   // generate random measurements in the range [x1,x2]
-  // and uncertainties from a guassion with 5% resolution
+  // and uncertainties from a guassion
 
   double x1=0.9, x2=1.1;
-  double resol = 0.05;
+  double resol = 0.15;
 
-   
+
   // ==== store data in a TTree
 
   TString rootfname("/tmp/dati.root");
@@ -43,7 +43,7 @@ int main( int argc, char* argv[]) {
 
   // variables to be stored in the tree
   Datum  dato;
-  
+
   // now set the info for each branch of the tree to correspond to our data
   tree->Branch("datum", &dato);
 
@@ -52,24 +52,25 @@ int main( int argc, char* argv[]) {
   //new random generator
   TRandom1*  gen = new TRandom1();
   gen->SetSeed(0); //use machine clock
-    
+
   for(int i=0; i< nmeas; ++i) {
     // genarate value
-    double x = x1 + gen->Uniform(x2-x1);
-
-    dato = Datum( x, gen->Gaus(x , x*resol) );
+    double x0 = x1 + gen->Uniform(x2-x1);
+    double x = gen->Gaus(x0 , x0*resol);
+    double err =  (x2-x1)/sqrt(12);
+    dato = Datum( x,  gen->Gaus(err , err*0.10) );
 
     // add leaf to the  tree
-    tree->Fill(); 
+    tree->Fill();
   }
 
-  
+
   tree->Write();
-  
-   
+
+
   // critical to close the file!
   orootfile->Close();
-  
-  
+
+
   return 0;
 }

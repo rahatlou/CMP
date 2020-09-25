@@ -1,14 +1,18 @@
-// app2.cpp
-
+// app1.cpp
 #include <iostream>
 using namespace std;
 
-int main(int argc, char* argv[]) {
+#include "Datum.h"
 
-  cout << "# of cmd line arguments argc: " << argc << endl;
-  cout << "argv[0]: " << argv[0] << endl;
 
-  cout << "Running " << argv[0] << endl;
+int main() {
+  Datum d1( 1.2, 0.3 );
+  Datum d2( -0.4, 0.4 );
+
+  Datum d3 = d1 + d2;
+  Datum d4 = d1.sum( d2 );
+  d3.print();
+  d4.print();
 
   return 0;
 }

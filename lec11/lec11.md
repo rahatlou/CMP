@@ -1,190 +1,4 @@
-# Trees with variable-size arrays
-
-## storing arrays of values
-
-In a typical data analysis, we deal with data collected for different
-experiments or events. For example in particle physics,
-an event corresponds to data recorded by the detector following  a
-collision.
-
-In general you might have a set of sensors or detectors that collect
-information when requested. We collect this data, which can
-potentially be correleated and/or related together to define an event
-or experiment.
-
-for example we measure `x` and its uncertainty `nmeas` times, but the
-value of `nmeas` can be different for diffrent groups or for the same
-group at different times.
-
-In [01-writeObjects.cc](examples/01-writeObjects.cc) we want to store
-variable-size array of information
-
-Let's assume that there can be at most `nMeasMax` measurements in
-each experiment
-```c++
-  // variables to be stored in the tree
-  const int nMeasMax=200; // maxim size of static array
-  double x[nMeasMax], dx[nMeasMax];
-  int nmeas;
-  ```
-as you see we are forced to use old-style static C arrays!
-
-Then we create the new Tree
-```c++
-  // create the tree
-  TTree* tree = new TTree("datatree","tree containg our data");
-  
-  // now set the info for each branch of the tree to correspond to our data
-  tree->Branch("nmeas", &nmeas, "nmeas/I");
-  tree->Branch("value", x,  "value[nmeas]/D"); // nmeas is the index of value[]
-  tree->Branch("error", dx, "error[nmeas]/D"); // and error[] in the tree
-  ```
-
-And finally we can loop over experiments and measurements
-```c++
-  // # of experiments and average # of measurements 
-  int nMeasAvg=10;
-  int nexp = 100;
-
-  for(int iexp=0; iexp<nexp; iexp++) {
-
-    // each experiment has a different # of measurements
-    nmeas = gen->Poisson(nMeasAvg);
-    
-    if( nmeas > nMeasMax ) {
-      std::cout << "WARNING: nmeas > " << nMeasMax << " your TTRee will be corrupted" << std::endl;
-    }
-    
-    for(int i=0; i< nmeas; ++i) {
-      // genarate value
-      x[i] = x1 + gen->Uniform(x2-x1);
-    
-      //generate uncertainty based on the value
-      dx[i] = gen->Gaus(x[i], x[i]*resol);        
-    }
-
-    tree->Fill(); // write the data from memory to file at end of each experiment
-
-    
-  } // end of experiments
-  ```
-
-for every experiment we store the number of measurements `nmeas` that
-tells us the number of actual data points stored in `value` and
-`error` branches.
-
-Link the executable and run
-```c++
-g++ -o /tmp/01-write  01-writeObjects.cc Datum.cc `$ROOTSYS/bin/root-config --libs --cflags` 
-
-/tmp/01-write
-storing output in root file /tmp/dati.root
-```
-**Nota bene**: the g++ compiler on ubuntu and newer versions of g++
-require this order of files and options.
-
-## reading variable-size arrays from TTree
-
-In [02-readTree](examples/02-readTree.cc) we want to read the TTree
-with variable-size arrays.
-
-Get pointer to the TTree in the file
-```c++
-  // get pointer to tree object stored in the file
-  TTree* tree = (TTree*) orootfile->Get("datatree");
-  if(!tree) {
-    std::cout << "null pointer for TTree! exiting..." << std::endl;
-    exit(-1);
-  }
-  ```
-
-Now define the arrays in memory that will be filled with data stored
-in the file and set the branch address
-```c++
-  // variables to be read from the tree
-  // You need to define maximum number of cells in the array
-  // this is *UGLY* but necessary
-  const int nMeasMax = 200; 
-  double y[nMeasMax], dy[nMeasMax];
-  int nmeas;
-
-  // now set the info for each branch of the tree to correspond to our data
-  tree->SetBranchAddress("value", y);
-  tree->SetBranchAddress("error", dy);
-  tree->SetBranchAddress("nmeas", &nmeas);
-
-```
-Now loop over experiments and analyse data for each experiment
-```c++
-  int nentries = tree->GetEntries();
-  for (int iexp=0; iexp<nentries; ++iexp) {
-    tree->GetEntry(iexp); // read data from file to memory
-
-    // vector of Datum in case you want to use your Datum class
-    std::vector<Datum> dati;
-
-    // plot of # measurements
-    hnmeas.Fill(nmeas);
-    
-    // for each experiment read the measurements
-    for(int i = 0; i< nmeas; ++i) {
-      dati.push_back( Datum(y[i], dy[i]) );
-      // fill histogram
-      hdx1.Fill( dy[i] );
-      
-
-    } // loop on mesurements
-
-    // compute RMS for measurements in each experiment
-    // and fill a histogram
-    hdxRMS.Fill( hdx1.GetRMS() );
-    h2RMS.Fill(nmeas, hdx1.GetRMS() );
-    
-  } // end of experiments
-  ```
-
-This time we are also filling a 2D hisotogram that shows the
-distribution of uncdertainties as a function of number of measurements:
-```c++
-  TH2F h2RMS("h2RMS", "Distribution of dx RMS vs numb. measurements",
-	     21, -0.5, 20.5,
-	     nbins, 0.05, 0.10 );
-```
-
-Before plotting the histograms you can set options for additional
-info to be shown
-```c++
-  // useful plot settings
-   gStyle->SetOptStat(111111); // show over and underflow  
-```
-
-Create canvas and show plots
-```c++
-  // create canvas
-  TCanvas canv("canv", "canvas for plotting", 1280, 1024);
-  h2RMS.GetXaxis()->SetTitle("Number of measurements");
-  h2RMS.GetYaxis()->SetTitle("dx RMS");
-  h2RMS.Draw("box");
-  canv.SaveAs("/tmp/2dRMS.pdf");
-```
-
-Now link the executable
-```
-g++ -o /tmp/02-read  02-readTree.cc  Datum.cc `$ROOTSYS/bin/root-config --libs --cflags` 
-```
-
-and run
-```
-/tmp/02-read
-# bins: 50	 bin width: 0.02
-Reading data from root file /tmp/dati.root
-Info in <TCanvas::Print>: pdf file /tmp/2dRMS.pdf has been created
-Info in <TCanvas::Print>: pdf file /tmp/expplots.pdf has been created
-```
-
-
-
-# Trees with custom objects 
+# Trees with custom objects
 
 ## Storing custom objects in TTree
 
@@ -207,7 +21,7 @@ MyDict.cxx        MyDict.o          MyDict_rdict.pcm
 ```
 
 
-Now we write a program to store Datum in branches. For example [04-readTreeCustomObject.cc](examples/04-readTreeCustomObject.cc)
+Now we write a program to store Datum in branches. For example [03-writeCustomObject.cc](examples/03-writeCustomObject.cc)
 
 First you need to add these additional lines in your application
 ```c++
@@ -226,34 +40,35 @@ Then you add a new branch for your Datum object
 
   // variables to be stored in the tree
   Datum  dato;
-  
+
   // now set the info for each branch of the tree to correspond to our data
   tree->Branch("datum", &dato);
   ```
 
 Generate pseudo-measurements and add data to the tree
 ```c++
-  for(int i=0; i< nmeas; ++i) {
-    // genarate value
-    double x = x1 + gen->Uniform(x2-x1);
+for(int i=0; i< nmeas; ++i) {
+  // genarate value
+  double x0 = x1 + gen->Uniform(x2-x1);
+  double x = gen->Gaus(x0 , x0*resol);
+  double err =  (x2-x1)/sqrt(12);
+  dato = Datum( x,  gen->Gaus(err , err*0.10) );
 
-    dato = Datum( x, gen->Gaus(x , x*resol) );
-
-    // add leaf to the  tree
-    tree->Fill(); 
-  }
+  // add leaf to the  tree
+  tree->Fill();
+}
 ```
 
 Link you application, adding also the dictionary `MyDict.cxx` in addition to `Datum.cc`
 ```
-g++ -o /tmp/03-write  03-writeCustomObject.cc Datum.cc MyDict.cxx `$ROOTSYS/bin/root-config --libs --cflags` 
+g++ -o /tmp/03-write  03-writeCustomObject.cc Datum.cc MyDict.cxx `$ROOTSYS/bin/root-config --libs --cflags`
 ```
 and run
 ```
 /tmp/03-write
 storing output in root file /tmp/dati.root
 ```
-you should now see there is only one branch in your tree called `datum` 
+you should now see there is only one branch in your tree called `datum`
 
 
 
@@ -277,7 +92,7 @@ After opening the file and getting a pointer to the TTree
   ```c++
   // Pointer to a Datum object to be read from Branch
   Datum* d=0;
-  
+
   // now set the info for each branch of the tree to correspond to our data
   tree->SetBranchAddress("datum", &d);
   ```
@@ -290,15 +105,15 @@ your Datum object which is the leaf of the tree
   int nentries = tree->GetEntries();
   for (int i=0; i<nentries; ++i) {
     tree->GetEntry(i); // read data from file to memory
-    
+
     hx1.Fill( d->value() );
     hdx1.Fill ( d->error() );
   }
   ```
-  
+
 Link the new executable `read`
 ```
-g++ -o /tmp/04-read 04-readTreeCustomObject.cc  Datum.cc MyDict.cxx `$ROOTSYS/bin/root-config --libs --cflags` 
+g++ -o /tmp/04-read 04-readTreeCustomObject.cc  Datum.cc MyDict.cxx `$ROOTSYS/bin/root-config --libs --cflags`
 ```
 
 and run it
@@ -318,8 +133,8 @@ function which has a syntax very similar to `sprintf` in C.
   TH1F hx1("hx1", "distribution of x values",
 	     nbins, x1, x2 );
 
-  // use TString::Form() function to add correct y axis label with bin width 
-  hx1.GetYaxis()->SetTitle(Form("entries/%.3f cm", binwidth));
+  // use TString::Form() function to add correct y axis label with bin width
+  hx1.GetYaxis()->SetTitle(Form("entries/%.3f", binwidth));
 ```
 
 
@@ -328,19 +143,25 @@ function which has a syntax very similar to `sprintf` in C.
 Very often you will have to analyse data stored in a TTree not created
 by you. This is typical in particle physics experiments.
 
-In principle to write an application to read the
+In principle, to write an application to read the
 TTree, you need the list and types of all branches in order to
 `BranchSetAddress` for each of them. This can be both **painful** and
 **tedious** to do. Luckily this part can be generated automatically by
 ROOT.
 
-Let's assume you have `/tmp/dati.root` created by
-[01-writeObjects.cc](examples/01-writeObjects.cc).
+Let's assume you have `/tmp/dati01.root` created by
+[01-writeObjects.cc](examples/01-writeObjects.cc)
+
+```bash
+g++ -o /tmp/01-write 01-writeObjects.cc `$ROOTSYS/bin/root-config --libs --cflags`
+/tmp/01-write
+storing output in root file /tmp/dati01.root
+```
 
 You can inspect and create a skeleton for a class based on the Tree
 object
 ```
-root /tmp/dati.root
+root /tmp/dati01.root
    ------------------------------------------------------------
   | Welcome to ROOT 6.14/00                http://root.cern.ch |
   |                               (c) 1995-2018, The ROOT Team |
@@ -353,25 +174,25 @@ root [0]
 Attaching file /tmp/dati.root as _file0...
 (TFile *) 0x7fe4798df040
 root [1] .ls
-TFile**		/tmp/dati.root
- TFile*		/tmp/dati.root
+TFile**		/tmp/dati01.root
+ TFile*		/tmp/dati01.root
   KEY: TTree	datatree;1	tree containg our data
 root [2] datatree->Print()
 ******************************************************************************
 *Tree    :datatree  : tree containg our data                                 *
-*Entries :      100 : Total =           19709 bytes  File  Size =      15648 *
-*        :          : Tree compression factor =   1.19                       *
+*Entries :      100 : Total =           19069 bytes  File  Size =      17615 *
+*        :          : Tree compression factor =   1.01                       *
 ******************************************************************************
 *Br    0 :nmeas     : nmeas/I                                                *
-*Entries :      100 : Total  Size=        961 bytes  File Size  =        278 *
+*Entries :      100 : Total  Size=        961 bytes  File Size  =        279 *
 *Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.71     *
 *............................................................................*
 *Br    1 :value     : value[nmeas]/D                                         *
-*Entries :      100 : Total  Size=       9252 bytes  File Size  =       6044 *
-*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.43     *
+*Entries :      100 : Total  Size=       8932 bytes  File Size  =       8348 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
 *............................................................................*
 *Br    2 :error     : error[nmeas]/D                                         *
-*Entries :      100 : Total  Size=       9252 bytes  File Size  =       8668 *
+*Entries :      100 : Total  Size=       8932 bytes  File Size  =       8348 *
 *Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
 *............................................................................*
 root [3] datatree->MakeClass("DataTree");
@@ -436,7 +257,7 @@ You wil also notice that  [`DataTree.h`](examples/DataTree.h) implements also mo
 class member functions
 ```c++
 #ifdef DataTree_cxx
-DataTree::DataTree(TTree *tree) : fChain(0) 
+DataTree::DataTree(TTree *tree) : fChain(0)
 {
 // if parameter tree is not specified (or zero), connect the file
 // used to generate this class and read the Tree.
@@ -458,7 +279,7 @@ The constor needs a pointer to a TTree in order to build a new
 ```c++
 #ifdef DataTree_cxx
 #include<iostream>
-DataTree::DataTree(TTree *tree) : fChain(0) 
+DataTree::DataTree(TTree *tree) : fChain(0)
 {
 // if parameter tree is not specified (or zero) exit
    if (tree == 0) {
@@ -552,11 +373,9 @@ Int_t DataTree::Cut(Long64_t entry)
 // returns -1 otherwise.
    return 1;
 }
-#endif // #ifdef DataTree_cxx
-
 ```
-Looking at  [`DataTree.C`](examples/DataTree.C) it implements the most
-important function DataTree::Loop() which will be used to analyse the
+Looking at  [`DataTreeORIG.C`](examples/DataTreeORIG.C) generated by `ROOT` it implements the most
+important function DataTree::Loop() which is used to analyse the
 data in the TTree.
 
 ```c++
@@ -581,4 +400,103 @@ void DataTree::Loop()
    }
 }
 ```
-This is the file to be modified by you to add your custom analysis code
+This is the file to be modified by you to add your custom analysis code.
+In [`DataTree.C`](examples/DataTree.C) you see an example of a modified `Loop()` function to
+- open a new output ROOT file
+- book histograms
+- loop over events
+- do some calculations
+- plot histograms and save them in a pdf file
+- store objects in the outout root file
+```c++
+void DataTree::Loop()
+{
+   if (fChain == 0) return;
+
+   // create a new TFile to store output
+   // this is a different file from the one where the inout data is stored
+   TFile outfile("/tmp/analysis.root","RECREATE");
+
+   // book histograms
+   TH1F  hx("hx","distribution of all x", 50, 0.4, 1.8);
+   TH1F  hxmean("hxmean","distribution of average x per experiment", 50, 0.9, 1.1);
+
+   TH1F  hdx("hdx","distribution of all \\deltax", 50, 0., 0.1);
+   TH1F  hdxstdev("hdxstdev","distribution of Std. Dev of \\deltax per experiment", 50, 0., 0.01);
+
+   TH1F  hxSmalldx("hxSmalldx","distribution of all x with small errors", 100, 0.5, 2.5);
+
+   TH2F  hdxvsxall("hdxvsxall", "\\deltax vs x",50, 0.4, 1.8, 50, 0., 0.1 );
+
+
+   // loop over events in the tree
+   Long64_t nentries = fChain->GetEntriesFast();
+
+   Long64_t nbytes = 0, nb = 0;
+   for (Long64_t jentry=0; jentry<nentries;jentry++) {
+      Long64_t ientry = LoadTree(jentry);
+      if (ientry < 0) break;
+      nb = fChain->GetEntry(jentry);   nbytes += nb;
+      // if (Cut(ientry) < 0) continue;
+
+      // ---- add your code here to do analysis with data in the Tree
+      if(jentry%5==0) std::cout << "processing event: " << jentry << std::endl;
+
+      // reset histograms to compute mean and std Dev
+      //hx->Clear();
+      hx.Clear();
+      hdx.Clear();
+
+      // loop over measurements in this event
+      for(int im=0; im < nmeas; im++) {
+        // fill histos to compute mean and stdev for each experiment/event
+        //hx->Fill(value[im]);
+        hx.Fill(value[im]);
+        hdx.Fill(error[im]);
+
+        hdxvsxall.Fill( value[im], error[im] );
+
+        // only plot value for small errors
+        if(error[im]<0.05) hxSmalldx.Fill(value[im]);
+      }
+
+      // fill histo with info for each event/experiment
+      hxmean.Fill( hx.GetMean() );
+      hdxstdev.Fill( hdx.GetStdDev() );
+
+      // --- end of analysis code
+   } // end of event Loop
+
+
+   // make newplots
+   TCanvas* c1 = new TCanvas("c1","canvas", 1280,1024);
+   c1->Divide(2,2);
+   gStyle->SetOptStat(111111);
+
+   c1->cd(1);
+
+   hxmean.Draw();
+
+   c1->cd(2);
+   hdxstdev.Draw();
+
+   c1->cd(3);
+   hxSmalldx.Draw();
+
+   c1->cd(4);
+   hdxvsxall.Draw("colz3");
+
+   c1->SaveAs("/tmp/analysisPlots.pdf");
+
+  // write objects to output file
+  hxmean.Write();
+  hdxstdev.Write();
+  hxSmalldx.Write();
+  hdxvsxall.Write();
+  c1->Write();
+
+  // close outout file
+  outfile.Close();
+
+}
+```
