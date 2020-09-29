@@ -2,6 +2,7 @@
 
 This is the material used during my course ([Course website](http://www.roma1.infn.it/people/rahatlou/index.php?link=Didattica&sublink=cmp)).
 
+Single file with all C++ material:  [pdf](lectures/all.pdf)
 
 - Introduction to the course: [pdf](lec00/introduction.pdf)
 
