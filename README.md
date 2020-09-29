@@ -4,15 +4,15 @@ This is the material used during my course ([Course website](http://www.roma1.in
 
 Single file with all C++ material:  [pdf](material/cpp.pdf)
 
-- Introduction to the course: [pdf](lec00/introduction.pdf)
+- Introduction to the course: [pdf](material/introduction.pdf)
 
-- Introduction to C++: [pdf](lec01/lec01.pdf) [examples](lec01/examples)
+- Introduction to C++: [pdf](material/all.pdf) [examples](examples/01)
 
 - References and pointers in C++. Constant. Namespace. Introduction to Class.:
- [pdf](lec02/lec02.pdf) [examples](lec02/examples)
+ [pdf](material/all.pdf) [examples](examples/02)
 
 - Classes and objects in C++. Interface and attributes. Constructors. Separating interface and implementation. Header and source files:
-[pdf](lec03/lec03.pdf) [examples](lec03/examples)
+[pdf](material/all.pdf) [examples](lec03/examples)
 
 - Header and source files. Dynamic memory allocation. Destructor. Using class std::vector:
 [pdf](lec04/lec04.pdf) [examples](lec04/examples)
