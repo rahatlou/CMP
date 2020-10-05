@@ -61,6 +61,11 @@ Introduction to C++. (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/exam
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/02/">examples</a>).
 </li>
 
+<li>
+Lec 03,  6/10: Classes and objects in C++. Interface and attributes. Constructors.
+Separating interface and implementation. Header and source files.
+
+</li>
 
 <?php /*
 
