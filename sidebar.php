@@ -24,12 +24,13 @@
   <h2>Reference material</h2>
   <div style="height: 150px; overflow: auto">
     <ul>
-      <li><a href="https://github.com/rahatlou/CMP/tree/CMP2020">Lecture notes and examples</a></li>
-      <li>Previous years: <a href="https://github.com/rahatlou/CMP/tree/CMP2019">2019</a>,
-      <a href="https://github.com/rahatlou/CMP/tree/CMP2018">2018</a></li>
+      <li><a href="https://github.com/rahatlou/CMP/tree/CMP2020">Lecture notes and examples</a> (<a href="https://github.com/rahatlou/CMP/tree/CMP2019">2019</a>,
+      <a href="https://github.com/rahatlou/CMP/tree/CMP2018">2018</a>)</li>
 	    <li><a href="http://shop.oreilly.com/product/0636920050896.do">
 	    Python for Data Analysis, 2nd Edition</a>, by W. McKinney,
 	    O'Reilly Media</li>
+      <li><a href="https://www.oreilly.com/library/view/introduction-to-machine/9781449369880/">Introduction to Machine Learning with Python</a>,
+        by A. C. Müller and S. Guido, O'Reilly Media</li>
       <li><a href="http://shop.oreilly.com/product/0636920052289.do">
         Hands-On Machine Learning with Scikit-Learn and TensorFlow</a>,
          by Aurélien Géron, O'Reilly Media</li>

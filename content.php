@@ -57,39 +57,21 @@ Lec 01, 29/9: Introduction to the course
 Introduction to C++. (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/01/">examples</a>)
 </li>
 
-<li>Lec 02, 2/10: References and pointers in C++. Constant. Namespace. Introduction to Class
+<li>Lec 02, 2/10: References and pointers in C++. Constant. Namespace. Functions.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/02/">examples</a>).
 </li>
 
 <li>
-Lec 03,  6/10: Classes and objects in C++. Interface and attributes. Constructors.
-Separating interface and implementation. Header and source files.
+Lec 03,  6/10: Pointers and references in functions. Introduction to Class. Classes and objects in C++.
+Interface and attributes. Constructors.
+</li>
 
+<li>
+Lec 04, 9/10: Separating interface and implementation. Header and source files.
+Dynamic memory allocation. Destructor. Using class std::vector.
 </li>
 
 <?php /*
-
-Lec 01, 24/9: Introduction to the course (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec00/introduction.pdf">introduction</a>). Introduction to C++.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec01/lec01.pdf">pdf</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec01/examples">examples</a>)
-</li>
-
-<li>Lec 02, 27/9: References and pointers in C++. Constant. Namespace. Introduction to Class.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec02/lec02.pdf">pdf</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec02/examples">examples</a>)
-</li>
-
-<li>
-Lec 03,  1/10: Classes and objects in C++. Interface and attributes. Constructors. Separating interface and implementation. Header and source files.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec03/lec03.pdf">pdf</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec03/examples">examples</a>)
-</li>
-
-<li>
-Lec 04, 4/10: Header and source files. Dynamic memory allocation. Destructor. Using class std::vector.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec04/lec04.pdf">pdf</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec04/examples">examples</a>)
-</li>
 
 <li>
 Lec 05, 8/10: Destructor. const member functions. Default arguments for functions.
