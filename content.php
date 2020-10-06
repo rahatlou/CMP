@@ -54,16 +54,21 @@
 <li>
 Lec 01, 29/9: Introduction to the course
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/introduction.pdf">introduction</a>).
-Introduction to C++. (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/01/">examples</a>)
+Introduction to C++.
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-09-29-board.pdf">board</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/01/">examples</a>)
 </li>
 
 <li>Lec 02, 2/10: References and pointers in C++. Constant. Namespace. Functions.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/02/">examples</a>).
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-02-board.pdf">board</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/02/">examples</a>).
 </li>
 
 <li>
 Lec 03,  6/10: Pointers and references in functions. Introduction to Class. Classes and objects in C++.
 Interface and attributes. Constructors.
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-06-board.pdf">board</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/03/">examples</a>)
 </li>
 
 <li>
