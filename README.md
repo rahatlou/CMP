@@ -12,7 +12,7 @@ Single file with all C++ material:  [pdf](material/cpp.pdf)
  [pdf](material/all.pdf) [examples](examples/02)
 
 - Classes and objects in C++. Interface and attributes. Constructors. Separating interface and implementation. Header and source files:
-[pdf](material/all.pdf) [examples](lec03/examples)
+[pdf](material/all.pdf) [examples](examples/03)
 
 - Header and source files. Dynamic memory allocation. Destructor. Using class std::vector:
 [pdf](lec04/lec04.pdf) [examples](lec04/examples)
