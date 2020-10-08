@@ -16,6 +16,10 @@
     <p>Detailed information available on
       <a href="https://corsidilaurea.uniroma1.it/it/users/shahramrahatlouuniroma1it">catalogo dei corsi di studio</a>.</p>
 
+  <p>Students without Sapienza credentials (not registered on google classtoom) should
+     fill this <a href="https://docs.google.com/forms/d/e/1FAIpQLScc6qLTacuLSExgysr19Ua7R3_n4D2QkyRM54_VnmGhxmmJPg/viewform?usp=sf_link">survey on Lab activities</a> by <b>Sunday, 11 October, 12:00</b>.
+  </p>
+
 <h2 class="title">Orario Lezioni</h2>
           <p><b>Lectures start on Tuesday 29 September 2020</b></p>
           <ul>
