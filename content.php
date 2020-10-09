@@ -77,14 +77,23 @@ Interface and attributes. Constructors.
 
 <li>
 Lec 04, 9/10: Separating interface and implementation. Header and source files.
-Dynamic memory allocation. Destructor. Using class std::vector.
+Using class std::vector.
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-09-board.pdf">board</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/04/">examples</a>)
 </li>
+
+<li>
+Lec 05, 13/10: Dynamic memory allocation. Destructor. 
+const member functions. Default arguments for functions.
+Applications in C++. Arguments from command line. external libraries.
+</li>
+
+
 
 <?php /*
 
 <li>
-Lec 05, 8/10: Destructor. const member functions. Default arguments for functions.
-Applications in C++. Arguments from command line. external libraries. Introduction to ROOT.
+Lec 05, 8/10: Destructor.  Introduction to ROOT.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec05/lec05.pdf">pdf</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec05/examples">examples</a>)
 </li>

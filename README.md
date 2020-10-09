@@ -15,7 +15,7 @@ Single file with all C++ material:  [pdf](material/cpp.pdf)
 [pdf](material/all.pdf) [examples](examples/03)
 
 - Header and source files. Dynamic memory allocation. Destructor. Using class std::vector:
-[pdf](lec04/lec04.pdf) [examples](lec04/examples)
+[pdf](lec04/lec04.pdf) [examples](examples/04)
 
 - Destructor. const member functions. Default arguments for functions. Applications in C++. Arguments from command line. external libraries. Introduction to ROOT:
 [pdf](lec05/lec05.pdf) [examples](lec05/examples)
