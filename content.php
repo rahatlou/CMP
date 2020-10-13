@@ -340,7 +340,7 @@ machine. See also the <a href="https://root.cern.ch/downloading-root" >installat
 your machine. Unless you have special needs (e.g. old operating system) you should use the PRO version.
 <br>
 See  a <a
-href="https://github.com/rahatlou/CMP/blob/master/misc/ROOT.md">short summary on setting up ROOT</a> on
+href="https://github.com/rahatlou/CMP/tree/CMP2020/misc/ROOT.md">short summary on setting up ROOT</a> on
 your machine. </li>
 
 <li>Arduino: the official arduino website
