@@ -1,20 +1,26 @@
 # Using ROOT libraries
 
 ## ROOT installation
-follow the [instructions on the ROOT website](https://root.cern.ch/content/release-61404) to install the latest version of ROOT.
-As of 7 Nov 2019 the latest PRO version is 6.18/04.
+follow the [instructions on the ROOT website](https://root.cern.ch/content/release-61404) to install the latest version of ROOT.You can use the PRO version
+ [6.22/02](https://root.cern/releases/release-62202/).
 
-Typically you download a `tar gz` file (usually saved in Downloads) and uncompress it in some directory. This works perfectly fine on MacOS and Linux. For example:
+Typically you download a `tar gz` file (usually saved in Downloads) and uncompress it in some directory. This works perfectly fine on MacOS and Linux.
+
+#### macOS
+Due to latest privacy restrictions on macOS (10.14 or later) it is recommended to use the pkg file instead of tar.gz, unless you are know how to enable third-party
+applications.
+
+For example:
 ```shell
 cd $HOME
-tar xvzf root_v6.18.04.Linux-ubuntu18-x86_64-gcc7.4.tar.gz
+tar xvzf root_v6.22.02.Linux-ubuntu16-x86_64-gcc5.4.tar.gz
 ```
 this will create a `root` directory in your home directory (aka `$HOME`).
 
 It is good practice to rename the directory to reflect the version of ROOT
 ```
-mv root root-61804
-ls root-61804
+mv root root-62202
+ls root-62202
 LICENSE    aclocal/   cmake/     emacs/     fonts/     icons/     lib/       man/       tmva/
 README/    bin/       config/    etc/       geom/      include/   macros/    test/    tutorials/
 ```
@@ -30,7 +36,7 @@ Setting these variables is different for different shells
 #### bash
 If you are using **sh** or **bash**
 ```
-export ROOTSYS=${HOME}/root-61804
+export ROOTSYS=${HOME}/root-62202
 export LD_LIBRARY_PATH=${ROOTSYS}/lib
 export PATH=${PATH}:${ROOTSYS}/bin
 ```
@@ -40,7 +46,7 @@ you can add these lines at the end of `$HOME/.bash_profile` file so it is done a
 #### cshrc or tcsh
 If you are using **csh** or **tcsh**
 ```
-setenv ROOTSYS ${HOME}/root-61804
+setenv ROOTSYS ${HOME}/root-62202
 setenv LD_LIBRARY_PATH ${ROOTSYS}/lib
 setenv PATH ${PATH}:${ROOTSYS}/bin
 ```
@@ -55,13 +61,13 @@ Usage: root-config [--prefix[=DIR]] [--exec-prefix[=DIR]] [--version] [--cflags]
 or run root interactively
 ```
 $ root
-   ------------------------------------------------------------
-  | Welcome to ROOT 6.18/00                http://root.cern.ch |
-  |                               (c) 1995-2018, The ROOT Team |
-  | Built for macosx64                                         |
-  | From tag v6-14-00, 13 June 2018                            |
-  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q' |
-   ------------------------------------------------------------
+   ------------------------------------------------------------------
+  | Welcome to ROOT 6.22/02                        https://root.cern |
+  | (c) 1995-2020, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for macosx64 on Aug 17 2020, 12:46:52                      |
+  | From tags/v6-22-02@v6-22-02                                      |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q'       |
+   ------------------------------------------------------------------
 
 root [0] .q
 $
