@@ -83,7 +83,7 @@ Using class std::vector.
 </li>
 
 <li>
-Lec 05, 13/10: Dynamic memory allocation. Destructor. 
+Lec 05, 13/10: Dynamic memory allocation. Destructor.
 const member functions. Default arguments for functions.
 Applications in C++. Arguments from command line. external libraries.
 </li>
@@ -304,20 +304,23 @@ Lab 08, 15/1 13:00-16:00: Implemenation of a vicinity sensor with Arduino using 
       <ol>
         <li>Install the free
           <a href="https://www.virtualbox.org">virtual box application</a></li>
-        <li>In your browser download the <a
+        <li>Download the virtual machine with CentOS7 distribution
+         <a href="https://drive.google.com/file/d/14deTv-1VdddvLF_7bfC5s8PndfFRbKgo/view?usp=sharing">CentOS7.ova</a>.
+         This virtual machine has ROOT, python3, jupyter and a bunch of other python modules already installed.</li>
+<?php /*
+          <a
 href="http://labcalc.fisica.uniroma1.it/docenti/rahatlou/public_html/VM/Ubuntu18.04-cmp-64bit.ova">Ubuntu18.04-cmp-64bit.ova</a>
 which is a virtual machine based on Ubuntu 18.04, and has ROOT
 and python tools already installed, and the bash and csh
 environements configured.</li>
-        <li>You can now double-click on this ova file
-(image of a vitual machine) and you you see Ubuntu starting
-up in a window</a>
-        <li> the system will start up without asking for
-username and password. The user is called <em>student</em>
-and the password is <em>physics</em>. You will only need
-the password to update or add new packages for example for
-python.
-</li>
+*/ ?>
+       <li>Import the virtual machine (ova file) in VirtualBox (File->Import...)</li>
+        <li>Start the virtual machine</li>
+        <li>The credentials to use are <em>student</em> with password <em>cmp-2020</em>.
+            You can also update or add new packages for example for python. The root (super user) password
+            is the same as for student.</li>
+        <li>There is also an old <a href="http://labcalc.fisica.uniroma1.it/docenti/rahatlou/public_html/VM/Ubuntu18.04-cmp-64bit.ova">Ubuntu 18.04 virtual machine</a> from last year.
+          This machine has ROOT and python tools installed. The credentials are user <em>student</em> with password <em>physics</em>.</li>
 </ol>
 </li>
     <li>C++ compiler for Windows: you can <a href="https://tutorials.visualstudio.com/cpp-console/install">install the free version of Visual Studio</a></li>
