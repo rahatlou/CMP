@@ -86,6 +86,7 @@ Using class std::vector.
 Lec 05, 13/10: Dynamic memory allocation. Destructor.
 const member functions. Default arguments for functions.
 Applications in C++. Arguments from command line. external libraries.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/05/">examples</a>)
 </li>
 
 
