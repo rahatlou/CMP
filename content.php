@@ -86,30 +86,39 @@ Using class std::vector.
 Lec 05, 13/10: Dynamic memory allocation. Destructor.
 const member functions. Default arguments for functions.
 Applications in C++. Arguments from command line. external libraries.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/04/">examples 4</a>,
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-16-board.pdf">board</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/04/">examples 4</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/05/">examples 5</a>)
 </li>
 
 <li>
 Lec 06, 16/10:
 ROOT for data analysis.
-Dynamically allocated object as data members. Overloading operators. Adding operators to class Datum.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/06/">examples</a>)
+Overloading operators. Adding operators to class Datum.
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-16-board.pdf">board</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/06/">examples</a>)
 </li>
 
 
 
 <li>
-Lab 01, 19/10: Developing a class with operators for Complex algebra
+Lab 01, 19/10: Developing a class Complex with operators for algebra of complex numbers
+</li>
+
+
+<li>
+Lec 07, 20/10: Overaloding operator =. Special <bf>this</bf> pointer.
+Overloading operators and friend methods. Static data members and
+methods. Dynamically allocated object as data members.
+</li>
+
+<li>
+Lec 08, 23/10: Numerical convolution: Gaussian detector resolution and monochromatic source.
+Gaussian convolution of exponential decay length distribution.
 </li>
 
 <?php /*
 
-<li>
-Lec 05, 8/10: Destructor.  Introduction to ROOT.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec05/lec05.pdf">pdf</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec05/examples">examples</a>)
-</li>
 
 <li>
 Lec 06, 15/10:
