@@ -90,7 +90,18 @@ Applications in C++. Arguments from command line. external libraries.
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/05/">examples 5</a>)
 </li>
 
+<li>
+Lec 06, 16/10:
+ROOT for data analysis.
+Dynamically allocated object as data members. Overloading operators. Adding operators to class Datum.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/06/">examples</a>)
+</li>
 
+
+
+<li>
+Lab 01, 19/10: Developing a class with operators for Complex algebra
+</li>
 
 <?php /*
 
