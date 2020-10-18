@@ -23,11 +23,9 @@
 <h2 class="title">Orario Lezioni</h2>
           <p><b>Lectures start on Tuesday 29 September 2020</b></p>
           <ul>
-             <li> Tuesday 12-14, Aula 6 , Nuovo Edificio di Fisica (<a href="https://meet.google.com/dkg-mcoo-ugr">Google Meet: code  dkg-mcoo-ugr</a>)</li>
-             <li> Friday  12-14, Aula 6 , Nuovo Edificio di Fisica (<a href="https://meet.google.com/dkg-mcoo-ugr">Google Meet: code  dkg-mcoo-ugr</a>)</li>
-             <li> Lab Sessions: there will be about 5-6 lab sessions on Monday 9-12
-               in Laboratorio di Calcolo, Nuovo Edificio di Fisica.
-               The dates will be fixed once the number of students attending the course is fixed.</li>
+             <li> Tuesday 12-14, Aula 6 , Nuovo Edificio di Fisica (<a href="https://meet.google.com/dkg-mcoo-ugr">Google Meet code: dkg-mcoo-ugr</a>)</li>
+             <li> Friday  12-14, Aula 6 , Nuovo Edificio di Fisica (<a href="https://meet.google.com/dkg-mcoo-ugr">Google Meet code: dkg-mcoo-ugr</a>)</li>
+             <li> Lab Sessions: Laboratorio di Calcolo, Nuovo Edificio di Fisica, Piano 2, Monday 9-12 (<a href="https://meet.google.com/qgm-pnhe-ipr">Google Meet code: qgm-pnhe-ipr</a>)</li>
           </ul>
 
 <?php /*
@@ -103,6 +101,7 @@ Overloading operators. Adding operators to class Datum.
 
 <li>
 Lab 01, 19/10: Developing a class Complex with operators for algebra of complex numbers
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/lab/sessions.md">activity</a>)
 </li>
 
 
