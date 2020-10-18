@@ -1,13 +1,15 @@
 # Laboratory sessions
 
-## Session 1 (28/10/2019)
+## Session 1 (19/10/2019)
 In this first session we design and implement a new class `Complex` to implement
 mathematical operations between `Complex` and regular `double` objects.
-- overload operators `+,-,*,/` between `Complex` objects and operator `<<` for output
+- Choose the proper data members for the class
+- Implement the constructors
+- Implement `re()`, `im()`, `mag()`, `phase()`, `r()`, `phi()` member functions
+- overload operators `+,-,*,/` between `Complex` objects
 ```c++
 Complex a(-1,2), b(0.5, 0.9);
 Complex c = a/b;
-cout << c << endl;
 ```
 - overload operators for operations with a `double` on the rhs
 ```c++
@@ -18,6 +20,8 @@ Complex d = i*3 + a + b/2.3 + 1.2;
 ```c++
 Complex z = 3*i + 2/d;
 ```
+
+<!--
 
 ## Session 2 (11/11/2019)
 The scope of this session is to exercise input/output of `TTree` with `TFile`
@@ -93,3 +97,5 @@ Use python to simulate the [Compton scattering spectrum](compton.pdf).
 ## Session 8 (15/1/2020)
 Implement a vicinity sensor with Arduino.
 Real time plot with matplotlib. [md](../arduino/arduino.md)
+
+-->
