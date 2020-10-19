@@ -11,7 +11,7 @@ mathematical operations between `Complex` and regular `double` objects.
 Complex a(-1,2), b(0.5, 0.9);
 Complex c = a/b;
 ```
-- write global functions (or overload operators) for operations with a `double` on the rhs
+- overload operators for operations with a `double` on the rhs
 ```c++
 Complex   i(0,1);
 Complex d = i*3 + a + b/2.3 + 1.2;
