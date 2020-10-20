@@ -108,7 +108,9 @@ Lab 01, 19/10: Developing a class Complex with operators for algebra of complex 
 <li>
 Lec 07, 20/10: Overaloding operator =. Special <bf>this</bf> pointer.
 Overloading operators and friend methods. Static data members and
-methods. Dynamically allocated object as data members.
+methods.
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-20-board.pdf"></a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/07/">examples</a>)
 </li>
 
 <li>
@@ -118,6 +120,7 @@ Gaussian convolution of exponential decay length distribution.
 
 <?php /*
 
+Dynamically allocated object as data members.
 
 <li>
 Lec 06, 15/10:
