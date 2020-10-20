@@ -106,7 +106,7 @@ Lab 01, 19/10: Developing a class Complex with operators for algebra of complex 
 
 
 <li>
-Lec 07, 20/10: Overaloding operator =. Special <bf>this</bf> pointer.
+Lec 07, 20/10: Overaloding operators = and +=. Special <bf>this</bf> pointer.
 Overloading operators and friend methods. Static data members and
 methods.
 (<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-20-board.pdf">board</a>,
