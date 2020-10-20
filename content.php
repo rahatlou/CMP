@@ -110,7 +110,8 @@ Lec 07, 20/10: Overaloding operators = and +=. Special <bf>this</bf> pointer.
 Overloading operators and friend methods. Static data members and
 methods.
 (<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-20-board.pdf">board</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/07/">examples</a>)
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/07/">examples</a>
+<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/hw-01.pdf">homework</a> due by 27 Oct)
 </li>
 
 <li>
