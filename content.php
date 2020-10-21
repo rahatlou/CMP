@@ -28,6 +28,11 @@
              <li> Lab Sessions: Laboratorio di Calcolo, Nuovo Edificio di Fisica, Piano 2, Monday 9-12 (<a href="https://meet.google.com/qgm-pnhe-ipr">Google Meet code: qgm-pnhe-ipr</a>)</li>
           </ul>
 
+          <p>Please fill the following google form for
+            <a href="http://bit.ly/modulo-presenza-fisica">contact tracing</a> during in-person lectures while prodigit is being fixed.</p>
+            <p>You can also access the form with this QR code: <br>
+          <a href="http://bit.ly/modulo-presenza-fisica"><img src="Didattica/cmp/misc/qr-code-presenza.png" width=150></a></p>
+
 <?php /*
    <h2 class="title">Student survey</h2>
    <p>Please fill this informal <a href="https://docs.google.com/forms/d/e/1FAIpQLScMwRWGDYLbphrKOBqoEToqhGm-L4pg8DO7x8cAKFUt3dficw/viewform?usp=sf_link">survey module</a> by Tuesday 1 Oct to help me with the organisation of the course and lab sessions.</p>
@@ -111,7 +116,8 @@ Overloading operators and friend methods. Static data members and
 methods.
 (<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-20-board.pdf">board</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/07/">examples</a>,
-<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/hw-01.pdf">homework</a> due by 26 Oct 23:59)
+<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/hw-01.pdf">homework</a> due by 26 Oct 23:59
+)
 </li>
 
 <li>
