@@ -121,29 +121,19 @@ methods.
 </li>
 
 <li>
-Lec 08, 23/10: Numerical convolution: Gaussian detector resolution and monochromatic source.
+Lec 08, 23/10:
+Example of static data member in class Datum. Enumerators. use case for
+std::map, std::pair, and std::vector.
+Numerical convolution: Gaussian detector resolution and monochromatic source.
 Gaussian convolution of exponential decay length distribution.
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-22-board.pdf"></a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/08/">examples</a>)
 </li>
 
 <?php /*
 
 Dynamically allocated object as data members.
 
-<li>
-Lec 06, 15/10:
-Numerical convolution: Gaussian detector resolution and monochromatic source. Gaussian convolution of
-exponential decay length distribution.
-Dynamically allocated object as data members. Overloading operators. Adding operators to class Datum.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec06/lec06.pdf">pdf</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec06/examples">examples</a>)
-</li>
-
-<li>
-Lec 07, 18/10: Overloading operators and friend methods. Static data members and
-methods. Application to compute weighted average.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec07/lec07.pdf">pdf</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec07/examples">examples</a>)
-</li>
 
 <li>
 Lec 08, 22/10:
