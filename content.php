@@ -125,34 +125,21 @@ Lec 08, 23/10:
 Example of static data member in class Datum. Enumerators. use case for
 std::map, std::pair, and std::vector.
 Numerical convolution: Gaussian detector resolution and monochromatic source.
-Gaussian convolution of exponential decay length distribution.
-(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-22-board.pdf"></a>,
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-22-board.pdf">board</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/08/">examples</a>)
 </li>
 
 <?php /*
 
+Gaussian convolution of exponential decay length distribution.
+
 Dynamically allocated object as data members.
-
-
-<li>
-Lec 08, 22/10:
-Example of static data member in class Datum. Enumerators. use case for
-std::map, std::pair, and std::vector. class Vector3D.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec08/lec08.pdf">pdf</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec08/examples">examples</a>)
-</li>
 
 <li>
 Lec 09, 25/10:
 Input/Output with TTree and TFile. Random Generators in ROOT. Using ROOT classes for functions and fitting.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec09">md</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec09/examples/">examples</a>)
-</li>
-
-<li>
-Lab 01, 28/10: Design and implementation of a class for Complex numbers and their algebra.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
 </li>
 
 <li>
