@@ -125,7 +125,7 @@ Lec 08, 23/10:
 Example of static data member in class Datum. Enumerators. use case for
 std::map, std::pair, and std::vector.
 Numerical convolution: Gaussian detector resolution and monochromatic source.
-(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-22-board.pdf">board</a>,
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-23-board.pdf">board</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/08/">examples</a>)
 </li>
 
