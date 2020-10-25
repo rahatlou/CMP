@@ -21,6 +21,24 @@ Complex d = i*3 + a + b/2.3 + 1.2;
 Complex z = 3*i + 2/d;
 ```
 
+## Session 2 (26/10/2019)
+We design and implement a new class `Vector3D` to implement
+mathematical operations with 3D vectors
+- Choose the proper data members for the class
+- Implement the constructors, including a copy constructor
+- Take into account different coordinate systems: cartesian, polar, cylindrical
+- Implement `r()`, `phi()`, `theta()`, `x()`, `y()`, `z()`  member functions
+- overload operators `+,-,*,/` between `Vector3D` objects
+```c++
+const Vector3D a(-1,2,1), b(0.5, -0.5, 1.5);
+Vector3D c = a + b;
+```
+- overload operators for operations with a `double` on both sides
+```c++
+Vector3D d = 0.5*a - b/1.5
+```
+- Implement `scalarProduct()` and `vectorProduct()` functions with proper arguments.
+
 <!--
 
 ## Session 2 (11/11/2019)
