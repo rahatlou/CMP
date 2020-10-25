@@ -129,6 +129,12 @@ Numerical convolution: Gaussian detector resolution and monochromatic source.
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/08/">examples</a>)
 </li>
 
+
+<li>
+Lab 02, 26/10: Implement a class Vector3D with operators, scalar and vector product
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/lab/sessions.md">activity</a>)
+</li>
+
 <?php /*
 
 Gaussian convolution of exponential decay length distribution.
