@@ -142,7 +142,7 @@ Convolution of exponential decay length distribution.
 Object oriented programming: Inheritance. Base and derived class.
 Polymorphism with virtual methods.
 Examples of Shape, Particle, Person, Function and their use case.
-(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-27-board.pdf">board</a>
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-27-board.pdf">board</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/09/">examples</a>)
 </li>
 
