@@ -53,7 +53,7 @@
 <p>(Old websites: <a href="index.php?link=Didattica&sublink=2018.cmp">2018</a>,
 <a href="index.php?link=Didattica&sublink=2019.cmp">2019</a>)</p>
 
-<p>All material on C++ (extended weekly): <a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/cpp.pdf">pdf</a></p>
+<p>All material on C++ (extended weekly): <a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/cpp.pdf" target="_blank">pdf</a></p>
 
 <!-- begin lectures -->
 <ul>
@@ -142,9 +142,15 @@ Convolution of exponential decay length distribution.
 Object oriented programming: Inheritance. Base and derived class.
 Polymorphism with virtual methods.
 Examples of Shape, Particle, Person, Function and their use case.
-(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-27-board.pdf"></a>
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-27-board.pdf">board</a>
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/09/">examples</a>)
 </li>
+
+<li>
+Lec 10, 30/10:
+Polymorphism: abstract class. Applications. Strategy Pattern.
+</li>
+
 
 
 <?php /*
@@ -175,20 +181,6 @@ Creating custom analysis class.
 <a href="https://github.com/rahatlou/CMP/tree/CMP2019/misc/ROOT.md">ROOT setup and configuration</a>)
 </li>
 
-<li>
-Lec 12, 8/11:
-Object oriented programming: Inheritance. Base and derived class.
-Polymorphism with virtual methods.
-Examples of Shape, Particle, Person, Function and their use case.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec12/lec12.pdf">pdf</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec12/examples">examples</a>)
-</li>
-
-<li>
-Lab 02, 11/11 9:30-12:00:
-finishing Complex class and exercises with ROOT.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
-</li>
 
 
 <li>
