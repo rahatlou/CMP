@@ -135,6 +135,18 @@ Lab 02, 26/10: Implement a class Vector3D with operators, scalar and vector prod
 (<a href="https://github.com/rahatlou/CMP/blob/CMP2020/lab/sessions.md">activity</a>)
 </li>
 
+<li>
+Lec 09, 27/10:
+Numerical convolution: Gaussian detector resolution and monochromatic source.
+Convolution of exponential decay length distribution.
+Object oriented programming: Inheritance. Base and derived class.
+Polymorphism with virtual methods.
+Examples of Shape, Particle, Person, Function and their use case.
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-27-board.pdf"></a>
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/09/">examples</a>)
+</li>
+
+
 <?php /*
 
 Gaussian convolution of exponential decay length distribution.
