@@ -1,5 +1,5 @@
 <div id="sidebar-content">
-  <h3 class=h3sidebar>Last update: 27 Oct 2020</h3>
+  <h3 class=h3sidebar>Last update: 30 Oct 2020</h3>
 
   Created by
   <a href="http://www.roma1.infn.it/people/rahatlou/">Shahram Rahatlou</a>

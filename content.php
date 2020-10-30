@@ -149,6 +149,8 @@ Examples of Shape, Particle, Person, Function and their use case.
 <li>
 Lec 10, 30/10:
 Polymorphism: abstract class. Applications. Strategy Pattern.
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-30-board.pdf"></a>
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/10/">examples</a>)
 </li>
 
 
