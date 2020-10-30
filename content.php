@@ -140,19 +140,22 @@ Lec 09, 27/10:
 Numerical convolution: Gaussian detector resolution and monochromatic source.
 Convolution of exponential decay length distribution.
 Object oriented programming: Inheritance. Base and derived class.
-Polymorphism with virtual methods.
-Examples of Shape, Particle, Person, Function and their use case.
 (<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-27-board.pdf">board</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/09/">examples</a>)
 </li>
 
 <li>
 Lec 10, 30/10:
-Polymorphism: abstract class. Applications. Strategy Pattern.
-(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-30-board.pdf"></a>
+Polymorphism with virtual methods.
+Examples of Shape, Particle, Person, Function and their use case.
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-30-board.pdf">board</a>, 
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/10/">examples</a>)
 </li>
 
+<li>
+Lec 11, 3/11:
+Polymorphism: abstract class. Applications. Strategy Pattern.
+</li>
 
 
 <?php /*
