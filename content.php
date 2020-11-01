@@ -148,14 +148,20 @@ Object oriented programming: Inheritance. Base and derived class.
 Lec 10, 30/10:
 Polymorphism with virtual methods.
 Examples of Shape, Particle, Person, Function and their use case.
-(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-30-board.pdf">board</a>, 
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-10-30-board.pdf">board</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/10/">examples</a>)
+</li>
+
+<li>
+Lab 03, 2/11: Implement polymorphic Constant, Exponential, and Polynomial classes using a base class Function
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/lab/sessions.md">activity</a>)
 </li>
 
 <li>
 Lec 11, 3/11:
 Polymorphism: abstract class. Applications. Strategy Pattern.
 </li>
+
 
 
 <?php /*

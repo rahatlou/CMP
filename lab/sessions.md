@@ -37,7 +37,20 @@ Vector3D c = a + b;
 ```c++
 Vector3D d = 0.5*a - b/1.5
 ```
-- Implement `scalarProduct()` and `vectorProduct()` functions with proper arguments.
+- Implement `scalarProduct()` and `vectorProduct()` functions with appropriate arguments.
+
+
+## Session 3 (2/11/2020)
+The goal of this session is to implement an inheritance hierarchy for polymorphic
+classes `Constant`, `Exponential`, and `Polynomial` based on the class [`Function`](examples/Function.h) already discussed during the lecture.
+- Implement methods `value()`, `derivative()`, `integrate()` as declared in the header file provided (you cannot change the signature of these methods)
+- Overload the `<<` operator for all classes
+- Submit your `Function.{h,cc}`, `Constant.{h,cc}`, `Exponential.{h,cc}`, and `Polynomial.{h,cc}` and the test application `app.cc`
+
+You must separate the declaration (header file) from implementation (source file). Do not change the name of the classes. Make sure the name of the file corresponds to the class.
+
+**Tip:** first implement, compile, and test the `Constant` class with all its methods in your application. Then implement  `Exponential` and make sure it behaves as expected. Finally, implement `Polynomial`.
+
 
 <!--
 
