@@ -45,6 +45,7 @@ The goal of this session is to implement an inheritance hierarchy for polymorphi
 classes `Constant`, `Exponential`, and `Polynomial` based on the class [`Function`](examples/Function.h) already discussed during the lecture.
 - Implement methods `value()`, `derivative()`, `integrate()` as declared in the header file provided (you cannot change the signature of these methods)
 - Overload the `<<` operator for all classes
+- Write a program `app.cc` to test your code. For example you can plot your functions in a histogram with ROOT.
 - Submit your `Function.{h,cc}`, `Constant.{h,cc}`, `Exponential.{h,cc}`, and `Polynomial.{h,cc}` and the test application `app.cc`
 
 You must separate the declaration (header file) from implementation (source file). Do not change the name of the classes. Make sure the name of the file corresponds to the class.
