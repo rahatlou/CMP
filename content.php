@@ -160,12 +160,19 @@ Lab 03, 2/11: Implement polymorphic Constant, Exponential, and Polynomial classe
 <li>
 Lec 11, 3/11:
 Polymorphism: abstract class. virtual and pure virtual functions.
-<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/strategy.md" target=blank>Strategy Pattern, examples and applications</a>:
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/strategy.md" target=blank>Strategy Pattern</a> , examples and applications:
 Numerical integration methods. custom Function class.
-(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-11-03-board.pdf">board</a>,
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/strategy.md" target=blank>md</a>,
+<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-11-03-board.pdf">board</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/11/">examples</a>)
 </li>
 
+<li>
+Lec 12, 6/11:
+Composition pattern: examples and applications: leaf and composites in graphical applications.
+Example of a solar system simulation with composite objects.
+Examples in high energy phyiscs: tracks, photons, electrons, jets.
+</li>
 
 
 <?php /*
@@ -194,17 +201,6 @@ Creating custom analysis class.
 <a href="https://github.com/rahatlou/CMP/tree/CMP2019/misc/ROOT.md">ROOT setup and configuration</a>)
 </li>
 
-
-
-<li>
-Lec 13, 12/11:
-Polymorphism: abstract class. Applications.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec13/lec13.pdf">pdf</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec13/examples">examples</a>)
-Strategy pattern: examples and applications: Numerical integration methods. custom Function class.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec13/strategy.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec13/examples1">examples</a>)
-</li>
 
 
 <li>
