@@ -159,7 +159,10 @@ Lab 03, 2/11: Implement polymorphic Constant, Exponential, and Polynomial classe
 
 <li>
 Lec 11, 3/11:
-Polymorphism: abstract class. Applications. Strategy Pattern.
+Polymorphism: abstract class. Applications.
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/strategy.md" target=blank>Strategy Pattern</a>.
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-11-03-board.pdf"></a>
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/11/">examples</a>)
 </li>
 
 
