@@ -11,7 +11,7 @@ The UML diagram for the composite pattern is
 
 A [simple example of composition](https://www.bogotobogo.com/DesignPatterns/composite.php) is with graphical objects, e.g. square, circle, rectangle, as basic objects and a picture as a composed object containing a list of simple of objects.
 
-Simple objects inherit from (examples/Shape.h)
+Simple objects inherit from (../examples/12/Shape.h)
 ```c++
 class Shape {
 public:
@@ -21,7 +21,7 @@ public:
 };
 ```
 
-The composite objects such as [Picture](examples/Picture.h) contain a list of pointers (not  copies) of simple objects in order to allow us to take advantage of polymorphic behavior of different objects.
+The composite objects such as [Picture](../examples/12/Picture.h) contain a list of pointers (not  copies) of simple objects in order to allow us to take advantage of polymorphic behavior of different objects.
 ```c++
 class Picture : public Shape {
 public:
@@ -68,7 +68,7 @@ public:
   }
 };
 ```
-and now we can test the application [appShapes.cc](examples/appShapes.cc)
+and now we can test the application [appShapes.cc](../examples/12/appShapes.cc)
 ```c++
 int main() {
 
@@ -123,7 +123,7 @@ Note that with the addition of many bodies, the simple Euler method wiull become
 However, all classes continue to work and you only need to update or improve the `move()` method or even better use the [Strategy pattern](../lec15/lec15.md).
 
 ## generic celestial body
-The base class `Body` ([Body.h](examples/Body.h), [Body.cc](examples/Body.cc)) is abstract and mainly meant to define the interface for all celestial bodies.
+The base class `Body` ([Body.h](../examples/12/Body.h), [Body.cc](../examples/12/Body.cc)) is abstract and mainly meant to define the interface for all celestial bodies.
 
 All methods should be usable by both simple and composite objects.
 
@@ -156,7 +156,7 @@ class Body {
 };
 ```
 ### Simple body
-First we implement the `SimpleBody`  ([SimpleBody.h](examples/SimpleBody.h), [SimpleBody.cc](examples/SimpleBody.cc)) class to simulate the motion of a body, both planets or satellites.
+First we implement the `SimpleBody`  ([SimpleBody.h](../examples/12/SimpleBody.h), [SimpleBody.cc](../examples/12/SimpleBody.cc)) class to simulate the motion of a body, both planets or satellites.
 ```c++
 class SimpleBody : public Body {
   public:
@@ -181,7 +181,7 @@ class SimpleBody : public Body {
 ```
 Note how all methods from `Body` are now implemented. There are no additional methods, but the class is defined by its new data members: the mass, the position, and the velocity.
 
-We are using the [Vector3D](examples/Vector3D.h) class to do vector calculations for position and velocity.
+We are using the [Vector3D](../examples/12/Vector3D.h) class to do vector calculations for position and velocity.
 ```c++
 class Vector3D {
   public:
@@ -214,7 +214,7 @@ class Vector3D {
 ```
  **NB:** the implementation (.cc file) of `Vector3D` is not provided here. You should by now have already this class implemented. If not, take the header file and implement all the functions as an exercise.
 
-The key of the code is in the [`move()`](examples/SimpleBody.cc) method which implements the Euler method.
+The key of the code is in the [`move()`](../examples/12/SimpleBody.cc) method which implements the Euler method.
 ```c++
 void SimpleBody::move(const Vector3D& F, double dt) {
   pos_ += vel_ * dt;
@@ -226,7 +226,7 @@ void SimpleBody::move(const Vector3D& F, double dt) {
 where you provide the force on the object and move it accordingly.
 
 
-We are now ready to test our simulation in [appSimple.cc](examples/appSimple.cc)
+We are now ready to test our simulation in [appSimple.cc](../examples/12/appSimple.cc)
 ```c++
 int main() {
 
@@ -316,7 +316,7 @@ current velocity (-1.23e+04 , 2.736e+04 , 0)	 3e+04 m/s
 
 ## Composite Body
 
-We now define a `CompositeSystem` ([CompositeSystem.h](examples/CompositeSystem.h), [CompositeSystem.cc](examples/CompositeSystem.cc) ) class to represent an object that contains a list of pointers to `Body`. This can be for example the sun-earth system, the earth-moon, system, or the sun-(earth-moon) system. It can also be used to simulate the complete solar system.
+We now define a `CompositeSystem` ([CompositeSystem.h](../examples/12/CompositeSystem.h), [CompositeSystem.cc](../examples/12/CompositeSystem.cc) ) class to represent an object that contains a list of pointers to `Body`. This can be for example the sun-earth system, the earth-moon, system, or the sun-(earth-moon) system. It can also be used to simulate the complete solar system.
 ```c++
 class CompositeSystem : public Body {
   public:
@@ -350,7 +350,7 @@ class CompositeSystem : public Body {
 ```
 
 
-The example is [appComposite.cc](examples/appComposite.cc)
+The example is [appComposite.cc](../examples/12/appComposite.cc)
 ```c++
 int main() {
 
