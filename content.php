@@ -169,9 +169,12 @@ Numerical integration methods. custom Function class.
 
 <li>
 Lec 12, 6/11:
-Composition pattern: examples and applications: leaf and composites in graphical applications.
-Example of a solar system simulation with composite objects.
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/composite.md" target=blank>Composite pattern</a>: examples and applications. Leaf and composites in graphical applications.
 Examples in high energy phyiscs: tracks, photons, electrons, jets.
+Example of a solar system simulation with composite objects.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/composite.md" target=blank>md</a>,
+<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-11-06-board.pdf"  target=blank></a>
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/12/">examples</a>)
 </li>
 
 
