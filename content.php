@@ -163,7 +163,7 @@ Polymorphism: abstract class. virtual and pure virtual functions.
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/strategy.md" target=blank>Strategy Pattern</a> , examples and applications:
 Numerical integration methods. custom Function class.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/strategy.md" target=blank>md</a>,
-<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-11-03-board.pdf">board</a>,
+<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-11-03-board.pdf"  target=blank>board</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/11/">examples</a>)
 </li>
 
