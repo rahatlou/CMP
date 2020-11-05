@@ -167,10 +167,8 @@ Numerical integration methods. custom Function class.
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/11/">examples</a>)
 </li>
 
-<li> 6/11: : No lecture on 6/11.
-
 <li>
-Lec 12, 10/11:
+Lec 12, 6/11:
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/composite.md" target=blank>Composite pattern</a>: examples and applications. Leaf and composites in graphical applications.
 Examples in high energy phyiscs: tracks, photons, electrons, jets.
 Example of a solar system simulation with composite objects.
@@ -181,6 +179,12 @@ Example of a solar system simulation with composite objects.
 
 
 <?php /*
+
+<li> 6/11: : No lecture on 6/11.
+
+<li>
+Lec 12, 10/11:
+
 
 Dynamically allocated object as data members.
 
