@@ -52,6 +52,23 @@ You must separate the declaration (header file) from implementation (source file
 
 **Tip:** first implement, compile, and test the `Constant` class with all its methods in your application. Then implement  `Exponential` and make sure it behaves as expected. Finally, implement `Polynomial`.
 
+## Session 4 (9/11/2019)
+The scope of this session is the implementation of at least 2 numerical integration Methods
+with the [Strategy Pattern](../material/strategy.md) for the `Function` hierarchy implemented last week.
+
+- Implement the `Integrator` base class as discussed at the lecture
+- Implement the Monte Carlo method  (`MCIntegrator`)
+- Implement the trapezoid or midpoint Method (`MidpointIntegrator`)
+- Use a function with known primitive, e.g. `Exponential`, to compare precision of
+integration between the two methods and the analytical results
+- Make a 1D histogram of the difference `MCMethod-Analytical`, using the ROOT [`TH1F`](https://root.cern.ch/root/htmldoc/guides/users-guide/Histograms.html#histograms) class
+  - save the graph as `residual-mc.pdf`
+  - make the same plot for the midpoint method
+- Plot the difference `MCMethod-Analytical` as a function of trial points `N`, using the ROOT [`TGraph`](https://root.cern.ch/root/html534/guides/users-guide/Graphs.html#tgraph) class
+  - save the graph as `residual-mc-tgraph.pdf`
+  - make the same plot for the midpoint method
+- Once the methods are verified to work, you can integrate other functions, e.g. `Gaussian`, to further test your numerical implementation
+
 
 <!--
 
