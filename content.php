@@ -169,7 +169,7 @@ Numerical integration methods. custom Function class.
 
 <li>
 Lab 03, 2/11: Implementation of numerical integration methods with Strategy Pattern.
-(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/lab/sessions.md">activity</a>)
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/lab/sessions.md" target=blank>activity</a>)
 </li>
 
 
