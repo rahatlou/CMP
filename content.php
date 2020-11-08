@@ -168,7 +168,13 @@ Numerical integration methods. custom Function class.
 </li>
 
 <li>
-Lec 12, 6/11:
+Lab 03, 2/11: Implementation of numerical integration methods with Strategy Pattern.
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/lab/sessions.md">activity</a>)
+</li>
+
+
+<li>
+Lec 12, 10/11:
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/composite.md" target=blank>Composite pattern</a>: examples and applications. Leaf and composites in graphical applications.
 Examples in high energy phyiscs: tracks, photons, electrons, jets.
 Example of a solar system simulation with composite objects.
