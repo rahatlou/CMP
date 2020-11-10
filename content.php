@@ -172,15 +172,39 @@ Lab 04, 9/11: Implementation of numerical integration methods with Strategy Patt
 (<a href="https://github.com/rahatlou/CMP/blob/CMP2020/lab/sessions.md" target=blank>activity</a>)
 </li>
 
-
 <li>
 Lec 12, 10/11:
-<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/composite.md" target=blank>Composite pattern</a>: examples and applications. Leaf and composites in graphical applications.
-Examples in high energy phyiscs: tracks, photons, electrons, jets.
-Example of a solar system simulation with composite objects.
+Definition and use of histograms (1D and 2D) and graphs. Environment variables in shell.
+Compiling and linking with ROOT libraries.
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/composite.md" target=blank>Composite pattern</a>: examples and applications.
+Examples in phyiscs: resistors, particles, molecules and atoms.
+Leaf and composites in graphical applications.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/composite.md" target=blank>md</a>,
-<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-11-06-board.pdf"  target=blank></a>
+<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-11-10-board.pdf"  target=blank>board</a>)
+</li>
+
+
+<li>
+Lec 13, 13/11:
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/composite.md" target=blank>Composite pattern</a>:
+simulation of solar system with composite objects.
+Examples in high energy phyiscs: tracks, photons, electrons, jets.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/composite.md" target=blank>md</a>,
+<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-11-13-board.pdf"  target=blank></a>
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/12/">examples</a>)
+</li>
+
+<li>
+Lab 05, 16/11:
+</li>
+
+
+<li>
+No lecture on 17/11
+</li>
+
+<li>
+Lec 14, 20/11:
 </li>
 
 
