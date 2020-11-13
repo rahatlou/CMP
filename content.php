@@ -186,16 +186,16 @@ Leaf and composites in graphical applications.
 
 <li>
 Lec 13, 13/11:
-<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/composite.md" target=blank>Composite pattern</a>:
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/composite.md" target=blank>Composite pattern</a>.
+Composite particles. Resistors. Energy Clusters.
 simulation of solar system with composite objects.
-Examples in high energy phyiscs: tracks, photons, electrons, jets.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/composite.md" target=blank>md</a>,
-<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-11-13-board.pdf"  target=blank></a>
+<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-11-13-board.pdf"  target=blank>board</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/12/">examples</a>)
 </li>
 
 <li>
-Lab 05, 16/11:
+Lab 05, 16/11: exercise with composite pattern.
 </li>
 
 
