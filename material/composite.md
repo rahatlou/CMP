@@ -11,7 +11,7 @@ The UML diagram for the composite pattern is
 
 A [simple example of composition](https://www.bogotobogo.com/DesignPatterns/composite.php) is with graphical objects, e.g. square, circle, rectangle, as basic objects and a picture as a composed object containing a list of simple of objects.
 
-Simple objects inherit from (../examples/12/Shape.h)
+Simple objects inherit from [Shape](../examples/12/Shape.h)
 ```c++
 class Shape {
 public:
@@ -401,5 +401,4 @@ int main() {
   solarSystem.print();
 
   return 0;
-
 ```
