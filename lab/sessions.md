@@ -70,6 +70,58 @@ integration between the two methods and the analytical results
 - Once the methods are verified to work, you can integrate other functions, e.g. `Gaussian`, to further test your numerical implementation
 
 
+## Session 5 (16/11/2019)
+Implement the `Parallel` and `Series` of resistors as a polymorphic inheritance hierarchy with the [Composite Pattern](../material/composite.md).
+
+![Composite Pattern for resistors](Resistors.jpg "Composite Pattern for resistors")
+
+### Class `Resistor`
+- two data members: `name_` and `resistance_`
+- virtual methods `value()`, `name()`, `print()`
+- setter methods `setName()` and `setValue()`
+
+### Class `Parallel`
+- data member `components_`: list of `Resistor` pointers
+- member function `add()` to add pointers of `Resistor` objects
+- virtual method `value()` compute and return the correct value of the resistance by using the `value()` method of its children
+```C++
+Resistor r1("r1", 100); // assume ohm
+Resistor r2("r2", 200);
+
+Parallel p1("p1");
+p1.add(&r1);
+p1.add(&r2);
+
+cout << "p1 resistance: " << p1.value() << " Ohm" << endl;
+
+r1.setValue(200);
+
+// you should obtain  a new value for p1
+cout << "p1 resistance: " << p1.value() << " Ohm" << endl;
+```
+
+- `print()` method should show the structure of the `Parallel` or `Series`
+```C++
+p1.print();
+
+...
+
+Parallel p1: r1 || r2 : 100 Ohm
+  r1: 200 ohm
+  r2: 200 Ohm
+```
+
+### Class `Series`
+Same as `Parallel` but with the correct calculation of resistance. Also `print()` function should use ` -- ` instead of `||`
+
+
+### Optional
+- overload of `<<` operator
+```C++
+cout << r1 << r2 << p1 << endl;
+```
+
+
 <!--
 
 ## Session 2 (11/11/2019)
