@@ -73,13 +73,19 @@ integration between the two methods and the analytical results
 ## Session 5 (16/11/2019)
 Implement the `Parallel` and `Series` of resistors as a polymorphic inheritance hierarchy with the [Composite Pattern](../material/composite.md).
 
-<!--![Composite Pattern for resistors](Resistors.jpg  "Composite Pattern for resistors")
--->
 <img src="Resistors.jpg" alt="Composite Pattern for resistors" width=400/>
 
 ### Class `Resistor`
 - two data members: `name_` and `resistance_`
 - virtual methods `value()`, `name()`, `print()`
+```C++
+Resistor ("r1", 1000);
+r1.print();
+```
+should produce
+```C++
+r1: 1000 Ohm
+```
 - setter methods `setName()` and `setValue()`
 
 ### Class `Parallel`
@@ -102,12 +108,12 @@ r1.setValue(200);
 cout << "p1 resistance: " << p1.value() << " Ohm" << endl;
 ```
 
-- `print()` method should show the structure of the `Parallel` or `Series`
+- `print()` method should show the structure of the `Parallel`. call `print()` recursively for components.
 ```C++
 p1.print();
-
-...
-
+```
+should produce
+```C++
 Parallel p1: r1 || r2 : 100 Ohm
   r1: 200 ohm
   r2: 200 Ohm
@@ -122,7 +128,7 @@ Same as `Parallel` but with the correct calculation of resistance. Also `print()
 ```C++
 cout << r1 << r2 << p1 << endl;
 ```
-
+   + **tip**: you could modify `print()` in order to use it properly within `<<`
 
 <!--
 
