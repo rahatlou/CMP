@@ -195,7 +195,8 @@ simulation of solar system with composite objects.
 </li>
 
 <li>
-Lab 05, 16/11: exercise with composite pattern.
+Lab 05, 16/11: Polymorphic hierarchy of Resistor and Parallel with composite pattern.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/lab#session-5-16112020" target=blank>activity</a>)
 </li>
 
 
