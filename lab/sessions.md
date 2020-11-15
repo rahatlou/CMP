@@ -1,6 +1,6 @@
 # Laboratory sessions
 
-## Session 1 (19/10/2019)
+## Session 1 (19/10/2020)
 In this first session we design and implement a new class `Complex` to implement
 mathematical operations between `Complex` and regular `double` objects.
 - Choose the proper data members for the class
@@ -21,7 +21,7 @@ Complex d = i*3 + a + b/2.3 + 1.2;
 Complex z = 3*i + 2/d;
 ```
 
-## Session 2 (26/10/2019)
+## Session 2 (26/10/2020)
 We design and implement a new class `Vector3D` to implement
 mathematical operations with 3D vectors
 - Choose the proper data members for the class
@@ -52,7 +52,7 @@ You must separate the declaration (header file) from implementation (source file
 
 **Tip:** first implement, compile, and test the `Constant` class with all its methods in your application. Then implement  `Exponential` and make sure it behaves as expected. Finally, implement `Polynomial`.
 
-## Session 4 (9/11/2019)
+## Session 4 (9/11/2020)
 The scope of this session is the implementation of at least 2 numerical integration Methods
 with the [Strategy Pattern](../material/strategy.md) for the `Function` hierarchy implemented last week.
 
@@ -70,7 +70,7 @@ integration between the two methods and the analytical results
 - Once the methods are verified to work, you can integrate other functions, e.g. `Gaussian`, to further test your numerical implementation
 
 
-## Session 5 (16/11/2019)
+## Session 5 (16/11/2020)
 Implement the `Parallel` and `Series` of resistors as a polymorphic inheritance hierarchy with the [Composite Pattern](../material/composite.md).
 
 <img src="Resistors.jpg" alt="Composite Pattern for resistors" width=400/>
