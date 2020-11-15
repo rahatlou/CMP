@@ -75,7 +75,7 @@ Implement the `Parallel` and `Series` of resistors as a polymorphic inheritance 
 
 <!--![Composite Pattern for resistors](Resistors.jpg  "Composite Pattern for resistors")
 -->
-<img src="Resistors.jpg" alt="Composite Pattern for resistors" width=200/>
+<img src="Resistors.jpg" alt="Composite Pattern for resistors" width=400/>
 
 ### Class `Resistor`
 - two data members: `name_` and `resistance_`
