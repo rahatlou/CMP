@@ -73,7 +73,9 @@ integration between the two methods and the analytical results
 ## Session 5 (16/11/2019)
 Implement the `Parallel` and `Series` of resistors as a polymorphic inheritance hierarchy with the [Composite Pattern](../material/composite.md).
 
-![Composite Pattern for resistors](Resistors.jpg =250x "Composite Pattern for resistors")
+<!--![Composite Pattern for resistors](Resistors.jpg  "Composite Pattern for resistors")
+-->
+<img src="Resistors.jpg" alt="Composite Pattern for resistors" width=200/>
 
 ### Class `Resistor`
 - two data members: `name_` and `resistance_`
