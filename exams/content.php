@@ -9,6 +9,47 @@
 			Reservation is strictly required in order to take the exam.
 		</p>
 
+		<a id="20201118"></a>
+		<h2 class=title>Appello 2020-11-18</h2>
+		<p>A pdf file with the text of the exam will be posted here on
+			<b>Wednesday 18 November at 9:30</b>. You will have to submit your project
+		following the online procedure by <b>13:30</b>
+		(<a href="https://github.com/rahatlou/CMP/blob/CMP2019/exams/20201118-cmp-text.pdf">pdf</a>).
+	  </p>
+
+		<p>For question and clarification: I will be available by email or on
+			<a href="https://meet.google.com/vbb-btpf-uzb">Google Meet code: vbb-btpf-uzb</a>
+			between 10:30 and 12:30.</p>
+
+
+			<p>
+			The date of the oral exam will be fixed by email.
+			</p>
+
+			<p>
+			Please read carefully the instructions for the
+			<a href="https://www.uniroma1.it/it/documento/procedura-straordinaria-lo-svolgimento-degli-esami-orali-di-profitto-modalita-telematica">special procedures for oral exams</a>
+			of Sapienza. The oral exam requires  a satisfactory video  (showing the student and the screen) and audio connections.
+			</p>
+
+
+
+		<p>A valid Sapienza email address is mandatory to particpate in the exam and submit your project.</p>
+
+		<p>Students who have made a reservation on infostud for this sessions can submit their project with the following online procedure
+		<ul>
+			<li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
+					with your Sapienza credentials. (if you are already logged in with your personal gmail account, you must first log out)</li>
+			<li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1WXf508XllxeaKNuat6kLD-NUnqVIvZoIlKuxW6btMXL9FQ/viewform?usp=sf_link">google form</a> </li>
+			<li>You can submit only one zip file containing your files</li>
+			<li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
+			<li>The form will close automatically at <b>13:30</b>.</li>
+		</ul>
+		</p>
+
+
+
+
 		<a id="20200908"></a>
 		<h2 class=title>Appello 2020-09-08</h2>
 		<p>A pdf file with the text of the exam will be posted here on
@@ -49,6 +90,7 @@
 			<li>The form will close automatically at <b>13:30</b>.</li>
 		</ul>
 		</p>
+
 
 
 		<a id="20200706"></a>
