@@ -10,7 +10,7 @@
   <h2>Appelli</h2>
   <div style="height: 300px; overflow: auto">
     <ul>  <!-- lista avvisi-->
-      <li><a href="javascript:goTo('20200908')">2020-11-18</a></li>
+      <li><a href="javascript:goTo('20201118')">2020-11-18</a></li>
       <li><a href="javascript:goTo('20200908')">2020-09-08</a></li>
       <li><a href="javascript:goTo('20200706')">2020-07-06</a></li>
       <li><a href="javascript:goTo('20200617')">2020-06-17</a></li>
