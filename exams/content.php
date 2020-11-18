@@ -14,7 +14,7 @@
 		<p>A pdf file with the text of the exam will be posted here on
 			<b>Wednesday 18 November at 9:30</b>. You will have to submit your project
 		following the online procedure by <b>13:30</b>
-		(<a href="https://github.com/rahatlou/CMP/blob/CMP2019/exams/20201118-cmp-text.pdf">pdf</a>).
+		(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/exams/20201118-cmp-text.pdf">pdf</a>).
 	  </p>
 
 		<p>For question and clarification: I will be available by email or on
