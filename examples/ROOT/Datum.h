@@ -15,6 +15,9 @@ class Datum {
     double significance() const;
     void print() const;
 
+    void setValue(double v) { value_ = v; }
+    void setError(double e) { error_ = e; }
+
     Datum operator+( const Datum& rhs ) const;
     const Datum& operator+=( const Datum& rhs );
 
