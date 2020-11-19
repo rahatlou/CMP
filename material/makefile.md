@@ -53,7 +53,7 @@ make -f Makefile.4 clean
 
 ## First simple example from lec13
 
-Let's look at the examples in [examples](examples):
+Let's look at the examples in [examples](../examples/makefile/):
 ```shell
 $ ls
 CustomIntegrator.h     Function.cc            Gauss.h                MCIntegrator.h         app11.cc
@@ -71,7 +71,7 @@ In order to build the app
 ```shell
 g++ MCIntegrator.cc app1.cc -o app1
 ```
-this can be achieved with a simple makefile [Makefile.1](examples/Makefile.1)
+this can be achieved with a simple makefile [Makefile.1](../examples/makefile/Makefile.1)
 ```Makefile
 app1: app1.cc MCIntegrator.cc
 ```
@@ -128,7 +128,7 @@ app1.cc   app11.cc  app2.cc
 ### special target *all*
 
 If we want to always build all executables by default we can introduce a first target `all` that has all
-other targets as prerequisites. This is  done in [Makefile.4](examples/MakeFile.4)
+other targets as prerequisites. This is  done in [Makefile.4](../examples/makefile/MakeFile.4)
 ```make
 CXX:=g++
 
@@ -165,7 +165,7 @@ Instead we would like to
 - make a library with compiled object files  
 - use the library and the link the binaries
 
-This is done in [examples/Makefile.5](examples1/Makefile.5)
+This is done in [examples/Makefile.5](../examples/makefile/Makefile.5)
 
 First we define the C++ compiler to be used and define a new variable `APPS` to specify which files are used to build binaries
 ```make
@@ -218,7 +218,7 @@ echo "executables:\t" app1 app2 app11
 executables:	 app1 app2 app11
 ```
 both the recipe being executed and its output are displayed. It is possible to hide the recipe and only show its output
-using the `@` at the beginning of the recipe in [Makefile.6](examples/Makefile.6)
+using the `@` at the beginning of the recipe in [Makefile.6](../examples/makefile/Makefile.6)
 ```make
 list:
 	@echo "source files:\t" $(SRCS)
@@ -235,7 +235,7 @@ applications:	 app1.cc app2.cc app11.cc
 executables:	 app1 app2 app11
 ```
 
-We can finally start adding the targets for binaries and libraries in [Makefile.7](examples/Makefile.7)
+We can finally start adding the targets for binaries and libraries in [Makefile.7](../examples/makefile/Makefile.7)
 ```make
 # target to build all binaries
 bin: ${BINS}
@@ -297,7 +297,7 @@ g++ -o app2  -L. -lCMP app2.cc
 g++ -o app11  -L. -lCMP app11.cc
 ```
 By invoking the bin target all source files are compiled, a library is made and then the binaries are correctly linked.
-In this version of the file all details of the recipe appear on the screen. It is common to hide the recipe commands with `@` and provide a simpler and more concise output  with `@echo "some message"`. This is done in [Makefile.8](examples/Makefile.8)
+In this version of the file all details of the recipe appear on the screen. It is common to hide the recipe commands with `@` and provide a simpler and more concise output  with `@echo "some message"`. This is done in [Makefile.8](../examples/makefile/Makefile.8)
 ```make
 CXX := g++
 
