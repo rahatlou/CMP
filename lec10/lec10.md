@@ -8,15 +8,15 @@ The tree is the prototype of the data structure to be stored. It is made of bran
 Each branch contains a distinct collection of objects of the same class. So in data analysis each variable, e.g. `x`, `energy`, `track` corresponds to a Branch. The copies of data (for each measurement or experiment) are the leaves of the branch.
 
 ### Examples
-A number of [examples](examples/) are provided to write and read simple type of trees:
+A number of [examples](../examples/ROOT/) are provided to write and read simple type of trees:
 
-- Fill TTree and store in TFile:  [04-writeTree.cc](examples/04-writeTree.cc)
-- Read TTree from file and fill histograms: [06-readTree.cc](examples/06-readTree.cc)
-- Fill TTree with variable size branch and store in TFile: [07-writeObjects.cc](examples/07-writeObjects.cc)
-- Read TTree from file and fill 1D and 2D histograms:[08-readTree.cc](examples/08-readTree.cc)
+- Fill TTree and store in TFile:  [04-writeTree.cc](../examples/ROOT/04-writeTree.cc)
+- Read TTree from file and fill histograms: [06-readTree.cc](../examples/ROOT/06-readTree.cc)
+- Fill TTree with variable size branch and store in TFile: [07-writeObjects.cc](../examples/ROOT/07-writeObjects.cc)
+- Read TTree from file and fill 1D and 2D histograms:[08-readTree.cc](../examples/ROOT/08-readTree.cc)
 
 ## Fill a simple Tree and store in TFile
-The complete example is in [04-writeTree.cc](examples/04-writeTree.cc)
+The complete example is in [04-writeTree.cc](../examples/ROOT/04-writeTree.cc)
 
 First open a root file and create a new TTree object
 ```c++
@@ -75,7 +75,7 @@ orootfile->Close();
 before closing the root file.
 
 ## Read TTree from file
-The complete example is in [06-readTree.cc](examples/06-readTree.cc).
+The complete example is in [06-readTree.cc](../examples/ROOT/06-readTree.cc).
 
 In order to access the data in a tree you need
 - name of the ROOT file where the tree is stored (`/tmp/dati.root`")
@@ -126,7 +126,7 @@ Note that the `TTree::GetEntry()` call is what populates the `y` and `dy` variab
 from the data in the tree on disk.
 
 ## Trees with variable size branches
-Complete example in [07-writeObjects.cc](examples/07-writeObjects.cc)
+Complete example in [07-writeObjects.cc](../examples/ROOT/07-writeObjects.cc)
 
 In the previous example, each event has exactly one `value` and `error` stored. In reality, often we have to deal with situations were the number of objects to be stored varies across the events. For example, if we want to store the energy for all photons produced in a collision. The number of photons will be different in each event. The simplest way is to use fixed-size C-style arrays.
 
@@ -183,7 +183,7 @@ and finally store the tree
 tree->Write();
 ```
 
-Reading the tree also requires some changes to account for the arrays (see the complete example in [08-readTree.cc](examples/08-readTree.cc))
+Reading the tree also requires some changes to account for the arrays (see the complete example in [08-readTree.cc](../examples/ROOT/08-readTree.cc))
 
 Declare the variables and set the address for the branches
 ```c++
