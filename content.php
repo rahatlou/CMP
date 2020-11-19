@@ -205,17 +205,15 @@ No lecture on 17/11
 </li>
 
 <li>
-Lec 14, 20/11:
+Lec 14, 20/11: ROOT for data storage and I/O. Random generators in ROOT. TFile and TTree. 
+Simulation with ROOT.
 </li>
 
+<li>
+Lab 06, 23/11: Numerical simulation with ROOT.
+</li>
 
 <?php /*
-
-<li> 6/11: : No lecture on 6/11.
-
-<li>
-Lec 12, 10/11:
-
 
 Dynamically allocated object as data members.
 
