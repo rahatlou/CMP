@@ -543,7 +543,7 @@ TTree, you need the list and types of all branches in order to
 ROOT.
 
 Let's assume you have `/tmp/dati01.root` created by
-[01-writeObjects.cc](../examples/ROOT/01-writeObjects.cc)
+[07-writeObjects.cc](../examples/ROOT/07-writeObjects.cc)
 
 ```bash
 g++ -o /tmp/01-write 01-writeObjects.cc `$ROOTSYS/bin/root-config --libs --cflags`
