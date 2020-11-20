@@ -75,16 +75,19 @@ int main( int argc, char* argv[]) {
   hx1.GetXaxis()->SetTitle("Distribution of x [GeV]");
   hx1.Draw();
   canv.SaveAs("/tmp/x.pdf");
+  canv.SaveAs("/tmp/x.jpg");
 
   hdx1.GetXaxis()->SetTitle("Distribution of uncertainty \\Delta x [GeV]");
   hdx1.Draw("pe"); // show points with error bars
   canv.SaveAs("/tmp/dx.pdf");
+  canv.SaveAs("/tmp/dx.jpg");
 
 
   // fit histogram with predefined Gaussian function
   hdx1.Fit("gaus");
   hdx1.Draw();
   canv.SaveAs("/tmp/dxfit.pdf");
+  canv.SaveAs("/tmp/dxfit.jpg");
 
   // delete the random generator
   delete gen;

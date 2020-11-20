@@ -7,8 +7,8 @@
 
 ## Storage of custom objects
 
-- Another problem is storage of objects of custom types e.g. `Datum` which is not your typical `int`, `double`, `float`, or `string`
-- And what about histograms such as `TH1F` and more advanced objects used in `ROOT` ?
+- Another problem is storage of objects of custom types instead of built-in types such as `int`, `double`, `float`, or `string`
+- And what about histograms such as `TH1F` and more advanced objects used in `ROOT`, or even your `Datum`, `Vector3D` or `Complex` objects ?
 
 ### [TFile](https://root.cern.ch/doc/master/classTFile.html)
 - In ROOT we use the File class for storage of data
@@ -146,6 +146,8 @@ After generating the data we now take care of plotting. We also change some hist
   hdx1.Draw("pe"); // show points with error bars
   canv.SaveAs("/tmp/dx.pdf");
 ```
+<img src="x.jpg" width=250>
+
 A simple example of fitiing with predefined functions. For more options see the ROOT [user guide on fitting histograms](https://root.cern.ch/root/htmldoc/guides/users-guide/FittingHistograms.html)
 ```c++
   // fit histogram with predefined Gaussian function
@@ -153,6 +155,8 @@ A simple example of fitiing with predefined functions. For more options see the 
   hdx1.Draw();
   canv.SaveAs("/tmp/dxfit.pdf");
 ```
+<img src="dxfit.jpg" width=250>
+
 we can now delete the generator
 ```c++
   // delete the random generator
