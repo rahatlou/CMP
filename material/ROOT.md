@@ -193,7 +193,7 @@ Info in <TCanvas::Print>: pdf file /tmp/dxfit.pdf has been created
 
 ```
 
-### Quesrtions
+### Questions
 - What is the standard deviation of the measured values?
 - What the width of the fitted Gaussian ?
 - How does the measured values compare to your expecation?
