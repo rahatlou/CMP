@@ -146,7 +146,8 @@ After generating the data we now take care of plotting. We also change some hist
   hdx1.Draw("pe"); // show points with error bars
   canv.SaveAs("/tmp/dx.pdf");
 ```
-<img src="x.jpg" width=250>
+<img src="x.jpg" width=350>
+<img src="dx.jpg" width=350>
 
 A simple example of fitiing with predefined functions. For more options see the ROOT [user guide on fitting histograms](https://root.cern.ch/root/htmldoc/guides/users-guide/FittingHistograms.html)
 ```c++
@@ -155,7 +156,7 @@ A simple example of fitiing with predefined functions. For more options see the 
   hdx1.Draw();
   canv.SaveAs("/tmp/dxfit.pdf");
 ```
-<img src="dxfit.jpg" width=250>
+<img src="dxfit.jpg" width=400>
 
 we can now delete the generator
 ```c++
