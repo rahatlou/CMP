@@ -190,14 +190,34 @@ Info in <TCanvas::Print>: pdf file /tmp/dx.pdf has been created
    2  Mean         9.99764e-01   3.93885e-03   1.37562e-05   3.37032e-02
    3  Sigma        1.14658e-01   3.12987e-03   2.49340e-05   1.00617e-02
 Info in <TCanvas::Print>: pdf file /tmp/dxfit.pdf has been created
-
 ```
-
 ### Questions
 - What is the standard deviation of the measured values?
 - What the width of the fitted Gaussian ?
-- How does the measured values compare to your expecation?
+- How does the measured values compare to your expectation?
 
+You can inspect the content of the file from the command line:
+```sh
+$ root  /tmp/output.root
+   ------------------------------------------------------------------
+  | Welcome to ROOT 6.22/02                        https://root.cern |
+  | (c) 1995-2020, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for macosx64 on Aug 17 2020, 12:46:52                      |
+  | From tags/v6-22-02@v6-22-02                                      |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q'       |
+   ------------------------------------------------------------------
+
+root [0]
+Attaching file /tmp/output.root as _file0...
+(TFile *) 0x7faaf7bf8eb0
+root [1] .ls
+TFile**		/tmp/output.root
+ TFile*		/tmp/output.root
+  KEY: TH1F	hx1;1	distribution of true x
+  KEY: TH1F	hdx1;1	distribution of measured x
+root [2] hx1->Draw()
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+```
 ### Exercise
 - use command line to pass the name of the output file to programs
 - use command line to specify the number of measurements and the resolution
