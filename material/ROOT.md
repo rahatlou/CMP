@@ -175,11 +175,30 @@ histograms as objects can be written to
   return 0;
 }
 ```
+This is the output when running the program
+```sh
+$ /tmp/app
+storing output in root file /tmp/output.root
+# bins: 100	 bin width: 0.012
+Info in <TCanvas::Print>: pdf file /tmp/x.pdf has been created
+Info in <TCanvas::Print>: pdf file /tmp/dx.pdf has been created
+ FCN=53.7499 FROM MIGRAD    STATUS=CONVERGED      69 CALLS          70 TOTAL
+                     EDM=1.29868e-08    STRATEGY= 1      ERROR MATRIX ACCURATE
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+   1  Constant     3.97103e+01   1.65753e+00   4.66441e-03   4.33139e-05
+   2  Mean         9.99764e-01   3.93885e-03   1.37562e-05   3.37032e-02
+   3  Sigma        1.14658e-01   3.12987e-03   2.49340e-05   1.00617e-02
+Info in <TCanvas::Print>: pdf file /tmp/dxfit.pdf has been created
+
+```
+
+### Quesrtions
 - What is the standard deviation of the measured values?
 - What the width of the fitted Gaussian ?
 - How does the measured values compare to your expecation?
 
-### Exercise:
+### Exercise
 - use command line to pass the name of the output file to programs
 - use command line to specify the number of measurements and the resolution
 
