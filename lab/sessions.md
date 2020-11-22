@@ -130,6 +130,42 @@ cout << r1 << r2 << p1 << endl;
 ```
    + **tip**: you could modify `print()` in order to use it properly within `<<`
 
+
+## Session 6 (23/11/2020)
+Today we use the random generator in ROOT to simulate decay of a particle of mass `M` to two lighter particles of mass `m1` and `m2` (`m1 < M` and `m2 < M`). We then study the impact of the detector resolution on the measured invariant mass of the particles.
+
+- The data sample consists of 10^4 events
+- In each event there is a B meson (mass `5279 MeV`) decaying to a pion (`140 MeV`) and a kaon (`500 MeV`). The B meson has a momentum of `300 MeV` along the `x` axis.
+- In the center of mass of the B meson, the decay products have a momentum `p* = sqrt(M_B^4 + m_pi^4 + m_K^4 - 2 M_B^2 m_pi^2 - 2 M^*2 m_K^2 - 2 m_pi^2 m_K^2 )/(2M_B)` and their direction is random.
+   - Pay attention to the proper generation of angles `theta*` and `phi*` in the center of mass. For example, you can use the method [`sphere()`](https://root.cern.ch/doc/master/classTRandom.html#a8b9e587b2cd44f10ed3a4094613e8591) in [`TRandom`](https://root.cern.ch/doc/master/classTRandom.html).
+- Use the class [`TLorentzVector`](https://root.cern.ch/doc/master/classTLorentzVector.html) to boost the momentum of the pion and the kaon to the laboratory reference frame.
+- Compute the invariant mass of the pion and kaon in the laboratory frame and fill a 1D histogram, with proper legend, axis label and units. You should obtain a delta function at the B mass.
+  - save the plot as a pdf file `true-mass.pdf`
+
+- Compute the opening angle between the kaon and the pion in the laboratory and fill a 1D histogram, with proper legend, axis label and units.
+  - save the plot as a pdf file `opening-angle.pdf`
+
+Now we simulate the effect of the detector in measuring the momentum. We assume the tracking detector has a Gaussian resolution `\sigma`, e.g `3%`. This process is called **smearing**.
+
+We call `p_K_0` and `p_pi_0`, respectively, the magnitude of the momentum of the kaon and the pion in the laboratory. The detector does not change the direction of the particles.
+
+- Generate the measured momentum `p_K_meas` and `p_pi_meas` of the particles using a Gaussian model for the Detector
+- Compute the new 4-momentum of the particles in the Laboratory
+- Compute the invariant mass of the measured kaon and pion and fill a 1D histogram
+  - what is the mean and the width of the distribution ?
+  - is it in agreement with your expectation ?
+  - save the plot as a pdf file `measured-mass.pdf`
+
+- Plot the 1D histogram of the true mass (before smearing) and overlay the measured mass (after smearing)
+  - save the plot as a pdf file `invariant-mass.pdf`
+
+You can now simulate the effect of different detectors with `1%`,`5%`, and `10%` momentum resolution. Compute the distribution of the invariant mass for each detector. Plot them all together (change the color or histogram filling for each detector). 
+
+
+
+
+
+
 <!--
 
 ## Session 2 (11/11/2019)
