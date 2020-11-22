@@ -215,7 +215,7 @@ Simulation with ROOT. Random generators in ROOT.
 
 <li>
 Lab 06, 23/11: Numerical simulation with ROOT.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/lab#session-5-16112020" target=blank>activity</a>)
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/lab#session-5-23112020" target=blank>activity</a>)
 </li>
 
 <?php /*
