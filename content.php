@@ -208,13 +208,14 @@ No lecture on 17/11
 Lec 14, 20/11: ROOT for data storage and I/O. TFile and TTree.
 Simulation with ROOT. Random generators in ROOT.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/ROOT.md" target=blank>md</a>,
-<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-11-20-board.pdf"  target=blank>board</a>, 
+<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-11-20-board.pdf"  target=blank>board</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/ROOT/">examples</a>)
 
 </li>
 
 <li>
 Lab 06, 23/11: Numerical simulation with ROOT.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/lab#session-5-16112020" target=blank>activity</a>)
 </li>
 
 <?php /*

@@ -159,9 +159,18 @@ We call `p_K_0` and `p_pi_0`, respectively, the magnitude of the momentum of the
 - Plot the 1D histogram of the true mass (before smearing) and overlay the measured mass (after smearing)
   - save the plot as a pdf file `invariant-mass.pdf`
 
-You can now simulate the effect of different detectors with `1%`,`5%`, and `10%` momentum resolution. Compute the distribution of the invariant mass for each detector. Plot them all together (change the color or histogram filling for each detector). 
+You can now simulate the effect of different detectors with `1%`,`5%`, and `10%` momentum resolution. Compute the distribution of the invariant mass for each detector. Plot them all together (change the color or histogram filling for each detector).
 
+### Optional
+Store the simulated sample in a `TTree`. Each event should have the following Branches
+- `p_B`
+- `nDau`
+- `mass[nDau]`
+- `p[nDau]`
+- `theta[nDau]`
+- `phi[nDau]`
 
+In our case `nDau` will always be `2` for all events.
 
 
 
