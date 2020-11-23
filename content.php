@@ -205,7 +205,8 @@ No lecture on 17/11
 </li>
 
 <li>
-Lec 14, 20/11: ROOT for data storage and I/O. TFile and TTree.
+Lec 14, 20/11: ROOT for data storage and I/O. TFile and TTree. Branches
+with variable per-event size.
 Simulation with ROOT. Random generators in ROOT.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/ROOT.md" target=blank>md</a>,
 <a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-11-20-board.pdf"  target=blank>board</a>,
@@ -218,56 +219,56 @@ Lab 06, 23/11: Numerical simulation with ROOT.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/lab#session-6-23112020" target=blank>activity</a>)
 </li>
 
+<li>
+Lec 15, 24/11: Using TTree created by others: Application for analysis of TTree.
+Creating custom analysis class.
+Advanced C++ features: Template class and functions.
+</li>
+
+<li>
+Lec 16, 27/11:
+Makefile: usage and examples. Implicit rules; custom recipes, variables and functions, building libraries.
+Introduction to Python.  Differences with C/C++.
+Python with <a href="https://jupyter.org">jupyter notebook</a>.
+</li>
+
+
+<li>
+Lab 07, 30/11: lab session on C++ and ROOT.
+</li>
+
+<li>
+Lec 17, 1/12:
+Basics of python: semantics, flow control, data types, functions, modules.
+data types in python: sequences. Lists, Tuples. Example of
+plotting with matplotlib. Dictionaries.
+</li>
+
+<li>
+Lec 18, 4/12:
+Data types in python: Dictionaries and sets. Comprehensions.
+data analysis with sets, lists, dicts. Plotting a histogram. NumPy arrays:
+revisiting motion of a body under gravity. Animated plots with matplotlib.
+Function with multiple return values in python
+</li>
+
+
+<li>
+Lab 08, 7/12: Numerical simulation with python.
+</li>
+
+<li>
+Lab 09, 14/12: Lab session on python.
+</li>
+
+<li>
+Lab 10, 21/12: Lab session on python.
+</li>
+
 <?php /*
 
 Dynamically allocated object as data members.
 
-<li>
-Lec 09, 25/10:
-Input/Output with TTree and TFile. Random Generators in ROOT. Using ROOT classes for functions and fitting.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec09">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec09/examples/">examples</a>)
-</li>
-
-<li>
-Lec 10, 29/10, Data storage with TTree. Input and output. Branches with variable size.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec10/lec10.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec10/examples/">examples</a>)
-</li>
-
-<li>
-Lec 11, 5/11:
-Input/Output of custom class objects with TTree. Reading of TTree created by others: Application for analysis of TTree.
-Creating custom analysis class.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec11/lec11.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec11/examples">examples</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/misc/ROOT.md">ROOT setup and configuration</a>)
-</li>
-
-
-
-<li>
-Lab 03, 18/11 9:30-12:00:
-Implement numerical integration methods with the Strategy Pattern.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
-</li>
-
-<li>
-Lec 14, 19/11:
-Composition pattern: examples and applications: leaf and composites in graphical applications.
-Example of a solar system simulation with composite objects.
-Examples in high energy phyiscs: tracks, photons, electrons, jets.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec14/lec14.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec14/examples">examples</a>)
-</li>
-
-<li>
-Lec 15, 22/11:
-Templates and generic programming in C++. Template functions and classes.
-STL containers. Error handling with exceptions.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec15/lec15.pdf">pdf</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec15/examples">examples</a>)
-</li>
 
 <li>
 Lab 04, 25/11 9:30-12:00:
@@ -288,7 +289,6 @@ Introduction to <a href="https://jupyter.org">jupyter</a>.
 <li>
 Lec 17, 29/11:
 Makefile: custom recipes, variables and functions, building libraries. (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/makefile/makefile.md">md</a>, <a href="https://github.com/rahatlou/CMP/tree/CMP2019/makefile/examples/">examples</a>)
-Basics of python: semantics, flow control, data types, functions, modules.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec17/lec17.ipynb">jupyter notebook</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec17/examples">examples</a>)
 </li>
