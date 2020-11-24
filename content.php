@@ -220,9 +220,15 @@ Lab 06, 23/11: Numerical simulation with ROOT.
 </li>
 
 <li>
-Lec 15, 24/11: Using TTree created by others: Application for analysis of TTree.
+Lec 15, 24/11:
+Example of relativistic boost with ROOT.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/boost.md" target=blank>md</a>)
+Using TTree created by others: Application for analysis of TTree.
 Creating custom analysis class.
-Advanced C++ features: Template class and functions.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/ROOT.md" target=blank>md</a>
+<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-11-24-board.pdf"  target=blank></a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/ROOT/">examples</a>)
+<!-- Advanced C++ features: Template class and functions. -->
 </li>
 
 <li>
