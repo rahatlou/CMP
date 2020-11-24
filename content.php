@@ -225,8 +225,8 @@ Example of relativistic boost with ROOT.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/boost.md" target=blank>md</a>)
 Using TTree created by others: Application for analysis of TTree.
 Creating custom analysis class.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/ROOT.md" target=blank>md</a>
-<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-11-24-board.pdf"  target=blank></a>,
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/ROOT.md" target=blank>md</a>, 
+<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-11-24-board.pdf"  target=blank>board</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/ROOT/">examples</a>)
 <!-- Advanced C++ features: Template class and functions. -->
 </li>
