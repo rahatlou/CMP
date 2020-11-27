@@ -16,8 +16,12 @@ OBJS := $(subst .cc,.o, $(SRCS))
 OURLIB := CMP
 LIBFILE := lib$(OURLIB).a
 
-# compilation and linking options
+# our linking options are added to LDFLAGS. If it has no previous value
+# it only has what we add
 LDFLAGS += -L. -l$(OURLIB)
+
+# Use @ at the beginning of a recipe to prevent the comment from being shown in output
+# only the output of the display will be displayed
 
 list:
 	echo "source files:\t" $(SRCS)
@@ -25,6 +29,7 @@ list:
 	echo "applications:\t" $(APPS)
 	echo "executables:\t" $(BINS)
 
+# target to buil all binaries
 bin: ${BINS}
 
 ## rule to make a BIN from an APPS file and the library

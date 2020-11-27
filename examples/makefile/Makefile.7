@@ -34,7 +34,7 @@ bin: ${BINS}
 
 ## rule to make a BIN from an APPS file and the library
 %:	%.cc lib
-	$(CXX) -o $@  $(LDFLAGS) $<
+	$(CXX) -o $@ $(CPPFLAGS) $(LDFLAGS) $<
 
 # lib target requires there be a library called $(LIBFILE)
 lib: $(LIBFILE)

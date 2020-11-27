@@ -27,7 +27,11 @@ g++ -c `${ROOTSYS}/bin/root-config --cflags` RectangleIntegrator.cc
 ```shell
 g++ -o  MCIntegrator.o RectangleIntegrator.o `${ROOTSYS}/bin/root-config --cflags --libs` example.app
 ```
-Using a `Makefile` we can obtain the same results by running a simple command from the command line
+Using a `Makefile` called `someMakeFile` we can obtain the same results by running a simple command from the command line
+```shell
+make -f someMakeFile
+```
+and more often, when we have just one make file called `Makefile` we do
 ```shell
 make
 ```
@@ -51,9 +55,9 @@ make -f Makefile.3 all
 make -f Makefile.4 clean
 ```
 
-## First simple example from lec13
+## Example: Strategy Pattern
 
-Let's look at the examples in [examples](../examples/makefile/):
+Let's look at these [examples](../examples/makefile/) for strategy pattern:
 ```shell
 $ ls
 CustomIntegrator.h     Function.cc            Gauss.h                MCIntegrator.h         app11.cc
@@ -71,17 +75,18 @@ In order to build the app
 ```shell
 g++ MCIntegrator.cc app1.cc -o app1
 ```
-this can be achieved with a simple makefile [Makefile.1](../examples/makefile/Makefile.1)
+this can be achieved with a simple makefile [`Makefile.1`](../examples/makefile/Makefile.1)
 ```Makefile
 app1: app1.cc MCIntegrator.cc
 ```
+running the command,
 ```shell
 $ make
 c++     app1.cc MCIntegrator.cc   -o app1
 $ ls app1
 app1
 ```
-however it uses the XCode C++ compiler instead of `g++`. This can be changed via setting a variable in the Makefile
+it builds the executable, however it uses the XCode C++ compiler instead of `g++`. This can be changed via setting a *variable* in [`Makefile.2`](../examples/makefile/Makefile.2)
 ```make
 CXX:=g++
 
@@ -89,10 +94,10 @@ app1: app1.cc MCIntegrator.cc
 ```
 now
 ```shell
-$ make
+$ make -f Makefile.2
 g++     app1.cc MCIntegrator.cc   -o app1
 ```
-we can now add all our applications to the Makefile and also create a new *target* to quickly delete the executable files
+we can now add all our applications in  [`Makefile.3`](../examples/makefile/Makefile.3) and also create a new *target* to quickly delete the executable files
 ```make
 CXX:=g++
 
@@ -108,19 +113,19 @@ clean:
 by default `make` executes the first target in the file.
 
 ```shell
-$ make
+$ make -f Makefile.3
 g++     app1.cc MCIntegrator.cc   -o app1
 ```
 you can specify another target
 ```shell
-$ make app11
+$ make -f Makefile.3 app11
 g++     app11.cc CustomMCIntegrator.cc Function.cc Gauss.cc   -o app11
 ```
 we have also added a new target `clean` to remove the executables if needed
 ```shell
 $ ls app*
 app1     app1.cc   app11    app11.cc  app2.cc
-$ make  clean
+$ make  -f Makefile.3 clean
 rm -f app1 app2 app11
 $ ls app*
 app1.cc   app11.cc  app2.cc
@@ -128,7 +133,7 @@ app1.cc   app11.cc  app2.cc
 ### special target *all*
 
 If we want to always build all executables by default we can introduce a first target `all` that has all
-other targets as prerequisites. This is  done in [Makefile.4](../examples/makefile/MakeFile.4)
+other targets as prerequisites. This is  done in [`Makefile.4`](../examples/makefile/MakeFile.4)
 ```make
 CXX:=g++
 
@@ -165,7 +170,7 @@ Instead we would like to
 - make a library with compiled object files  
 - use the library and the link the binaries
 
-This is done in [examples/Makefile.5](../examples/makefile/Makefile.5)
+This is done in [`Makefile.5`](../examples/makefile/Makefile.5)
 
 First we define the C++ compiler to be used and define a new variable `APPS` to specify which files are used to build binaries
 ```make
@@ -296,8 +301,10 @@ g++ -o app1  -L. -lCMP app1.cc
 g++ -o app2  -L. -lCMP app2.cc
 g++ -o app11  -L. -lCMP app11.cc
 ```
-By invoking the bin target all source files are compiled, a library is made and then the binaries are correctly linked.
-In this version of the file all details of the recipe appear on the screen. It is common to hide the recipe commands with `@` and provide a simpler and more concise output  with `@echo "some message"`. This is done in [Makefile.8](../examples/makefile/Makefile.8)
+By invoking the bin target all source files are compiled, a library is made and then the binaries are correctly linked. In this version of the file all details of the recipe appear on the screen.
+
+### cleaning the make output [`Makefile.8`](../examples/makefile/Makefile.8)
+It is common to hide the recipe commands with `@` and provide a simpler and more concise output  with `@echo "some message"`. This is done in [`Makefile.8`](../examples/makefile/Makefile.8)
 ```make
 CXX := g++
 
