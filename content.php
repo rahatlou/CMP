@@ -233,12 +233,12 @@ Creating custom analysis class.
 
 <li>
 Lec 16, 27/11:
-Makefile: usage and examples. Implicit rules; custom recipes, variables and functions, building libraries.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/makefile.md">md</a>)
+Makefile: usage and examples. Implicit rules; custom recipes, variables and functions, building libraries
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/makefile.md">md</a>).
 Introduction to Python.  Differences with C/C++.
 Python with <a href="https://jupyter.org">jupyter notebook</a>.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/python.md">md</a>
-<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-11-27-board.pdf"  target=blank></a>,
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/python.md">md</a>,
+<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-11-27-board.pdf"  target=blank>board</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/python/">examples</a>)
 </li>
 
