@@ -24,10 +24,10 @@ LDFLAGS += -L. -l$(OURLIB)
 # only the output of the display will be displayed
 
 list:
-	echo "source files:\t" $(SRCS)
-	echo "objects files:\t" $(OBJS)
-	echo "applications:\t" $(APPS)
-	echo "executables:\t" $(BINS)
+	@echo "source files:\t" $(SRCS)
+	@echo "objects files:\t" $(OBJS)
+	@echo "applications:\t" $(APPS)
+	@echo "executables:\t" $(BINS)
 
 # target to buil all binaries
 bin: ${BINS}
