@@ -179,6 +179,8 @@ Note how python2 and python3 produce different outputs for
 print('c = a/b = ', c)
 ```
 
+For for information about formatting in python, see for example this [simple tutorial](https://www.python-course.eu/python3_formatted_output.php)
+
 # Interactive python with jupyter
 
 In addition to writing standalone programs in python, and python modules and libraries, we will be using the [jupyter notebook](https://jupyter.org) for interactive python during lectures and for projects.
