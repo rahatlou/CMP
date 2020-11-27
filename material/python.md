@@ -205,4 +205,18 @@ In order to interact with the notebook you must
   1. download the notebook file (ipynb)
   2. run `jupyter notebook example2.ipynb`
 
-To download and run a jupyter notebook locally, follow these [instructions](DownloadNotebook.md).
+# Downloading a jupyter notebook
+In this example we want to download [`example2.ipynb`](../examples/python/example2.ipynb)
+
+- Visit the notebok [`example2.ipynb`](../examples/python/example2.ipynb) in your browser
+
+- View the __Raw__ notebook (not rendered by GitHub)
+<img src="pynb-raw.png" alt="click on Raw" width="400"/>
+
+- Save As `lec22.ipynb`
+<img src="pynb-save.png" alt="save file as" width="400"/>
+
+- From the command line you can now run the DownloadNotebook
+```
+jupyter notebook example2.ipynb
+```
