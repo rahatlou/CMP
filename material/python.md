@@ -211,7 +211,7 @@ In this example we want to download [`example2.ipynb`](../examples/python/exampl
 - Visit the notebok [`example2.ipynb`](../examples/python/example2.ipynb) in your browser
 
 - View the __Raw__ notebook (not rendered by GitHub)
-<img src="pynb-raw.png" alt="click on Raw" width="400"/>
+<img src="pynb-raw.png" alt="click on Raw" />
 
 - Save As `lec22.ipynb`
 <img src="pynb-save.png" alt="save file as" width="400"/>
