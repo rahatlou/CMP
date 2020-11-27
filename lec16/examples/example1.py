@@ -7,7 +7,12 @@ print (a,b,c)
 
 #plain print of more variables
 print('c = a/b = ', c)
+
 #print using ""
 print("a = {0}, b = {1}, c = {2}".format( a, b, c) )
+
 #print using ''
 print('a = {0}, b = {1}, c = {2}'.format( a, b, c) )
+
+#printf style
+print('a = %.3f, b = %.3g, c = %2.4g'%(a,b,c))
