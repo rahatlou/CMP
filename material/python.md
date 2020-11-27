@@ -134,15 +134,12 @@ To exit the interactive session you can type `quit()` or press `Ctrl-D`.
 
 ## Running a program
 
-You can also write a program and run it without the interactive interface. We save the following lines in a file called [`example1.py`](examples/example1.py)
+You can also write a program and run it without the interactive interface. We save the following lines in a file called [`example1.py`](../examples/python/example1.py)
 ```python
 # this is my first program
 a = 2.3
 b = 4.5
 c = a/b
-# plain print
-print (a,b,c)
-
 #plain print of more variables
 print('c = a/b = ', c)
 
@@ -151,6 +148,9 @@ print("a = {0}, b = {1}, c = {2}".format( a, b, c) )
 
 #print using ''
 print('a = {0}, b = {1}, c = {2}'.format( a, b, c) )
+
+#printf style
+print('a = %.3f, b = %.3g, c = %2.4g'%(a,b,c))
 ```
 You see that we can start a line with `#` to add comments
 
@@ -161,6 +161,7 @@ $ python example1.py
 ('c = a/b = ', 0.5111111111111111)
 a = 2.3, b = 4.5, c = 0.511111111111
 a = 2.3, b = 4.5, c = 0.511111111111
+a = 2.300, b = 4.5, c = 0.5111
 ```
 or
 
@@ -170,6 +171,7 @@ $ python3 example1.py
 c = a/b =  0.5111111111111111
 a = 2.3, b = 4.5, c = 0.5111111111111111
 a = 2.3, b = 4.5, c = 0.5111111111111111
+a = 2.300, b = 4.5, c = 0.5111
 ```
 
 Note how python2 and python3 produce different outputs for
@@ -196,7 +198,7 @@ In order to start jupyter, from the command line
 ```
 jupyter notebook
 ```
-Let's start with our first notebook [example2.ipynb](examples/example2.ipynb) .
+Let's start with our first notebook [`example2.ipynb`](../examples/python/example2.ipynb) .
 You can view this notebook online with `github` by clicking on the link.
 
 In order to interact with the notebook you must
