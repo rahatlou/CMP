@@ -237,6 +237,9 @@ Makefile: usage and examples. Implicit rules; custom recipes, variables and func
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/makefile.md">md</a>)
 Introduction to Python.  Differences with C/C++.
 Python with <a href="https://jupyter.org">jupyter notebook</a>.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/python.md">md</a>
+<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/2020-11-27-board.pdf"  target=blank></a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/python/">examples</a>)
 </li>
 
 
@@ -283,15 +286,7 @@ Input of TTree from file, use of MakeClass for analysis, plots of kinematic vari
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
 </li>
 
-<li>
-Lec 16, 26/11:
-Makefile: usage and examples with implicit rules. (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/makefile/makefile.md">md</a>)
-Introduction to Python. Main differences with C/C++.
-Introduction to <a href="https://jupyter.org">jupyter</a>.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec16/lec16.md">md</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec16/examples">examples</a>)
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/misc/DownloadNotebook.md">HOWTO download the lecture notebook</a>)
-</li>
+C++ Templates
 
 <li>
 Lec 17, 29/11:
