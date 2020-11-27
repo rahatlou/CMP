@@ -240,7 +240,7 @@ applications:	 app1.cc app2.cc app11.cc
 executables:	 app1 app2 app11
 ```
 
-We can finally start adding the targets for binaries and libraries in [Makefile.7](../examples/makefile/Makefile.7)
+Now we add the targets for binaries and libraries in [Makefile.7](../examples/makefile/Makefile.7)
 ```make
 # target to build all binaries
 bin: ${BINS}
@@ -280,15 +280,15 @@ Then we add the rules to compile the object files needed to make the library
 %.o:	%.C
 	@$(CXX) -c $<
 ```
-and finally a `clean` target to remove both binaries and the library file
+and  a `clean` target to remove both binaries and the library file
 ```make
 clean:
 	rm -f $(LIBFILE)
 	rm -f $(BINS)
 ```
-and we can finally test the new `Makefile`
+and using [`Makefile.7`](../examples/makefile/Makefile.7)
 ```shell
-$ make bin
+$ make -f Makefile.7 bin
 g++ -c  CustomMCIntegrator.cc
 g++ -c  Function.cc
 g++ -c  Gauss.cc
@@ -383,3 +383,4 @@ Linking app11 from app11.cc
 
 $ make -f Makefile.8 clean
 Removing libCMP.a  and  app1 app2 app11
+```
