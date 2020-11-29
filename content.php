@@ -244,8 +244,10 @@ Python with <a href="https://jupyter.org">jupyter notebook</a>.
 
 
 <li>
-Lab 07, 30/11: lab session on C++ and ROOT.
-</li>
+Lab 07, 30/11: Analysis of simulated events from LHC.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/lab#session-7-30112020" target=blank>activity</a>)
+
+<//li>
 
 <li>
 Lec 17, 1/12:
