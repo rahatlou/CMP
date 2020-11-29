@@ -27,11 +27,11 @@
              <li> Friday  12-14, Aula 6 , Nuovo Edificio di Fisica (<a href="https://meet.google.com/dkg-mcoo-ugr">Google Meet code: dkg-mcoo-ugr</a>)</li>
              <li> Lab Sessions: Laboratorio di Calcolo, Nuovo Edificio di Fisica, Piano 2, Monday 9-12 (<a href="https://meet.google.com/qgm-pnhe-ipr">Google Meet code: qgm-pnhe-ipr</a>)</li>
           </ul>
-
+<?php /*
           <p>Please fill the following google form for
             <a href="http://bit.ly/modulo-presenza-fisica">contact tracing</a> during in-person lectures while prodigit is being fixed.</p>
             <p>You can also access the form with this QR code: <br>
-          <a href="http://bit.ly/modulo-presenza-fisica"><img src="Didattica/cmp/misc/qr-code-presenza.png" width=150></a></p>
+          <a href="http://bit.ly/modulo-presenza-fisica"><img src="Didattica/cmp/misc/qr-code-presenza.png" width=150></a></p> */ ?>
 
 <?php /*
    <h2 class="title">Student survey</h2>
