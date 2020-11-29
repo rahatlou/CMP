@@ -62,7 +62,7 @@ g++ -c Analysis.C `root-config --cflags`
 ```
   A working example is available at [examples/analyser.cc](examples/analyser.cc)
 
-5. Finally start analysing the data by changing `Analysis::Loop` in
+5. Start analysing the data by changing `Analysis::Loop` in
 `Analysis.C`
 
 6. Link your executable and start doing analysis
@@ -71,9 +71,9 @@ g++ -o /tmp/app analyser.cc  Analysis.C `root-config --libs --cflags`
 /tmp/app codTree_QCD_Pt_1400to1800.root
 ```
 
-## A first example
+## Example
 
-In this first example we want to find out what is stored in the file
+In this  example we want to find out what is stored in the file
 by looking at some basic variables
 ```c++
    // loop over events
@@ -87,10 +87,10 @@ by looking at some basic variables
       // generated particles
       int nPartons = 0;
       for(int i=0; i< nGenPart; ++i) {
-	// skip protons which have PDG ID = 2212
-	if(pdgId_genPart[i] == 2212) continue;
-	nPartons++;
-	hgenPt.Fill( pt_genPart[i]);
+     	  // skip protons which have PDG ID = 2212
+	      if(pdgId_genPart[i] == 2212) continue;
+	      nPartons++;
+	      hgenPt.Fill( pt_genPart[i]);
       }
       hngenpart.Fill( nPartons );
 
@@ -99,11 +99,9 @@ by looking at some basic variables
       hnphot.Fill(nPhoton);
       // loop over photons
       for(int i=0; i< nPhoton; ++i) {
-	hphotE.Fill(energy_phot[i]);
-	hphotPt.Fill(pt_phot[i]);
-
-	hphotPos.Fill(phi_phot[i], eta_phot[i]);
-
+	       hphotE.Fill(energy_phot[i]);
+	       hphotPt.Fill(pt_phot[i]);
+	       hphotPos.Fill(phi_phot[i], eta_phot[i]);
       }   
 
    } // end of events
@@ -111,13 +109,21 @@ by looking at some basic variables
 
 ## Reminder
 - The [pseudorapidity](https://en.wikipedia.org/wiki/Pseudorapidity) for relativistic particles is a kinematic vatriable related to the angle between the momentum and the direction of the beam.
-- The invariant mass for two relativistic particles (`E>>m`) using the `Pt,\eta,\phi` coordinates is given by `M^2 = 2 Pt1 Pt2 (\cosh(\eta-\eta2) - \cos(\phi1-\phi2))`
+- Use [`TLorentzVector`](https://root.cern.ch/doc/master/classTLorentzVector.html) for calculations
+```c++
+TLorentzVector p;
+p.SePtEtaPhiE(pt, eta, phi, energy);
+```
 - The MonteCarlo ID numbers for Standard Model particle used the PDG numbering scheme [pdf](http://pdg.lbl.gov/2007/reviews/montecarlorpp.pdf).
 
 ## Exercise
+  1. Compute the invariant mass of the two protons in each event and fill a histogram
+     - You can use the `TLorentzVector` class or the expression of invariant mass in `(Pt, eta, phi)` coordinates: `M^2 = 2 Pt1 Pt2 (\cosh(\eta-\eta2) - \cos(\phi1-\phi2))`
+     - store the plot as "ppmass.pdf"
   1. use the `TLorentzVector` class of ROOT to manipulate the 4-momentum of the
   particles in the `TTree` and compute the invariant mass.
-  1. make a plot of the distribution of energy for all particles in `genPart`
-  1. make a plot of the pt, eta, and phi distribution of all particles in the `genPart` block
+  1. make a plot of the distribution of transverse momentum `pt`, `eta`, and `phi` for all particles in `genPart` , excluding the protons (pdgId=2212)
+     - store the plots as `ptall.pdf`, `etall.pdf`, `phiall.pdf`
   1. make a plot of the invariant mass of all particles in the `genPart` block, making sure to remove the protons (pdgId=2212)
-  1. make a plot of the eta distribution for all particles with pt<500 GeV and another plot for those with pt>500 GeV
+     - store the plot as `massall.pdf`
+  1. make a plot of the eta distribution for all particles with `pt < 500 GeV` and another plot for those with `pt > 500 GeV`

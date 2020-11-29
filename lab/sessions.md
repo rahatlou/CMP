@@ -173,45 +173,33 @@ Store the simulated sample in a `TTree`. Each event should have the following Br
 In our case `nDau` will always be `2` for all events.
 
 
+## Session 7 (30/11/2020)
+
+### Students who did not finish session 6
+Complete the exercise from Session 6.
+- implement the 3 detectors and show their impact on the invariant mass
+- produce a TTree and store it in a ROOT file.
+- produce the pdf for all plots
+Make sure the root file and the pdf files are submitted for evaluation.
+
+### Students who completed session 6
+Read a `TTree` provided by someone else and perform data analysis.
+Specifically, the `TTree` with contain generator-level and reconstructed information
+from simulated proton-proton collisions at the Large Hadron Collider.
+All details at [CODanalysis.md](CODanalysis.md)
+
+
 
 
 <!--
 
-## Session 2 (11/11/2019)
-The scope of this session is to exercise input/output of `TTree` with `TFile`
-
-- Finish implementing class `Complex`
-- prepare dictionary for `Complex` to be used in ROOT  
-- generate 10'000 random `Complex` numbers with magnitude `r<1`
-- create a `TTree` with a single branch that contains a `Complex` object
-- Store the `TTree` to disk with `TFile`
-- Use `TTree::MakeClass("Analyser")` function to generate the `Analyser` class
-from the stored `TTree`
-- write a new analysis application to read back the `TTree ` from file using the
-new `Analyser` class
-
-
-## Session 3 (18/11/2019)
-The scope of this session is the implementation of at least 2 numerical integration Methods
-with the [Strategy Pattern](../lec13/strategy.md).
-
-- Implement the trapezoid or midpoint Method
-- Use a function with known primitive, e.f. the exponential, to compare precision of
-integration with the MC method
-
-
-## Session  4 (25/11/2019)
-The scope of this session is to read a `TTree` provided by someone else and perform data analysis.
-Specifically, the `TTree` with contain generator-level and reconstructed information
-from simulated proton-proton collisions. All details at [CODanalysis.md](CODanalysis.md)
 
 ## Session 5 (2/12/2019)
 Today we simulate the energy loss by ionisation to see the Bethe-Bloch distribution and reproduce the Bragg Peak for the heavy particles.
 
 - define a class Detector with at least density and length as data members and a function *interaction()* to compute dE/dx
   - for simplicity  assume average values for ionisation energy I and Z/A ~ 2
-  - You can otherwise have A, Z, I as data members of the class Detector or even define another class *Material*.
-  - as a reference, we want to study the distributions in water, Pb, and air.
+  - as a reference, study the distributions in water, Pb, and air.
 
 - Use the [Bethe-Bloch](http://pdg.lbl.gov/2009/reviews/rpp2009-rev-passage-particles-matter.pdf) formula
 to compute the average energy loss by ionisation.
