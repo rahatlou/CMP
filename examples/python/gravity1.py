@@ -4,7 +4,7 @@ import math
 # initial conditions
 g = 9.8
 h = 0.
-theta = (45./180.)*math.pi
+theta = math.radians(45.)
 v0 = 10.
 dt=0.01
 

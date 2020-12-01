@@ -3,7 +3,7 @@ import math
 
 g = 9.8
 
-h = 0.
+h = 10.
 while True:
     x = input("initial height h in m: (press return for h = 0 m): ")
     if x == "":  break
@@ -17,7 +17,7 @@ while True:
     if x == "" : break
     theta  = float(x)
     if(theta>0 and theta<90): break
-theta = (theta/90.)*math.pi/2.
+theta = math.radians(theta)
 
 
 v0 = 10.
