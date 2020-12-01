@@ -253,7 +253,10 @@ Lab 07, 30/11: Analysis of simulated events from LHC.
 Lec 17, 1/12:
 Basics of python: semantics, flow control, data types, functions, modules.
 data types in python: sequences. Lists, Tuples. Example of
-plotting with matplotlib. Dictionaries.
+plotting with matplotlib.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/python.ipynb">notebook</a>,
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/python/">examples</a>)
+
 </li>
 
 <li>
