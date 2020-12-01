@@ -134,7 +134,7 @@ To exit the interactive session you can type `quit()` or press `Ctrl-D`.
 
 ## Running a program
 
-You can also write a program and run it without the interactive interface. We save the following lines in a file called [`example1.py`](../examples/python/example1.py)
+You can also write a program and run it without the interactive interface. We save the following lines in a file called [`example01.py`](../examples/python/example01.py)
 ```python
 # this is my first program
 a = 2.3
@@ -163,7 +163,7 @@ You see that we can start a line with `#` to add comments
 
 To run your program
 ```shell
-$ python example1.py
+$ python example01.py
 (2.3, 4.5, 0.5111111111111111)
 ('c = a/b = ', 0.5111111111111111)
 a = 2.300, b = 4.5, c = 0.5111
@@ -175,7 +175,7 @@ value = -1.235, error = 0.1, #measurement = 1000
 or
 
 ```shell
-$ python3 example1.py
+$ python3 example01.py
 2.3 4.5 0.5111111111111111
 c = a/b =  0.5111111111111111
 a = 2.300, b = 4.5, c = 0.5111
@@ -211,17 +211,17 @@ In order to start jupyter, from the command line
 ```
 jupyter notebook
 ```
-Let's start with our first notebook [`example2.ipynb`](../examples/python/example2.ipynb) .
+Let's start with our first notebook [`example02.ipynb`](../examples/python/example02.ipynb) .
 You can view this notebook online with `github` by clicking on the link.
 
 In order to interact with the notebook you must
   1. download the notebook file (ipynb)
-  2. run `jupyter notebook example2.ipynb`
+  2. run `jupyter notebook example02.ipynb`
 
 # Downloading a jupyter notebook
-In this example we want to download [`example2.ipynb`](../examples/python/example2.ipynb)
+In this example we want to download [`example02.ipynb`](../examples/python/example02.ipynb)
 
-- Visit the notebok [`example2.ipynb`](../examples/python/example2.ipynb) in your browser
+- Visit the notebok [`example02.ipynb`](../examples/python/example02.ipynb) in your browser
 
 - View the __Raw__ notebook (not rendered by GitHub)
 <img src="pynb-raw.png" alt="click on Raw" />
@@ -231,5 +231,5 @@ In this example we want to download [`example2.ipynb`](../examples/python/exampl
 
 - From the command line you can now run the DownloadNotebook
 ```
-jupyter notebook example2.ipynb
+jupyter notebook example02.ipynb
 ```
