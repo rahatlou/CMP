@@ -8,7 +8,7 @@ a = 'test string'
 # any object in mymodule can be used
 # and there is no confusion with local a
 print( "mymodule.a: %f"%mymodule.a )
-print( "local a: " + a )
+print( "local a: ", a )
 
 ## use line function from mymodule
 print( mymodule.line( 2.34, q=0.5 )  )

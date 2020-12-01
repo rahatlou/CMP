@@ -1,6 +1,6 @@
 # this is my first module
 
-print("trying simple examples in example1.py")
+print("==== running example1.py")
 
 a = 2.3
 b = 4.5
@@ -16,3 +16,4 @@ print('a = {0}, b = {1}, c = {2}'.format( a, b, c) )
 
 print( line(2., q=2.3) )
 print( line(0., q=-1.3) )
+print("==== end of example1.py")
