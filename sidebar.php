@@ -22,7 +22,7 @@
 
 
   <h2>Reference material</h2>
-  <div style="height: 150px; overflow: auto">
+  <div style="height: 250px; overflow: auto">
     <ul>
       <li><a href="https://github.com/rahatlou/CMP/tree/CMP2020">Lecture notes and examples</a> (<a href="https://github.com/rahatlou/CMP/tree/CMP2019">2019</a>,
       <a href="https://github.com/rahatlou/CMP/tree/CMP2018">2018</a>)</li>
