@@ -272,12 +272,26 @@ Revisiting motion of a body under gravity. Animated plots with matplotlib.
 
 
 <li>
-Lab 08, 7/12: Numerical simulation with python.
+Lab 08 (<b>REMOTE ONLY</b> on google Meet), 7/12: Numerical simulation with python.
+</li>
+
+<li>
+Lec 19, 11/12: More on Numpy. I/O with python. Short intro to Pandas.
 </li>
 
 <li>
 Lab 09, 14/12: Lab session on python.
 </li>
+
+<li>
+Lec 20, 15/12: pyhton and ML.
+</li>
+
+
+<li>
+Lec 21, 18/12: pyhton and ML.
+</li>
+
 
 <li>
 Lab 10, 21/12: Lab session on python.
