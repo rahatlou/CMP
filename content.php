@@ -254,7 +254,7 @@ Lec 17, 1/12:
 Basics of python: semantics, flow control, data types, functions, modules.
 data types in python: sequences. Lists, Tuples. Example of
 plotting with matplotlib.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/python.ipynb">notebook</a>,
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/python-01.ipynb">notebook</a>,
 <a href="https://github.com/rahatlou/CMP/tree/CMP2020/examples/python/">examples</a>)
 
 </li>
@@ -262,9 +262,12 @@ plotting with matplotlib.
 <li>
 Lec 18, 4/12:
 Data types in python: Dictionaries and sets. Comprehensions.
-data analysis with sets, lists, dicts. Plotting a histogram. NumPy arrays:
-revisiting motion of a body under gravity. Animated plots with matplotlib.
-Function with multiple return values in python
+data analysis with sets, lists, dicts. Plotting a histogram.
+Function with multiple return values in python.
+NumPy arrays.
+Revisiting motion of a body under gravity. Animated plots with matplotlib.
+<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/python-02.ipynb">notebook</a>,
+
 </li>
 
 
