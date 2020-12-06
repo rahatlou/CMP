@@ -266,13 +266,14 @@ data analysis with sets, lists, dicts. Plotting a histogram.
 Function with multiple return values in python.
 NumPy arrays.
 Revisiting motion of a body under gravity. Animated plots with matplotlib.
-<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/python-02.ipynb">notebook</a>,
-
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/python-02.ipynb">notebook</a>)
 </li>
 
 
 <li>
-Lab 08 (<b>REMOTE ONLY</b> on google Meet), 7/12: Numerical simulation with python.
+Lab 08 (<b>REMOTE ONLY</b> on google Meet), 7/12: Energy loss by ionisation.
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/lab/sessions.md#session-8-7122019" target=blank>activity</a>)
+
 </li>
 
 <li>
