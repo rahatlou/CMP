@@ -189,41 +189,73 @@ from simulated proton-proton collisions at the Large Hadron Collider.
 All details at [CODanalysis.md](CODanalysis.md)
 
 
+## Session 8 (7/12/2019)
+Today we simulate the energy loss by ionisation. You can use simple python or jupyter notebook.
 
+### Bethe-Bloch formula
+The average energy lost `<dE/dx>` by a relativistic particle in a material of thickness `dx`  can be estimated with the [Bethe-Bloch formula](http://pdg.lbl.gov/2009/reviews/rpp2009-rev-passage-particles-matter.pdf). For simplicity, assume Z/A ~ 2.
+  - define a `BetheBloch()` function with proper arguments to compute `<dE/dx>`
+
+Compute the distribution of `<dE/dx>` divided by the density as a function of `beta x gamma` for water, Pb, and air, and plot them  with different colors and proper legend.
+  - use log scale for `x` and `y` axes
+You should see that the distribution is universal and shows little dependence on the material.
+
+Plot the distribution of `dE/dx` in lead (Pb) for electrons and protons as a function of momentum `p` and use different colors and proper legend.
+
+
+### Effective energy loss
+Consider a beam of `10^12` protons with momentum distributed uniformly between 10 MeV and 6.5 TeV.
+The effective energy lost `dE/dx` by a particle is simulated as a Gaussian distribution with the mean given by the average  `<dE/dx>` computed with the [Bethe-Bloch formula](http://pdg.lbl.gov/2009/reviews/rpp2009-rev-passage-particles-matter.pdf), and a width of `3%`.
+  - You can use the [random](https://docs.python.org/3/library/random.html) or
+  the [NumPy random](https://docs.scipy.org/doc//numpy-1.10.4/reference/generated/numpy.random.normal.html) module.
+
+Plot the distribution of effective lost energy by these protons as a function of their momentum.
+Overlay in the same plot the Bethe-Bloch formula.
+
+### Stopping power
+Estimate the the thickness of the material needed to stop a particle of a given momentum
+- Ask user to provide the mass of the particle  (in MeV)
+- Ask user for the momentum of the particle (in MeV)
+- Show the distribution of `<dE/dx>` as a function of momentum in water, rock, pb, and air with different colors and legend on the same plot.
+- compute and print the the thickness (in cm) of water, rock, pb, and air necessary to stop the particle.
+
+
+### Atomic and Nuclear properties
+- [Lead (Pb)](https://pdg.lbl.gov/2019/AtomicNuclearProperties/HTML/lead_Pb.html)
+- [water](https://pdg.lbl.gov/2015/AtomicNuclearProperties/HTML/water_liquid.html)
+- [air](https://pdg.lbl.gov/2019/AtomicNuclearProperties/HTML/air_dry_1_atm.html)
+- [rock](https://pdg.lbl.gov/2019/AtomicNuclearProperties/HTML/standard_rock.html)
 
 <!--
 
+### The Bragg Peak
 
-## Session 5 (2/12/2019)
-Today we simulate the energy loss by ionisation to see the Bethe-Bloch distribution and reproduce the Bragg Peak for the heavy particles.
+Now we reproduce the Bragg peak for particles through matter. Keep in mind that a particle can only loose its kinetic energy `K := E-m` (in natural units they are all measured in `eV`) and not its mass `m`, which is equivalent to loosing all its momentum `p`.
 
-- define a class Detector with at least density and length as data members and a function *interaction()* to compute dE/dx
-  - for simplicity  assume average values for ionisation energy I and Z/A ~ 2
-  - as a reference, study the distributions in water, Pb, and air.
 
-- Use the [Bethe-Bloch](http://pdg.lbl.gov/2009/reviews/rpp2009-rev-passage-particles-matter.pdf) formula
-to compute the average energy loss by ionisation.
-- Emulate the effective energy loss as a Gaussian with the mean given by Bethe-Bloch and width of
-5% - (\beta\gamma/1000) * 10%.
-- check the proper implementation of your class and Bethe-Bloch function by making a 2D plot of energy loss as a function of \beta\gamma.
-    - Use TH2F, TGraph, or TProfile  for plotting
-    - check that the energy loss, normalized to the density, is universal across different material
+- Consider protons with the momentum of 100 MeV going through a target of water
+- Use steps of `0.1 mm` to compute the energy loss
+- at each step you must recompute the new energy of the particle and its boost parameters `beta` and `gamma`
 
-Now we want to see the Bragg peak.
+Plot the distribution of `<dE/dx>` as a function of penetration path `x` in the material. You should  see a peak right before the proton is stopped in the material.
 
-- Use a proton with the momentum of 5 MeV going through a target of water
-- compute the energy loss and plot the energy loss de/dx as a function of penetration path in the material
-- you should now see a peak right before the proton is stopped in the material
 
-We can now study the Bragg peak for different materials, particle types, and momenta.
+Make the same plot for an alpha particle (Helium nucleus) with the same momentum show the two distributions on the same plot. Which particle shows the deeper penetration in the material?
+
+### Additional plots
+
+
+Study the Bragg peak for different materials, particle types, and momenta.
 - material: water, Fe, air
 - particles: muon, proton, alpha particle, 12C nucleus
 - momentum: 5 MeV, 50 MeV, 500 MeV, 5 GeV
 
-As an example make the following 2 plots
-1. for a water detector and initial momentum of 5 MeV, show dE/dx as a function of the path for different types of particles.
-use a different color or line type to distinguish the particles.
-2. for a water detector make the same plots only for protons, but for the various values of momentum. use different color and line type to show different momenta
+As an example make the following 2 plots for a detector made of water.
+1. Distribution of `dE/dx` as a function of the penetration `x` for different types of particles and initial momentum of `50 MeV`. Use different color or/and line type to distinguish the particles.
+2. Distribution of `dE/dx` for protons, but for the different values of momentum. use different color and line type for each momentum.
+
+
+
 
 ## Session 6  (9/12/2019)
 In this first session on python,  we simulate the motion of an object in 3D under the effect of gravity.  Use [`matplotlib.mplot3D`](https://matplotlib.org/mpl_toolkits/mplot3d/tutorial.html) module for 3D graphics.
