@@ -279,15 +279,15 @@ Lab 08 (<b>REMOTE ONLY</b> on google Meet), 7/12: Energy loss by ionisation.
 <li>
 Lec 19, 11/12:
 Animated plots with matplotlib. (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/python-02.ipynb">notebook</a>)
-Use of Numpy: Random walk. I/O with python. (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/python-03.ipynb">notebook</a>)
+Use of Numpy: Random walk. (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/python-03.ipynb">notebook</a>)
 </li>
 
 <li>
-Lab 09, 14/12: Lab session on python.
+Lab 09, 14/12: Lab session on numerical simulation with Numpy.
 </li>
 
 <li>
-Lec 20, 15/12: pyhton and ML.
+Lec 20, 15/12: I/O with python. Classes in python. Brief intro to ML.
 </li>
 
 
