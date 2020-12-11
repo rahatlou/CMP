@@ -265,7 +265,7 @@ Data types in python: Dictionaries and sets. Comprehensions.
 data analysis with sets, lists, dicts. Plotting a histogram.
 Function with multiple return values in python.
 NumPy arrays.
-Revisiting motion of a body under gravity. Animated plots with matplotlib.
+Revisiting motion of a body under gravity.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/python-02.ipynb">notebook</a>)
 </li>
 
@@ -277,7 +277,9 @@ Lab 08 (<b>REMOTE ONLY</b> on google Meet), 7/12: Energy loss by ionisation.
 </li>
 
 <li>
-Lec 19, 11/12: More on Numpy. I/O with python. Short intro to Pandas.
+Lec 19, 11/12:
+Animated plots with matplotlib. (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/python-02.ipynb">notebook</a>)
+Use of Numpy: Random walk. I/O with python. (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/python-03.ipynb">notebook</a>)
 </li>
 
 <li>
