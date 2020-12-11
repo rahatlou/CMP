@@ -2,12 +2,13 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import numpy as np
 import time
+import math as m
 
 
 # initial conditions
 g = 9.8
 h = 10.
-theta = (30./180.)*np.pi
+theta = m.radians(30.)
 v0 = 30.
 dt=0.01
 
@@ -28,7 +29,7 @@ def y(t):
 
 dt = 0.01
 # generate list of times for sampling
-times = np.arange(0., 1000., dt).tolist()
+times = np.arange(0., 1000., dt)
 
 # compute x(t_i)
 xi = [ x(t) for t in times if y(t)>=0.]
@@ -53,9 +54,9 @@ plt.title("trajectory of a projectile with $v_0$: %.1f m/s\t $\Theta_0$: %.1f$^\
 
 
 # plot initial plot
-line, = ax.plot(xi[0], yi[0], '--', lw=1)
-ball, = ax.plot([], [], 'o-', lw=2, color='red')
-
+# ax.plot() returns a list of Linne2D objects. we need just the fist one
+line,*_ = ax.plot(xi[0], yi[0], '--', lw=1)
+ball,*_ = ax.plot([], [], 'o-', lw=2, color='red')
 
 # define a template info box to be shown
 info_template = 'time = %.1fs  x: %.2fm   y: %.3fm'
