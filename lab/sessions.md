@@ -189,7 +189,7 @@ from simulated proton-proton collisions at the Large Hadron Collider.
 All details at [CODanalysis.md](CODanalysis.md)
 
 
-## Session 8 (7/12/2019)
+## Session 8 (7/12/2020)
 Today we simulate the energy loss by ionisation. You can use simple python or jupyter notebook.
 
 ### Bethe-Bloch formula
@@ -225,6 +225,12 @@ Estimate the the thickness of the material needed to stop a particle of a given 
 - [water](https://pdg.lbl.gov/2015/AtomicNuclearProperties/HTML/water_liquid.html)
 - [air](https://pdg.lbl.gov/2019/AtomicNuclearProperties/HTML/air_dry_1_atm.html)
 - [rock](https://pdg.lbl.gov/2019/AtomicNuclearProperties/HTML/standard_rock.html)
+
+## Session 9 (14/12/2020)
+Today we simulate the motion of a body under gravity with friction. In addition
+to the python program (or jupyter notebook) upload also the pdf files for the plots.
+([pdf](python-gravity-friction.pdf))
+
 
 <!--
 
