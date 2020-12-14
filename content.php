@@ -283,7 +283,8 @@ Use of Numpy: Random walk. (<a href="https://github.com/rahatlou/CMP/tree/CMP202
 </li>
 
 <li>
-Lab 09, 14/12: Lab session on numerical simulation with Numpy.
+Lab 09, 14/12: Simulation of motion under gravity with friction.
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/lab/sessions.md#session-9-14122020" target=blank>activity</a>)
 </li>
 
 <li>
