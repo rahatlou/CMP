@@ -288,12 +288,21 @@ Lab 09, 14/12: Simulation of motion under gravity with friction.
 </li>
 
 <li>
-Lec 20, 15/12: I/O with python. Classes in python. Brief intro to ML.
+Lec 20, 15/12: I/O with python.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/python-04.ipynb">notebook</a>)
+Classes in python: inheritance and polymorphism.
+(<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/python-05.ipynb">notebook</a>)
 </li>
 
 
 <li>
-Lec 21, 18/12: pyhton and ML.
+Lec 21, 18/12: Brief introduction to Machine Learning and its applications.
+Classification and Regression.
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/ml.md" target=blank>md</a>)
+
+Binary classification with with scikit-learn: example. Precision and recall. ROC curve.
+Applications in particle physics.
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/classification-example.ipynb" target=blank>notebook</a>)
 </li>
 
 
@@ -302,66 +311,6 @@ Lab 10, 21/12: Lab session on python.
 </li>
 
 <?php /*
-
-Dynamically allocated object as data members.
-
-
-<li>
-Lab 04, 25/11 9:30-12:00:
-Input of TTree from file, use of MakeClass for analysis, plots of kinematic variables and invariant mass.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
-</li>
-
-C++ Templates
-
-<li>
-Lec 17, 29/11:
-Makefile: custom recipes, variables and functions, building libraries. (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/makefile/makefile.md">md</a>, <a href="https://github.com/rahatlou/CMP/tree/CMP2019/makefile/examples/">examples</a>)
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec17/lec17.ipynb">jupyter notebook</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec17/examples">examples</a>)
-</li>
-
-
-<li>
-Lab 05, 2/12 9:30-12:00: study of energy loss by ionisation and the Bragg peak in matter
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
-</li>
-
-<li>
-Lec 18, 3/12: data types in python: sequences. Lists, Tuples. Example of
-plotting with matplotlib. Dictionaries.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec18/lec18.ipynb">jupyter notebook</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec18/examples">examples</a>)
-</li>
-
-<li>
-Lec 19, 6/12: Data types in python: Dictionaries and sets. Comprehensions.
-data analysis with sets, lists, dicts. Plotting a histogram. NumPy arrays:
-revisiting motion of a body under gravity. Animated plots with matplotlib.
-Function with multiple return values in python
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec19/lec19.ipynb">jupyter notebook</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec19/examples">examples</a>)
-</li>
-
-<li>
-Lab 06, 9/12 9:30-12:00: motion in 3D with friction
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
-</li>
-
-
-<li>
-Lec 20, 10/12: Numpy and array-oriented programming with ndarray. Example of random walk with arrays.
-File I/O and handling in python. Functions with variable number of arguments.
-Command line arguments for python programs.
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec20/lec20.ipynb">jupyter notebook</a>,
-<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec20/examples">examples</a>)
-</li>
-
-<li>
-Lab 07, 16/12 9:30-12:00: python
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lab/sessions.md">md</a>)
-</li>
-
 <li>
 Lec 21, 17/12: Classes, inheritance, and polymorphism in Python
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec21/lec21.ipynb">jupyter notebook</a>,
@@ -376,18 +325,13 @@ Types of Machine Learning and main challenges. Examples.
 </li>
 
 <li>
-Lec 23, 10/1: Binary classification with with scikit-learn. Precision and recall.
+Lec 23, 10/1:
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec23/classification-example.ipynb">jupyter notebook</a>)
 </li>
 
 <li>
 Lec 24, 13/1 9:30-12:00: Binary classification: the ROC curve. examples in particle physics
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2019/lec23/classification-example.ipynb">jupyter notebook</a>)
-</li>
-
-<li>
-Lab 08, 15/1 13:00-16:00: Implemenation of a vicinity sensor with Arduino using an ultrasonic module
-(<a href="https://github.com/rahatlou/CMP/tree/CMP2019/arduino/arduino.md">md</a>)
 </li>
 
 */ ?>
