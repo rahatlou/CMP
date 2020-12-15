@@ -288,7 +288,7 @@ Lab 09, 14/12: Simulation of motion under gravity with friction.
 </li>
 
 <li>
-Lec 20, 15/12: I/O with python.
+Lec 20, 15/12: I/O with python. I/O of numpy arrays. Fitting data with scipy.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/python-04.ipynb">notebook</a>)
 Classes in python: inheritance and polymorphism.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/python-05.ipynb">notebook</a>)
