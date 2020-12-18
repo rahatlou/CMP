@@ -294,20 +294,19 @@ Classes in python: inheritance and polymorphism.
 (<a href="https://github.com/rahatlou/CMP/tree/CMP2020/material/python-05.ipynb">notebook</a>)
 </li>
 
-
 <li>
 Lec 21, 18/12: Brief introduction to Machine Learning and its applications.
-Classification and Regression.
+Classification and Regression. Application in particle physics.
 (<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/ml.md" target=blank>md</a>)
-
-Binary classification with with scikit-learn: example. Precision and recall. ROC curve.
-Applications in particle physics.
-(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/classification-example.ipynb" target=blank>notebook</a>)
 </li>
-
 
 <li>
 Lab 10, 21/12: Lab session on python.
+</li>
+
+<li>
+Lec 22, 22/12 (online-online): Example of Binary classification with with scikit-learn: Precision and recall. ROC curve.
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/classification-example.ipynb" target=blank>notebook</a>)
 </li>
 
 <?php /*
