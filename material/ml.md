@@ -15,13 +15,20 @@
     - neural networks and boosted decision trees used for electron, muon, photon, and jet identification
 
 ## Resources
-- One of my favorite books on this topic is
-[Hands-On Machine Learning with Scikit-Learn and TensorFlow](http://shop.oreilly.com/product/0636920052289.do) by Aurélien Géron
-  -  I will be using examples and material from this book i these last 2 lectures.
+Two of my favorite books on this topic are
 
-[<img src="https://covers.oreillystatic.com/images/0636920052289/lrg.jpg" width=200>](http://shop.oreilly.com/product/0636920052289.do)
+- [Hands-On Machine Learning with Scikit-Learn and TensorFlow](http://shop.oreilly.com/product/0636920052289.do) by Aurélien Géron
+[<img src="https://covers.oreillystatic.com/images/0636920052289/lrg.jpg" width=150>](http://shop.oreilly.com/product/0636920052289.do)
+  - All code and examples of this book are available as jupyter notebooks on github at [https://github.com/ageron/handson-ml](https://github.com/ageron/handson-ml)
 
-- All code and examples of this book are available as jupyter notebooks on github at [https://github.com/ageron/handson-ml](https://github.com/ageron/handson-ml)
+- [Introduction to Machine Learning with Python](https://www.oreilly.com/library/view/introduction-to-machine/9781449369880/) by Andreas C. Mueller and Sarah Guido
+[<img src="https://learning.oreilly.com/library/cover/9781449369880/250w/" width=150>](hhttps://www.oreilly.com/library/view/introduction-to-machine/9781449369880/)
+  - All code and examples of this book are available as jupyter notebooks on github at [https://github.com/amueller/introduction_to_ml_with_python](https://github.com/amueller/introduction_to_ml_with_python)
+
+
+
+-  I will be using examples and material from this book i these last 2 lectures.
+
 
 - This very nice [visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) can help you understand quickly some of the basic concepts and language in machine learning
 
@@ -298,6 +305,10 @@ ROC curve for different algorithms using same input data but different ML algori
 
 <img src="img/CMS-BTV-16-002_Figure_016.png" width=600>
 
+
+## Exercise with pandas and scikit-learn
+Chapter 1 of [Hands-On Machine Learning with Scikit-Learn and TensorFlow](http://shop.oreilly.com/product/0636920052289.do) has a simple example of using scikit-learn and pandas with publicly available data. You can also use the [interactive jupyter notebook](https://github.com/ageron/handson-ml/blob/master/01_the_machine_learning_landscape.ipynb) for chapter 1 with the complete example.
+
 ## Exercise: ML with arduino
 - program an accelerator module to record movement data on SD card on the board
 - collect data in different conditions
@@ -313,7 +324,3 @@ ROC curve for different algorithms using same input data but different ML algori
 
 - convert data to use [pandas](http://pandas.pydata.org) [DataFrame](https://pandas.pydata.org/pandas-docs/version/0.23.4/generated/pandas.DataFrame.html) instead of simple NumPy ndarray
 - use [scikit-learn](https://scikit-learn.org/stable/) to do classification using for example boosted trees
-
-
-## Exercise with pandas and scikit-learn
-Chapter 1 of [Hands-On Machine Learning with Scikit-Learn and TensorFlow](http://shop.oreilly.com/product/0636920052289.do) has a simple example of using scikit-learn and pandas with publicly available data. You can also use the [interactive jupyter notebook](https://github.com/ageron/handson-ml/blob/master/01_the_machine_learning_landscape.ipynb) for chapter 1 with the complete example.
