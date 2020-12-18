@@ -305,7 +305,7 @@ Lab 10, 21/12: Lab session on python.
 </li>
 
 <li>
-Lec 22, 22/12 (online-online): Example of Binary classification with with scikit-learn: Precision and recall. ROC curve.
+Lec 22, 22/12 (online-only): Example of Binary classification with with scikit-learn: Precision and recall. ROC curve.
 (<a href="https://github.com/rahatlou/CMP/blob/CMP2020/material/classification-example.ipynb" target=blank>notebook</a>)
 </li>
 
