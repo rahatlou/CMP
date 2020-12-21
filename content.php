@@ -301,7 +301,8 @@ Classification and Regression. Application in particle physics.
 </li>
 
 <li>
-Lab 10, 21/12: Lab session on python.
+Lab 10, 21/12: Numerical simulation of the Higgs mass spectrum and fit to data.
+(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/lab/sessions.md#session-10-21122020" target=blank>activity</a>)
 </li>
 
 <li>
