@@ -231,51 +231,15 @@ Today we simulate the motion of a body under gravity with friction. In addition
 to the python program (or jupyter notebook) upload also the pdf files for the plots.
 ([pdf](python-gravity-friction.pdf))
 
+## Session 10 (21/12/2020)
+Today we exercise with data generation and fitting. We simulate the Higgs mass spectrum and fit it with a signal and background model before performing some simple statistical analysis.
+
+Step by step instructions are available as a [notebook](lab10.ipynb). You should submit the completed notebook. You can also save the most meaningful plots as pdf and submit them as well.
+
 
 <!--
 
-### The Bragg Peak
-
-Now we reproduce the Bragg peak for particles through matter. Keep in mind that a particle can only loose its kinetic energy `K := E-m` (in natural units they are all measured in `eV`) and not its mass `m`, which is equivalent to loosing all its momentum `p`.
-
-
-- Consider protons with the momentum of 100 MeV going through a target of water
-- Use steps of `0.1 mm` to compute the energy loss
-- at each step you must recompute the new energy of the particle and its boost parameters `beta` and `gamma`
-
-Plot the distribution of `<dE/dx>` as a function of penetration path `x` in the material. You should  see a peak right before the proton is stopped in the material.
-
-
-Make the same plot for an alpha particle (Helium nucleus) with the same momentum show the two distributions on the same plot. Which particle shows the deeper penetration in the material?
-
-### Additional plots
-
-
-Study the Bragg peak for different materials, particle types, and momenta.
-- material: water, Fe, air
-- particles: muon, proton, alpha particle, 12C nucleus
-- momentum: 5 MeV, 50 MeV, 500 MeV, 5 GeV
-
-As an example make the following 2 plots for a detector made of water.
-1. Distribution of `dE/dx` as a function of the penetration `x` for different types of particles and initial momentum of `50 MeV`. Use different color or/and line type to distinguish the particles.
-2. Distribution of `dE/dx` for protons, but for the different values of momentum. use different color and line type for each momentum.
-
-
-
-
-## Session 6  (9/12/2019)
-In this first session on python,  we simulate the motion of an object in 3D under the effect of gravity.  Use [`matplotlib.mplot3D`](https://matplotlib.org/mpl_toolkits/mplot3d/tutorial.html) module for 3D graphics.
-1. implement motion with analytical method and plot the trajectory
-2. implement motion with Euler method and plot the trajectory with a different color
-3. Plot the distributions of the residuals for `x`, `y`, and `z` coordinates as `(euler-analytical)/analytical`
-4. Introduce the friction term as `-\beta v` and use Euler to plot the trajectory
-5. Plot the trajectories simultaneously and compare friction to no-friction
-
 ## Session 7 (16/12/2019)
 Use python to simulate the [Compton scattering spectrum](compton.pdf).
-
-## Session 8 (15/1/2020)
-Implement a vicinity sensor with Arduino.
-Real time plot with matplotlib. [md](../arduino/arduino.md)
 
 -->
