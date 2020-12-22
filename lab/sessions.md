@@ -234,7 +234,7 @@ to the python program (or jupyter notebook) upload also the pdf files for the pl
 ## Session 10 (21/12/2020)
 Today we exercise with data generation and fitting. We simulate the Higgs mass spectrum and fit it with a signal and background model before performing some simple statistical analysis.
 
-Step by step instructions are available as a [notebook](lab10.ipynb). You should submit the completed notebook. You can also save the most meaningful plots as pdf and submit them as well.
+Step by step instructions are available as a [notebook](lab10.ipynb) ([with solutions](lab10-solution.ipynb)). You should submit the completed notebook. You can also save the most meaningful plots as pdf and submit them as well.
 
 
 <!--
