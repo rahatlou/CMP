@@ -9,6 +9,57 @@
 			Reservation is strictly required in order to take the exam.
 		</p>
 
+		<a id="20210210"></a>
+		<h2 class=title>Appello 2021-02-10</h2>
+		<p>Students need a valid reservation on infostud and must be registered
+			on the course classroom to take the exam.</p>
+
+		<p>A pdf file with the text of the exam will be posted here and sent via google classroom on
+			<b>Wednesday 10 February at 9:30</b> (<a href="https://github.com/rahatlou/CMP/blob/CMP2020/exams/20210210-cmp-text.pdf"></a>).</p>
+
+		<p>The projects must be submitted for evaluation
+		on a google form by <b>13:30</b>. The form will close automatically. Projects sent by email will not be evaluated.
+		</p>
+
+		<p>For question and clarification: I will be available by email or on
+			<a href="https://meet.google.com/vbb-btpf-uzb">Google Meet code: vbb-btpf-uzb</a>
+			between 10:30 and 12:30.</p>
+
+			<p>
+			The oral discussion will be on 15 and 17 Feb on
+			<a href="https://meet.google.com/vbb-btpf-uzb">Google Meet code: vbb-btpf-uzb</a>.</p>
+
+			<p>Students will indicate their preferred
+			date and time, when submitting their exam.
+			</p>
+
+
+		<a id="20210127"></a>
+		<h2 class=title>Appello 2021-01-27</h2>
+		<p>Students need a valid reservation on infostud and must be registered
+			on the course classroom to take the exam.</p>
+
+		<p>A pdf file with the text of the exam will be posted here and sent via google classroom on
+			<b>Wednesday 27 January at 9:30</b> (<a href="https://github.com/rahatlou/CMP/blob/CMP2020/exams/20210127-cmp-text.pdf"></a>).</p>
+
+		<p>The projects must be submitted for evaluation
+		on a google form by <b>13:30</b>. The form will close automatically. Projects sent by email will not be evaluated.
+		</p>
+
+		<p>For question and clarification: I will be available by email or on
+			<a href="https://meet.google.com/vbb-btpf-uzb">Google Meet code: vbb-btpf-uzb</a>
+			between 10:30 and 12:30.</p>
+
+			<p>
+			The oral discussion will be on 28 and 29 Jan or 1 Feb on
+			<a href="https://meet.google.com/vbb-btpf-uzb">Google Meet code: vbb-btpf-uzb</a>.</p>
+
+			<p>Students will indicate their preferred
+			date and time, when submitting their exam.
+			</p>
+
+
+
 		<a id="20201118"></a>
 		<h2 class=title>Appello 2020-11-18</h2>
 		<p>A pdf file with the text of the exam will be posted here on
@@ -46,7 +97,6 @@
 			<li>The form will close automatically at <b>13:30</b>.</li>
 		</ul>
 		</p>
-
 
 
 
