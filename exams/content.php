@@ -59,6 +59,20 @@
 			</p>
 
 
+<p>A valid Sapienza email address is mandatory to particpate in the exam and submit your project.</p>
+
+<p>Students who have made a reservation on infostud for this sessions can submit their project with the following online procedure
+<ul>
+	<li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
+			with your Sapienza credentials. (if you are already logged in with your personal gmail account, you must first log out)</li>
+	<li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLScvulPw_1PMVhhW7RsHVyLZbF9k5VyNlvRDppRtL6iVqf_GrQ/viewform?usp=sf_link"  target="_blank">google form</a> </li>
+	<li>You can submit only one zip file containing your files</li>
+	<li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
+	<li>The form will close automatically at <b>13:30</b>.</li>
+</ul>
+</p>
+
+
 
 		<a id="20201118"></a>
 		<h2 class=title>Appello 2020-11-18</h2>
