@@ -21,9 +21,9 @@
 		on a google form by <b>13:30</b>. The form will close automatically. Projects sent by email will not be evaluated.
 		</p>
 
-		<p>For question and clarification: I will be available by email or on
-			<a href="https://meet.google.com/vbb-btpf-uzb">Google Meet code: vbb-btpf-uzb</a>
-			between 10:30 and 12:30.</p>
+    <p>All students must have an active audio/video connection with open microphone
+			for the duration of the exam on
+				<a href="https://meet.google.com/vbb-btpf-uzb">Google Meet code: vbb-btpf-uzb</a></p>
 
 			<p>
 			The oral discussion will be on 11, 16 and 17 Feb on
