@@ -23,11 +23,11 @@
 
     <p>All students must have an active audio/video connection with open microphone
 			for the duration of the exam on
-				<a href="https://meet.google.com/vbb-btpf-uzb">Google Meet code: vbb-btpf-uzb</a></p>
+				<a href="meet.google.com/dwv-fuze-woy">Google Meet code: dwv-fuze-woy</a></p>
 
 			<p>
 			The oral discussion will be on 11, 16 and 17 Feb on
-			<a href="https://meet.google.com/vbb-btpf-uzb">Google Meet code: vbb-btpf-uzb</a>.</p>
+			<a href="meet.google.com/dwv-fuze-woy">Google Meet code: dwv-fuze-woy</a>.</p>
 
 			<p>Students will indicate their preferred
 			date and time, when submitting their exam.
