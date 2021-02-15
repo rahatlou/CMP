@@ -15,7 +15,9 @@
 			on the course classroom to take the exam.</p>
 
 		<p>A pdf file with the text of the exam will be posted here and sent via google classroom on
-			<b>Wednesday 10 February at 9:30</b> (<a href="https://github.com/rahatlou/CMP/blob/CMP2020/exams/20210210-cmp-text.pdf">pdf</a>).</p>
+			<b>Wednesday 10 February at 9:30</b>
+			(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/exams/20210210-cmp-text.pdf">pdf</a>,
+			 <a href="https://github.com/rahatlou/CMP/blob/CMP2020/exams/20210210">solution</a>).</p>
 
 		<p>The projects must be submitted for evaluation
 		on a google form by <b>13:30</b>. The form will close automatically. Projects sent by email will not be evaluated.
