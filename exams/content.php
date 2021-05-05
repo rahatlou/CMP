@@ -5,9 +5,53 @@
 
 		<h1 class="title">Exam sessions for Computing Methods in Physics</h1>
 
-		<p>Up-to-date dates for exams through 2020 are available on <a href="https://www.uniroma1.it/it/pagina-strutturale/studenti">infostud</a>.
+		<p>Up-to-date dates for exams through 2021 are available on <a href="https://www.uniroma1.it/it/pagina-strutturale/studenti">infostud</a>.
 			Reservation is strictly required in order to take the exam.
 		</p>
+
+		<a id="20210510"></a>
+		<h2 class=title>Appello 2021-05-10</h2>
+		<p>Students need a valid reservation on infostud and must be registered
+			on the course classroom to take the exam.</p>
+
+		<p>A pdf file with the text of the exam will be posted here and sent via google classroom on
+			<b>Monday 10 May at 9:30</b>
+			(<a href="https://github.com/rahatlou/CMP/blob/CMP2020/exams/20210510-cmp-text.pdf"></a>,
+			 <a href="https://github.com/rahatlou/CMP/blob/CMP2020/exams/20210510"></a>).</p>
+
+		<p>The projects must be submitted for evaluation
+		on a google form by <b>13:30</b>. The form will close automatically. Projects sent by email will not be evaluated.
+		</p>
+
+    <p>All students must have an active audio/video connection with open microphone
+			for the duration of the exam on
+				<a href="meet.google.com/dwv-fuze-woy">Google Meet code: dwv-fuze-woy</a></p>
+
+			<p>
+			The oral discussion will be on dates to be planned with the candidates. Google meet will be used:
+			<a href="meet.google.com/dwv-fuze-woy">code: dwv-fuze-woy</a>.</p>
+
+			<p>Students will indicate their preferred
+			date and time, when submitting their exam.
+			</p>
+
+
+			<p>A valid Sapienza email address is mandatory to participate in the exam and submit your project.</p>
+
+<?php /*
+			<p>Students who have made a reservation on infostud for this sessions can submit their project with the following online procedure
+			<ul>
+				<li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
+						with your Sapienza credentials. (if you are already logged in with your personal gmail account, you must first log out)</li>
+				<li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFoO7pKkt7aHLrCM6n5gBPBA_63mvA0Rn-2EAs61Mole0cug/viewform?usp=sf_link"  target="_blank">google form</a> </li>
+				<li>You can submit only one zip file containing your files</li>
+				<li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
+				<li>The form will close automatically at <b>13:30</b>.</li>
+			</ul>
+			</p>
+*/ ?>
+
+
 
 		<a id="20210210"></a>
 		<h2 class=title>Appello 2021-02-10</h2>
