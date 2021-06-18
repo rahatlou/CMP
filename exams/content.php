@@ -56,7 +56,7 @@
 				<li>Go to <a href=""  target="_blank">google form (will be active in 22/6)</a> </li>
 				<li>You can submit only one zip file containing your files</li>
 				<li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
-				<li>The form will close automatically at <b>13:30</b>.</li>
+				<li>The form will close automatically at <b>13:00</b>.</li>
 			</ul>
 			</p>
 
