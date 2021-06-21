@@ -37,11 +37,11 @@
 
     <p>All students from remote must have an active audio/video connection with open microphone
 			for the duration of the exam on
-				<a href="meet.google.com/dwv-fuze-woy">Google Meet code: dwv-fuze-woy</a></p>
+				<a href="https://meet.google.com/dwv-fuze-woy">Google Meet code: dwv-fuze-woy</a></p>
 
 			<p>
 			The oral discussion will be on dates to be planned with the candidates. Google meet will be used if necessary:
-			<a href="meet.google.com/dwv-fuze-woy">code: dwv-fuze-woy</a>.</p>
+			<a href="https://meet.google.com/dwv-fuze-woy">code: dwv-fuze-woy</a>.</p>
 
 			<p>Students will indicate their preferred date and time, when submitting their exam.
 			</p>
@@ -77,11 +77,11 @@
 
     <p>All students must have an active audio/video connection with open microphone
 			for the duration of the exam on
-				<a href="meet.google.com/dwv-fuze-woy">Google Meet code: dwv-fuze-woy</a></p>
+				<a href="https://meet.google.com/dwv-fuze-woy">Google Meet code: dwv-fuze-woy</a></p>
 
 			<p>
 			The oral discussion will be on dates to be planned with the candidates. Google meet will be used:
-			<a href="meet.google.com/dwv-fuze-woy">code: dwv-fuze-woy</a>.</p>
+			<a href="https://meet.google.com/dwv-fuze-woy">code: dwv-fuze-woy</a>.</p>
 
 			<p>Students will indicate their preferred date and time, when submitting their exam.
 			</p>
