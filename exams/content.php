@@ -53,7 +53,7 @@
 			<ul>
 				<li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
 						with your Sapienza credentials. (if you are already logged in with your personal gmail account, you must first log out)</li>
-				<li>Go to <a href=""  target="_blank">google form (will be active in 22/6)</a> </li>
+				<li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLSf5I-9SA-QZ23x8cZnxi3ToDgiMx3JqkKxm-APlqwlaZCiTaw/viewform?usp=sf_link"  target="_blank">google form</a> </li>
 				<li>You can submit only one zip file containing your files</li>
 				<li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
 				<li>The form will close automatically at <b>13:00</b>.</li>
