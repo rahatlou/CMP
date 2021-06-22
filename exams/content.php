@@ -10,8 +10,8 @@
 		</p>
 
 	<p>
-		I will not be teaching this course in 2021/22 so the current sessions until
-		September are going to be the last sessions with the current program and
+		I will not be teaching this course in 2021/22. The current sessions until
+		September are going to be the last sessions with the current syllabus and
 		exam procedure.
  </p>
 
