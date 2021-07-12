@@ -21,9 +21,9 @@
 	 on the course classroom to take the exam.</p>
 
  <p>
-	 The exam will be in Sala Calcolo of Edificio Fermi (CU033) and on MEET for Students
-	 with motivated requests. Students must bring their own computer for the exam.
-	 This will prevent technical problems with unfamiliar editors, compilers, and terminals.
+	 The exam will be on <a href="https://meet.google.com/dwv-fuze-woy">Google Meet code: dwv-fuze-woy</a>.
+	 All students from remote must have an active audio/video connection
+		 for the duration of the exam.
  </p>
 
  <p>Te exam will start at 9:00 and a pdf file with the text of the exam will be posted here  on
@@ -34,15 +34,12 @@
  on a google form by <b>13:00</b>. The form will close automatically. Projects sent by email will not be evaluated.
  </p>
 
- <p>All students from remote must have an active audio/video connection with open microphone
-	 for the duration of the exam on
-		 <a href="https://meet.google.com/dwv-fuze-woy">Google Meet code: dwv-fuze-woy</a></p>
-
 	 <p>
-	 The oral discussion will be on dates to be planned with the candidates. Google meet will be used if necessary:
+	 Students will indicate their preferred date for the oral discussion when submitting their exam.
+	 Google Meet will be used if necessary:
 	 <a href="https://meet.google.com/dwv-fuze-woy">code: dwv-fuze-woy</a>.</p>
 
-	 <p>Students will indicate their preferred date and time, when submitting their exam.
+	 <p>.
 	 </p>
 
 
