@@ -27,7 +27,7 @@
  </p>
 
  <p>Te exam will start at 9:00 and a pdf file with the text of the exam will be posted here  on
-	 <b>Tuesday 22 June at 9:00</b>
+	 <b>Tuesday 13 July at 9:00</b>
 	 (<a href="https://github.com/rahatlou/CMP/blob/CMP2020/exams/20210713-cmp-text.pdf"  target="_blank">pdf</a>)
  </p>
  <p>The projects must be submitted for evaluation
