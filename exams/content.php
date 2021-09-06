@@ -15,6 +15,50 @@
 		exam procedure.
  </p>
 
+ <a id="20210907"></a>
+ <h2 class=title>Appello 2021-09-07</h2>
+ <p>Students need a valid reservation on infostud and must be registered
+	 on the course classroom to take the exam.</p>
+
+ <p>
+	 The exam will be on <a href="https://meet.google.com/dwv-fuze-woy">Google Meet code: dwv-fuze-woy</a>.
+	 All students from remote must have an active audio/video connection
+		 for the duration of the exam.
+ </p>
+
+ <p>Te exam will start at 9:30 and a pdf file with the text of the exam will be posted here  on
+	 <b>Tuesday 7 September at 9:30</b>
+	 (<a href="https://github.com/rahatlou/CMP/blob/CMP2020/exams/20210907-cmp-text.pdf"  target="_blank">pdf</a>)
+ </p>
+ <p>The projects must be submitted for evaluation
+ on a google form by <b>13:30</b>. The form will close automatically. Projects sent by email will not be evaluated.
+ </p>
+
+	 <p>
+	 Students will indicate their preferred date for the oral discussion when submitting their exam.
+	 Google Meet will be used if necessary:
+	 <a href="https://meet.google.com/dwv-fuze-woy">code: dwv-fuze-woy</a>.</p>
+
+	 <p>.
+	 </p>
+
+
+	 <p>A valid Sapienza email address is mandatory to participate in the exam and submit your project.</p>
+
+	 <p>Students who have made a reservation on infostud for this sessions can submit their project with the following online procedure
+	 <ul>
+		 <li>Log into <a href="https://mail.uniroma1.it">https://mail.uniroma1.it</a>
+				 with your Sapienza credentials. (if you are already logged in with your personal gmail account, you must first log out)</li>
+		 <li>Go to <a href="https://docs.google.com/forms/d/e/1FAIpQLSclAtH2MXHwmCy6BPvexPFYxOoxLgQ9v3USg-agqTFPz7yimg/viewform?usp=sf_link"  target="_blank">google form</a> </li>
+		 <li>You can submit only one zip file containing your files</li>
+		 <li>All C++, python, pdf, or jupyter files <b>must</b> be in the zip file. You cannot submit individual files.</li>
+		 <li>The form will close automatically at <b>13:30</b>.</li>
+	 </ul>
+	 </p>
+
+
+
+
  <a id="20210713"></a>
  <h2 class=title>Appello 2021-07-13</h2>
  <p>Students need a valid reservation on infostud and must be registered
