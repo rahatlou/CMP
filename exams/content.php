@@ -21,7 +21,7 @@
 	 on the course classroom to take the exam.</p>
 
  <p>
-	 The exam will be on <a href="https://meet.google.com/dkg-mcoo-ugr">Google Meet code: dkg-mcoo-ugr</a>.
+	 The exam will be on <a href="https://meet.google.com/dwv-fuze-woy">Google Meet code: dwv-fuze-woy</a>.
 	 All students from remote must have an active audio/video connection
 		 for the duration of the exam.
  </p>
@@ -37,7 +37,7 @@
 	 <p>
 	 Students will indicate their preferred date for the oral discussion when submitting their exam.
 	 Google Meet will be used if necessary:
-	 <a href="https://meet.google.com/dkg-mcoo-ugr">code: dkg-mcoo-ugr</a>.</p>
+	 <a href="https://meet.google.com/dwv-fuze-woy">code: dwv-fuze-woy</a>.</p>
 
 
 	 <p>A valid Sapienza email address is mandatory to participate in the exam and submit your project.</p>
