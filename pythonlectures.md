@@ -1,4 +1,4 @@
-# Lectures on Python
+# Lectures on Python (2020)
 
 - Introduction to Python. Main differences with C/C++. Introduction to [jupyter](https://jupyter.org):
 [md](material/python.md), [examples](examples/python)
